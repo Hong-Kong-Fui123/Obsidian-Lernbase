@@ -11,6 +11,23 @@
             "id": "f95cc4e9bff7d141",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "IT Wissen.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "IT Wissen"
+            }
+          },
+          {
+            "id": "741a6a302aeb75c6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Windows Server.md",
@@ -20,22 +37,8 @@
               "icon": "lucide-file",
               "title": "Windows Server"
             }
-          },
-          {
-            "id": "741a6a302aeb75c6",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Unbenannt 2.base",
-                "viewName": "Tabelle"
-              },
-              "icon": "lucide-table",
-              "title": "Unbenannt 2"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,13 +203,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "741a6a302aeb75c6",
+  "active": "f95cc4e9bff7d141",
   "lastOpenFiles": [
     "Windows Server.md",
     "Windows Server.base",
+    "WS PowerShell Befehle.canvas",
     "WS PowerShell Befehle.base",
     "GitHub Startpunkt.md",
-    "Unbenannt 3.canvas",
+    "IT Wissen.canvas",
     "Unbenannt.canvas",
     "Unbenannt 1.canvas",
     "Windows Server Administration.md",
@@ -215,9 +219,7 @@
     "Export-PowerShell.ps1",
     "Neues Textdokument.txt",
     "PowerShell.md.base",
-    "Unbenannt 4.canvas",
     "Startpunk IT- Umschulung.md",
-    "Unbenannt 2.base",
     "2026-08-31.md",
     "Unbenannt 2.canvas",
     "Unbenannt 3.base",
