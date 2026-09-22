@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 881.5,
-    "collapsed": true
+    "width": 881.5
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -182,13 +181,23 @@
               "icon": "lucide-list",
               "title": "Gliederung"
             }
+          },
+          {
+            "id": "a7d828f20ca145bb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,10 +214,10 @@
   "active": "12138d2acc5ec6e1",
   "lastOpenFiles": [
     "Windows Server.md",
+    "IT - Wissen.md",
     "GitHub Startpunkt.md",
     "WS PowerShell Befehle.canvas",
     "2026-09-22.md",
-    "IT - Wissen.md",
     "Fachinformatiker.base",
     "Fachinformatiker.canvas",
     "Unbenannt 2.canvas",
