@@ -11,20 +11,35 @@
             "id": "f95cc4e9bff7d141",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT - Wissen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IT - Wissen"
+            }
+          },
+          {
+            "id": "46177161691e6d9e",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "WS PowerShell Befehle.canvas",
                 "viewState": {
-                  "x": -761.8408516143107,
-                  "y": -2574.4024629160235,
-                  "zoom": -0.010621067884028057
+                  "x": -1391.2439793649162,
+                  "y": -1730.6081138904735,
+                  "zoom": -0.4504222208319805
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "WS PowerShell Befehle"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,12 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "46177161691e6d9e",
   "lastOpenFiles": [
-    "IT Wissen.canvas",
-    "WS PowerShell Befehle.canvas",
-    "Windows Server.md",
     "IT - Wissen.md",
+    "WS PowerShell Befehle.canvas",
+    "IT Wissen.canvas",
+    "Windows Server.md",
     "GitHub Startpunkt.md",
     "Unbenannt 4.base",
     "Windows Server.base",
