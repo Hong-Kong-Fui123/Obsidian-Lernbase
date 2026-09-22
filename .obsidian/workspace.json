@@ -11,17 +11,14 @@
             "id": "789ca22351f18b65",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Unbenannt 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "GitHub Startpunkt.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Unbenannt 1"
+              "icon": "lucide-file",
+              "title": "GitHub Startpunkt"
             }
           }
         ]
@@ -215,6 +212,7 @@
   },
   "active": "789ca22351f18b65",
   "lastOpenFiles": [
+    "Unbenannt 1.canvas",
     "GitHub Startpunkt.md",
     "README.md",
     "Ausbildung/Fachinformatiker Wissen/IT - Netzwerkwissen.md",
@@ -252,10 +250,8 @@
     "Home-Lab Übungen Windows Server/Woche_05_Aufgabe_01_PKI-Grundlagen.md",
     "Home-Lab Übungen Windows Server/Woche_05_Aufgabe_02_CA-Serverrolle.md",
     "Home-Lab Übungen Windows Server/Woche_05_Klausur_Lösung.md",
-    "Home-Lab Übungen Windows Server/Woche_05_Klausur_Zertifikate_120Min.md",
     "Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Unbenannt 2.canvas",
-    "Unbenannt 1.canvas",
     "Fachinformatiker.canvas",
     "IT Wissen.canvas"
   ]
