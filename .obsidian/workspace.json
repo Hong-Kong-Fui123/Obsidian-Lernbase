@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "IT Wissen.canvas",
+                "file": "WS PowerShell Befehle.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": -672.2048048023835,
+                  "y": -735.9111073441727,
+                  "zoom": -1.010621067884028
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "IT Wissen"
+              "title": "WS PowerShell Befehle"
             }
           },
           {
@@ -205,12 +205,13 @@
   },
   "active": "f95cc4e9bff7d141",
   "lastOpenFiles": [
+    "IT Wissen.canvas",
+    "Unbenannt 4.base",
     "Windows Server.md",
     "Windows Server.base",
     "WS PowerShell Befehle.canvas",
     "WS PowerShell Befehle.base",
     "GitHub Startpunkt.md",
-    "IT Wissen.canvas",
     "Unbenannt.canvas",
     "Unbenannt 1.canvas",
     "Windows Server Administration.md",
@@ -222,7 +223,6 @@
     "Startpunk IT- Umschulung.md",
     "2026-08-31.md",
     "Unbenannt 2.canvas",
-    "Unbenannt 3.base",
-    "Unbenannt 4.base"
+    "Unbenannt 3.base"
   ]
 }
