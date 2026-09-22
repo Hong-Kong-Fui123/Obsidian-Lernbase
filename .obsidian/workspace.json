@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6917a636b4dbb1b",
+        "id": "3f8b06cf09790bc8",
         "type": "tabs",
         "children": [
           {
-            "id": "f95cc4e9bff7d141",
+            "id": "12138d2acc5ec6e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,29 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "IT - Wissen"
-            }
-          }
-        ]
-      },
-      {
-        "id": "53c2fa87347a7df3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a22cc1f2d4f7ab56",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "WS PowerShell Befehle.canvas",
-                "viewState": {
-                  "x": -40,
-                  "y": 4143.9667359667355,
-                  "zoom": -4
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "WS PowerShell Befehle"
             }
           }
         ]
@@ -225,15 +202,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f95cc4e9bff7d141",
+  "active": "12138d2acc5ec6e1",
   "lastOpenFiles": [
-    "Fachinformatiker.base",
-    "WS PowerShell Befehle.canvas",
-    "Fachinformatiker.canvas",
-    "Unbenannt 2.canvas",
     "Windows Server.md",
     "GitHub Startpunkt.md",
+    "WS PowerShell Befehle.canvas",
+    "2026-09-22.md",
     "IT - Wissen.md",
+    "Fachinformatiker.base",
+    "Fachinformatiker.canvas",
+    "Unbenannt 2.canvas",
     "WS PowerShell Befehle.base",
     "IT Wissen.canvas",
     "Windows Server.base",
