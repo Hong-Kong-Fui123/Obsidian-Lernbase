@@ -20,26 +20,31 @@
               "icon": "lucide-file",
               "title": "IT - Wissen"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "53c2fa87347a7df3",
+        "type": "tabs",
+        "children": [
           {
-            "id": "46177161691e6d9e",
+            "id": "a22cc1f2d4f7ab56",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "WS PowerShell Befehle.canvas",
                 "viewState": {
-                  "x": -1391.2439793649162,
-                  "y": -459.81881883180404,
-                  "zoom": -0.4504222208319805
+                  "x": -40,
+                  "y": 4143.9667359667355,
+                  "zoom": -4
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "WS PowerShell Befehle"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,6 +90,20 @@
             }
           },
           {
+            "id": "46177161691e6d9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IT - Wissen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IT - Wissen"
+            }
+          },
+          {
             "id": "f1a986afed736980",
             "type": "leaf",
             "state": {
@@ -97,11 +116,13 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 881.5,
+    "collapsed": true
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -204,17 +225,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46177161691e6d9e",
+  "active": "f95cc4e9bff7d141",
   "lastOpenFiles": [
-    "IT - Wissen.md",
+    "Fachinformatiker.base",
     "WS PowerShell Befehle.canvas",
-    "IT Wissen.canvas",
+    "Fachinformatiker.canvas",
+    "Unbenannt 2.canvas",
     "Windows Server.md",
     "GitHub Startpunkt.md",
-    "Unbenannt 4.base",
-    "Windows Server.base",
+    "IT - Wissen.md",
     "WS PowerShell Befehle.base",
-    "Unbenannt.canvas",
+    "IT Wissen.canvas",
+    "Windows Server.base",
     "Unbenannt 1.canvas",
     "Windows Server Administration.md",
     "PowerShell.md",
@@ -224,7 +246,6 @@
     "PowerShell.md.base",
     "Startpunk IT- Umschulung.md",
     "2026-08-31.md",
-    "Unbenannt 2.canvas",
     "Unbenannt 3.base"
   ]
 }
