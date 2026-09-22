@@ -11,14 +11,13 @@
             "id": "f95cc4e9bff7d141",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "GitHub Startpunkt.md",
-                "mode": "source",
-                "source": false
+                "file": "Unbenannt.base",
+                "viewName": "Tabelle"
               },
-              "icon": "lucide-file",
-              "title": "GitHub Startpunkt"
+              "icon": "lucide-table",
+              "title": "Unbenannt"
             }
           }
         ]
