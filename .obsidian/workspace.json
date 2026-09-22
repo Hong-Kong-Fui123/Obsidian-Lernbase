@@ -11,13 +11,17 @@
             "id": "f95cc4e9bff7d141",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "canvas",
               "state": {
-                "file": "Unbenannt.base",
-                "viewName": "Tabelle"
+                "file": "Unbenannt 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-table",
-              "title": "Unbenannt"
+              "icon": "lucide-layout-dashboard",
+              "title": "Unbenannt 1"
             }
           }
         ]
@@ -187,11 +191,11 @@
   },
   "active": "f95cc4e9bff7d141",
   "lastOpenFiles": [
+    "Unbenannt.base",
     "GitHub Startpunkt.md",
     "Windows Server Administration.md",
     "PowerShell.md",
     "FiSi_Grundlagen.md",
-    "Unbenannt.base",
     "Unbenannt.canvas",
     "Unbenannt 1.canvas",
     "Export-PowerShell.ps1",
