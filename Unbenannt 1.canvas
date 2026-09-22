@@ -1,4 +1,6 @@
 {
-	"nodes":[],
+	"nodes":[
+		{"id":"752d790d0bb49c22","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"GitHub Startpunkt"}
+	],
 	"edges":[]
 }
