@@ -246,7 +246,7 @@ Der Geschäftsführer fragt: *"Wir brauchen sichere Zertifikate. Wie machst du d
 
 ## 🔗 Resourcen
 
-- [[Woche_05/Aufgabe_01_PKI-Grundlagen]] – Theorie-Fundament
+- [[Aufgabe_01_PKI-Grundlagen]] – Theorie-Fundament
 - [[Woche_05/Aufgabe_02_CA-Serverrolle]] – Praktische Schritte
 - [[Lösung_01_PKI-Grundlagen]] – Falls unsicher bei Konzepten
 - [[Lösung_02_CA-Serverrolle]] – Falls unsicher bei Schritten

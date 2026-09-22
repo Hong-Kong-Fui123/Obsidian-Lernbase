@@ -302,7 +302,7 @@ END-ENTITY (WEBSERVER):
 ## 🔗 Zurück zur Übersicht
 
 - [[_MOC_Wochenplan]] – Wochenübersicht
-- [[Woche_05/Aufgabe_01_PKI-Grundlagen]] – zurück zur Aufgabe
+- [[Aufgabe_01_PKI-Grundlagen]] – zurück zur Aufgabe
 - [[Woche_05/Aufgabe_02_CA-Serverrolle]] – nächste Aufgabe (Dienstag)
 
 ---

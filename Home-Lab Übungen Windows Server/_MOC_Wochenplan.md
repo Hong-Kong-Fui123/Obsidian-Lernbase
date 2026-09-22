@@ -8,11 +8,11 @@
 
 ## 📊 Modul-Übersicht
 
-| Modul | Woche | Thema | Status | Schulanbindung |
-|-------|-------|-------|--------|---|
-| **1** | 01-04 | AD Grundlagen + Home-Ordner | ✅ Abgeschlossen | AD-Basics |
-| **2** | 05-08 | Zertifikate & PKI | 🔴 **JETZT** | **Zertifikate (Schulthema)** |
-| **3** | 09-12 | GPO Advanced + Security | ⏳ Später | GPO (parallel in Schule) |
+| Modul | Woche | Thema                       | Status          | Schulanbindung               |
+| ----- | ----- | --------------------------- | --------------- | ---------------------------- |
+| **1** | 01-04 | AD Grundlagen + Home-Ordner | ✅ Abgeschlossen | AD-Basics                    |
+| **2** | 05-08 | Zertifikate & PKI           | 🔴 **JETZT**    | **Zertifikate (Schulthema)** |
+| **3** | 09-12 | GPO Advanced + Security     | ⏳ Später        | GPO (parallel in Schule)     |
 
 ---
 
@@ -21,7 +21,7 @@
 ### **Woche 05 – PKI-Grundlagen & CA-Installation**
 
 #### **Montag: Aufgabe 01** (60 Min) ⭐ Anfänger
-📖 **[[Woche_05/Aufgabe_01_PKI-Gr[[Fehlerlog]]undlagen]]**
+📖 **[[Aufgabe_01_PKI-Grundlagen]]**
 
 - PKI-Konzepte verstehen (asymmetrische Verschlüsselung)
 - Certificate Authority Hierarchie
@@ -151,7 +151,7 @@ Woche 08 (Projekt-Phase)
 ## 🔗 Schnelllinks zu Inhalten
 
 ### **Aufgaben dieser Woche**
-- [[Woche_05/Aufgabe_01_PKI-Grundlagen]]
+- [[Aufgabe_01_PKI-Grundlagen]]
 - [[Woche_05/Aufgabe_02_CA-Serverrolle]]
 - [[Woche_05/Klausur_Zertifikate_120Min]]
 
@@ -163,7 +163,7 @@ Woche 08 (Projekt-Phase)
 ### **Referenzen**
 - [[VM-Infrastruktur]] (dein Lab)
 - [[Snapshot-States]] (Startzustände)
-- [[Fehlerlog]] (deine Probleme)
+- [[Fehlerlog Home-Lab]] (deine Probleme)
 
 ---
 
@@ -186,6 +186,6 @@ Woche 08 (Projekt-Phase)
 ---
 
 **Bereit? Dann starte mit:**  
-👉 **[[Woche_05/Aufgabe_01_PKI-Grundlagen]]** (Montag, 60 Min)
+👉 **[[Aufgabe_01_PKI-Grundlagen]]** (Montag, 60 Min)
 
 Viel Erfolg! 🚀
