@@ -11,10 +11,17 @@
             "id": "829368e30efff292",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "type": "canvas",
+              "state": {
+                "file": "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
+                "viewState": {
+                  "x": -669.0385336332231,
+                  "y": -784.3282940560762,
+                  "zoom": 0.39175001955865535
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "WS PowerShell Befehle"
             }
           }
         ]
@@ -140,6 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -206,8 +214,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "829368e30efff292",
   "lastOpenFiles": [
+    "Ausbildung/Windows Server/WS PowerShell Befehle.base",
     "Ausbildung/Fachinformatiker Wissen/IT - Netzwerkwissen.md",
     "GitHub Startpunkt.md",
     "Unbenannt 1.canvas",
@@ -215,7 +224,6 @@
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Fehlerlog Home-Lab.md",
     "Fachinformatiker.base",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Lösung_02_CA-Serverrolle.md",
-    "Ausbildung/Windows Server/WS PowerShell Befehle.base",
     "Windows Server.base",
     "Windows Server.md",
     "Ausbildung/Fachinformatiker Wissen",
