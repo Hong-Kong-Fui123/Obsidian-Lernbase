@@ -11,17 +11,14 @@
             "id": "829368e30efff292",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
-                "viewState": {
-                  "x": -1122.1308796167305,
-                  "y": 785.14900791438,
-                  "zoom": -0.6082499804413446
-                }
+                "file": "Unbenannt.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "WS PowerShell Befehle"
+              "icon": "lucide-file",
+              "title": "Unbenannt"
             }
           }
         ]
@@ -217,8 +214,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "829368e30efff292",
   "lastOpenFiles": [
+    "SB2.md",
+    "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
+    "Unbenannt.md",
     "Ausbildung/Windows Server/WS PowerShell Befehle.base",
     "Ausbildung/Fachinformatiker Wissen/IT - Netzwerkwissen.md",
     "GitHub Startpunkt.md",
@@ -233,7 +233,6 @@
     "Ausbildung/Neuer Ordner",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Woche_05/Aufgabe_01_PKI-Grundlagen.md",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/_MOC_Wochenplan.md",
-    "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Woche_05_Lösung_01_PKI-Grundlagen.md",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Woche_05_Klausur_Zertifikate_120Min.md",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Woche_05_Klausur_Lösung.md",
@@ -255,8 +254,6 @@
     "Windows Server/Home-Lab Übungen Windows Server/Woche_05_Aufgabe_01_PKI-Grundlagen.md",
     "Windows Server/Home-Lab Übungen Windows Server/VM-Infrastruktur.md",
     "Home-Lab Übungen Windows Server/Woche_05_Aufgabe_01_PKI-Grundlagen.md",
-    "Home-Lab Übungen Windows Server/Woche_05_Aufgabe_02_CA-Serverrolle.md",
-    "Home-Lab Übungen Windows Server/Woche_05_Klausur_Lösung.md",
     "Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Unbenannt 2.canvas",
     "Fachinformatiker.canvas",
