@@ -211,7 +211,10 @@
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
       "bases:Neue Base erstellen": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "zk-prefixer:Neue eindeutige Notiz erstellen": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "829368e30efff292",
