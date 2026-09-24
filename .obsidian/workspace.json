@@ -11,14 +11,10 @@
             "id": "829368e30efff292",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Word Notizen insert.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Word Notizen insert"
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -216,6 +212,7 @@
   },
   "active": "361577b97157954c",
   "lastOpenFiles": [
+    "Vault_sortiert.zip",
     "Unbenannt",
     "SB2.md",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
@@ -244,7 +241,6 @@
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server",
     "Ausbildung/Windows Server",
     "Ausbildung",
-    "Neuer Ordner",
     "Windows Server/Home-Lab Übungen Windows Server/Woche_05/Aufgabe_01_PKI-Grundlagen.md",
     "Windows Server/Home-Lab Übungen Windows Server/_MOC_Wochenplan.md",
     "Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
