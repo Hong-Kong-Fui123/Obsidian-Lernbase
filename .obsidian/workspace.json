@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unbenannt.md",
+                "file": "Word Notizen insert.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unbenannt"
+              "title": "Word Notizen insert"
             }
           }
         ]
@@ -214,11 +214,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "829368e30efff292",
+  "active": "361577b97157954c",
   "lastOpenFiles": [
+    "Unbenannt",
     "SB2.md",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
-    "Unbenannt.md",
+    "Word Notizen insert.md",
     "Ausbildung/Windows Server/WS PowerShell Befehle.base",
     "Ausbildung/Fachinformatiker Wissen/IT - Netzwerkwissen.md",
     "GitHub Startpunkt.md",
