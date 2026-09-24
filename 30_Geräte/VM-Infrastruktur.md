@@ -11,17 +11,17 @@
 ### 🔷 INFRASTRUCTURE LAYER
 
 #### **EXA-DC01** (Primary Domain Controller)
-| Parameter | Wert |
-|-----------|------|
-| **OS** | Windows Server 2022 |
-| **Cores** | 2 |
-| **RAM** | 2 GB |
-| **Disk** | 50 GB (C:\ OS + AD DB) |
-| **IP** | 192.168.1.200/24 |
-| **DNS** | 127.0.0.1 (self) |
-| **DHCP** | Nutzt local gateway |
-| **Rollen** | AD DS, DNS, Cert. Authority (vertraut Sub-CA) |
-| **Besonderheiten** | Offline-Zugriff auf Root-CA möglich |
+| Parameter          | Wert                                          |
+| ------------------ | --------------------------------------------- |
+| **OS**             | Windows Server 2022                           |
+| **Cores**          | 2                                             |
+| **RAM**            | 2 GB                                          |
+| **Disk**           | 50 GB (C:\ OS + AD DB)                        |
+| **IP**             | 192.168.1.200/24                              |
+| **DNS**            | 127.0.0.1 (self)                              |
+| **DHCP**           | Nutzt local gateway                           |
+| **Rollen**         | AD DS, DNS, Cert. Authority (vertraut Sub-CA) |
+| **Besonderheiten** | Offline-Zugriff auf Root-CA möglich           |
 
 **Startup:** `DC01 immer zuerst starten` → AD + DNS müssen erreichbar sein
 
