@@ -463,7 +463,9 @@ Test-ComputerSecureChannel -Repair -Credential (Get-Credential)
 ### **PowerShell Neustart unnötig machen**
 klist purge -li 0x3e7
 
-PowerShell 
+### PowerShell RootKey erstellen
+Add-KDSRootKey -EffectiveTime ((Get-Date).AddHours(-10))  #Bypass
+
 New-ADServiceAccount -Name [name] -PrincipalsAllowedToRetrieveManagedPassword EXA-SRV01$,EXA-SVR02$
 
 (Dienstkonto erstellen) $= für anmeldename für Computer. Passwort generiert sich automatisch vom System, Server angeben wo der Dienst bzw automatische Passwort generierung ausführen darf. Muss auf DC ausgeführt werden.
