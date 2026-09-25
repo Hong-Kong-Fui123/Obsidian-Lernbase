@@ -459,3 +459,21 @@ EXA-DC01:5000
 ### PowerShell Vertrauensstellung wiederherstellen
 
 Test-ComputerSecureChannel -Repair -Credential (Get-Credential)
+
+### **PowerShell Neustart unnötig machen**
+klist purge -li 0x3e7
+
+PowerShell 
+New-ADServiceAccount -Name [name] -PrincipalsAllowedToRetrieveManagedPassword EXA-SRV01$,EXA-SVR02$
+
+(Dienstkonto erstellen) $= für anmeldename für Computer. Passwort generiert sich automatisch vom System, Server angeben wo der Dienst bzw automatische Passwort generierung ausführen darf. Muss auf DC ausgeführt werden.
+
+Get-WindowsFeature -name *rsat*ad* powershell modul installieren
+
+Install-WindowsFeature -name RSAT-AD-Powershell
+
+Install-ADServiceAccount [name]
+
+setspn -S http/exa-srv01.example.com example\mysvc1 (eindeutiger Erkkenungsname eines Dienstes, das  Kerberos dann nutzt)
+
+hat Kontextmenü
