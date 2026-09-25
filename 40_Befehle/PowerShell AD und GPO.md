@@ -481,4 +481,4 @@ setspn -S http/exa-srv01.example.com example\mysvc1 (eindeutiger Erkkenungsname 
 ### AD-PowerShell auf System installieren
 Install-WindowsFeature RSAT-AD-PowerShell -IncludeAllSubFeature; 
 
-https://screenrec.com/share/RTm9pz1enq
+
