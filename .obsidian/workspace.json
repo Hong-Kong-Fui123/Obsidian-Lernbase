@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40_Befehle/PowerShell AD und GPO.md",
+                "file": "50_Wissen/Windows Server/Übungsklausuren/├£bungsklausur 2 ÔÇô Windows Server 2022.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PowerShell AD und GPO"
+              "title": "├£bungsklausur 2 ÔÇô Windows Server 2022"
             }
           }
         ]
@@ -216,9 +216,10 @@
   },
   "active": "829368e30efff292",
   "lastOpenFiles": [
+    "50_Wissen/Windows Server/Übungsklausuren/├£bungsklausur 1 ÔÇô Windows Server 2022.md",
+    "40_Befehle/PowerShell AD und GPO.md",
     "10_Themen/Windows Server.md",
     "10_Themen/Netzwerk.md",
-    "40_Befehle/PowerShell AD und GPO.md",
     "README.md",
     "OSI-Modell und Namensauflösung.md",
     "80_Übersichten/GitHub Startpunkt.md",
@@ -250,7 +251,6 @@
     "Ausbildung/Fachinformatiker Wissen",
     "Ausbildung/Neuer Ordner",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Woche_05/Aufgabe_01_PKI-Grundlagen.md",
-    "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/_MOC_Wochenplan.md",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/Woche_05",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server",
     "Ausbildung/Windows Server",
