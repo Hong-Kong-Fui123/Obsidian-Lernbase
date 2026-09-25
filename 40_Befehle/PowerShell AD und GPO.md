@@ -478,7 +478,7 @@ Install-ADServiceAccount -Identity  "EXAgMSA"; Test-ADServiceAccount -Identity "
 
 setspn -S http/exa-srv01.example.com example\mysvc1 (eindeutiger Erkkenungsname eines Dienstes, das  Kerberos dann nutzt) hat Kontextmenü
 
-PowerShell 
+### AD-PowerShell auf System installieren
 Install-WindowsFeature RSAT-AD-PowerShell -IncludeAllSubFeature; 
 
-
+https://screenrec.com/share/RTm9pz1enq
