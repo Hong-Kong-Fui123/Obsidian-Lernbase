@@ -474,8 +474,11 @@ Get-WindowsFeature -name *rsat*ad* powershell modul installieren
 
 Install-WindowsFeature -name RSAT-AD-Powershell
 
-Install-ADServiceAccount [name]
+Install-ADServiceAccount -Identity  "EXAgMSA"; Test-ADServiceAccount -Identity "EXAgMSA"
 
-setspn -S http/exa-srv01.example.com example\mysvc1 (eindeutiger Erkkenungsname eines Dienstes, das  Kerberos dann nutzt)
+setspn -S http/exa-srv01.example.com example\mysvc1 (eindeutiger Erkkenungsname eines Dienstes, das  Kerberos dann nutzt) hat Kontextmenü
 
-hat Kontextmenü
+PowerShell 
+Install-WindowsFeature RSAT-AD-PowerShell -IncludeAllSubFeature; 
+
+
