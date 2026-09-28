@@ -11,10 +11,14 @@
             "id": "cd3f3b88c2429944",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "80_Übersichten/Start.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "Start"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:windows-server",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,7 +215,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fafd79c47b1a89c4",
+  "active": "cd3f3b88c2429944",
   "lastOpenFiles": [
     "10_Themen/Datenbanken SQL.md",
     "50_Wissen/Datenbanken/SQL - Transaktionen und Locks.md",
