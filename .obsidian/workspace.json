@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pat",
+                "query": "tag:klausur",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,7 +215,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "fafd79c47b1a89c4",
   "lastOpenFiles": [
     "50_Wissen/Windows Server/Theorieklausuren/Theorieklausur 3 - Windows Server 2022.md",
     "50_Wissen/Windows Server/Theorieklausuren/Theorieklausur 2 - Windows Server 2022.md",
