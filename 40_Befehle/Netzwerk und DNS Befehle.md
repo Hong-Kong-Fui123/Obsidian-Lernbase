@@ -79,3 +79,8 @@ New-NetIPAddress -InterfaceAlias Privat2 -IPAddress 192.168.1.220 -PrefixLength 
 dnsmgmt.msc
 
 Diffie-Hillmann Verfahren
+
+### PowerShell für das verbinden Ordner
+net use z: \\exa-srv01\c$
+dann auf den Ordner zugreifen
+z: 
