@@ -77,3 +77,5 @@ New-NetIPAddress -InterfaceAlias Privat2 -IPAddress 192.168.1.220 -PrefixLength 
 ### DNS-Server per PowerShell öffnen.
 
 dnsmgmt.msc
+
+Diffie-Hillmann Verfahren
