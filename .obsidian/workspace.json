@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "12d3dfafb26a0a41",
+        "id": "53664bdcda5871db",
         "type": "tabs",
         "children": [
           {
-            "id": "cd3f3b88c2429944",
+            "id": "8bfefc38c069bf50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
+                "file": "00_Inbox/Notizen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IT - Netzwerkwissen"
+              "title": "Notizen"
             }
           }
         ]
@@ -93,8 +93,7 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,15 +214,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fafd79c47b1a89c4",
+  "active": "8bfefc38c069bf50",
   "lastOpenFiles": [
+    "2026-09-29.md",
+    "Unbenannt 4.canvas",
+    "Unbenannt 3.canvas",
+    "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
     "50_Wissen/Windows Server/Übungsklausuren/Übungsklausur 3 Windows Server 2022.md",
     "50_Wissen/Netzwerk/OSI-Modell und NamensauflÃ¶sung.md",
     "50_Wissen/Windows Server/Übungsklausuren/Übungsklausur 2 Windows Server 2022.md",
     "50_Wissen/Windows Server/Übungsklausuren/Übungsklausur 1  Windows Server 2022.md",
-    "00_Inbox/VPN-Tunnel.md",
+    "00_Inbox/Notizen.md",
     "10_Themen/Netzwerk.md",
-    "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
     "80_Übersichten/Start.md",
     "10_Themen/Datenbanken SQL.md",
     "50_Wissen/Datenbanken/SQL - Transaktionen und Locks.md",
@@ -246,8 +248,6 @@
     "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 1 - AD DS DNS DHCP.md",
     "50_Wissen/Windows Server/Praxisklausuren/00 Uebersicht Praxisklausuren.md",
     "50_Wissen/Windows Server/Praxisklausuren",
-    "50_Wissen/Windows Server/Übungsklausuren/Theorieklausuren/Theorieklausur 3 - Windows Server 2022.md",
-    "50_Wissen/Windows Server/Übungsklausuren/Theorieklausuren/Theorieklausur 2 - Windows Server 2022.md",
     "50_Wissen/Windows Server/Übungsklausuren/Theorieklausuren",
     "50_Wissen/Windows Server/Übungsklausuren/Praxisklausuren",
     "Vault_sortiert.zip",

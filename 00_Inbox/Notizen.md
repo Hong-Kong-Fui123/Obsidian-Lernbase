@@ -29,9 +29,15 @@ Ablauf: Client → NAS → RADIUS-Server prüft gegen AD → Accept/Reject → N
 - Alternative (Cisco): **TACACS+**, TCP 49, verschlüsselt komplettes Paket
 
 ## Einsatz
-- VPN-Anmeldung → [[VPN-Tunnel]]
+- VPN-Anmeldung → [[Notizen]]
 - WLAN-Enterprise / 802.1X (mit PEAP-MSCHAPv2 oder EAP-TLS)
 - Switch-Port-Authentifizierung
 
 ## Merksatz
 Viele Zugangsgeräte, **ein** zentraler Prüfer → Benutzer nur einmal im AD pflegen.
+
+PowerShell Zertifikat ohne CA
+ServerSeite
+$certname = "exa-srv01.example.com"
+PS C:\Users\Administrator.EXAMPLE> New-SelfSignedCertificate -Subject "CN=$certname" -DnsName "exa-srv01.example.com" -FriendlyName "myVPNServer" -CertStoreLocation "Cert:\CurrentUser\My" -KeyExportPolicy Exportable -KeySpec Signature -KeyLength 2048 -KeyAlgorithm RSA -HashAlgorithm SHA256
+
