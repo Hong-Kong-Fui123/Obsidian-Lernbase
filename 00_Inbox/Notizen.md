@@ -36,8 +36,17 @@ Ablauf: Client → NAS → RADIUS-Server prüft gegen AD → Accept/Reject → N
 ## Merksatz
 Viele Zugangsgeräte, **ein** zentraler Prüfer → Benutzer nur einmal im AD pflegen.
 
-PowerShell Zertifikat ohne CA
+### PowerShell Zertifikat ohne CA
 ServerSeite
 $certname = "exa-srv01.example.com"
-PS C:\Users\Administrator.EXAMPLE> New-SelfSignedCertificate -Subject "CN=$certname" -DnsName "exa-srv01.example.com" -FriendlyName "myVPNServer" -CertStoreLocation "Cert:\CurrentUser\My" -KeyExportPolicy Exportable -KeySpec Signature -KeyLength 2048 -KeyAlgorithm RSA -HashAlgorithm SHA256
+New-SelfSignedCertificate -Subject "CN=$certname" -DnsName "exa-srv01.example.com" -FriendlyName "myVPNServer" -CertStoreLocation "Cert:\CurrentUser\My" -KeyExportPolicy Exportable -KeySpec Signature -KeyLength 2048 -KeyAlgorithm RSA -HashAlgorithm SHA256
+
+Version von Tillmann
+$cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new("\\exa-srv01\certs\exa-srv01-vpn.cer")  
+dann testen.
+Test-Certificate -Cert $cert
+### Abfrage der Sperrliste abstellen
+in der Regedit: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SstpSvc\Parameters
+dann neu erstellen DWORD-Wert (32-Bit), Name: NoCertRevocationCheck und den Wert auf 1 stellen
+
 
