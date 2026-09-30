@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Themen/Netzwerk.md",
+                "file": "10_Themen/IT-Begriffe und Abkürzungen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Netzwerk"
+              "title": "IT-Begriffe und Abkürzungen"
             }
           }
         ]
@@ -216,11 +216,14 @@
   },
   "active": "19b00dab53d069cd",
   "lastOpenFiles": [
+    "10_Themen/Datenbanken SQL.md",
+    "10_Themen/IT-Begriffe und Abkürzungen.md",
+    "10_Themen/Hardware.md",
+    "50_Wissen/Netzwerk/DirectAccess_vs_VPN.md",
+    "10_Themen/Netzwerk.md",
     "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
     "50_Wissen/Netzwerk/Netzwerkbefehle und DHCP.md",
     "10_Themen/Windows Server.md",
-    "10_Themen/Netzwerk.md",
-    "50_Wissen/Netzwerk/DirectAccess_vs_VPN.md",
     "50_Wissen/Unbenannt.base",
     "50_Wissen/Netzwerk/Verkabelung und Displays.md",
     "50_Wissen/Netzwerk/OSI-Modell und NamensauflÃ¶sung.md",
@@ -236,7 +239,6 @@
     "50_Wissen/Windows Server/Übungsklausuren/Übungsklausur 2 Windows Server 2022.md",
     "50_Wissen/Windows Server/Übungsklausuren/Übungsklausur 1  Windows Server 2022.md",
     "80_Übersichten/Start.md",
-    "10_Themen/Datenbanken SQL.md",
     "50_Wissen/Datenbanken/SQL - Transaktionen und Locks.md",
     "50_Wissen/Datenbanken/SQL - Grundlagen und ER-Modell.md",
     "30_Geräte/VM-Infrastruktur.md",
@@ -250,7 +252,6 @@
     "50_Wissen/Windows Server/Theorieklausuren/Theorieklausur 1 - Windows Server 2022.md",
     "50_Wissen/Windows Server/Theorieklausuren/00 Uebersicht Theorieklausuren.md",
     "50_Wissen/Windows Server/Theorieklausuren",
-    "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 3 - Betrieb und Fehlerbehebung.md",
     "50_Wissen/Windows Server/Praxisklausuren",
     "50_Wissen/Windows Server/Übungsklausuren/Theorieklausuren",
     "50_Wissen/Windows Server/Übungsklausuren/Praxisklausuren",

@@ -1,6 +1,7 @@
 ---
 typ: thema
-tags: [moc]
+tags:
+  - moc
 ---
 # Datenbanken SQL
 

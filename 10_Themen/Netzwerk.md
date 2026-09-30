@@ -8,4 +8,4 @@ tags: [moc]
 - [[Netzwerkbefehle und DHCP]]
 - [[IT - Netzwerkwissen]]
 - [[Verkabelung und Displays]]
-- 
+- [[DirectAccess_vs_VPN]]
