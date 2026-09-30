@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/Notizen.md",
+                "file": "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notizen"
+              "title": "IT - Netzwerkwissen"
             }
           }
         ]
@@ -216,6 +216,7 @@
   },
   "active": "8bfefc38c069bf50",
   "lastOpenFiles": [
+    "00_Inbox/Notizen.md",
     "2026-09-29.md",
     "Unbenannt 4.canvas",
     "Unbenannt 3.canvas",
@@ -224,7 +225,6 @@
     "50_Wissen/Netzwerk/OSI-Modell und NamensauflÃ¶sung.md",
     "50_Wissen/Windows Server/Übungsklausuren/Übungsklausur 2 Windows Server 2022.md",
     "50_Wissen/Windows Server/Übungsklausuren/Übungsklausur 1  Windows Server 2022.md",
-    "00_Inbox/Notizen.md",
     "10_Themen/Netzwerk.md",
     "80_Übersichten/Start.md",
     "10_Themen/Datenbanken SQL.md",
