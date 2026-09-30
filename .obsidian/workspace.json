@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Netzwerk/DirectAccess_vs_VPN.md",
+                "file": "2026-09-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DirectAccess_vs_VPN"
+              "title": "2026-09-28"
             }
           }
         ]
@@ -197,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,11 +217,20 @@
   },
   "active": "3eaa2ca469012b04",
   "lastOpenFiles": [
+    "2026-09-29.md",
+    "2026-09-28.md",
+    "80_Übersichten/Start.md",
+    "Glossar/Teredo.md",
     "Vorlagen/Glossar-Vorlage.md",
+    "Glossar/CA.md",
+    "Glossar/DA.md",
+    "Glossar/AOVPN.md",
+    "Glossar/6to4.md",
+    "00_Inbox/Notizen.md",
+    "50_Wissen/Netzwerk/DirectAccess_vs_VPN.md",
     "Vorlagen",
     "Glossar/WSUS.md",
     "Glossar/VPN.md",
-    "Glossar/Teredo.md",
     "Glossar/SCCM.md",
     "Glossar/SSTP.md",
     "Glossar/RRAS.md",
@@ -234,15 +244,6 @@
     "Glossar/MS-CHAPv2.md",
     "Glossar/MPPE.md",
     "Glossar/MFA.md",
-    "Glossar/L2TP.md",
-    "Glossar/IPsec.md",
-    "Glossar/IP-HTTPS.md",
-    "Glossar/IKEv2.md",
-    "Glossar/IIS.md",
-    "Glossar/GPO.md",
-    "Glossar/DNS64.md",
-    "Glossar/DC.md",
-    "Glossar/DNS.md",
     "Glossar",
     "50_Wissen/Unbenannt.base",
     "Netzilon.exe",
