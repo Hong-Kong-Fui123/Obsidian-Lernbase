@@ -49,5 +49,51 @@ Test-Certificate -Cert $cert
 in der Regedit: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SstpSvc\Parameters
 dann neu erstellen DWORD-Wert (32-Bit), Name: NoCertRevocationCheck und den Wert auf 1 stellen
 
-Unterschied zwischen DN
-🌐 DNS vs. mDNS > [!abstract] Kurz gesagt > **DNS** übersetzt weltweit Hostnamen in IP-Adressen über zentrale Server. > **mDNS** löst Namen im lokalen Netz auf – ganz ohne DNS-Server. --- ## 📋 Vergleich | Merkmal | DNS | mDNS | | ---------------- | ------------------------------- | ----------------------------------- | | **Name** | Domain Name System | Multicast DNS | | **Reichweite** | Internet / Firmennetz | Nur lokales Subnetz (nicht routbar) | | **Struktur** | Zentral, hierarchisch | Dezentral | | **Server nötig** | ✅ Ja | ❌ Nein | | **Port** | `53` UDP/TCP | `5353` UDP | | **Adressierung** | Unicast an DNS-Server | Multicast `224.0.0.251` / `ff02::fb` | | **Domain** | `example.com` | `.local` → `drucker.local` | | **Software** | BIND, Windows DNS, Pi-hole | Bonjour, Avahi, Windows 10+
+---
+tags: [netzwerk, dns, mdns, namensaufloesung]
+erstellt: 2026-09-30
+---
+
+# 🌐 DNS vs. mDNS
+
+> [!abstract] Kurz gesagt
+> **DNS** übersetzt weltweit Hostnamen in IP-Adressen über zentrale Server.
+> **mDNS** löst Namen im lokalen Netz auf – ganz ohne DNS-Server.
+
+## 📖 DNS – Domain Name System
+
+- **Reichweite:** Internet / Firmennetz
+- **Struktur:** zentral, hierarchisch (Root → TLD → Domain)
+- **Server nötig:** ✅ Ja
+- **Port:** `53` UDP/TCP
+- **Adressierung:** Unicast an DNS-Server
+- **Domain:** `example.com`
+- **Software:** BIND, Windows DNS, Pi-hole
+
+> [!info] Ablauf
+> Client → DNS-Server → Root → TLD → autoritativer Server → IP zurück
+
+## 📢 mDNS – Multicast DNS
+
+- **Reichweite:** nur lokales Subnetz (nicht routbar)
+- **Struktur:** dezentral
+- **Server nötig:** ❌ Nein
+- **Port:** `5353` UDP
+- **Adressierung:** Multicast `224.0.0.251` / `ff02::fb`
+- **Domain:** `.local` → `drucker.local`
+- **Software:** Bonjour, Avahi, Windows 10+
+
+> [!info] Ablauf
+> Client ruft per Multicast ins LAN: *„Wer ist `xyz.local`?"*
+> → Das gemeinte Gerät antwortet selbst mit seiner IP.
+
+## 🧠 Merksatz
+
+> [!tip] Eselsbrücke
+> - **DNS** = zentrales Telefonbuch des Internets
+> - **mDNS** = in den Raum rufen und warten, wer antwortet
+
+## 🔗 Verwandt
+- [[DNS-Records]]
+- [[DHCP]]
+- [[OSI-Modell]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/Notizen.md",
+                "file": "DNS-Records.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notizen"
+              "title": "DNS-Records"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "8bfefc38c069bf50",
   "lastOpenFiles": [
-    "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
     "00_Inbox/Notizen.md",
+    "DNS-Records.md",
+    "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
     "2026-09-29.md",
     "Unbenannt 4.canvas",
     "Unbenannt 3.canvas",
