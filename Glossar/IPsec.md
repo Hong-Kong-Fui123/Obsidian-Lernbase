@@ -1,12 +1,13 @@
 ---
 aliases: [IPsec]
-tags: [glossar]
+tags: [glossar, glossar/sicherheit-pki]
 en: "Internet Protocol Security"
 de: "IP-Sicherheit"
+bereich: Sicherheit-PKI
 ---
 
 **IPsec** = *Internet Protocol Security*
 **Deutsch:** IP-Sicherheit
 
 - Verschlüsselung + Authentifizierung auf Schicht 3
-- Basis von [[DA]], [[L2TP]]/IPsec, [[IKEv2]]
+- Basis für [[IKEv2]], L2TP/IPsec, [[DA]]

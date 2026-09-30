@@ -1,13 +1,13 @@
 ---
 aliases: [DA]
-tags: [glossar]
+tags: [glossar, glossar/windows-server]
 en: "DirectAccess"
 de: "DirectAccess"
+bereich: Windows-Server
 ---
 
 **DA** = *DirectAccess*
 **Deutsch:** DirectAccess
 
-- Microsoft-Fernzugriff, Tunnel automatisch vor Logon durch den Computer
-- IPsec über IPv6, benötigt PKI + GPO
-- Veraltet, Nachfolger: [[AOVPN]]
+- Fernzugriff, Tunnel automatisch vor Logon durch den Computer
+- IPsec über IPv6, benötigt [[PKI]] + [[GPO]]; veraltet → [[AOVPN]]

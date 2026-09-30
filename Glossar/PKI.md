@@ -1,12 +1,12 @@
 ---
 aliases: [PKI]
-tags: [glossar]
+tags: [glossar, glossar/sicherheit-pki]
 en: "Public Key Infrastructure"
 de: "Infrastruktur öffentlicher Schlüssel"
+bereich: Sicherheit-PKI
 ---
 
 **PKI** = *Public Key Infrastructure*
 **Deutsch:** Infrastruktur öffentlicher Schlüssel
 
-- System aus [[CA]]s, Zertifikaten und Richtlinien
-- Stellt Identitäten per Zertifikat aus und prüft sie
+- System aus [[CA]]s, Zertifikaten, Sperrlisten und Richtlinien

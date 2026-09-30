@@ -1,12 +1,12 @@
 ---
 aliases: [VPN]
-tags: [glossar]
+tags: [glossar, glossar/sicherheit-pki]
 en: "Virtual Private Network"
 de: "Virtuelles privates Netzwerk"
+bereich: Sicherheit-PKI
 ---
 
 **VPN** = *Virtual Private Network*
 **Deutsch:** Virtuelles privates Netzwerk
 
-- Verschlüsselter Tunnel über ein unsicheres Netz (Internet)
-- Klassisch: Benutzer baut Verbindung nach Logon auf
+- Verschlüsselter Tunnel über das Internet

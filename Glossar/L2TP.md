@@ -1,12 +1,12 @@
 ---
 aliases: [L2TP]
-tags: [glossar]
+tags: [glossar, glossar/sicherheit-pki]
 en: "Layer 2 Tunneling Protocol"
 de: "Schicht-2-Tunnelprotokoll"
+bereich: Sicherheit-PKI
 ---
 
 **L2TP** = *Layer 2 Tunneling Protocol*
 **Deutsch:** Schicht-2-Tunnelprotokoll
 
-- Nur Tunnel, keine Verschlüsselung → immer mit [[IPsec]]
-- UDP 500, 4500, 1701
+- Nur mit [[IPsec]] sicher, UDP 500/4500/1701

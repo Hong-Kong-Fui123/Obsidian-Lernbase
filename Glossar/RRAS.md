@@ -1,12 +1,12 @@
 ---
 aliases: [RRAS]
-tags: [glossar]
+tags: [glossar, glossar/windows-server]
 en: "Routing and Remote Access Service"
 de: "Routing- und RAS-Dienst"
+bereich: Windows-Server
 ---
 
 **RRAS** = *Routing and Remote Access Service*
 **Deutsch:** Routing- und RAS-Dienst
 
-- Windows-Server-Rolle für VPN und Routing
-- Teil der Rolle Remote Access
+- Serverrolle für [[VPN]] und Routing

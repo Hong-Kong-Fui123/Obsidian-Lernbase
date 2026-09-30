@@ -1,6 +1,7 @@
 ---
 aliases: [{{title}}]
 tags: [glossar]
+bereich: 
 en: ""
 de: ""
 ---

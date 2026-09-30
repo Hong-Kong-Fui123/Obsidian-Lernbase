@@ -1,12 +1,12 @@
 ---
 aliases: [PPTP]
-tags: [glossar]
+tags: [glossar, glossar/sicherheit-pki]
 en: "Point-to-Point Tunneling Protocol"
 de: "Punkt-zu-Punkt-Tunnelprotokoll"
+bereich: Sicherheit-PKI
 ---
 
 **PPTP** = *Point-to-Point Tunneling Protocol*
 **Deutsch:** Punkt-zu-Punkt-Tunnelprotokoll
 
-- Veraltet, Verschlüsselung ([[MPPE]]/[[MS-CHAPv2]]) geknackt
-- TCP 1723 + GRE – nicht verwenden
+- Veraltet und geknackt, TCP 1723 + GRE

@@ -1,12 +1,12 @@
 ---
 aliases: [NPS]
-tags: [glossar]
+tags: [glossar, glossar/windows-server]
 en: "Network Policy Server"
 de: "Netzwerkrichtlinienserver"
+bereich: Windows-Server
 ---
 
 **NPS** = *Network Policy Server*
 **Deutsch:** Netzwerkrichtlinienserver
 
-- Microsofts RADIUS-Server
-- Prüft, wer sich per VPN/WLAN verbinden darf
+- Microsofts [[RADIUS]]-Server

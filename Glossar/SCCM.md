@@ -1,8 +1,9 @@
 ---
 aliases: [SCCM]
-tags: [glossar]
+tags: [glossar, glossar/windows-server]
 en: "System Center Configuration Manager"
 de: "Konfigurationsmanager (heute MECM)"
+bereich: Windows-Server
 ---
 
 **SCCM** = *System Center Configuration Manager*

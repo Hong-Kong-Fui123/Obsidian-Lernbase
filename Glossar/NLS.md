@@ -1,12 +1,12 @@
 ---
 aliases: [NLS]
-tags: [glossar]
+tags: [glossar, glossar/windows-server]
 en: "Network Location Server"
 de: "Netzwerkstandortserver"
+bereich: Windows-Server
 ---
 
 **NLS** = *Network Location Server*
 **Deutsch:** Netzwerkstandortserver
 
-- Interne HTTPS-Seite für [[DA]]
-- Erreichbar → Client ist intern → DA bleibt aus
+- Interne HTTPS-Seite für [[DA]]: erreichbar → Client intern
