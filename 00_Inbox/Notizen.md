@@ -49,4 +49,5 @@ Test-Certificate -Cert $cert
 in der Regedit: Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SstpSvc\Parameters
 dann neu erstellen DWORD-Wert (32-Bit), Name: NoCertRevocationCheck und den Wert auf 1 stellen
 
-
+Unterschied zwischen DN
+🌐 DNS vs. mDNS > [!abstract] Kurz gesagt > **DNS** übersetzt weltweit Hostnamen in IP-Adressen über zentrale Server. > **mDNS** löst Namen im lokalen Netz auf – ganz ohne DNS-Server. --- ## 📋 Vergleich | Merkmal | DNS | mDNS | | ---------------- | ------------------------------- | ----------------------------------- | | **Name** | Domain Name System | Multicast DNS | | **Reichweite** | Internet / Firmennetz | Nur lokales Subnetz (nicht routbar) | | **Struktur** | Zentral, hierarchisch | Dezentral | | **Server nötig** | ✅ Ja | ❌ Nein | | **Port** | `53` UDP/TCP | `5353` UDP | | **Adressierung** | Unicast an DNS-Server | Multicast `224.0.0.251` / `ff02::fb` | | **Domain** | `example.com` | `.local` → `drucker.local` | | **Software** | BIND, Windows DNS, Pi-hole | Bonjour, Avahi, Windows 10+
