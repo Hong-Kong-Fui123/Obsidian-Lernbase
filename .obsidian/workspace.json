@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Datenbanken/SQL - Isolation, Dateien, Partitionen, Rechte.md",
+                "file": "Glossar/AOVPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL - Isolation, Dateien, Partitionen, Rechte"
+              "title": "AOVPN"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:netzwerk",
+                "query": "vpn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -217,6 +218,11 @@
   },
   "active": "4c3a6df170726e6f",
   "lastOpenFiles": [
+    "Glossar/00_Glossar-Index.md",
+    "40_Befehle/Netzwerk und DNS Befehle.md",
+    "10_Themen/Windows Server.md",
+    "40_Befehle/WS PowerShell Befehle.canvas",
+    "50_Wissen/Datenbanken/SQL - Isolation, Dateien, Partitionen, Rechte.md",
     "50_Wissen/Datenbanken/SQL - Grundlagen und ER-Modell.md",
     "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
     "Glossar/RAM.md",
@@ -239,10 +245,6 @@
     "Glossar/VHDX.md",
     "Glossar/USV.md",
     "Glossar/USB.md",
-    "Glossar/URL.md",
-    "Glossar/UPN.md",
-    "Glossar/UID.md",
-    "Glossar/UEFI.md",
     "50_Wissen/Unbenannt.base",
     "Unbenannt.canvas",
     "Unbenannt 4.canvas",
@@ -261,7 +263,6 @@
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
-    "Fachinformatiker.canvas",
-    "IT Wissen.canvas"
+    "Fachinformatiker.canvas"
   ]
 }
