@@ -10,9 +10,9 @@ status: importiert
 Thema: [[Hardware]]
 
 > [!warning] Korrekturen
-> - TPM = **Trusted** Platform Module
-> - 01.01.1970 = Unix-Zeit (Betriebssystem), nicht BIOS
-> - Pin-Anzahl steht im Sockelnamen (z. B. LGA 1700), nicht in der CPU-Nummer
+> - [[TPM]] = **Trusted** Platform Module
+> - 01.01.1970 = Unix-Zeit (Betriebssystem), nicht [[BIOS]]
+> - Pin-Anzahl steht im Sockelnamen (z. B. LGA 1700), nicht in der [[CPU]]-Nummer
 > - CPUs drosseln bei ca. 100 °C (Tjmax), sie „verlieren“ nicht ihre Wirkung
 
 ## Unix Startzeit bei BIOS
@@ -75,7 +75,7 @@ Bsp.: Logik: AND-/OR-Verknüpfung.
 
 ## „Befehlsdecoder“
 
--       „Instruction Fetch Unit“ (IFU) holt Befehle aus dem RAM-Speicher und leitet sie weiter an Decoder, in den RAM kommen die Befehle aus dem Betriebssystem.
+-       „Instruction Fetch Unit“ (IFU) holt Befehle aus dem [[RAM]]-Speicher und leitet sie weiter an Decoder, in den RAM kommen die Befehle aus dem Betriebssystem.
 
 -       Übersetzt binäre Maschinenbefehle in Anweisungen.
 
@@ -137,7 +137,7 @@ UPDATE INSTRUCTION POINTER (nächste Programmzeile).
 
 -       Adressbus: Adressierung der einzelnen Speicherzellen des Arbeitsspeichers (lesen + schreiben). (32-Datenleitungen)
 
--       Steuerbus: Steuerung von Peripherie-Anschlüssen wie PCI oder USB.
+-       Steuerbus: Steuerung von Peripherie-Anschlüssen wie PCI oder [[USB]].
 
 -       Interner Bus: „lokaler Bus“ verbindet interne Geräte miteinander (Stichwort: Mainboard, z.B. Grafikkare oder andere verbaute Geräte)
 
@@ -203,7 +203,7 @@ o   L3: Shared-Kohärenz-Cache, der die Kommunikation der Kerne untereinander 
 
 -       Regelt den Datentransfer und die Datensteuerung zwischen den Geräten.
 
--       Angebunden sind bspw. PCI, PCI-X, SATA, Sound, USB, IEEE1394, LAN, Controller, Energieverwaltung.
+-       Angebunden sind bspw. PCI, PCI-X, SATA, Sound, USB, IEEE1394, [[LAN]], Controller, Energieverwaltung.
 
 -       Langsamer getraktet und weniger hohe Ansprüche an die Hardware.
 

@@ -34,13 +34,13 @@ Thema: [[Linux]]
 |ssh|Über eine _Secure Shell_ mit einem anderen Rechner verbinden|
 |wget|Datei direkt aus dem Internet herunterladen|
 |ping|Server anfragen und Latenz messen|
-|ftp, sftp|Dateien via (S)FTP übertragen|
+|ftp, sftp|Dateien via (S)[[FTP]] übertragen|
 |ip|Netzwerkschnittstellen abfragen und konfigurieren|
 |apt/pacman/yum|Software-Pakete herunterladen und verwalten|
 |netstat|Status der Netzwerkschnittstelle ausgeben|
 |traceroute|Datenpakete verfolgen|
-|route|IP-Routing-Tabellen anzeigen und bearbeiten|
-|dig|DNS-Informationen abfragen|
+|route|[[IP]]-Routing-Tabellen anzeigen und bearbeiten|
+|dig|[[DNS]]-Informationen abfragen|
 |mount/unmount|Dateisysteme einbinden (aufsetzen/einhängen/mounten)|
 |dd|Bit-genaues Kopieren von Dateien, Partitionen oder Datenträgern|
 |chmod|Zugriffsrechte verwalten|
@@ -56,7 +56,7 @@ Thema: [[Linux]]
 |top|Dynamische Prozessübersicht|
 |lscpu|Prozessorinformationen ausgeben|
 |lshw|Hardwareinformationen ausgeben|
-|kill|Prozess via PID stoppen und beenden|
+|kill|Prozess via [[PID]] stoppen und beenden|
 |killall|Prozesse via Namen stoppen und beenden|
 |nice|Prozessprioritäten definieren|
 |pgrep|PID via Suchbegriff ermitteln|

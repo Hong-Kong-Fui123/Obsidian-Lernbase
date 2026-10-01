@@ -41,7 +41,7 @@ Status: ⏳ Zu klären
 
 ### **Problem #01: Root-CA ging nicht offline**
 - **Symptom:** Netzwerk-Adapter deaktivieren funktionierte nicht richtig
-- **Lösung:** VM komplett ausschalten + Snapshot vor Offline-Nahme
+- **Lösung:** [[VM]] komplett ausschalten + Snapshot vor Offline-Nahme
 - **Lernpunkt:** Snapshots sind wichtig! Immer vorher machen
 
 ---

@@ -10,7 +10,7 @@ status: importiert
 Thema: [[Windows Server]]
 
 > [!warning] Korrekturen
-> - IP-Adressen weichen von [[VM-Infrastruktur]] ab (z. B. .201 = EXA-SRV01 hier, EXA-DC02 dort) – eine Quelle festlegen
+> - [[IP]]-Adressen weichen von [[VM-Infrastruktur]] ab (z. B. .201 = EXA-SRV01 hier, EXA-DC02 dort) – eine Quelle festlegen
 > - Defender-Abschaltung per Registry nur im Lab!
 
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
@@ -79,13 +79,13 @@ Domäne                    example.com
 
 Test.de und Linux.org
 
-2.        Schemas in MMC aktivieren
+2.        Schemas in [[MMC]] aktivieren
 
 regsvr32 schmmgmt.dll ausführen (Win+r)
 
 3.        OUs und User erstellen
 
-(Main) OU
+(Main) [[OU]]
 
 OU-Schulung erstellen
 
@@ -115,8 +115,8 @@ Auf DC01
 
 Test.de und Linux.org hinzufügen
 
-AD „Domains and Trust“ > Rechte Maustaste auf den „Domains and Trusts“ - Einstellungen und dann „alternative UPN - Suffixe“ hinzufügen.
+[[AD]] „Domains and Trust“ > Rechte Maustaste auf den „Domains and Trusts“ - Einstellungen und dann „alternative [[UPN]] - Suffixe“ hinzufügen.
 
-6.         GPO Remote-Desktop
+6.         [[GPO]] Remote-Desktop
 
 GPO Remote-Desktop erstellen, dann **Gpedit.msc** → Computer-Konfiguration → Richtlinien → Windows-Einstellungen → Sicherheitseinstellungen → Eingeschränkte Gruppen. >> Domänen-User hinzufügen

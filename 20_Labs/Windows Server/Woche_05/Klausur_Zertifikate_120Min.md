@@ -1,6 +1,6 @@
 # 📝 Klausur: Zertifikate & PKI (120 Minuten)
 
-**Modul:** 2 – Zertifikate & PKI  
+**Modul:** 2 – Zertifikate & [[PKI]]  
 **Woche:** 05 (Samstag-Sonntag)  
 **Dauer:** 120 Minuten  
 **Schwierigkeit:** ⭐⭐⭐ Prüfungslevel  
@@ -14,7 +14,7 @@ Du wurdest gerade als **IT-Administrator** bei der Firma **TechCorp GmbH** einge
 - 50 Mitarbeiter
 - Windows-basierte Infrastruktur
 - Bestehende Domain: `techcorp.local`
-- Bisherige CA-Infrastruktur: **KEINE** (Selbstsignierte Zertifikate überall)
+- Bisherige [[CA]]-Infrastruktur: **KEINE** (Selbstsignierte Zertifikate überall)
 
 **Dein Task:** Eine produktive PKI aufbauen.
 
@@ -75,7 +75,7 @@ Der Geschäftsführer fragt: *"Wir brauchen sichere Zertifikate. Wie machst du d
 **Praktische Aufgaben:**
 
 1. **Root CA installieren (auf EXA-SUB-CA01):**
-   - [ ] AD CS Rolle installiert?
+   - [ ] [[AD CS]] Rolle installiert?
    - [ ] Standalone CA?
    - [ ] Root CA?
    - [ ] Zertifikat exportiert für Sub-CA?
@@ -83,10 +83,10 @@ Der Geschäftsführer fragt: *"Wir brauchen sichere Zertifikate. Wie machst du d
 
 2. **Enterprise Sub-CA installieren (auf EXA-CA01):**
    - [ ] In Domain beigetreten (techcorp.local)?
-   - [ ] AD CS Rolle installiert?
+   - [ ] [[AD]] CS Rolle installiert?
    - [ ] Enterprise CA?
    - [ ] Subordinate CA?
-   - [ ] CSR signiert von Root?
+   - [ ] [[CSR]] signiert von Root?
    - [ ] Zertifikat importiert?
    - [ ] CA läuft?
 
@@ -139,7 +139,7 @@ Der Geschäftsführer fragt: *"Wir brauchen sichere Zertifikate. Wie machst du d
 3. **Lösung implementieren:**
    - Schreib auf, wie du das beheben würdest
    - Welcher PowerShell-Command wäre nötig?
-   - Welche GUI-Schritte?
+   - Welche [[GUI]]-Schritte?
 
 4. **Zertifikat validieren:**
    ```powershell

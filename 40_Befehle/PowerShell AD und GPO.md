@@ -17,7 +17,7 @@ Wo ist die netlogon-Datei gespeichert?
 
 C:\Windows\System32\config\netlogon.dns
 
-_Zum Wiederherstellen der DNS-Ordner in CMD_
+_Zum Wiederherstellen der [[DNS]]-Ordner in CMD_
 
 _net stop netlogon_
 
@@ -25,7 +25,7 @@ _net start  netlogon_
 
 _die DNS-Ordner werden wiederhergestellt._
 
-(DNS): Vorteile in AD-Integrierte Zonen (4)
+(DNS): Vorteile in [[AD]]-Integrierte Zonen (4)
 
 1. Alles Zonen sind primär
 
@@ -41,7 +41,7 @@ Wo werden AD-Informationen gespeichert?
 
 C:\Windows\SYSVOL\sysvol\[domäne]
 
-Was ist das KDC?
+Was ist das [[KDC]]?
 
 (Key Distribution Center)
 
@@ -51,13 +51,13 @@ besteht aus zwei Diensten
 
             Ticket Granting Service (TGS)
 
-Wie läuft die Kerberos-Authentifizierung?
+Wie läuft die [[Kerberos]]-Authentifizierung?
 
 1. Client schickt Anmeldeanforderung mit verschlüsseltem Zeitstempel (Pre-Authentication)
 
    → KDC validiert Zeitstempel und Identität
 
-2. KDC sendet TGT (Ticket Granting Ticket)
+2. KDC sendet [[TGT]] (Ticket Granting Ticket)
 
    → verschlüsselt mit krbtgt-Schlüssel
 
@@ -98,9 +98,9 @@ Objektidentifikation
 Leerzeichen ist einfaches Anzeichen
 **CN**                              Common Name
 
-**OU**                              Organisational Unit
+**[[OU]]**                              Organisational Unit
 
-**DC**                              Domain Component
+**[[DC]]**                              Domain Component
 
 **DN**                              Distinguished Name
 
@@ -126,7 +126,7 @@ Add-Computer -DomainName example.com -Restart
 
 gpupdate /force
 
-Was ist UPN?
+Was ist [[UPN]]?
 
 User Principal Name
 
@@ -171,7 +171,7 @@ ps.1
 
 Was ist TGT?
 
-Ticket Granting Ticket von Kerberos. So funktioniert dann SSO-Berechtigungen
+Ticket Granting Ticket von Kerberos. So funktioniert dann [[SSO]]-Berechtigungen
 
 Was ist UNC
 
@@ -303,13 +303,13 @@ dcgpofix /:Target:Domain(DC)
 
 gpresult
 
-GPO Wirkungen anzeigen lassen
+[[GPO]] Wirkungen anzeigen lassen
 
 Gruppenrichtlinienergebnisse anzeigen lassen.
 
 (Es kann sein, dass die Firewall eingestellt werden muss
 
-Computer -> Firewall erweitert -> eingehende Regeln -> Windows-Verwaltungsinstrumentation (WMI eingehend), 2x vorhanden, aktivieren)
+Computer -> Firewall erweitert -> eingehende Regeln -> Windows-Verwaltungsinstrumentation ([[WMI]] eingehend), 2x vorhanden, aktivieren)
 
 Dann kann ausgewählt werden wofür die Ergebnisse angezeigt werden soll.
 
@@ -396,7 +396,7 @@ New-ADServiceAccount [Dienstkonto] -PrincipalsAllowedToRetrieveManagedPassword [
 
 ### PowerShell-Befehl für Installation AD-Powershell
 
-Install-WindowsFeature -Name RSAT-AD-Powershell
+Install-WindowsFeature -Name [[RSAT]]-AD-Powershell
 
 ### PowerShell-Befehl Account als
 

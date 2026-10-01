@@ -1,7 +1,7 @@
 # 📅 Wochenplan – Dein Lernfortschritt
 
 **Status:** Modul 2 (Woche 05 startet JETZT)  
-**Schulthema aktuell:** Zertifikate + GPO  
+**Schulthema aktuell:** Zertifikate + [[GPO]]  
 **Ziel:** Azure 802 vorbereitet + FiSi Server-Admin
 
 ---
@@ -10,8 +10,8 @@
 
 | Modul | Woche | Thema                       | Status          | Schulanbindung               |
 | ----- | ----- | --------------------------- | --------------- | ---------------------------- |
-| **1** | 01-04 | AD Grundlagen + Home-Ordner | ✅ Abgeschlossen | AD-Basics                    |
-| **2** | 05-08 | Zertifikate & PKI           | 🔴 **JETZT**    | **Zertifikate (Schulthema)** |
+| **1** | 01-04 | [[AD]] Grundlagen + Home-Ordner | ✅ Abgeschlossen | AD-Basics                    |
+| **2** | 05-08 | Zertifikate & [[PKI]]           | 🔴 **JETZT**    | **Zertifikate (Schulthema)** |
 | **3** | 09-12 | GPO Advanced + Security     | ⏳ Später        | GPO (parallel in Schule)     |
 
 ---
@@ -36,7 +36,7 @@
 📖 **[[Woche_05/Aufgabe_02_CA-Serverrolle]]**
 
 - Serverrolle "Certification Authority" installieren
-- Root CA (Offline) vs. Enterprise CA (Online)
+- Root [[CA]] (Offline) vs. Enterprise CA (Online)
 - CA-Zertifikat erstellen
 - Initial-Setup durchführen
 
@@ -88,18 +88,18 @@
 ### **Woche 06 – Zertifikat-Ausrollung** (wird später erstellt)
 
 #### **Inhalte (Preview):**
-- CSR (Certificate Signing Request) erstellen
+- [[CSR]] (Certificate Signing Request) erstellen
 - Zertifikate ausstellen
-- Zertifikat in IIS bindet → EXA-WEB01
-- Client-Zertifikate (RDP, VPN)
+- Zertifikat in [[IIS]] bindet → EXA-WEB01
+- Client-Zertifikate ([[RDP]], [[VPN]])
 - Auto-Enrollment via GPO
 
 ---
 
 ### **Woche 07 – CRL & Zertifikat-Verwaltung** (wird später erstellt)
 
-- Certificate Revocation List (CRL)
-- OCSP (Online Certificate Status Protocol)
+- Certificate Revocation List ([[CRL]])
+- [[OCSP]] (Online Certificate Status Protocol)
 - Expired Certificates handling
 - Zertifikat-Erneuerung
 
@@ -120,7 +120,7 @@
 | `Clean` | Netzwerk läuft, keine Config | Jede Übung von vorne |
 | `AD-Ready` | AD läuft, OUs/User da | Bevor CA-Setup startet |
 | `CA-Ready` | CA installiert + zertifiziert | Bevor Cert-Ausrollung |
-| `Prod` | Alles läuft (IIS, SQL, Clients bound) | Letzte Wochen |
+| `Prod` | Alles läuft (IIS, [[SQL]], Clients bound) | Letzte Wochen |
 
 ---
 

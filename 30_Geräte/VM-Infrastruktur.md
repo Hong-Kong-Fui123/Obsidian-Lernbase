@@ -1,6 +1,6 @@
 # 🖥️ VM-Infrastruktur – Dein erweitertes Homelab
 
-**Host:** HyperV Desktop (30 Cores, 64 GB DDR4, 1 TB SSD)  
+**Host:** HyperV Desktop (30 Cores, 64 GB DDR4, 1 TB [[SSD]])  
 **Netzwerk:** privat1 (192.168.1.0/24)  
 **Domäne:** example.com  
 
@@ -15,12 +15,12 @@
 | ------------------ | --------------------------------------------- |
 | **OS**             | Windows Server 2022                           |
 | **Cores**          | 2                                             |
-| **RAM**            | 2 GB                                          |
-| **Disk**           | 50 GB (C:\ OS + AD DB)                        |
-| **IP**             | 192.168.1.200/24                              |
-| **DNS**            | 127.0.0.1 (self)                              |
-| **DHCP**           | Nutzt local gateway                           |
-| **Rollen**         | AD DS, DNS, Cert. Authority (vertraut Sub-CA) |
+| **[[RAM]]**            | 2 GB                                          |
+| **Disk**           | 50 GB (C:\ OS + [[AD]] DB)                        |
+| **[[IP]]**             | 192.168.1.200/24                              |
+| **[[DNS]]**            | 127.0.0.1 (self)                              |
+| **[[DHCP]]**           | Nutzt local gateway                           |
+| **Rollen**         | [[AD DS]], DNS, Cert. Authority (vertraut Sub-CA) |
 | **Besonderheiten** | Offline-Zugriff auf Root-CA möglich           |
 
 **Startup:** `DC01 immer zuerst starten` → AD + DNS müssen erreichbar sein
@@ -48,12 +48,12 @@
 | **RAM** | 2 GB |
 | **Disk** | 50 GB |
 | **IP** | 192.168.1.211/24 (aber normalerweise **offline**) |
-| **Rollen** | Standalone Root CA (offline) |
+| **Rollen** | Standalone Root [[CA]] (offline) |
 | **Besonderheiten** | **Wird nach Installation offline genommen** |
 | **Verwendung** | Zertifiziert nur Sub-CA (EXA-CA01) |
 | **Netzwerk-Kabel** | ENTFERNEN nach CA-Zertifikat erstellt |
 
-**Wichtig:** Diese VM nach Installation vom Netzwerk trennen → Sicherheit!
+**Wichtig:** Diese [[VM]] nach Installation vom Netzwerk trennen → Sicherheit!
 
 ---
 
@@ -67,7 +67,7 @@
 | **IP** | 192.168.1.210/24 |
 | **Rollen** | Enterprise CA (online, vertraut auf Root) |
 | **AD-Integration** | Ja (Domain-joined) |
-| **Besonderheiten** | Auto-Enrollment, Cert-Ausrollung via GPO |
+| **Besonderheiten** | Auto-Enrollment, Cert-Ausrollung via [[GPO]] |
 | **Verwendung** | Stellt Zertifikate aus für Server + Clients |
 
 **Startup-Abhängigkeit:** DC01 muss laufen (AD-Vertrauen)
@@ -84,7 +84,7 @@
 | **RAM** | 2 GB |
 | **Disk** | 50 GB (+ E:\ für Website-Daten) |
 | **IP** | 192.168.1.220/24 |
-| **Rollen** | IIS Web Server |
+| **Rollen** | [[IIS]] Web Server |
 | **Sonstiges** | Server-Zertifikat von CA01 (https binding) |
 | **Verwendung** | Ab Woche 06 → Zertifikat-Bindung üben |
 | **Test-URL** | https://exa-web01.example.com (mit eigenem Cert) |
@@ -99,7 +99,7 @@
 | **RAM** | 2 GB |
 | **Disk** | 50 GB |
 | **IP** | 192.168.1.221/24 |
-| **Rollen** | SQL Server 2022 (Express) |
+| **Rollen** | [[SQL]] Server 2022 (Express) |
 | **Verwendung** | Ab Modul 3 → Zertifikat für DB-Verbindungen |
 | **Status** | ⏳ Noch nicht relevant |
 
@@ -171,18 +171,18 @@ DHCP:           Gateway (HyperV)
 
 #### **EXA-DC01**
 - Port 53 (DNS)
-- Port 88 (Kerberos)
-- Port 389 (LDAP)
+- Port 88 ([[Kerberos]])
+- Port 389 ([[LDAP]])
 - Port 636 (LDAPS)
-- Port 135, 139, 445 (SMB/File Share)
+- Port 135, 139, 445 ([[SMB]]/File Share)
 
 #### **EXA-CA01**
 - Port 135 (RPC)
-- Port 445 (SMB – CSR download)
+- Port 445 (SMB – [[CSR]] download)
 
 #### **EXA-WEB01**
-- Port 80 (HTTP)
-- Port 443 (HTTPS/TLS)
+- Port 80 ([[HTTP]])
+- Port 443 ([[HTTPS]]/[[TLS]])
 
 ---
 

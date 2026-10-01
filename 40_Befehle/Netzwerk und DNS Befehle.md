@@ -43,7 +43,7 @@ Get-NetAdapter
 
 ## Was ist SOA (Start of Authority) Autoritätsüberprüfung
 
-SOA ist ein DNS-Eintrag, der für jede DNS-Zone genau einmal existiert. Er sagt, welcher Nameserver die Autorität für diese Zone hat – also wer die "Quelle der Wahrheit" ist.
+SOA ist ein [[DNS]]-Eintrag, der für jede DNS-Zone genau einmal existiert. Er sagt, welcher Nameserver die Autorität für diese Zone hat – also wer die "Quelle der Wahrheit" ist.
 
 **Wofür brauchst du es:**
 

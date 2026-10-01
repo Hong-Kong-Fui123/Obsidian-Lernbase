@@ -52,13 +52,13 @@ ncpa.cpl
 
 ## Was ist ARP, welche Funktion und welche Layer/Schicht hat es?
 
-ARP (Address Resolution Protocol)
+[[ARP]] (Address Resolution Protocol)
 
 LAYER/SCHICHT: Layer 2 (Sicherungsschicht / Data Link Layer)
 
 FUNKTION:
 
-Übersetzt IP-Adressen in MAC-Adressen.
+Übersetzt [[IP]]-Adressen in [[MAC]]-Adressen.
 
 ABLAUF:
 
@@ -78,6 +78,6 @@ netsh interface ipv6 isatap set state enabled
 
 ## Was ist TLS?
 
-Transport Layer Security. Weiterentwicklung von SSL.
+Transport Layer Security. Weiterentwicklung von [[SSL]].
 
 

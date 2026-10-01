@@ -85,7 +85,7 @@ Ein Mitarbeiter verlässt die Firma. Seine Postfach- und Dateidaten werden noch 
 
 **Frage:** Was ist das empfohlene Vorgehen?
 
-- [ ] A) Konto deaktivieren (Disable-ADAccount), Gruppenmitgliedschaften prüfen und in eine OU "Deaktiviert" verschieben
+- [ ] A) Konto deaktivieren (Disable-ADAccount), Gruppenmitgliedschaften prüfen und in eine [[OU]] "Deaktiviert" verschieben
 - [ ] B) Konto sofort löschen
 - [ ] C) Konto unverändert lassen und das Kennwort raten lassen
 - [ ] D) Die Domäne neu aufsetzen
@@ -93,7 +93,7 @@ Ein Mitarbeiter verlässt die Firma. Seine Postfach- und Dateidaten werden noch 
 > [!success]- Lösung Aufgabe 4
 > **A)** Konto deaktivieren (Disable-ADAccount), Gruppenmitgliedschaften prüfen und in eine OU "Deaktiviert" verschieben
 >
-> Deaktivieren erhält das Objekt samt SID und verhindert Anmeldungen; Löschen kann später erfolgen.
+> Deaktivieren erhält das Objekt samt [[SID]] und verhindert Anmeldungen; Löschen kann später erfolgen.
 
 ---
 
@@ -133,12 +133,12 @@ Wofür nutzen Sie den Assistenten "Objektverwaltung zuweisen" (Delegierung)?
 
 Ein Server steht in einem Raum ohne ausreichenden physischen Schutz. Er soll lokale Anmeldungen ermöglichen, aber das Risiko eines Kennwort-Diebstahls minimieren.
 
-**Frage:** Welche AD-Lösung ist am besten geeignet?
+**Frage:** Welche [[AD]]-Lösung ist am besten geeignet?
 
-- [ ] A) Ein zusätzlicher vollwertiger DC mit allen FSMO-Rollen
-- [ ] B) Ein schreibgeschützter Domänencontroller (RODC) mit eingeschränkter Kennwortreplikation
+- [ ] A) Ein zusätzlicher vollwertiger [[DC]] mit allen [[FSMO]]-Rollen
+- [ ] B) Ein schreibgeschützter Domänencontroller ([[RODC]]) mit eingeschränkter Kennwortreplikation
 - [ ] C) Ein Mitgliedsserver mit lokalem Administratorkonto
-- [ ] D) Ein zweiter DNS-Server ohne AD
+- [ ] D) Ein zweiter [[DNS]]-Server ohne AD
 
 > [!success]- Lösung Aufgabe 7
 > **B)** Ein schreibgeschützter Domänencontroller (RODC) mit eingeschränkter Kennwortreplikation
@@ -187,7 +187,7 @@ Ein DC war 200 Tage vom Netz getrennt (Lager). Er soll wieder ins Netzwerk. Die 
 
 Welche FSMO-Rollen existieren genau einmal pro Gesamtstruktur?
 
-- [ ] A) PDC-Emulator und RID-Master
+- [ ] A) [[PDC]]-Emulator und [[RID]]-Master
 - [ ] B) Schemamaster und Domänennamenmaster
 - [ ] C) Infrastrukturmaster und RID-Master
 - [ ] D) Alle fünf Rollen
@@ -201,11 +201,11 @@ Welche FSMO-Rollen existieren genau einmal pro Gesamtstruktur?
 
 **Aufgabe 11** - 2,5 P.
 
-Was ist die Hauptaufgabe der Active Directory-Domänendienste (AD DS)?
+Was ist die Hauptaufgabe der Active Directory-Domänendienste ([[AD DS]])?
 
 - [ ] A) Bereitstellung von Dateifreigaben
 - [ ] B) Zentrale Verwaltung von Identitäten, Authentifizierung und Autorisierung
-- [ ] C) Automatische Vergabe von IP-Adressen
+- [ ] C) Automatische Vergabe von [[IP]]-Adressen
 - [ ] D) Hosting von Webanwendungen
 
 > [!success]- Lösung Aufgabe 11
@@ -285,7 +285,7 @@ Im Vertrieb (50 Personen) sollen die Berechtigungen auf einem Datei-Share vergeb
 
 **Frage:** Welches Vorgehen entspricht der Best Practice?
 
-- [ ] A) Benutzerkonten in globale Gruppen aufnehmen, globale Gruppen in domänenlokale Gruppen, Berechtigungen der domänenlokalen Gruppe erteilen (AGDLP)
+- [ ] A) Benutzerkonten in globale Gruppen aufnehmen, globale Gruppen in domänenlokale Gruppen, Berechtigungen der domänenlokalen Gruppe erteilen ([[AGDLP]])
 - [ ] B) Jedem Benutzer direkt Berechtigungen auf den Share geben
 - [ ] C) Alle Benutzer in die Gruppe Domänen-Admins aufnehmen
 - [ ] D) Eine Verteilergruppe mit den Berechtigungen versehen
@@ -301,14 +301,14 @@ Im Vertrieb (50 Personen) sollen die Berechtigungen auf einem Datei-Share vergeb
 
 **Aufgabe 17** - 2,5 P.
 
-Clients im Büro erhalten plötzlich das Standardgateway 192.168.0.1 und einen unbekannten DNS-Server, obwohl der zentrale DHCP-Server (10.0.0.1) andere Werte verteilt. Ein Mitarbeiter hat einen privaten WLAN-Router am Netzwerk angeschlossen.
+Clients im Büro erhalten plötzlich das Standardgateway 192.168.0.1 und einen unbekannten DNS-Server, obwohl der zentrale [[DHCP]]-Server (10.0.0.1) andere Werte verteilt. Ein Mitarbeiter hat einen privaten [[WLAN]]-Router am Netzwerk angeschlossen.
 
 **Frage:** Was ist die Ursache und Gegenmaßnahme?
 
 - [ ] A) Der DNS-Cache der Clients ist beschädigt
 - [ ] B) Der Bereich des zentralen Servers ist zu klein
 - [ ] C) Ein nicht autorisierter DHCP-Server (Rogue-DHCP) im Netz; Gerät entfernen und DHCP-Snooping auf den Switches aktivieren
-- [ ] D) Die Kerberos-Zeit weicht ab
+- [ ] D) Die [[Kerberos]]-Zeit weicht ab
 
 > [!success]- Lösung Aufgabe 17
 > **C)** Ein nicht autorisierter DHCP-Server (Rogue-DHCP) im Netz; Gerät entfernen und DHCP-Snooping auf den Switches aktivieren
@@ -319,7 +319,7 @@ Clients im Büro erhalten plötzlich das Standardgateway 192.168.0.1 und einen u
 
 **Aufgabe 18** - 2,5 P.
 
-Im Netz erhalten Clients per Router-Advertisement (SLAAC) IPv6-Adressen, aber keine DNS-Serverinformationen.
+Im Netz erhalten Clients per Router-Advertisement (SLAAC) [[IPv6]]-Adressen, aber keine DNS-Serverinformationen.
 
 **Frage:** Wie lösen Sie das Problem?
 
@@ -355,12 +355,12 @@ Zwei DNS-Server verwalten die Zone contoso.local: DNS01 (primär) und DNS02 (sek
 
 **Aufgabe 20** - 2,5 P.
 
-Ein Server hat zwei Netzwerkkarten: LAN (192.168.1.0/24) und WAN mit öffentlicher IP-Adresse. Alle LAN-Clients sollen über diesen Server ins Internet gelangen. Eine separate Hardware-Firewall ist nicht vorhanden.
+Ein Server hat zwei Netzwerkkarten: [[LAN]] (192.168.1.0/24) und [[WAN]] mit öffentlicher IP-Adresse. Alle LAN-Clients sollen über diesen Server ins Internet gelangen. Eine separate Hardware-Firewall ist nicht vorhanden.
 
 **Frage:** Was konfigurieren Sie?
 
 - [ ] A) Einen DHCP-Relay-Agent auf der WAN-Karte
-- [ ] B) Die Rolle Remotezugriff mit dem Rollendienst Routing installieren, NAT auf der WAN-Schnittstelle einrichten und den Server als Standardgateway der Clients eintragen
+- [ ] B) Die Rolle Remotezugriff mit dem Rollendienst Routing installieren, [[NAT]] auf der WAN-Schnittstelle einrichten und den Server als Standardgateway der Clients eintragen
 - [ ] C) Eine DNS-Weiterleitung auf 127.0.0.1
 - [ ] D) IP-Forwarding auf allen Karten deaktivieren
 
@@ -383,7 +383,7 @@ Wie lang ist eine IPv6-Adresse?
 > [!success]- Lösung Aufgabe 21
 > **A)** 128 Bit
 >
-> IPv6-Adressen haben 128 Bit (IPv4: 32 Bit).
+> IPv6-Adressen haben 128 Bit ([[IPv4]]: 32 Bit).
 
 ---
 
@@ -421,7 +421,7 @@ Was bietet DHCP-Failover ab Windows Server 2012?
 
 **Aufgabe 24** - 2,5 P.
 
-Ein Windows Server 2022 hat zwei Netzwerkkarten: LAN (10.1.0.5/24) und DMZ (10.2.0.5/24). Er soll den Verkehr zwischen beiden Netzen weiterleiten.
+Ein Windows Server 2022 hat zwei Netzwerkkarten: LAN (10.1.0.5/24) und [[DMZ]] (10.2.0.5/24). Er soll den Verkehr zwischen beiden Netzen weiterleiten.
 
 **Frage:** Was tun Sie?
 
@@ -444,7 +444,7 @@ Mit welcher Serverrolle lässt sich Windows Server 2022 als Router (LAN-Routing)
 - [ ] A) DHCP-Server
 - [ ] B) Remotezugriff mit Rollendienst Routing
 - [ ] C) Hyper-V
-- [ ] D) WSUS
+- [ ] D) [[WSUS]]
 
 > [!success]- Lösung Aufgabe 25
 > **B)** Remotezugriff mit Rollendienst Routing
@@ -493,7 +493,7 @@ Für einen Webserver soll ein Zertifikat mit mehreren DNS-Namen (Subject Alterna
 
 **Aufgabe 28** - 2,5 P.
 
-Ein Unternehmen baut eine neue PKI auf und legt Wert auf maximale Sicherheit des Stammzertifikats. Ausgestellt werden sollen Zertifikate für Server, Clients und Benutzer im Active Directory.
+Ein Unternehmen baut eine neue [[PKI]] auf und legt Wert auf maximale Sicherheit des Stammzertifikats. Ausgestellt werden sollen Zertifikate für Server, Clients und Benutzer im Active Directory.
 
 **Frage:** Welche Konzeption ist am besten geeignet?
 
@@ -543,7 +543,7 @@ Wie lauten die Standardintervalle für die Veröffentlichung von CRLs auf einer 
 
 **Aufgabe 31** - 2,5 P.
 
-Was kennzeichnet eine Stammzertifizierungsstelle (Root CA)?
+Was kennzeichnet eine Stammzertifizierungsstelle (Root [[CA]])?
 
 - [ ] A) Sie besitzt ein selbstsigniertes Zertifikat und ist der Vertrauensanker der Hierarchie
 - [ ] B) Sie stellt nur Zertifikate für Endbenutzer aus
@@ -563,7 +563,7 @@ Zertifikate für Benutzer laufen in 30 Tagen ab. Sie möchten, dass sie ohne Ben
 
 **Frage:** Was konfigurieren Sie?
 
-- [ ] A) Autoenrollment für die Vorlage (Benutzerkonfiguration per GPO) und einen passenden Erneuerungszeitraum in der Vorlage
+- [ ] A) Autoenrollment für die Vorlage (Benutzerkonfiguration per [[GPO]]) und einen passenden Erneuerungszeitraum in der Vorlage
 - [ ] B) Die Gültigkeitsdauer auf 1 Tag setzen
 - [ ] C) Die CA-Datenbank zurücksetzen
 - [ ] D) Alle Benutzer neu anlegen
@@ -627,7 +627,7 @@ Mit welchem Cmdlet konfigurieren Sie den Webanwendungsproxy nach der Installatio
 
 ## Teil B - Eingabeaufgaben (5 Aufgaben)
 
-**Aufgabe 36** - 2,5 P. - *AD CS - Zertifikatdienste*
+**Aufgabe 36** - 2,5 P. - *[[AD CS]] - Zertifikatdienste*
 
 Mit welchem Snap-In (Dateiname .msc) verwalten Sie die Zertifikate des lokalen Computers?
 (Eingabe, z. B. xyz.msc)

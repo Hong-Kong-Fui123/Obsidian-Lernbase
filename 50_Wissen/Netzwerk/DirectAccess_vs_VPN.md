@@ -10,10 +10,10 @@ status: lernen
 
 | Protokoll      | Vollstaendiger Name                                                     | Port/Basis                                     | Verschluesselung                    | Bewertung                                    | Computer<br>Authentif. |
 | -------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | ----------------------------------- | -------------------------------------------- | ---------------------- |
-| PPTP / MPPE    | Point-to-Point Tunneling Protocol / Microsoft Point-to-Point Encryption | TCP 1723 + GRE (Generic Routing Encapsulation) | MPPE (RC4, bis 128 Bit)             | veraltet, unsicher – nicht mehr nutzen       | Nein                   |
-| L2TP (/IPsec)  | Layer 2 Tunneling Protocol (/ Internet Protocol Security)               | UDP 1701, 500, 4500                            | keine eigene → mit IPsec kombiniert | ok, aber NAT-/Firewall-Probleme              | Ja                     |
-| SSTP           | Secure Socket Tunneling Protocol                                        | TCP 443 (SSL/TLS)                              | SSL/TLS                             | firewallfreundlich, Windows-lastig           | Ja                     |
-| IKEv2 (/IPsec) | Internet Key Exchange version 2 (/ IPsec)                               | UDP 500, 4500                                  | IPsec (AES)                         | modern, stabil, schneller Reconnect (MOBIKE) | Ja                     |
+| [[PPTP]] / [[MPPE]]    | Point-to-Point Tunneling Protocol / Microsoft Point-to-Point Encryption | [[TCP]] 1723 + GRE (Generic Routing Encapsulation) | MPPE (RC4, bis 128 Bit)             | veraltet, unsicher – nicht mehr nutzen       | Nein                   |
+| [[L2TP]] (/[[IPsec]])  | Layer 2 Tunneling Protocol (/ Internet Protocol Security)               | [[UDP]] 1701, 500, 4500                            | keine eigene → mit IPsec kombiniert | ok, aber [[NAT]]-/Firewall-Probleme              | Ja                     |
+| [[SSTP]]           | Secure Socket Tunneling Protocol                                        | TCP 443 ([[SSL]]/[[TLS]])                              | SSL/TLS                             | firewallfreundlich, Windows-lastig           | Ja                     |
+| [[IKEv2]] (/IPsec) | Internet Key Exchange version 2 (/ IPsec)                               | UDP 500, 4500                                  | IPsec ([[AES]])                         | modern, stabil, schneller Reconnect (MOBIKE) | Ja                     |
 ### **[[User-Authentifizierungs-Protokolle – Uebersicht]]**
 
 | Protokoll    | Vollstaendiger Name                                   | Prinzip                                                       | Sicherheit                              | Bewertung                         |
@@ -22,11 +22,11 @@ status: lernen
 | SPAP         | Shiva Password Authentication Protocol                | Passwort verschluesselt (Shiva)                               | schwach, reversibel                     | veraltet, unsicher                |
 | CHAP         | Challenge Handshake Authentication Protocol           | Challenge-Response (MD5-Hash)                                 | mittel, Klartext-PW noetig auf Server   | besser als PAP, aber MD5 schwach  |
 | MS-CHAP (v2) | Microsoft Challenge Handshake Authentication Protocol | Challenge-Response, gegenseitige Auth (v2)                    | mittel, gegen moderne Angriffe knackbar | nur mit Tunnel (z. B. PEAP/IPsec) |
-| EAP          | Extensible Authentication Protocol                    | Rahmenwerk fuer viele Verfahren (TLS, Zertifikate, Smartcard) | hoch (je nach Methode, z. B. EAP-TLS)   | modern, Standard bei 802.1X/WLAN  |
+| EAP          | Extensible Authentication Protocol                    | Rahmenwerk fuer viele Verfahren (TLS, Zertifikate, Smartcard) | hoch (je nach Methode, z. B. EAP-TLS)   | modern, Standard bei 802.1X/[[WLAN]]  |
 # DirectAccess vs. VPN
 
 > [!abstract] Kernaussage
-> - **VPN**: Tunnel wird für den **Benutzer** aufgebaut (manuell oder automatisch).
+> - **[[VPN]]**: Tunnel wird für den **Benutzer** aufgebaut (manuell oder automatisch).
 > - **DirectAccess**: Tunnel wird für den **Computer** aufgebaut – automatisch, **vor** der Anmeldung.
 > - DirectAccess ist **veraltet**; Nachfolger von Microsoft: **Always On VPN**.
 
@@ -50,14 +50,14 @@ Verwandt: [[PKI Grundlagen]] · [[GPO Autoenrollment]] · [[Active Directory Gru
 | Kriterium | DirectAccess | VPN (klassisch) | Always On VPN |
 |---|---|---|---|
 | Clients | Windows Enterprise/Education, **domänengebunden** | Beliebiges OS | Windows 10/11 (Device Tunnel nur Enterprise) |
-| Protokoll | IPsec über IPv6 | PPTP, L2TP/IPsec, SSTP, IKEv2, OpenVPN, WireGuard | IKEv2, SSTP |
-| IPv6-Übergänge | 6to4, Teredo, **IP-HTTPS** | nicht nötig | nicht nötig |
-| Authentifizierung | Computerzertifikat + Computerkonto (Tunnel 1), + Kerberos Benutzer (Tunnel 2) | Benutzer: Passwort, MFA, Zertifikat | Gerätezertifikat (Device Tunnel) + Benutzer (User Tunnel) |
-| PKI | Vollbereitstellung: **Pflicht**. Vereinfachter Assistent: Kerberos-Proxy + selbstsigniertes Zertifikat (nur Win 8+, kein 2FA) | Optional (Serverzertifikat bei SSTP/IKEv2) | Praktisch Pflicht |
-| Verwaltung Client | **GPO** | Manuell / Skript | Intune, SCCM, PowerShell (ProfileXML) |
+| Protokoll | IPsec über [[IPv6]] | PPTP, L2TP/IPsec, SSTP, IKEv2, OpenVPN, WireGuard | IKEv2, SSTP |
+| IPv6-Übergänge | [[6to4]], [[Teredo]], **[[IP-HTTPS]]** | nicht nötig | nicht nötig |
+| Authentifizierung | Computerzertifikat + Computerkonto (Tunnel 1), + [[Kerberos]] Benutzer (Tunnel 2) | Benutzer: Passwort, [[MFA]], Zertifikat | Gerätezertifikat (Device Tunnel) + Benutzer (User Tunnel) |
+| [[PKI]] | Vollbereitstellung: **Pflicht**. Vereinfachter Assistent: Kerberos-Proxy + selbstsigniertes Zertifikat (nur Win 8+, kein 2FA) | Optional (Serverzertifikat bei SSTP/IKEv2) | Praktisch Pflicht |
+| Verwaltung Client | **[[GPO]]** | Manuell / Skript | Intune, [[SCCM]], PowerShell (ProfileXML) |
 | GPO/Updates unterwegs | Ja, dauerhaft | Nur bei aktivem Tunnel | Ja (Device Tunnel) |
-| Split-Tunneling | Standard (über NRPT) | Konfigurierbar | Konfigurierbar |
-| Serverrolle | Remote Access → DirectAccess | Remote Access → RRAS, oder Firewall/Appliance | RRAS + NPS |
+| Split-Tunneling | Standard (über [[NRPT]]) | Konfigurierbar | Konfigurierbar |
+| Serverrolle | Remote Access → DirectAccess | Remote Access → [[RRAS]], oder Firewall/Appliance | RRAS + [[NPS]] |
 | Status | **Deprecated** | Aktiv | Aktiv, Empfehlung von Microsoft |
 
 ---
@@ -66,11 +66,11 @@ Verwandt: [[PKI Grundlagen]] · [[GPO Autoenrollment]] · [[Active Directory Gru
 
 | Baustein | Zweck |
 |---|---|
-| **DirectAccess-Server** | Tunnel-Endpunkt, meist in DMZ hinter Edge-Firewall |
-| **NLS** (Network Location Server) | Interne HTTPS-Seite. Erreichbar → Client ist **intern**, DA bleibt aus |
-| **NRPT** (Name Resolution Policy Table) | Leitet DNS-Anfragen für `example.com` in den Tunnel |
-| **DNS64/NAT64** | Übersetzt IPv6-Client ↔ IPv4-only-Server intern |
-| **Tunnel 1 (Infrastruktur)** | Computer → DC, DNS, CA, WSUS. **Vor** Logon |
+| **DirectAccess-Server** | Tunnel-Endpunkt, meist in [[DMZ]] hinter Edge-Firewall |
+| **[[NLS]]** (Network Location Server) | Interne [[HTTPS]]-Seite. Erreichbar → Client ist **intern**, [[DA]] bleibt aus |
+| **NRPT** (Name Resolution Policy Table) | Leitet [[DNS]]-Anfragen für `example.com` in den Tunnel |
+| **[[DNS64]]/[[NAT64]]** | Übersetzt IPv6-Client ↔ [[IPv4]]-only-Server intern |
+| **Tunnel 1 (Infrastruktur)** | Computer → [[DC]], DNS, [[CA]], [[WSUS]]. **Vor** Logon |
 | **Tunnel 2 (Intranet)** | Benutzer → Fileserver, Web usw. **Nach** Logon |
 
 ```mermaid
@@ -86,7 +86,7 @@ flowchart LR
 
 | Technik | Port/Protokoll |
 |---|---|
-| IP-HTTPS | TCP 443 |
+| [[IP]]-HTTPS | TCP 443 |
 | Teredo | UDP 3544 |
 | 6to4 | IP-Protokoll 41 |
 | IKEv2 / L2TP-IPsec | UDP 500, 4500 (L2TP zusätzlich UDP 1701) |
@@ -213,7 +213,7 @@ Prüfe per PowerShell, ob der Client ein Computerzertifikat von EXA-CA01 besitzt
 > 1. DA: nur Windows Enterprise/Education + domänengebunden; VPN: jedes OS. DA: automatisch vor Logon durch Computer; VPN: manuell nach Logon durch Benutzer.
 > 2. NLS: interne HTTPS-Seite zur Standorterkennung (intern/extern). NRPT: Tabelle, die DNS-Anfragen für interne Namensräume in den Tunnel leitet.
 > 3. 6to4 (IP-Protokoll 41), Teredo (UDP 3544), IP-HTTPS (TCP 443).
-> 4. Veraltete Verschlüsselung (MS-CHAPv2/MPPE) ist geknackt → keine Vertraulichkeit.
+> 4. Veraltete Verschlüsselung ([[MS-CHAPv2]]/MPPE) ist geknackt → keine Vertraulichkeit.
 > 5. Tunnel 1: Infrastruktur (DC, DNS, CA), Computerzertifikat + Computerkonto, vor Logon. Tunnel 2: Intranet, zusätzlich Kerberos des Benutzers, nach Logon.
 > 6. Always On VPN: **Device Tunnel** (Gerät, vor Logon) und **User Tunnel** (Benutzer, nach Logon).
 

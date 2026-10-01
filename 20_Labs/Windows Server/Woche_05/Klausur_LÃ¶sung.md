@@ -95,19 +95,19 @@ A: Desaster!
 A: Limitierter Schaden:
 - Attacker kann nur Zertifikate von Sub-CA ausstellen
 - Browser validiert: Sub signiert diesen Fake → Issuer = Sub
-- Browser prüft: Ist Sub selbst noch vertrauenswürdig? (CRL-Check)
+- Browser prüft: Ist Sub selbst noch vertrauenswürdig? ([[CRL]]-Check)
 - Sub-CA wird widerrufen → Root signiert neue Sub-CA
 - ~24h Ausfall für Zertifikat-Ausstellung
 
 **Q: Wie verhindert man das?**
 
 A: Multi-Layer Security:
-- Root CA komplett offline (kein Netzwerk)
-- Root CA auf separater Hardware (HSM oder virtuell isoliert)
+- Root [[CA]] komplett offline (kein Netzwerk)
+- Root CA auf separater Hardware ([[HSM]] oder virtuell isoliert)
 - Sub CA gehärtet: Firewall, minimale Berechtigungen
 - Monitoring: CA-Logs überwachen
 - Backup: Root-Private-Key verschlüsselt lagern
-- CRL/OCSP: Revocation zeitnah
+- CRL/[[OCSP]]: Revocation zeitnah
 
 ---
 
@@ -117,13 +117,13 @@ A: Multi-Layer Security:
 
 **Schritte die du gemacht hast (Checkliste):**
 
-- ✅ VM EXA-SUB-CA01 gestartet
+- ✅ [[VM]] EXA-SUB-CA01 gestartet
 - ✅ Netzwerk getestet: `ping exa-dc01.example.com`
-- ✅ AD CS Feature installiert: `Add-WindowsFeature Adcs-Cert-Authority`
+- ✅ [[AD CS]] Feature installiert: `Add-WindowsFeature Adcs-Cert-Authority`
 - ✅ Wizard: Serverrole → Certification Authority (checkmark)
 - ✅ Wizard: Type → **Standalone CA** (nicht Enterprise!)
 - ✅ Wizard: Sub-type → **Root CA**
-- ✅ Wizard: Encryption → RSA, 2048-bit, SHA256
+- ✅ Wizard: Encryption → [[RSA]], 2048-bit, SHA256
 - ✅ Wizard: CA Name → CN=Example.com Root CA
 - ✅ Wizard: Validity → 10 Jahre
 - ✅ Root-Zertifikat exportiert: `Export-Certificate -Cert $RootCert -FilePath "C:\RootCA.crt"`
@@ -137,7 +137,7 @@ A: Multi-Layer Security:
 - ✅ VM EXA-CA01 gestartet
 - ✅ Domain beigetreten: `Add-Computer -DomainName example.com -Restart`
 - ✅ Netzwerk getestet: `ping exa-dc01.example.com`
-- ✅ AD CS Feature installiert: `Add-WindowsFeature Adcs-Cert-Authority`
+- ✅ [[AD]] CS Feature installiert: `Add-WindowsFeature Adcs-Cert-Authority`
 - ✅ Wizard: Role → Certification Authority (checkmark)
 - ✅ Wizard: Type → **Enterprise CA** (WICHTIG!)
 - ✅ Wizard: Sub-type → **Subordinate CA**
@@ -145,7 +145,7 @@ A: Multi-Layer Security:
 - ✅ Wizard: CA Name → CN=Example.com Enterprise CA
 - ✅ Wizard: Validity → 5 Jahre
 - ✅ Wizard: Root-Zertifikat angeben → C:\RootCA.crt
-- ✅ CSR von Root signieren lassen (CSR kopieren → Root online → signieren → zurück)
+- ✅ [[CSR]] von Root signieren lassen (CSR kopieren → Root online → signieren → zurück)
 - ✅ Signiertes Zertifikat importieren: `Import-Certificate -FilePath "C:\SubCA.crt" -CertStoreLocation Cert:\LocalMachine\My`
 - ✅ Wizard abschließen
 - ✅ Snapshot erstellt: `Checkpoint-VM -Name "EXA-CA01" -SnapshotName "Woche05_CA-Ready"`
@@ -361,9 +361,9 @@ dir C:\RootCA.crt
 
 **Wenn du diese Klausur bestanden hast** → Bereit für:
 
-- ✅ Zertifikat-Ausrollung (Auto-Enroll via GPO)
-- ✅ Zertifikate in IIS binden (HTTPS)
-- ✅ Client-Zertifikate (RDP, VPN)
+- ✅ Zertifikat-Ausrollung (Auto-Enroll via [[GPO]])
+- ✅ Zertifikate in [[IIS]] binden ([[HTTPS]])
+- ✅ Client-Zertifikate ([[RDP]], [[VPN]])
 - ✅ Code-Signing Zertifikate
 
 ---

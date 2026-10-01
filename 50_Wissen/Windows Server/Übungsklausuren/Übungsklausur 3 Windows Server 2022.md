@@ -33,7 +33,7 @@ Zurück zur Übersicht: [[Übungsklausuren – Übersicht]]
 
 Welche Voraussetzung sollte vor der Heraufstufung eines Servers zum Domänencontroller erfüllt sein?
 
-- [ ] A) Der Server erhält seine IP-Adresse per DHCP
+- [ ] A) Der Server erhält seine [[IP]]-Adresse per [[DHCP]]
 - [ ] B) Der Server hat eine statische IP-Adresse und einen eindeutigen Computernamen
 - [ ] C) Auf dem Server ist Exchange installiert
 - [ ] D) Der Server ist Mitglied einer Arbeitsgruppe mit dem Namen der künftigen Domäne
@@ -41,13 +41,13 @@ Welche Voraussetzung sollte vor der Heraufstufung eines Servers zum Domänencont
 > [!success]- Lösung Aufgabe 1
 > **B)** Der Server hat eine statische IP-Adresse und einen eindeutigen Computernamen
 >
-> Ein DC braucht eine statische IP-Adresse und einen festen Computernamen.
+> Ein [[DC]] braucht eine statische IP-Adresse und einen festen Computernamen.
 
 ---
 
 **Aufgabe 2** · 2,5 P.
 
-Worin unterscheidet sich eine Organisationseinheit (OU) von einem Standardcontainer wie "Users"?
+Worin unterscheidet sich eine Organisationseinheit ([[OU]]) von einem Standardcontainer wie "Users"?
 
 - [ ] A) Auf eine OU können Gruppenrichtlinien verknüpft und Verwaltungsaufgaben delegiert werden
 - [ ] B) OUs können nur Computerkonten enthalten
@@ -81,7 +81,7 @@ Die Abteilung Forschung möchte eigene Administratoren, verwaltet aber keine and
 
 **Aufgabe 4** · 2,5 P.
 
-Mit welchem Cmdlet übertragen Sie FSMO-Rollen kontrolliert auf einen anderen DC?
+Mit welchem Cmdlet übertragen Sie [[FSMO]]-Rollen kontrolliert auf einen anderen DC?
 
 - [ ] A) Move-ADDirectoryServerOperationMasterRole
 - [ ] B) Set-ADFSMO
@@ -113,12 +113,12 @@ Mit welchem Befehl zeigen Sie an, welche DCs die FSMO-Rollen halten?
 
 **Aufgabe 6** · 2,5 P.
 
-Die Personalabteilung liefert eine CSV-Datei mit 500 neuen Mitarbeitern (Vorname, Nachname, Abteilung). Diese sollen als Benutzerkonten in AD angelegt werden.
+Die Personalabteilung liefert eine CSV-Datei mit 500 neuen Mitarbeitern (Vorname, Nachname, Abteilung). Diese sollen als Benutzerkonten in [[AD]] angelegt werden.
 
 **Frage:** Wie automatisieren Sie das?
 
 - [ ] A) Jedes Konto manuell im Snap-In anlegen
-- [ ] B) Die CSV in SYSVOL kopieren
+- [ ] B) Die CSV in [[SYSVOL]] kopieren
 - [ ] C) Import-Csv mit einer Schleife und New-ADUser verwenden
 - [ ] D) Die Konten über die Registry importieren
 
@@ -131,7 +131,7 @@ Die Personalabteilung liefert eine CSV-Datei mit 500 neuen Mitarbeitern (Vorname
 
 **Aufgabe 7** · 2,5 P.
 
-Welche DNS-Zonenart wird für AD empfohlen?
+Welche [[DNS]]-Zonenart wird für AD empfohlen?
 
 - [ ] A) Primäre Standardzone
 - [ ] B) Sekundäre Zone
@@ -195,7 +195,7 @@ Welches Snap-In dient der Verwaltung von Benutzern, Gruppen und Computern (dsa.m
 
 **Aufgabe 11** · 2,5 P.
 
-Domäne: contoso.local. Die Benutzer sollen sich mit ihrer E-Mail-Adresse (z. B. anna@contoso.com) als UPN anmelden.
+Domäne: contoso.local. Die Benutzer sollen sich mit ihrer E-Mail-Adresse (z. B. anna@contoso.com) als [[UPN]] anmelden.
 
 **Frage:** Was konfigurieren Sie dafür?
 
@@ -235,7 +235,7 @@ In der Domäne contoso.local gibt es nur den DC01. Der Geschäftsführer fordert
 
 - [ ] A) SRV02 aus der Domäne entfernen und eine neue Gesamtstruktur anlegen
 - [ ] B) Nur die DNS-Rolle auf SRV02 installieren
-- [ ] C) AD DS auf SRV02 installieren und mit Install-ADDSDomainController zum zusätzlichen DC heraufstufen
+- [ ] C) [[AD DS]] auf SRV02 installieren und mit Install-ADDSDomainController zum zusätzlichen DC heraufstufen
 - [ ] D) Die Datei NTDS.dit manuell von DC01 nach SRV02 kopieren
 
 > [!success]- Lösung Aufgabe 13
@@ -268,7 +268,7 @@ Was ist die Aufgabe des Infrastrukturmasters?
 - [ ] A) Er aktualisiert Verweise auf Objekte aus anderen Domänen (Gruppenmitgliedschaften)
 - [ ] B) Er erstellt Gruppenrichtlinien
 - [ ] C) Er verwaltet den Papierkorb
-- [ ] D) Er ist für Kerberos-Tickets zuständig
+- [ ] D) Er ist für [[Kerberos]]-Tickets zuständig
 
 > [!success]- Lösung Aufgabe 15
 > **A)** Er aktualisiert Verweise auf Objekte aus anderen Domänen (Gruppenmitgliedschaften)
@@ -340,7 +340,7 @@ Der einzige DHCP-Server fällt aus, und Clients erhalten keine Adressen mehr. Si
 - [ ] A) Einen zweiten, unabhängigen DHCP-Server mit identischen Bereichen ohne Verbindung
 - [ ] B) Statische IP-Adressen für alle Clients
 - [ ] C) DHCP-Failover (Hot-Standby oder Lastenausgleich) zwischen zwei Servern
-- [ ] D) Eine APIPA-Konfiguration
+- [ ] D) Eine [[APIPA]]-Konfiguration
 
 > [!success]- Lösung Aufgabe 19
 > **C)** DHCP-Failover (Hot-Standby oder Lastenausgleich) zwischen zwei Servern
@@ -419,7 +419,7 @@ Was kennzeichnet eine sekundäre DNS-Zone?
 
 **Aufgabe 24** · 2,5 P.
 
-Welche der folgenden IPv4-Adressen liegt in einem privaten Adressbereich (RFC 1918)?
+Welche der folgenden [[IPv4]]-Adressen liegt in einem privaten Adressbereich (RFC 1918)?
 
 - [ ] A) 172.32.1.1
 - [ ] B) 172.20.5.4
@@ -457,8 +457,8 @@ Zwei PCs hängen am selben Switch: PC1 hat 192.168.1.10/24, PC2 hat 192.168.2.20
 
 **Frage:** Warum?
 
-- [ ] A) Der Switch blockiert ICMP
-- [ ] B) Die MAC-Adressen sind identisch
+- [ ] A) Der Switch blockiert [[ICMP]]
+- [ ] B) Die [[MAC]]-Adressen sind identisch
 - [ ] C) Die Geräte liegen in unterschiedlichen IP-Subnetzen; ohne Router oder Layer-3-Switch besteht keine Verbindung
 - [ ] D) DHCP ist deaktiviert
 
@@ -483,7 +483,7 @@ Wie wird die Datenbank einer Zertifizierungsstelle gespeichert?
 > [!success]- Lösung Aufgabe 27
 > **B)** Als ESE-Datenbank (.edb) im Ordner CertLog
 >
-> Die CA-Datenbank ist eine ESE-Datenbank (Standard: C:\Windows\System32\CertLog).
+> Die [[CA]]-Datenbank ist eine ESE-Datenbank (Standard: C:\Windows\System32\CertLog).
 
 ---
 
@@ -521,13 +521,13 @@ Wie gehen Sie vor, wenn Sie eine Standardzertifikatvorlage anpassen möchten?
 
 **Aufgabe 30** · 2,5 P.
 
-Clients melden beim Aufbau von HTTPS-Verbindungen: "Der Sperrstatus des Zertifikats konnte nicht überprüft werden." Die untergeordnete CA läuft; die Offline-Root-CA wurde zuletzt vor sieben Monaten eingeschaltet.
+Clients melden beim Aufbau von [[HTTPS]]-Verbindungen: "Der Sperrstatus des Zertifikats konnte nicht überprüft werden." Die untergeordnete CA läuft; die Offline-Root-CA wurde zuletzt vor sieben Monaten eingeschaltet.
 
 **Frage:** Was ist die wahrscheinlichste Ursache?
 
 - [ ] A) Die Vorlage ist veraltet
 - [ ] B) Der DHCP-Server ist ausgefallen
-- [ ] C) Die CRL der Offline-Root-CA ist abgelaufen; sie muss neu veröffentlicht und im CDP-Ort bereitgestellt werden
+- [ ] C) Die [[CRL]] der Offline-Root-CA ist abgelaufen; sie muss neu veröffentlicht und im [[CDP]]-Ort bereitgestellt werden
 - [ ] D) Das Webserver-Zertifikat wurde nicht signiert
 
 > [!success]- Lösung Aufgabe 30
@@ -539,7 +539,7 @@ Clients melden beim Aufbau von HTTPS-Verbindungen: "Der Sperrstatus des Zertifik
 
 **Aufgabe 31** · 2,5 P.
 
-Was bedeuten die Erweiterungen AIA und CDP in einem Zertifikat?
+Was bedeuten die Erweiterungen [[AIA]] und CDP in einem Zertifikat?
 
 - [ ] A) AIA nennt den Speicherort der CRL, CDP den Ort des Ausstellerzertifikats
 - [ ] B) Beide bezeichnen Registrierungsserver
@@ -560,8 +560,8 @@ Mitarbeiter sollen E-Mails digital signieren. Die Benutzerzertifikate sollen aut
 **Frage:** Welche Lösung passt?
 
 - [ ] A) Manuelle Anforderung über die Webregistrierung
-- [ ] B) Eine Benutzerzertifikatvorlage mit Autoregistrierung für Domänenbenutzer und eine GPO zur automatischen Registrierung in der Benutzerkonfiguration
-- [ ] C) Zertifikate auf USB-Sticks verteilen
+- [ ] B) Eine Benutzerzertifikatvorlage mit Autoregistrierung für Domänenbenutzer und eine [[GPO]] zur automatischen Registrierung in der Benutzerkonfiguration
+- [ ] C) Zertifikate auf [[USB]]-Sticks verteilen
 - [ ] D) Ein DHCP-Bereich mit Zertifikaten
 
 > [!success]- Lösung Aufgabe 32
@@ -593,10 +593,10 @@ Was sind Ansprüche (Claims) in AD FS?
 
 Welche Protokolle unterstützt AD FS unter Windows Server 2022 unter anderem?
 
-- [ ] A) Nur NTLM
+- [ ] A) Nur [[NTLM]]
 - [ ] B) SAML 2.0, WS-Federation, OAuth 2.0 und OpenID Connect
 - [ ] C) Nur Kerberos
-- [ ] D) Nur RADIUS
+- [ ] D) Nur [[RADIUS]]
 
 > [!success]- Lösung Aufgabe 34
 > **B)** SAML 2.0, WS-Federation, OAuth 2.0 und OpenID Connect
@@ -623,7 +623,7 @@ Was konfigurieren Sie in AD FS, damit einer Anwendung Tokens ausgestellt werden?
 
 ## Teil B – Eingabeaufgaben (5 Aufgaben)
 
-**Aufgabe 36** · 2,5 P. · *Netzwerk – IPv4/IPv6, Routing, DNS, DHCP*
+**Aufgabe 36** · 2,5 P. · *Netzwerk – IPv4/[[IPv6]], Routing, DNS, DHCP*
 
 Wie viele nutzbare Hostadressen bietet ein IPv4-Subnetz mit der Präfixlänge /26?
 (Zahl eingeben)
@@ -661,7 +661,7 @@ Antwort:
 > [!success]- Lösung Aufgabe 38
 > **3268**
 >
-> Globaler Katalog: 3268 (unverschlüsselt), 3269 (SSL).
+> Globaler Katalog: 3268 (unverschlüsselt), 3269 ([[SSL]]).
 
 ---
 
@@ -689,7 +689,7 @@ Antwort:
 > [!success]- Lösung Aufgabe 40
 > **53**
 >
-> DNS nutzt Port 53 (UDP für Abfragen, TCP für Zonenübertragungen und große Antworten).
+> DNS nutzt Port 53 ([[UDP]] für Abfragen, [[TCP]] für Zonenübertragungen und große Antworten).
 
 ---
 
@@ -724,7 +724,7 @@ Antwort:
 > | 24 | B | Netzwerk |
 > | 25 | A | Netzwerk |
 > | 26 | C | Netzwerk |
-> | 27 | B | AD CS |
+> | 27 | B | [[AD CS]] |
 > | 28 | C | AD CS |
 > | 29 | D | AD CS |
 > | 30 | C | AD CS |

@@ -65,7 +65,7 @@ Sollte sitzen.
 
 ## Was ist XML (Extensible Markup Language)
 
-Eine XML-Datei ist eine Textdatei, die Daten in einer strukturierten, hierarchischen Form speichert. Austauschformat für das Web, ähnlich wie .json.
+Eine [[XML]]-Datei ist eine Textdatei, die Daten in einer strukturierten, hierarchischen Form speichert. Austauschformat für das Web, ähnlich wie .json.
 
 ## Redundanz Beschreibung
 
@@ -372,7 +372,7 @@ EXEC  <procedure.name> @<funktion> = <Wert>;
 (z.B. Minsal @minsal = 2500;)
 
 Was ist eine CTE (COMMON TABLE EXPRESSION)?
-Eine CTE (Common Table Expression) ist eine temporäre Ergebnismenge, die innerhalb einer SQL-Abfrage definiert wird.
+Eine CTE (Common Table Expression) ist eine temporäre Ergebnismenge, die innerhalb einer [[SQL]]-Abfrage definiert wird.
 
 Sie dient dazu, komplexe Abfragen übersichtlicher und leichter lesbar zu machen.
 Eine CTE wird mit WITH erstellt und kann, wie eine normale Tabelle verwendet werden.

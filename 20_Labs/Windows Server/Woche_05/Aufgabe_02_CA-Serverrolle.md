@@ -1,6 +1,6 @@
 # 🔧 Aufgabe 02: CA-Serverrolle installieren und konfigurieren
 
-**Modul:** 2 – Zertifikate & PKI  
+**Modul:** 2 – Zertifikate & [[PKI]]  
 **Woche:** 05 (Dienstag)  
 **Dauer:** 60 Minuten  
 **Schwierigkeit:** ⭐⭐ Fortgeschrittene  
@@ -11,7 +11,7 @@
 ## 🎯 Lernziel dieser Aufgabe
 
 Nach dieser Aufgabe kannst du:
-- ✅ Standalone Root CA (offline) installieren (EXA-SUB-CA01)
+- ✅ Standalone Root [[CA]] (offline) installieren (EXA-SUB-CA01)
 - ✅ Enterprise Subordinate CA (online) installieren (EXA-CA01)
 - ✅ CA-Hierarchie aufbauen (Root signiert Sub)
 - ✅ Zertifikate im Certificate Manager (certmgr.msc) inspizieren
@@ -28,13 +28,13 @@ Nach dieser Aufgabe kannst du:
 - [ ] Netzwerk getestet: `ping exa-dc01.example.com`
 
 ### **Schritt 1: Root CA (EXA-SUB-CA01) installieren**
-- [ ] AD CS Rolle installiert
+- [ ] [[AD CS]] Rolle installiert
 - [ ] Standalone Root CA konfiguriert
 - [ ] CA-Zertifikat exportiert (für Sub-CA)
 - [ ] Snapshot: `Snapshot_Woche05_RootCA-Ready`
 
 ### **Schritt 2: Enterprise CA (EXA-CA01) installieren**
-- [ ] AD CS Rolle installiert
+- [ ] [[AD]] CS Rolle installiert
 - [ ] Enterprise Subordinate CA konfiguriert
 - [ ] Certificate Request signiert von Root
 - [ ] Zertifikat importiert
@@ -416,7 +416,7 @@ Der Wizard zeigt:
 # Option B: Manueller Copy über Network
 ```
 
-**CSR kopieren (Option A – Shared Folder):**
+**[[CSR]] kopieren (Option A – Shared Folder):**
 
 ```powershell
 # AUF EXA-DC01 (einfach zu bedienen):

@@ -11,7 +11,7 @@ Thema: [[Netzwerk]]
 
 > [!warning] Korrekturen
 > - `ping /all` und `arp -b` gibt es nicht – gemeint ist `ipconfig /all` bzw. `arp -a`/`arp -d`
-> - APIPA-Bereich: 169.254.0.0/16
+> - [[APIPA]]-Bereich: 169.254.0.0/16
 
 # Ping durch Firewall zulassen.
 
@@ -32,8 +32,8 @@ tracert (Rückverfolgungpakete)
 
 Die Nummer für die Feststellung des Subnetzmaskensystems z.B. /24 /25
 
-APIPA-Adressen - **Automatic Private IP Addressing**
-Sollte keine Antwort vom DHCP kommen, nimmt der Computer diese Adressen.
+APIPA-Adressen - **Automatic Private [[IP]] Addressing**
+Sollte keine Antwort vom [[DHCP]] kommen, nimmt der Computer diese Adressen.
 
 Routen
 

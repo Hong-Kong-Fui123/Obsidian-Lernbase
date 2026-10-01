@@ -88,7 +88,7 @@ Z.B. Wareneingang - Ausgang oder Geldtransfer auf Konten.
 
 ## COMMIT bei SQL-Express
 
-SQL-Express hat ein Auto-Commit, daher werden trotz BEGIN TRANSACTION die Änderungen übernommen.
+[[SQL]]-Express hat ein Auto-Commit, daher werden trotz BEGIN TRANSACTION die Änderungen übernommen.
 
 # Verschiedene SQL-Syntax mit TRANSACTION
 

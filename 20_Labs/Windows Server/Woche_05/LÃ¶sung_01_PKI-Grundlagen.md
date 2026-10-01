@@ -1,6 +1,6 @@
 # ✅ Lösung: Aufgabe 01 – PKI-Grundlagen
 
-**Modul:** 2 – Zertifikate & PKI  
+**Modul:** 2 – Zertifikate & [[PKI]]  
 **Aufgabe:** 01  
 **Dauer geschätzt:** 45 Minuten zum Vergleichen  
 
@@ -20,7 +20,7 @@
 
 2. **Server sendet sein Zertifikat**
    - Server: "Hier ist mein Zertifikat (mit meinem Public Key)"
-   - Zertifikat ist signiert von einer CA, die der Browser kennt
+   - Zertifikat ist signiert von einer [[CA]], die der Browser kennt
 
 3. **Browser validiert die Signatur**
    - Browser: "Ich kenne die CA, die das signiert hat"
@@ -85,7 +85,7 @@ SZENARIO B: Root CA ist OFFLINE
 | Frage | Antwort | Begründung |
 |-------|---------|-----------|
 | **a) Root kann neue Sub signieren?** | ✅ **JA** | Root ist offline, sauber, kann wieder online gehen und neue Sub-CA zertifizieren |
-| **b) Alte Zerts noch gültig bis CRL check?** | ✅ **JA (bis CRL aktualisiert)** | Browser cached Zertifikate, kennt CRL vielleicht nicht sofort. Nach CRL-Update = widerrufen |
+| **b) Alte Zerts noch gültig bis [[CRL]] check?** | ✅ **JA (bis CRL aktualisiert)** | Browser cached Zertifikate, kennt CRL vielleicht nicht sofort. Nach CRL-Update = widerrufen |
 | **c) Root auch kompromittiert?** | ❌ **NEIN** | Root ist offline, wurde nicht gehackt – nur Sub |
 
 **Detaillierte Erklärung:**
@@ -123,7 +123,7 @@ Hacker hackt EXA-CA01 (Sub-CA online)
    └─ "Widerrufen am 15.11.2025 – Reason: keyCompromise"
    ```
 
-2. **OCSP (Online Certificate Status Protocol) – Live-Abfrage**
+2. **[[OCSP]] (Online Certificate Status Protocol) – Live-Abfrage**
    ```
    Browser fragt OCSP-Server: "Ist Zertifikat XYZ noch gültig?"
    └─ OCSP gibt Real-Time Antwort: "Nein, widerrufen"
@@ -144,7 +144,7 @@ Hacker hackt EXA-CA01 (Sub-CA online)
 **Deine Antwort war gut wenn:**
 - ✅ Mindestens CRL oder OCSP genannt
 - ✅ Verstanden, dass es automatisch passiert
-- ✅ Weiß, dass CDP im Zertifikat auf CRL verweist
+- ✅ Weiß, dass [[CDP]] im Zertifikat auf CRL verweist
 
 ---
 
@@ -245,7 +245,7 @@ END-ENTITY (WEBSERVER):
 | "Root CA sollte online sein, damit schneller" | ❌ Root IMMER offline | Online = Angriffsvektor #1 |
 | "Alle Zertifikate werden sofort widerrufen" | ❌ CRL braucht Zeit | Browser cached CRL, aktualisiert später |
 | "Private Key kann mit Root teilen" | ❌ NIEMALS teilen | Private = Privat! Nur Owner |
-| "Certificate verschlüsselt Daten" | ❌ Beglaubigt nur Identität | Verschlüsselung kommt danach (TLS Handshake) |
+| "Certificate verschlüsselt Daten" | ❌ Beglaubigt nur Identität | Verschlüsselung kommt danach ([[TLS]] Handshake) |
 | "Subject und Issuer sind immer gleich" | ❌ Nur bei Root | Sub + End haben andere Subject/Issuer |
 
 ---
@@ -261,7 +261,7 @@ END-ENTITY (WEBSERVER):
    - **A:** Vertraut auf sich selbst, signiert Sub-CAs, bleibt offline.
 
 3. **Q:** Was ist CDP?
-   - **A:** CRL Distribution Point – URL im Zertifikat, wo die Revocation-Liste steht.
+   - **A:** CRL Distribution Point – [[URL]] im Zertifikat, wo die Revocation-Liste steht.
 
 4. **Q:** Kannst du ein Zertifikat selbst ausstellen?
    - **A:** Nur wenn du eine CA bist (ab Aufgabe 02!). Sonst brauchst du die Vertrauensperson (CA).

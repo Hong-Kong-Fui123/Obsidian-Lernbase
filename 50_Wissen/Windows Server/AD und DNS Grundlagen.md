@@ -37,19 +37,19 @@ Zentrale Verwaltung von Diensten, Gruppen und Richtlinien.
 
 Einmal in der Domäne angemeldet, kann man auf die Daten in den freigegebenen Orten zugreifen, als wenn es der eigene PC ist.
 
-Wird durch das Kerberos-Protokoll durchgeführt.
+Wird durch das [[Kerberos]]-Protokoll durchgeführt.
 
 ## Was sind die IDA?
 
 Identity and Access Managment
 
-1. **AD DS**       (Active Directory Domain Services) – Zentrale Verzeichnisdatenbank für
+1. **[[AD DS]]**       (Active Directory Domain Services) – Zentrale Verzeichnisdatenbank für
 
 Benutzer, Computer, Gruppen
 
-2. **AD CS**       (Active Directory Certificate Services) – Zertifikatverwaltung und PKI
+2. **[[AD CS]]**       (Active Directory Certificate Services) – Zertifikatverwaltung und [[PKI]]
 
-3. **AD FS**       (Active Directory Federation Services) – Sichere Identitätsverbund
+3. **[[AD]] FS**       (Active Directory Federation Services) – Sichere Identitätsverbund
 
 Authentifizierung über Grenzen
 

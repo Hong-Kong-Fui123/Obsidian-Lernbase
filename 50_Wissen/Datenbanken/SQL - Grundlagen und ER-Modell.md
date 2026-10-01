@@ -132,7 +132,7 @@ d) DELETE = Daten löschen
 
 ## 2) DCL (Data Control Language)
 
-Kontrolle und Rechte in SQL
+Kontrolle und Rechte in [[SQL]]
 
 a) GRANT = Rechte geben
 
@@ -206,7 +206,7 @@ Hier geht es um die technische Speicherung und Performance.
 
 **Beispiel:**
 
-Die Daten liegen auf SSD-Festplatten eines Datenbankservers.
+Die Daten liegen auf [[SSD]]-Festplatten eines Datenbankservers.
 
 ## Was ist das ER-Modell/Modellierung?
 

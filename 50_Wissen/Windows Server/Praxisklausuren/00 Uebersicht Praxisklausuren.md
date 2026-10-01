@@ -11,9 +11,9 @@ Drei Übungsklausuren für das Hyper-V-Homelab. Jede Klausur hat einen Praxistei
 
 | Klausur | Inhalt | Zeit |
 |---|---|---|
-| [[Praxisklausur 1 - AD DS DNS DHCP]] | Gesamtstruktur, zweiter DC, OUs, CSV-Import, DHCP, AGDLP, Client, Fehlersuche | 200 min |
-| [[Praxisklausur 2 - PKI Zertifikate]] | Offline-Root-CA, Issuing-CA, CDP/AIA, Webserver-Zertifikat, Autoenrollment, Sperrung, Sicherung | 230 min |
-| [[Praxisklausur 3 - Betrieb und Fehlerbehebung]] | FSMO, Papierkorb, PSO, Delegierung, Vertrauensstellung, Kontosperrung, GPO, DNS | 200 min |
+| [[Praxisklausur 1 - AD DS DNS DHCP]] | Gesamtstruktur, zweiter [[DC]], OUs, CSV-Import, [[DHCP]], [[AGDLP]], Client, Fehlersuche | 200 min |
+| [[Praxisklausur 2 - PKI Zertifikate]] | Offline-Root-CA, Issuing-CA, [[CDP]]/[[AIA]], Webserver-Zertifikat, Autoenrollment, Sperrung, Sicherung | 230 min |
+| [[Praxisklausur 3 - Betrieb und Fehlerbehebung]] | [[FSMO]], Papierkorb, PSO, Delegierung, Vertrauensstellung, Kontosperrung, [[GPO]], [[DNS]] | 200 min |
 | [[Vorbereitung - Fehler einbauen]] | Skripte für die Fehleraufgaben | - |
 
 ## Reihenfolge
@@ -31,12 +31,12 @@ Get-VM EXA-* | ForEach-Object { Restore-VMCheckpoint -VMName $_.Name -Name "K1-E
 
 ## Lab-Plan
 
-| VM | Rolle | IP-Adresse | OS |
+| [[VM]] | Rolle | [[IP]]-Adresse | OS |
 |---|---|---|---|
 | EXA-DC01 | Domänencontroller, DNS | 192.168.100.10/24 | Server 2022 |
 | EXA-DC02 | Domänencontroller, DNS | 192.168.100.11/24 | Server 2022 |
 | EXA-CA01 | Untergeordnete Enterprise-CA | 192.168.100.20/24 | Server 2022 |
-| EXA-WEB01 | IIS, PKI-Veröffentlichung | 192.168.100.30/24 | Server 2022 |
+| EXA-WEB01 | [[IIS]], [[PKI]]-Veröffentlichung | 192.168.100.30/24 | Server 2022 |
 | EXA-DHCP01 | DHCP, Dateiserver | 192.168.100.50/24 | Server 2022 |
 | EXA-ROOTCA (VM EXA-TEST01) | Offline-Stamm-CA, Arbeitsgruppe | 192.168.100.60/24 | Server 2022 |
 | EXA-CL01 | Client | DHCP | Windows 11 |

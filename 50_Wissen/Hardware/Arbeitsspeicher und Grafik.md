@@ -25,11 +25,11 @@ Fehlerkorrektur für Arbeitsspeicher (Meist Server)
 
 ## PAE (Physical Address Extension)
 
-Adresserweiterung bei Betriebssystemen zur RAM-Ausnutzung.
+Adresserweiterung bei Betriebssystemen zur [[RAM]]-Ausnutzung.
 
 ## Remapping
 
-Im BIOS wird Verwaltungsspeicher (z.B. PCI) als RAM freigegeben.
+Im [[BIOS]] wird Verwaltungsspeicher (z.B. PCI) als RAM freigegeben.
 
 ## Shared Memory
 
@@ -79,7 +79,7 @@ Für Analogmonitoren - mit 256 Zustände anzeigen. VGA.
 
 -       Begriff „GPU“ von Nvidia 1999 als marketingbegriff eingeführt (mit GeForce 256)
 
--       CPU ist auf sequenzielles „Abarbeiten“ optimiert, eine GPU auf Parallelisierung.
+-       [[CPU]] ist auf sequenzielles „Abarbeiten“ optimiert, eine GPU auf Parallelisierung.
 
 -       GPUs daher schon früher den CPUs überlegen.
 

@@ -19,8 +19,8 @@ Zurück zur Übersicht: [[00 Uebersicht Praxisklausuren|Übersicht Praxisklausur
 > [!info] Rahmen
 > - **Bearbeitungszeit:** 210 min Praxis + 20 min Theorie
 > - **Punkte:** Teil A Praxis 70, Teil B Theorie 30, gesamt 100
-> - **Benötigte VMs:** EXA-DC01, EXA-DC02, EXA-ROOTCA (VM EXA-TEST01), EXA-CA01, EXA-WEB01, EXA-CL01
-> - **Ausgangslage:** Endzustand von Praxisklausur 1. EXA-CA01 und EXA-WEB01 sind installiert, benannt, mit IP laut Lab-Plan versehen und Domänenmitglied. EXA-ROOTCA ist installiert, benannt und hat eine IP, ist aber **kein** Domänenmitglied. Dateien zwischen EXA-ROOTCA und dem Rest werden über einen Ordner C:\Transfer ausgetauscht (z. B. per Hyper-V-Zwischenablage im erweiterten Sitzungsmodus oder per ISO/VHDX).
+> - **Benötigte VMs:** EXA-DC01, EXA-DC02, EXA-ROOTCA ([[VM]] EXA-TEST01), EXA-CA01, EXA-WEB01, EXA-CL01
+> - **Ausgangslage:** Endzustand von Praxisklausur 1. EXA-CA01 und EXA-WEB01 sind installiert, benannt, mit [[IP]] laut Lab-Plan versehen und Domänenmitglied. EXA-ROOTCA ist installiert, benannt und hat eine IP, ist aber **kein** Domänenmitglied. Dateien zwischen EXA-ROOTCA und dem Rest werden über einen Ordner C:\Transfer ausgetauscht (z. B. per Hyper-V-Zwischenablage im erweiterten Sitzungsmodus oder per ISO/[[VHDX]]).
 > - Jede Anforderung mit Kästchen abhaken, sobald erledigt und geprüft.
 > - Lösungen sind eingeklappt. Erst nach der Bearbeitung öffnen (Lesemodus: Strg+E).
 
@@ -28,11 +28,11 @@ Zurück zur Übersicht: [[00 Uebersicht Praxisklausuren|Übersicht Praxisklausur
 
 ### Aufgabe 1: Offline-Stamm-CA (10 Punkte)
 
-- [ ] Auf EXA-ROOTCA ist eine eigenständige Stamm-CA **EXA-Root-CA** installiert (RSA 4096, SHA256, 10 Jahre)
+- [ ] Auf EXA-ROOTCA ist eine eigenständige Stamm-CA **EXA-Root-CA** installiert ([[RSA]] 4096, SHA256, 10 Jahre)
 - [ ] Von ihr ausgestellte Zertifikate sind 5 Jahre gültig
-- [ ] CRL-Gültigkeit 26 Wochen, keine Delta-CRL
-- [ ] CDP und AIA zeigen auf `http://pki.exa.local/CertEnroll/`
-- [ ] Die CA kennt die Konfigurationspartition von exa.local
+- [ ] [[CRL]]-Gültigkeit 26 Wochen, keine Delta-CRL
+- [ ] [[CDP]] und [[AIA]] zeigen auf `http://pki.exa.local/CertEnroll/`
+- [ ] Die [[CA]] kennt die Konfigurationspartition von exa.local
 
 **Nachweis:** `certutil -getreg CA\CRLPublicationURLs`, `certutil -getreg CA\CACertPublicationURLs`
 
@@ -48,7 +48,7 @@ Zurück zur Übersicht: [[00 Uebersicht Praxisklausuren|Übersicht Praxisklausur
 > Install-AdcsCertificationAuthority -CAType StandaloneRootCA -CACommonName "EXA-Root-CA" `
 >   -KeyLength 4096 -HashAlgorithmName SHA256 -ValidityPeriod Years -ValidityPeriodUnits 10 -Force
 >
-> certutil -setreg CA\DSConfigDN "CN=Configuration,DC=exa,DC=local"
+> certutil -setreg CA\DSConfigDN "CN=Configuration,[[DC]]=exa,DC=local"
 > certutil -setreg CA\ValidityPeriodUnits 5
 > certutil -setreg CA\ValidityPeriod "Years"
 > certutil -setreg CA\CRLPeriodUnits 26
@@ -67,10 +67,10 @@ Zurück zur Übersicht: [[00 Uebersicht Praxisklausuren|Übersicht Praxisklausur
 
 ### Aufgabe 2: Veröffentlichungspunkt auf EXA-WEB01 (8 Punkte)
 
-- [ ] IIS ist auf EXA-WEB01 installiert
+- [ ] [[IIS]] ist auf EXA-WEB01 installiert
 - [ ] Virtuelles Verzeichnis `CertEnroll` zeigt auf `C:\PKI\CertEnroll`, Double Escaping ist erlaubt (wegen `+` in Delta-CRLs)
 - [ ] Freigabe `CertEnroll`, auf die das Computerkonto EXA-CA01$ schreiben darf
-- [ ] DNS: `pki.exa.local` zeigt auf EXA-WEB01
+- [ ] [[DNS]]: `pki.exa.local` zeigt auf EXA-WEB01
 - [ ] Root-Zertifikat und Root-CRL liegen in `C:\PKI\CertEnroll`
 
 **Nachweis:** Von EXA-CL01 ist `http://pki.exa.local/CertEnroll/EXA-Root-CA.crl` abrufbar
@@ -112,7 +112,7 @@ Zurück zur Übersicht: [[00 Uebersicht Praxisklausuren|Übersicht Praxisklausur
 
 Alle Domänencomputer sollen der EXA-Root-CA vertrauen, ohne dass Sie jeden Rechner einzeln anfassen.
 
-- [ ] Root-Zertifikat ist in AD veröffentlicht
+- [ ] Root-Zertifikat ist in [[AD]] veröffentlicht
 - [ ] Auf EXA-CL01 und EXA-CA01 steht EXA-Root-CA unter "Vertrauenswürdige Stammzertifizierungsstellen"
 
 **Nachweis:** `Get-ChildItem Cert:\LocalMachine\Root | Where-Object Subject -like "*EXA-Root-CA*"`
@@ -137,7 +137,7 @@ Alle Domänencomputer sollen der EXA-Root-CA vertrauen, ohne dass Sie jeden Rech
 > Get-ChildItem Cert:\LocalMachine\Root | Where-Object Subject -like "*EXA-Root-CA*"
 > ```
 >
-> Alternative: GPO mit dem Zertifikat unter Computerkonfiguration > Richtlinien > Windows-Einstellungen > Sicherheitseinstellungen > Richtlinien für öffentliche Schlüssel > Vertrauenswürdige Stammzertifizierungsstellen.
+> Alternative: [[GPO]] mit dem Zertifikat unter Computerkonfiguration > Richtlinien > Windows-Einstellungen > Sicherheitseinstellungen > Richtlinien für öffentliche Schlüssel > Vertrauenswürdige Stammzertifizierungsstellen.
 
 ---
 
@@ -188,7 +188,7 @@ Alle Domänencomputer sollen der EXA-Root-CA vertrauen, ohne dass Sie jeden Rech
 >
 > Flags: 1 = veröffentlichen, 2 = in CDP der Zertifikate, 4 = in Delta-CRL-Verweis, 64 = Delta-CRL veröffentlichen. 65 = 1 + 64, 6 = 2 + 4.
 >
-> Wenn `-installcert` mit "Sperrfunktion offline" abbricht: Root-CRL ist per HTTP nicht erreichbar (Aufgabe 2 prüfen).
+> Wenn `-installcert` mit "Sperrfunktion offline" abbricht: Root-CRL ist per [[HTTP]] nicht erreichbar (Aufgabe 2 prüfen).
 
 ---
 
@@ -198,7 +198,7 @@ Alle Domänencomputer sollen der EXA-Root-CA vertrauen, ohne dass Sie jeden Rech
 - [ ] Nur die Gruppe `GG_Webserver` (Mitglied: EXA-WEB01$) darf registrieren
 - [ ] Vorlage ist auf EXA-Issuing-CA veröffentlicht
 - [ ] EXA-WEB01 hat ein Zertifikat mit `CN=intranet.exa.local` und den SANs `intranet.exa.local` und `EXA-WEB01.exa.local`
-- [ ] HTTPS-Bindung auf Port 443 in IIS, DNS: `intranet.exa.local` zeigt auf EXA-WEB01
+- [ ] [[HTTPS]]-Bindung auf Port 443 in IIS, DNS: `intranet.exa.local` zeigt auf EXA-WEB01
 
 **Nachweis:** `https://intranet.exa.local` öffnet auf EXA-CL01 ohne Zertifikatswarnung
 
@@ -207,7 +207,7 @@ Alle Domänencomputer sollen der EXA-Root-CA vertrauen, ohne dass Sie jeden Rech
 - 
 
 > [!success]- Lösung Aufgabe 5
-> **Vorlage auf EXA-CA01** (GUI `certtmpl.msc`):
+> **Vorlage auf EXA-CA01** ([[GUI]] `certtmpl.msc`):
 >
 > 1. "Webserver" > Vorlage duplizieren
 > 2. Allgemein: Name `EXA-Webserver`, Gültigkeit 2 Jahre
@@ -217,7 +217,7 @@ Alle Domänencomputer sollen der EXA-Root-CA vertrauen, ohne dass Sie jeden Rech
 > **Gruppe auf EXA-DC01** (PowerShell):
 >
 > ```powershell
-> New-ADGroup -Name GG_Webserver -GroupScope Global -Path "OU=Gruppen,OU=EXA,DC=exa,DC=local"
+> New-ADGroup -Name GG_Webserver -GroupScope Global -Path "[[OU]]=Gruppen,OU=EXA,DC=exa,DC=local"
 > Add-ADGroupMember GG_Webserver -Members (Get-ADComputer EXA-WEB01)
 > Add-DnsServerResourceRecordCName -ZoneName exa.local -Name intranet -HostNameAlias EXA-WEB01.exa.local
 > ```
@@ -268,7 +268,7 @@ Alle Domänencomputer sollen der EXA-Root-CA vertrauen, ohne dass Sie jeden Rech
 - [ ] Vorlage **EXA-Computer** (Duplikat von "Arbeitsstationsauthentifizierung")
 - [ ] "Domänencomputer" dürfen Lesen, Registrieren und Automatisch registrieren
 - [ ] Vorlage ist auf der CA veröffentlicht
-- [ ] GPO **PKI-Autoenrollment** mit der Domäne verknüpft: Zertifikatdienstclient - Automatische Registrierung aktiviert, Erneuern und Aktualisieren angehakt
+- [ ] GPO **[[PKI]]-Autoenrollment** mit der Domäne verknüpft: Zertifikatdienstclient - Automatische Registrierung aktiviert, Erneuern und Aktualisieren angehakt
 
 **Nachweis:** EXA-CL01 hat ohne manuelle Anforderung ein Zertifikat aus EXA-Computer im Computerspeicher
 
@@ -364,22 +364,22 @@ Welche Konfigurationsdatenbank verwendet AD FS standardmäßig?
 
 - [ ] A) Die AD-Datenbank NTDS.dit
 - [ ] B) Die Registry
-- [ ] C) Die Windows Internal Database (WID); für große Farmen optional SQL Server
-- [ ] D) Eine Textdatei im SYSVOL
+- [ ] C) Die Windows Internal Database (WID); für große Farmen optional [[SQL]] Server
+- [ ] D) Eine Textdatei im [[SYSVOL]]
 
 > [!success]- Lösung Frage 1
 > **C)** Die Windows Internal Database (WID); für große Farmen optional SQL Server
 >
 > Standard ist die WID, die zwischen den Farmknoten repliziert wird; SQL Server ist für große Umgebungen möglich.
 
-**Frage 2** (AD CS - Zertifikatdienste)
+**Frage 2** ([[AD CS]] - Zertifikatdienste)
 
 Wie aktivieren Sie die automatische Zertifikatregistrierung (Autoenrollment) für Domänenmitglieder?
 
 - [ ] A) Über die Registry der CA
 - [ ] B) Über eine Gruppenrichtlinie "Zertifikatdienstclient - Automatische Registrierung" sowie passende Rechte auf der Vorlage
 - [ ] C) Über einen DNS-Eintrag
-- [ ] D) Über DHCP-Optionen
+- [ ] D) Über [[DHCP]]-Optionen
 
 > [!success]- Lösung Frage 2
 > **B)** Über eine Gruppenrichtlinie "Zertifikatdienstclient - Automatische Registrierung" sowie passende Rechte auf der Vorlage
@@ -388,7 +388,7 @@ Wie aktivieren Sie die automatische Zertifikatregistrierung (Autoenrollment) fü
 
 **Frage 3** (AD CS - Zertifikatdienste)
 
-Alle Domänencomputer sollen automatisch ein Computerzertifikat (z. B. für WLAN- oder VPN-Authentifizierung) erhalten, ohne dass Administratoren eingreifen müssen.
+Alle Domänencomputer sollen automatisch ein Computerzertifikat (z. B. für [[WLAN]]- oder [[VPN]]-Authentifizierung) erhalten, ohne dass Administratoren eingreifen müssen.
 
 **Frage:** Welche Schritte sind erforderlich?
 
@@ -452,7 +452,7 @@ Welche Voraussetzung muss vor dem Einrichten einer AD FS-Farm erfüllt sein?
 
 - [ ] A) Ein Exchange-Server
 - [ ] B) Ein Domänencontroller mit Windows Server 2003
-- [ ] C) Ein TLS/SSL-Zertifikat mit dem Namen des Verbunddienstes (z. B. sts.contoso.com) und ein passender DNS-Eintrag
+- [ ] C) Ein [[TLS]]/[[SSL]]-Zertifikat mit dem Namen des Verbunddienstes (z. B. sts.contoso.com) und ein passender DNS-Eintrag
 - [ ] D) Ein DHCP-Bereich für den Verbunddienst
 
 > [!success]- Lösung Frage 7
@@ -512,7 +512,7 @@ Wofür werden die Active Directory-Verbunddienste (AD FS) hauptsächlich eingese
 | A2 Veröffentlichungspunkt auf EXA-WEB01 | 8 | |
 | A3 Root-Zertifikat verteilen | 8 | |
 | A4 Untergeordnete Enterprise-CA | 12 | |
-| A5 Webserver-Zertifikat mit SAN | 10 | |
+| A5 Webserver-Zertifikat mit [[SAN]] | 10 | |
 | A6 Automatische Registrierung für Computer | 10 | |
 | A7 Zertifikat sperren | 6 | |
 | A8 CA sichern | 6 | |

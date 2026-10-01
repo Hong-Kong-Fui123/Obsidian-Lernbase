@@ -1,10 +1,10 @@
 # 📖 Aufgabe 01: PKI-Grundlagen verstehen
 
-**Modul:** 2 – Zertifikate & PKI  
+**Modul:** 2 – Zertifikate & [[PKI]]  
 **Woche:** 05 (Montag)  
 **Dauer:** 60 Minuten  
 **Schwierigkeit:** ⭐ Anfänger  
-**Maschinen:** Nur Theorie (keine VM-Zugriffe nötig)  
+**Maschinen:** Nur Theorie (keine [[VM]]-Zugriffe nötig)  
 
 ---
 
@@ -12,7 +12,7 @@
 
 Nach dieser Aufgabe kannst du:
 - ✅ Asymmetrische Verschlüsselung erklären (Public-Key + Private-Key)
-- ✅ Certificate Authority (CA) Rollen verstehen
+- ✅ Certificate Authority ([[CA]]) Rollen verstehen
 - ✅ PKI-Hierarchie (Root → Subordinate → End-Entity) erklären
 - ✅ Trust-Chain und Zertifikat-Verifizierung verstehen
 - ✅ Unterschied zwischen Standalone CA und Enterprise-CA kennen
@@ -52,7 +52,7 @@ Asymmetrische Verschlüsselung nutzt zwei mathematisch verknüpfte Schlüssel:
    └─ Zum Entschlüsseln/Signieren nötig
 ```
 
-**Beispiel: Webserver mit HTTPS**
+**Beispiel: Webserver mit [[HTTPS]]**
 
 ```
 1. Browser fragt: "Hallo exa-web01.example.com, zeig mir dein Public-Key!"
@@ -165,7 +165,7 @@ Zertifikat für: exa-web01.example.com
 - **Issuer:** "Wer hat dieses Zertifikat ausgestellt?"
 - **Validity:** "Wie lange ist es gültig?"
 - **Signature:** "Beweis, dass Issuer das signiert hat"
-- **CDP:** "Wo kann ich die CRL (Revocation-Liste) finden?"
+- **[[CDP]]:** "Wo kann ich die [[CRL]] (Revocation-Liste) finden?"
 
 ---
 
@@ -235,7 +235,7 @@ Client (Browser) prüft:
 ### **Frage 4: Certificate Revocation**
 **Q:** Dein Web-Server-Zertifikat (exa-web01) ist gehackt. Wie erfährt der Browser davon?
 
-**Hinweis:** CDP Extension, CRL, OCSP
+**Hinweis:** CDP Extension, CRL, [[OCSP]]
 
 ---
 

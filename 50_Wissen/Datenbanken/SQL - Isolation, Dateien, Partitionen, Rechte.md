@@ -38,7 +38,7 @@ GO
 
 ## 2. Read Committed.
 
-Standard-Isolationslevel in vielen Datenbanksystemen (z. B. SQL Server). Es können nur bereits bestätigte Daten gelesen werden.
+Standard-Isolationslevel in vielen Datenbanksystemen (z. B. [[SQL]] Server). Es können nur bereits bestätigte Daten gelesen werden.
 
 ✘ Dirty Reads
 
@@ -245,7 +245,7 @@ Serverebene**:**
 
 - **Datenbankbenutzer:** Logins, die Zugriff auf eine spezifische Datenbank erhalten haben.
 - **Datenbankrollen:** Zusammenfassungen von Benutzern, um Berechtigungen zentral zu verwalten (z. B. die Rolle db_datareader).
-- **Anwendungsrollen (Application Roles):** Prinzipale, die ausschließlich für den Zugriff durch eine bestimmte Anwendung genutzt werden. Prinzipale können auch Dienstprinzipale (Service Principals) umfassen, die es externen Anwendungen oder Cloud-Diensten (wie Microsoft Entra ID) ermöglichen, sich automatisiert in der Datenbank zu authentifizieren.
+- **Anwendungsrollen (Application Roles):** Prinzipale, die ausschließlich für den Zugriff durch eine bestimmte Anwendung genutzt werden. Prinzipale können auch Dienstprinzipale (Service Principals) umfassen, die es externen Anwendungen oder Cloud-Diensten (wie Microsoft [[Entra ID]]) ermöglichen, sich automatisiert in der Datenbank zu authentifizieren.
 
 ## Was ist der Unterschied zwischen Datenbank- und Serverrollen?
 

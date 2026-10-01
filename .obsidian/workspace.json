@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Themen/IT-Begriffe und Abkürzungen.md",
+                "file": "50_Wissen/Datenbanken/SQL - Isolation, Dateien, Partitionen, Rechte.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IT-Begriffe und Abkürzungen"
+              "title": "SQL - Isolation, Dateien, Partitionen, Rechte"
             }
           }
         ]
@@ -217,6 +217,14 @@
   },
   "active": "4c3a6df170726e6f",
   "lastOpenFiles": [
+    "50_Wissen/Datenbanken/SQL - Grundlagen und ER-Modell.md",
+    "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
+    "Glossar/RAM.md",
+    "30_Geräte/VM-Infrastruktur.md",
+    "10_Themen/Hardware.md",
+    "Glossar/AD.md",
+    "Glossar/802.1Q.md",
+    "10_Themen/IT-Begriffe und Abkürzungen.md",
     "Glossar/YAML.md",
     "Glossar/XML.md",
     "Glossar/X.509.md",
@@ -235,14 +243,6 @@
     "Glossar/UPN.md",
     "Glossar/UID.md",
     "Glossar/UEFI.md",
-    "Glossar/UDP.md",
-    "Glossar/UAC.md",
-    "Glossar/TTL.md",
-    "Glossar/TPM.md",
-    "Glossar/TLS.md",
-    "Glossar/TGT.md",
-    "Glossar/TCP.md",
-    "Glossar/SYSVOL.md",
     "50_Wissen/Unbenannt.base",
     "Unbenannt.canvas",
     "Unbenannt 4.canvas",

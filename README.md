@@ -73,14 +73,14 @@ FiSi-Lernplan-Windows-Server/
 
 ## 🏗️ Deine Lab-Infrastruktur
 
-| Maschine | OS | Rolle | IP | RAM |
+| Maschine | OS | Rolle | [[IP]] | [[RAM]] |
 |----------|----|----|-------|-----|
 | **EXA-DC01** | Windows Server 2022 | Domain Controller (Primary) | 192.168.1.200 | 2 GB |
 | **EXA-DC02** | Windows Server 2022 | Domain Controller (Redundanz) | 192.168.1.201 | 2 GB |
-| **EXA-CA01** | Windows Server 2022 | Enterprise CA (Subordinate) | 192.168.1.210 | 2 GB |
+| **EXA-CA01** | Windows Server 2022 | Enterprise [[CA]] (Subordinate) | 192.168.1.210 | 2 GB |
 | **EXA-SUB-CA01** | Windows Server 2022 | Root CA (Offline) | 192.168.1.211 | 2 GB |
-| **EXA-WEB01** | Windows Server 2022 | IIS + Cert Binding | 192.168.1.220 | 2 GB |
-| **EXA-DB01** | Windows Server 2022 | SQL Server Basics | 192.168.1.221 | 2 GB |
+| **EXA-WEB01** | Windows Server 2022 | [[IIS]] + Cert Binding | 192.168.1.220 | 2 GB |
+| **EXA-DB01** | Windows Server 2022 | [[SQL]] Server Basics | 192.168.1.221 | 2 GB |
 | **EXA-CL01** | Windows 11 | Test Client | 192.168.1.100 | 4 GB |
 | **EXA-CL02** | Windows 10 | Test Client (Legacy) | 192.168.1.101 | 4 GB |
 
@@ -103,15 +103,15 @@ FiSi-Lernplan-Windows-Server/
 
 ## 🎓 Schulthemen (parallel)
 
-- **Aktuell:** GPO + Zertifikate
-- **Modul 2 Fokus:** PKI, CA-Hierarchie, Zertifikat-Ausrollung
+- **Aktuell:** [[GPO]] + Zertifikate
+- **Modul 2 Fokus:** [[PKI]], CA-Hierarchie, Zertifikat-Ausrollung
 - **Modul 3 (später):** Erweiterte GPO, Security Policies
 
 ---
 
 ## 💡 Tipps
 
-- **Snapshots machen:** Nach jeder erfolgreichen Übung VM-Snapshot erstellen
+- **Snapshots machen:** Nach jeder erfolgreichen Übung [[VM]]-Snapshot erstellen
 - **Backup der Notizen:** GitHub sync ist aktiv → alles ist gesichert
 - **Fehler protokollieren:** Im Ordner `Fehlerlog.md` dokumentieren
 - **Links nutzen:** Mit `[[Link]]` innerhalb Obsidian navigieren

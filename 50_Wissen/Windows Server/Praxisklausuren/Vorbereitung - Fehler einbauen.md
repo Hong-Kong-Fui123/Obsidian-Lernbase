@@ -50,7 +50,7 @@ Vor dem Start der Klausur ausführen, in dieser Reihenfolge.
 > **Auf EXA-DC01** (PowerShell als Domänen-Admin):
 >
 > ```powershell
-> New-ADOrganizationalUnit -Name Labor -Path "OU=EXA,DC=exa,DC=local"
+> New-ADOrganizationalUnit -Name Labor -Path "[[OU]]=EXA,[[DC]]=exa,DC=local"
 > Set-GPInheritance -Target "OU=Labor,OU=EXA,DC=exa,DC=local" -IsBlocked Yes
 > Get-ADComputer EXA-CL01 | Move-ADObject -TargetPath "OU=Labor,OU=EXA,DC=exa,DC=local"
 > Get-ADComputer EXA-CL01 | Set-ADAccountPassword -Reset `

@@ -21,7 +21,7 @@ Beispiele:
 
 -          Win 10/Win Server 2019               - Android (Linux)
 
--          Apple IOS (auch Darwin)              - usw.
+-          Apple [[IOS]] (auch Darwin)              - usw.
 
 ## Unterschied Client- und Serverbetriebssystem
 
@@ -37,7 +37,7 @@ Batch
 
 Übersetzung von Stapel, ursprünglich von den Stapeln der alten Lochkarten der ersten Rechner.
 
-NAT
+[[NAT]]
 
 Network Address Translation (Netzwerkadressübersetzung)
 
@@ -53,7 +53,7 @@ Dual Layer – zwei Lagen zum lesen
 
 ## Typ 1
 
-Diese Hypervisor-Art wird auch Bare-Metal-Hypervisor genannt und läuft
+Diese [[Hypervisor]]-Art wird auch Bare-Metal-Hypervisor genannt und läuft
 
 direkt auf der Server-Hardware. Man referenziert die Typ-1-Hypervisoren
 

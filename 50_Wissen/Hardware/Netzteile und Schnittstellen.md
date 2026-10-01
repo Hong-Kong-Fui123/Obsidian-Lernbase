@@ -23,7 +23,7 @@ Aufbau
 
 -       Prozessor-Stromanschluss
 
--       PCIe- Stromanschluss
+-       [[PCIe]]- Stromanschluss
 
 -       SATA- Stromanschluss
 
@@ -51,7 +51,7 @@ Kaltgerätestecker oder Stecker nach IE10 (international)
 
 -       Offline-USV
 
--       Günstigste USV mit der längsten Umschaltzeit (10 ms)
+-       Günstigste [[USV]] mit der längsten Umschaltzeit (10 ms)
 
 Sichert nur Stromversorgung, kein zusätzlicher Schutz.
 
@@ -93,7 +93,7 @@ Besitzt einen Bypass. Wenn Batterie kaputt, kann der Strom direkt aus dem Eingan
 
 -          Seriell werden immer nacheinander versendet
 
--          USB besteht aus der einem Sendungsleiter, einem Empfängerleiter und einem Masseleiter (Erdungsleiter)
+-          [[USB]] besteht aus der einem Sendungsleiter, einem Empfängerleiter und einem Masseleiter (Erdungsleiter)
 
 -          Der Host Controller vergibt bis zu 127 Endgeräte (7 Bits // 126 + 0)
 

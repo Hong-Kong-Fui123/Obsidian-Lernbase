@@ -15,11 +15,11 @@ Adressinformation bezüglich der Pakete die versandt werden.
 
 Namensauflösung
 
-Durch den DNS (Domain Name Service) werden die [www.XXX](http://www.XXX) in IP-Adressen aufgelöst.
+Durch den [[DNS]] (Domain Name Service) werden die [www.XXX](http://www.XXX) in [[IP]]-Adressen aufgelöst.
 
 WINS und DNS - alte und aktuelle Namensauflösung
 
-OSI - **„Alle deutschen Studenten trinken verschiedene Sorten Bier“**. Diese Eselsbrücke hilft, die Reihenfolge Anwendung, Darstellung, Sitzung, Transport, Vermittlung, Sicherung und Bitübertragung zu lernen.
+[[OSI]] - **„Alle deutschen Studenten trinken verschiedene Sorten Bier“**. Diese Eselsbrücke hilft, die Reihenfolge Anwendung, Darstellung, Sitzung, Transport, Vermittlung, Sicherung und Bitübertragung zu lernen.
 
 **Die 7 Schichten (von 7 nach 1):**
 
@@ -55,7 +55,7 @@ Einfacheres Passwort
 
 admin-000
 
-IPv6
+[[IPv6]]
 Unicast          z.B. Rechner zu Rechner
 Multicast        ersetzt den Broadcast vom v4
 

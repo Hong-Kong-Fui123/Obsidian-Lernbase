@@ -13,7 +13,7 @@ Thema: [[Programmierung]]
 
 ## Was ist ein GitHub-Repository?
 
-Ein **GitHub-Repository** ist ein Projektordner auf der Plattform GitHub, der mit dem Versionsverwaltungssystem Git verwaltet wird.
+Ein **GitHub-Repository** ist ein Projektordner auf der Plattform GitHub, der mit dem Versionsverwaltungssystem [[Git]] verwaltet wird.
 Darin werden Dateien, Änderungen und verschiedene Bearbeitungsstände gespeichert. Repositories können **öffentlich** oder **privat** sein.
 
 # Grundbegriffe der Versionsverwaltung

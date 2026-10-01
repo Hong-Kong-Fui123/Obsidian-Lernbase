@@ -31,8 +31,8 @@ Zurück zur Übersicht: [[00 Uebersicht Praxisklausuren|Übersicht Praxisklausur
 Die Server benötigen feste Namen und Adressen.
 
 - [ ] EXA-DC01, EXA-DC02 und EXA-DHCP01 sind wie im Lab-Plan benannt
-- [ ] Alle drei Server haben die statische IP-Adresse laut Lab-Plan
-- [ ] DNS-Server: DC01 zeigt auf .10 und .11, DC02 auf .11 und .10, DHCP01 auf .10 und .11
+- [ ] Alle drei Server haben die statische [[IP]]-Adresse laut Lab-Plan
+- [ ] [[DNS]]-Server: DC01 zeigt auf .10 und .11, DC02 auf .11 und .10, DHCP01 auf .10 und .11
 
 **Nachweis:** `ipconfig /all` auf jedem Server
 
@@ -56,7 +56,7 @@ Die Server benötigen feste Namen und Adressen.
 
 ### Aufgabe 2: Neue Gesamtstruktur exa.local (10 Punkte)
 
-- [ ] Auf EXA-DC01 ist die Rolle AD DS installiert
+- [ ] Auf EXA-DC01 ist die Rolle [[AD DS]] installiert
 - [ ] Die Gesamtstruktur **exa.local** (NetBIOS **EXA**) existiert, DNS ist mitinstalliert
 - [ ] Ein DSRM-Kennwort ist gesetzt und dokumentiert
 
@@ -70,7 +70,7 @@ Die Server benötigen feste Namen und Adressen.
 > **Auf EXA-DC01** (PowerShell als Administrator):
 >
 > ```powershell
-> Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
+> Install-WindowsFeature [[AD]]-Domain-Services -IncludeManagementTools
 > Install-ADDSForest -DomainName exa.local -DomainNetbiosName EXA -InstallDns `
 >   -SafeModeAdministratorPassword (Read-Host -AsSecureString "DSRM-Kennwort") -Force
 > ```
@@ -88,7 +88,7 @@ Die Server benötigen feste Namen und Adressen.
 
 Die Anmeldung muss auch bei Ausfall von DC01 funktionieren.
 
-- [ ] EXA-DC02 ist zusätzlicher DC der Domäne exa.local
+- [ ] EXA-DC02 ist zusätzlicher [[DC]] der Domäne exa.local
 - [ ] DC02 ist DNS-Server und Globaler Katalog
 - [ ] Die Replikation läuft fehlerfrei
 
@@ -121,7 +121,7 @@ Die Anmeldung muss auch bei Ausfall von DC01 funktionieren.
 
 ### Aufgabe 4: OU-Struktur und Benutzer per CSV (10 Punkte)
 
-- [ ] OU-Struktur: `EXA` mit den Unter-OUs `Benutzer`, `Computer`, `Gruppen`; unter `Benutzer` die OUs `Vertrieb` und `Technik`
+- [ ] [[OU]]-Struktur: `EXA` mit den Unter-OUs `Benutzer`, `Computer`, `Gruppen`; unter `Benutzer` die OUs `Vertrieb` und `Technik`
 - [ ] Alle OUs sind vor versehentlichem Löschen geschützt
 - [ ] Die Benutzer aus der CSV sind per PowerShell in der OU ihrer Abteilung angelegt
 - [ ] Anmeldename: erster Buchstabe Vorname + Nachname, klein (z. B. aberg)
@@ -178,11 +178,11 @@ David;Moser;Technik
 
 ### Aufgabe 5: DHCP-Server (10 Punkte)
 
-- [ ] EXA-DHCP01 ist Mitglied der Domäne, die DHCP-Rolle ist installiert und in AD autorisiert
+- [ ] EXA-DHCP01 ist Mitglied der Domäne, die [[DHCP]]-Rolle ist installiert und in AD autorisiert
 - [ ] Bereich 192.168.100.100 bis .200, Lease-Dauer 8 Tage
 - [ ] Ausschlussbereich .100 bis .109
 - [ ] Optionen: Router .1, DNS-Server .10 und .11, DNS-Domäne exa.local
-- [ ] Reservierung für den Drucker "Drucker-Flur" (MAC 00-15-5D-00-00-99) auf .150
+- [ ] Reservierung für den Drucker "Drucker-Flur" ([[MAC]] 00-15-5D-00-00-99) auf .150
 
 **Nachweis:** `Get-DhcpServerInDC`, `Get-DhcpServerv4Scope`, `Get-DhcpServerv4Reservation -ScopeId 192.168.100.0`
 
@@ -225,7 +225,7 @@ Der Vertrieb braucht eine Freigabe mit Änderungsrechten. Abteilungswechsel soll
 - [ ] Globale Gruppe `GG_Vertrieb` mit allen Vertriebsmitarbeitern (OU Gruppen)
 - [ ] Domänenlokale Gruppe `DL_Vertrieb_Aendern`, Mitglied: `GG_Vertrieb`
 - [ ] Ordner `C:\Shares\Vertrieb` auf EXA-DHCP01, freigegeben als `Vertrieb`
-- [ ] NTFS: `DL_Vertrieb_Aendern` hat Ändern; die Freigabeberechtigung steht der NTFS-Berechtigung nicht im Weg
+- [ ] [[NTFS]]: `DL_Vertrieb_Aendern` hat Ändern; die Freigabeberechtigung steht der NTFS-Berechtigung nicht im Weg
 
 **Nachweis:** Als aberg auf `\\EXA-DHCP01\Vertrieb` eine Datei anlegen; als clenz (Technik) keinen Zugriff
 
@@ -255,7 +255,7 @@ Der Vertrieb braucht eine Freigabe mit Änderungsrechten. Abteilungswechsel soll
 > icacls C:\Shares\Vertrieb /grant "EXA\DL_Vertrieb_Aendern:(OI)(CI)M"
 > ```
 >
-> Die Gruppenmitgliedschaft wirkt erst nach neuer Anmeldung (neues Kerberos-Ticket).
+> Die Gruppenmitgliedschaft wirkt erst nach neuer Anmeldung (neues [[Kerberos]]-Ticket).
 
 ---
 
@@ -307,7 +307,7 @@ Ticket: *"Nach einem Neustart kann sich auf EXA-CL01 niemand mehr an der Domäne
 - 
 
 > [!success]- Lösung Aufgabe 8
-> **Ursache 1:** Der DHCP-Server ist in AD nicht mehr autorisiert (roter Pfeil im DHCP-Manager). Der Client erhält keine Adresse und nutzt APIPA (169.254.x.x).
+> **Ursache 1:** Der DHCP-Server ist in AD nicht mehr autorisiert (roter Pfeil im DHCP-Manager). Der Client erhält keine Adresse und nutzt [[APIPA]] (169.254.x.x).
 >
 > **Ursache 2:** Auf dem Client ist als DNS-Server 8.8.8.8 fest eingetragen. Die SRV-Einträge der Domäne sind dort nicht bekannt.
 >
@@ -353,14 +353,14 @@ Für Administratoren soll eine Kennwortrichtlinie mit 16 Zeichen gelten, für al
 - [ ] A) Fein abgestufte Kennwortrichtlinie (PSO), zugewiesen an eine Sicherheitsgruppe
 - [ ] B) Mehrere Default Domain Policies
 - [ ] C) Ein zweiter Globaler Katalog
-- [ ] D) Ein RODC für Administratoren
+- [ ] D) Ein [[RODC]] für Administratoren
 
 > [!success]- Lösung Frage 1
 > **A)** Fein abgestufte Kennwortrichtlinie (PSO), zugewiesen an eine Sicherheitsgruppe
 >
 > Fine-Grained Password Policies (Password Settings Objects) erlauben unterschiedliche Kennwortrichtlinien innerhalb einer Domäne.
 
-**Frage 2** (Netzwerk - IPv4/IPv6, Routing, DNS, DHCP)
+**Frage 2** (Netzwerk - [[IPv4]]/[[IPv6]], Routing, DNS, DHCP)
 
 Drei Webserver (10.0.0.11 bis 10.0.0.13) sollen unter dem Namen www.contoso.com erreichbar sein und Anfragen möglichst gleichmäßig verteilt bekommen. Eine Lastenausgleichslösung steht nicht zur Verfügung.
 
@@ -455,7 +455,7 @@ Was ist in einer Active Directory-Umgebung vor dem produktiven Betrieb eines DHC
 - [ ] A) Ein Neustart des Clients
 - [ ] B) Ein statisches Gateway
 - [ ] C) Die Autorisierung des DHCP-Servers in AD
-- [ ] D) Ein Schreibzugriff auf SYSVOL
+- [ ] D) Ein Schreibzugriff auf [[SYSVOL]]
 
 > [!success]- Lösung Frage 8
 > **C)** Die Autorisierung des DHCP-Servers in AD
@@ -467,18 +467,18 @@ Was ist in einer Active Directory-Umgebung vor dem produktiven Betrieb eines DHC
 Welches Protokoll wird in einer AD-Domäne standardmäßig zur Authentifizierung verwendet?
 
 - [ ] A) NTLMv1
-- [ ] B) RADIUS
+- [ ] B) [[RADIUS]]
 - [ ] C) Kerberos
-- [ ] D) SMTP
+- [ ] D) [[SMTP]]
 
 > [!success]- Lösung Frage 9
 > **C)** Kerberos
 >
-> Kerberos ist das Standardprotokoll; NTLM dient nur als Fallback.
+> Kerberos ist das Standardprotokoll; [[NTLM]] dient nur als Fallback.
 
 **Frage 10** (Netzwerk - IPv4/IPv6, Routing, DNS, DHCP)
 
-Clients im Büro erhalten plötzlich das Standardgateway 192.168.0.1 und einen unbekannten DNS-Server, obwohl der zentrale DHCP-Server (10.0.0.1) andere Werte verteilt. Ein Mitarbeiter hat einen privaten WLAN-Router am Netzwerk angeschlossen.
+Clients im Büro erhalten plötzlich das Standardgateway 192.168.0.1 und einen unbekannten DNS-Server, obwohl der zentrale DHCP-Server (10.0.0.1) andere Werte verteilt. Ein Mitarbeiter hat einen privaten [[WLAN]]-Router am Netzwerk angeschlossen.
 
 **Frage:** Was ist die Ursache und Gegenmaßnahme?
 
@@ -503,7 +503,7 @@ Clients im Büro erhalten plötzlich das Standardgateway 192.168.0.1 und einen u
 | A3 Zweiter Domänencontroller | 8 | |
 | A4 OU-Struktur und Benutzer per CSV | 10 | |
 | A5 DHCP-Server | 10 | |
-| A6 Dateifreigabe nach AGDLP | 8 | |
+| A6 Dateifreigabe nach [[AGDLP]] | 8 | |
 | A7 Client in die Domäne | 8 | |
 | A8 Fehlerbehebung: Client ohne Domäne | 10 | |
 | Teil B Theorie (10 x 3) | 30 | |

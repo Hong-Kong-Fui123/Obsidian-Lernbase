@@ -30,7 +30,7 @@ Zurück zur Übersicht: [[00 Uebersicht Praxisklausuren|Übersicht Praxisklausur
 
 EXA-DC01 soll gewartet werden.
 
-- [ ] Alle fünf FSMO-Rollen liegen geordnet auf EXA-DC02 (kein Seizing)
+- [ ] Alle fünf [[FSMO]]-Rollen liegen geordnet auf EXA-DC02 (kein Seizing)
 - [ ] Sie können begründen, warum hier nicht mit -Force gearbeitet wird
 
 **Nachweis:** `netdom query fsmo`
@@ -51,14 +51,14 @@ EXA-DC01 soll gewartet werden.
 >
 > Seizing (-Force) nur, wenn der alte Rolleninhaber dauerhaft ausgefallen ist. DC01 ist online, also Transfer.
 >
-> Wichtig für Aufgabe 6: Der PDC-Emulator ist jetzt **EXA-DC02**.
+> Wichtig für Aufgabe 6: Der [[PDC]]-Emulator ist jetzt **EXA-DC02**.
 
 ---
 
 ### Aufgabe 2: AD-Papierkorb und Wiederherstellung (10 Punkte)
 
-- [ ] Der AD-Papierkorb ist aktiviert
-- [ ] Simulieren: Löschschutz der OU `Vertrieb` entfernen und die OU samt Inhalt löschen
+- [ ] Der [[AD]]-Papierkorb ist aktiviert
+- [ ] Simulieren: Löschschutz der [[OU]] `Vertrieb` entfernen und die OU samt Inhalt löschen
 - [ ] OU, Benutzer und deren Mitgliedschaft in `GG_Vertrieb` sind wiederhergestellt
 - [ ] Löschschutz ist wieder aktiv
 
@@ -75,7 +75,7 @@ EXA-DC01 soll gewartet werden.
 > Enable-ADOptionalFeature -Identity "Recycle Bin Feature" -Scope ForestOrConfigurationSet `
 >   -Target exa.local -Confirm:$false
 >
-> $ou = "OU=Vertrieb,OU=Benutzer,OU=EXA,DC=exa,DC=local"
+> $ou = "OU=Vertrieb,OU=Benutzer,OU=EXA,[[DC]]=exa,DC=local"
 > Set-ADOrganizationalUnit $ou -ProtectedFromAccidentalDeletion $false
 > Remove-ADOrganizationalUnit $ou -Recursive -Confirm:$false
 >
@@ -140,12 +140,12 @@ EXA-DC01 soll gewartet werden.
 > Add-ADGroupMember GG_Helpdesk -Members hdesk
 >
 > dsacls "OU=Benutzer,OU=EXA,DC=exa,DC=local" /I:S /G `
->   "EXA\GG_Helpdesk:CA;Reset Password;user" `
+>   "EXA\GG_Helpdesk:[[CA]];Reset Password;user" `
 >   "EXA\GG_Helpdesk:RP;pwdLastSet;user" `
 >   "EXA\GG_Helpdesk:WP;pwdLastSet;user"
 > ```
 >
-> Alternativ per GUI: `dsa.msc` > OU Benutzer > Objektverwaltung zuweisen > "Setzt Benutzerkennwörter zurück und erzwingt Kennwortänderung bei der nächsten Anmeldung".
+> Alternativ per [[GUI]]: `dsa.msc` > OU Benutzer > Objektverwaltung zuweisen > "Setzt Benutzerkennwörter zurück und erzwingt Kennwortänderung bei der nächsten Anmeldung".
 >
 > **Test auf EXA-DC02:**
 >
@@ -234,7 +234,7 @@ Ticket danach: *"Anna Berg (aberg) ist ständig gesperrt, obwohl sie ihr Kennwor
 
 ### Aufgabe 7: Fehlerbehebung: GPO greift nicht (8 Punkte)
 
-- [ ] GPO **SEC-Basis** angelegt und mit der Domäne verknüpft: Interaktive Anmeldung - Letzten Benutzernamen nicht anzeigen = Aktiviert
+- [ ] [[GPO]] **SEC-Basis** angelegt und mit der Domäne verknüpft: Interaktive Anmeldung - Letzten Benutzernamen nicht anzeigen = Aktiviert
 - [ ] Die GPO muss auf **allen** Computern gelten
 
 Ticket: *"Auf EXA-CL01 wird SEC-Basis nicht angewendet."* Die Einstellungen der betroffenen OU dürfen nicht geändert werden.
@@ -311,9 +311,9 @@ Ticket: *"Auf EXA-CL01 wird SEC-Basis nicht angewendet."* Die Einstellungen der 
 
 Je Frage 3 Punkte. Genau eine Antwort ist richtig, bei Eingabefragen die Antwort eintragen.
 
-**Frage 1** (Netzwerk - IPv4/IPv6, Routing, DNS, DHCP)
+**Frage 1** (Netzwerk - [[IPv4]]/[[IPv6]], Routing, [[DNS]], [[DHCP]])
 
-Ein Multihomed-Server (LAN und WAN) hat auf beiden Netzwerkkarten ein Standardgateway eingetragen. Die Verbindungen sind unregelmäßig.
+Ein Multihomed-Server ([[LAN]] und [[WAN]]) hat auf beiden Netzwerkkarten ein Standardgateway eingetragen. Die Verbindungen sind unregelmäßig.
 
 **Frage:** Was ist zu tun?
 
@@ -339,7 +339,7 @@ Antwort:
 >
 > Führende Nullen entfallen, eine Folge von Nullgruppen wird einmal durch :: ersetzt.
 
-**Frage 3** (AD DS - Domänendienste)
+**Frage 3** ([[AD DS]] - Domänendienste)
 
 Wie viele FSMO-Rollen (Betriebsmaster) gibt es insgesamt?
 (Zahl eingeben)
@@ -349,13 +349,13 @@ Antwort:
 > [!success]- Lösung Frage 3
 > **5**
 >
-> Fünf Rollen: Schemamaster, Domänennamenmaster, PDC-Emulator, RID-Master, Infrastrukturmaster.
+> Fünf Rollen: Schemamaster, Domänennamenmaster, PDC-Emulator, [[RID]]-Master, Infrastrukturmaster.
 
 **Frage 4** (AD DS - Domänendienste)
 
 Welche Voraussetzung sollte vor der Heraufstufung eines Servers zum Domänencontroller erfüllt sein?
 
-- [ ] A) Der Server erhält seine IP-Adresse per DHCP
+- [ ] A) Der Server erhält seine [[IP]]-Adresse per DHCP
 - [ ] B) Der Server hat eine statische IP-Adresse und einen eindeutigen Computernamen
 - [ ] C) Auf dem Server ist Exchange installiert
 - [ ] D) Der Server ist Mitglied einer Arbeitsgruppe mit dem Namen der künftigen Domäne
@@ -372,7 +372,7 @@ In einer Domäne ist der AD-Papierkorb nicht aktiviert. Ein Benutzerkonto samt G
 **Frage:** Welches Verfahren stellt das Objekt mit den ursprünglichen Attributen wieder her?
 
 - [ ] A) Restore-ADObject ohne Sicherung
-- [ ] B) Ein neues Konto mit gleichem Namen anlegen; die SID ist dann identisch
+- [ ] B) Ein neues Konto mit gleichem Namen anlegen; die [[SID]] ist dann identisch
 - [ ] C) gpupdate /force
 - [ ] D) Autoritative Wiederherstellung aus der Sicherung im DSRM mit ntdsutil
 
@@ -397,11 +397,11 @@ Mit welchem Befehl prüfen Sie den Replikationsstatus aller DCs übersichtlich?
 
 **Frage 7** (AD DS - Domänendienste)
 
-Benutzer melden Anmeldeprobleme und Kerberos-Fehler. Eine Prüfung zeigt, dass die Uhr des Mitgliedsservers SRV03 zehn Minuten von der Domänenzeit abweicht.
+Benutzer melden Anmeldeprobleme und [[Kerberos]]-Fehler. Eine Prüfung zeigt, dass die Uhr des Mitgliedsservers SRV03 zehn Minuten von der Domänenzeit abweicht.
 
 **Frage:** Warum schlägt die Anmeldung fehl, und wie beheben Sie es?
 
-- [ ] A) NTLM ist deaktiviert; NTLM aktivieren
+- [ ] A) [[NTLM]] ist deaktiviert; NTLM aktivieren
 - [ ] B) Die Kerberos-Zeittoleranz von 5 Minuten ist überschritten; Zeit mit der Domäne synchronisieren (z. B. w32tm /resync)
 - [ ] C) Das Kennwort ist abgelaufen; Kennwort zurücksetzen
 - [ ] D) Der Globale Katalog ist nicht erreichbar; GC neu starten
@@ -418,7 +418,7 @@ Ein Administrator legt mit "route add 10.4.0.0 mask 255.255.0.0 10.1.0.254" eine
 **Frage:** Wie legen Sie die Route dauerhaft an?
 
 - [ ] A) Den Server nie mehr neu starten
-- [ ] B) Die Route in den Ordner SYSVOL kopieren
+- [ ] B) Die Route in den Ordner [[SYSVOL]] kopieren
 - [ ] C) Mit dem Parameter -p (route add ... -p) oder mit New-NetRoute (persistenter Speicher) anlegen
 - [ ] D) Einen DNS-Eintrag für das Zielnetz anlegen
 
@@ -429,7 +429,7 @@ Ein Administrator legt mit "route add 10.4.0.0 mask 255.255.0.0 10.1.0.254" eine
 
 **Frage 9** (Netzwerk - IPv4/IPv6, Routing, DNS, DHCP)
 
-Welcher Adressbereich (Netz/Präfix) wird bei einem Windows-Client verwendet, wenn kein DHCP-Server erreichbar ist (APIPA)?
+Welcher Adressbereich (Netz/Präfix) wird bei einem Windows-Client verwendet, wenn kein DHCP-Server erreichbar ist ([[APIPA]])?
 (Eingabe, z. B. 10.0.0.0/8)
 
 Antwort: 

@@ -52,25 +52,25 @@ Ein virtualisierter Domänencontroller (Hyper-V) wird nach einem fehlerhaften Up
 **Frage:** Welche Technik schützt Windows Server 2022 dabei?
 
 - [ ] A) Der Papierkorb
-- [ ] B) Die VM-Generation-ID, die der DC nach dem Zurücksetzen erkennt und sich sicher verhält (neue Invocation-ID, Neuabgleich von SYSVOL)
-- [ ] C) Das Protokoll DHCP
+- [ ] B) Die [[VM]]-Generation-ID, die der [[DC]] nach dem Zurücksetzen erkennt und sich sicher verhält (neue Invocation-ID, Neuabgleich von [[SYSVOL]])
+- [ ] C) Das Protokoll [[DHCP]]
 - [ ] D) Die Gruppenrichtlinie Standarddomänenrichtlinie
 
 > [!success]- Lösung Aufgabe 2
 > **B)** Die VM-Generation-ID, die der DC nach dem Zurücksetzen erkennt und sich sicher verhält (neue Invocation-ID, Neuabgleich von SYSVOL)
 >
-> Bei Hypervisor-Unterstützung erkennt der DC die geänderte VM-Generation-ID und schützt vor USN-Rollback. Snapshots sind dennoch keine Sicherung.
+> Bei [[Hypervisor]]-Unterstützung erkennt der DC die geänderte VM-Generation-ID und schützt vor USN-Rollback. Snapshots sind dennoch keine Sicherung.
 
 ---
 
 **Aufgabe 3** · 2,5 P.
 
-Eine Gruppenrichtlinie mit Sicherheitsvorgaben ist mit der Domäne verknüpft. Der Administrator der OU "Labor" hat dort "Vererbung deaktivieren" gesetzt, wodurch die Richtlinie dort nicht gilt. Sie soll aber überall gelten.
+Eine Gruppenrichtlinie mit Sicherheitsvorgaben ist mit der Domäne verknüpft. Der Administrator der [[OU]] "Labor" hat dort "Vererbung deaktivieren" gesetzt, wodurch die Richtlinie dort nicht gilt. Sie soll aber überall gelten.
 
 **Frage:** Wie stellen Sie das sicher?
 
 - [ ] A) Die OU löschen
-- [ ] B) Die GPO in SYSVOL umbenennen
+- [ ] B) Die [[GPO]] in SYSVOL umbenennen
 - [ ] C) gpupdate /force auf jedem Client ausführen
 - [ ] D) Den Domänenlink der GPO auf "Erzwungen" (Enforced) setzen
 
@@ -101,7 +101,7 @@ Eine Gruppenrichtlinie ist mit der Domäne verknüpft. Computerkonten befinden s
 
 **Aufgabe 5** · 2,5 P.
 
-Die Firma Contoso richtet erstmals Active Directory ein. Ein frisch installierter Windows Server 2022 (SRV01) ist bereits mit statischer IP konfiguriert und die Rolle AD DS ist installiert. Es existiert noch keine Domäne.
+Die Firma Contoso richtet erstmals Active Directory ein. Ein frisch installierter Windows Server 2022 (SRV01) ist bereits mit statischer [[IP]] konfiguriert und die Rolle [[AD DS]] ist installiert. Es existiert noch keine Domäne.
 
 **Frage:** Welchen Befehl führen Sie aus, um contoso.local anzulegen?
 
@@ -119,7 +119,7 @@ Die Firma Contoso richtet erstmals Active Directory ein. Ein frisch installierte
 
 **Aufgabe 6** · 2,5 P.
 
-Welche Aufgabe hat der PDC-Emulator?
+Welche Aufgabe hat der [[PDC]]-Emulator?
 
 - [ ] A) Zeitsynchronisierung in der Domäne, Kennwortänderungen und Kontosperrungen
 - [ ] B) Verwaltung des Schemas
@@ -153,7 +153,7 @@ Ein Administrator möchte das Schema erweitern (neues Attribut). Der Vorgang sch
 
 **Aufgabe 8** · 2,5 P.
 
-Mit welchem Snap-In fügen Sie zusätzliche UPN-Suffixe für die Gesamtstruktur hinzu?
+Mit welchem Snap-In fügen Sie zusätzliche [[UPN]]-Suffixe für die Gesamtstruktur hinzu?
 
 - [ ] A) Active Directory-Domänen und -Vertrauensstellungen
 - [ ] B) Active Directory-Benutzer und -Computer
@@ -235,7 +235,7 @@ Mit welchem Cmdlet erstellen Sie ein neues Benutzerkonto?
 
 **Aufgabe 13** · 2,5 P.
 
-Nach der Heraufstufung von DC01 kann ein Windows 11-Client die Domäne contoso.local nicht finden. In den IP-Einstellungen des Clients ist als DNS-Server 8.8.8.8 eingetragen.
+Nach der Heraufstufung von DC01 kann ein Windows 11-Client die Domäne contoso.local nicht finden. In den IP-Einstellungen des Clients ist als [[DNS]]-Server 8.8.8.8 eingetragen.
 
 **Frage:** Was ist die wahrscheinlichste Ursache und Lösung?
 
@@ -247,13 +247,13 @@ Nach der Heraufstufung von DC01 kann ein Windows 11-Client die Domäne contoso.l
 > [!success]- Lösung Aufgabe 13
 > **A)** Der Client benötigt die IP des DC als DNS-Server, weil nur dort die SRV-Einträge der Domäne liegen
 >
-> Domänenmitglieder müssen einen DNS-Server nutzen, der die AD-Zonen und SRV-Einträge kennt, in der Regel den DC.
+> Domänenmitglieder müssen einen DNS-Server nutzen, der die [[AD]]-Zonen und SRV-Einträge kennt, in der Regel den DC.
 
 ---
 
 **Aufgabe 14** · 2,5 P.
 
-Wofür steht die Empfehlung AGDLP?
+Wofür steht die Empfehlung [[AGDLP]]?
 
 - [ ] A) Konten in globale Gruppen, diese in domänenlokale Gruppen, dort Berechtigungen vergeben
 - [ ] B) Administratoren, Gruppen, Domänen, Lizenzen, Profile
@@ -269,7 +269,7 @@ Wofür steht die Empfehlung AGDLP?
 
 **Aufgabe 15** · 2,5 P.
 
-Wofür ist der RID-Master zuständig?
+Wofür ist der [[RID]]-Master zuständig?
 
 - [ ] A) Er verwaltet DNS-Zonen
 - [ ] B) Er weist den DCs Pools relativer Bezeichner (RIDs) zur Erstellung von SIDs zu
@@ -312,7 +312,7 @@ Clients im Firmennetz haben als DNS-Server 8.8.8.8 eingetragen. Interne Serverna
 - [ ] A) Als DNS-Server den internen DNS-Server (z. B. den DC) eintragen und dort Weiterleitungen für das Internet konfigurieren
 - [ ] B) Die Hosts-Datei aller Clients pflegen
 - [ ] C) Den DHCP-Server neu installieren
-- [ ] D) IPv6 deaktivieren
+- [ ] D) [[IPv6]] deaktivieren
 
 > [!success]- Lösung Aufgabe 17
 > **A)** Als DNS-Server den internen DNS-Server (z. B. den DC) eintragen und dort Weiterleitungen für das Internet konfigurieren
@@ -357,7 +357,7 @@ Drei Webserver (10.0.0.11 bis 10.0.0.13) sollen unter dem Namen www.contoso.com 
 
 **Aufgabe 20** · 2,5 P.
 
-Welcher DNS-Ressourceneintrag ordnet einem Namen eine IPv4-Adresse zu?
+Welcher DNS-Ressourceneintrag ordnet einem Namen eine [[IPv4]]-Adresse zu?
 
 - [ ] A) A-Eintrag
 - [ ] B) MX-Eintrag
@@ -380,7 +380,7 @@ Im Gästenetz (192.168.50.0/24) ist der DHCP-Bereich (.10 bis .60, Lease-Dauer 8
 - [ ] A) Alle Geräte statisch konfigurieren
 - [ ] B) Den Bereich vergrößern und die Lease-Dauer für das Gästenetz deutlich verkürzen (z. B. auf wenige Stunden)
 - [ ] C) Den Server neu autorisieren
-- [ ] D) APIPA aktivieren
+- [ ] D) [[APIPA]] aktivieren
 
 > [!success]- Lösung Aufgabe 21
 > **B)** Den Bereich vergrößern und die Lease-Dauer für das Gästenetz deutlich verkürzen (z. B. auf wenige Stunden)
@@ -409,7 +409,7 @@ Der Server 10.1.0.5 hat als Gateway den Router 10.1.0.1. Im Netz 10.2.0.0/24 lie
 
 **Aufgabe 23** · 2,5 P.
 
-Welches Protokoll ersetzt in IPv6 das ARP von IPv4?
+Welches Protokoll ersetzt in IPv6 das [[ARP]] von IPv4?
 
 - [ ] A) DHCPv6
 - [ ] B) Neighbor Discovery Protocol (NDP, ICMPv6)
@@ -441,7 +441,7 @@ Was ist in einer Active Directory-Umgebung vor dem produktiven Betrieb eines DHC
 
 **Aufgabe 25** · 2,5 P.
 
-Ein Multihomed-Server (LAN und WAN) hat auf beiden Netzwerkkarten ein Standardgateway eingetragen. Die Verbindungen sind unregelmäßig.
+Ein Multihomed-Server ([[LAN]] und [[WAN]]) hat auf beiden Netzwerkkarten ein Standardgateway eingetragen. Die Verbindungen sind unregelmäßig.
 
 **Frage:** Was ist zu tun?
 
@@ -495,7 +495,7 @@ Mit welchem Cmdlet konfigurieren Sie nach der Rolleninstallation die Zertifizier
 
 **Aufgabe 28** · 2,5 P.
 
-Welcher Rollendienst von AD CS liefert Zertifikatsperrinformationen per OCSP?
+Welcher Rollendienst von [[AD CS]] liefert Zertifikatsperrinformationen per [[OCSP]]?
 
 - [ ] A) Zertifizierungsstellen-Webregistrierung
 - [ ] B) Registrierungsdienst für Netzwerkgeräte
@@ -515,9 +515,9 @@ Die Offline-Root-CA ist eine Standalone-CA. Die untergeordnete Enterprise-CA hat
 
 **Frage:** Was ist zu tun?
 
-- [ ] A) Das Root-CA-Zertifikat und die CRL in AD veröffentlichen (certutil -dspublish) bzw. per GPO in "Vertrauenswürdige Stammzertifizierungsstellen" verteilen
+- [ ] A) Das Root-CA-Zertifikat und die [[CRL]] in AD veröffentlichen (certutil -dspublish) bzw. per GPO in "Vertrauenswürdige Stammzertifizierungsstellen" verteilen
 - [ ] B) Die Clients neu installieren
-- [ ] C) Die untergeordnete CA umbenennen
+- [ ] C) Die untergeordnete [[CA]] umbenennen
 - [ ] D) DNS neu starten
 
 > [!success]- Lösung Aufgabe 29
@@ -545,7 +545,7 @@ Wie wird der Status eines gesperrten Zertifikats üblicherweise veröffentlicht?
 
 **Aufgabe 31** · 2,5 P.
 
-Ein Notebook mit einem Computerzertifikat für die VPN-Authentifizierung wurde gestohlen.
+Ein Notebook mit einem Computerzertifikat für die [[VPN]]-Authentifizierung wurde gestohlen.
 
 **Frage:** Wie reagieren Sie?
 
@@ -585,7 +585,7 @@ Welche Voraussetzung muss vor dem Einrichten einer AD FS-Farm erfüllt sein?
 
 - [ ] A) Ein Exchange-Server
 - [ ] B) Ein Domänencontroller mit Windows Server 2003
-- [ ] C) Ein TLS/SSL-Zertifikat mit dem Namen des Verbunddienstes (z. B. sts.contoso.com) und ein passender DNS-Eintrag
+- [ ] C) Ein [[TLS]]/[[SSL]]-Zertifikat mit dem Namen des Verbunddienstes (z. B. sts.contoso.com) und ein passender DNS-Eintrag
 - [ ] D) Ein DHCP-Bereich für den Verbunddienst
 
 > [!success]- Lösung Aufgabe 33
@@ -599,7 +599,7 @@ Welche Voraussetzung muss vor dem Einrichten einer AD FS-Farm erfüllt sein?
 
 Mit welchem PowerShell-Befehl installieren Sie die AD FS-Rolle?
 
-- [ ] A) Install-Module ADFS
+- [ ] A) Install-Module [[ADFS]]
 - [ ] B) Install-WindowsFeature ADFS-Federation -IncludeManagementTools
 - [ ] C) Add-WindowsCapability -Name ADFS
 - [ ] D) Enable-ADFSRole
@@ -617,7 +617,7 @@ Welche Konfigurationsdatenbank verwendet AD FS standardmäßig?
 
 - [ ] A) Die AD-Datenbank NTDS.dit
 - [ ] B) Die Registry
-- [ ] C) Die Windows Internal Database (WID); für große Farmen optional SQL Server
+- [ ] C) Die Windows Internal Database (WID); für große Farmen optional [[SQL]] Server
 - [ ] D) Eine Textdatei im SYSVOL
 
 > [!success]- Lösung Aufgabe 35
@@ -645,7 +645,7 @@ Antwort:
 
 **Aufgabe 37** · 2,5 P. · *AD DS – Domänendienste*
 
-Wie viele FSMO-Rollen (Betriebsmaster) gibt es insgesamt?
+Wie viele [[FSMO]]-Rollen (Betriebsmaster) gibt es insgesamt?
 (Zahl eingeben)
 
 Antwort: 
@@ -659,7 +659,7 @@ Antwort:
 
 **Aufgabe 38** · 2,5 P. · *AD DS – Domänendienste*
 
-Wie viele Minuten beträgt die Standard-Zeittoleranz, ab der Kerberos-Authentifizierung fehlschlägt?
+Wie viele Minuten beträgt die Standard-Zeittoleranz, ab der [[Kerberos]]-Authentifizierung fehlschlägt?
 (Zahl eingeben)
 
 Antwort: 
@@ -673,7 +673,7 @@ Antwort:
 
 **Aufgabe 39** · 2,5 P. · *AD DS – Domänendienste*
 
-Welcher Port wird standardmäßig für unverschlüsseltes LDAP verwendet?
+Welcher Port wird standardmäßig für unverschlüsseltes [[LDAP]] verwendet?
 (Zahl eingeben)
 
 Antwort: 

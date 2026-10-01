@@ -16,17 +16,17 @@ thema: Netzwerk
 | Rolle | Beispiel |
 |---|---|
 | Client/Supplicant | Laptop des Benutzers |
-| NAS / RADIUS-Client | VPN-Server, WLAN-AP, Switch |
-| RADIUS-Server | Windows: **NPS** (Network Policy Server) |
+| [[NAS]] / [[RADIUS]]-Client | [[VPN]]-Server, [[WLAN]]-AP, Switch |
+| RADIUS-Server | Windows: **[[NPS]]** (Network Policy Server) |
 | Benutzerdatenbank | Active Directory |
 
-Ablauf: Client → NAS → RADIUS-Server prüft gegen AD → Accept/Reject → NAS lässt rein oder nicht.
+Ablauf: Client → NAS → RADIUS-Server prüft gegen [[AD]] → Accept/Reject → NAS lässt rein oder nicht.
 
 ## Technik
-- Ports: **UDP 1812** (Auth), **UDP 1813** (Accounting); alt: 1645/1646
+- Ports: **[[UDP]] 1812** (Auth), **UDP 1813** (Accounting); alt: 1645/1646
 - NAS und Server teilen ein **Shared Secret**
 - Verschlüsselt nur das Passwort-Feld, nicht das ganze Paket
-- Alternative (Cisco): **TACACS+**, TCP 49, verschlüsselt komplettes Paket
+- Alternative (Cisco): **TACACS+**, [[TCP]] 49, verschlüsselt komplettes Paket
 
 ## Einsatz
 - VPN-Anmeldung → [[Notizen]]
@@ -39,7 +39,7 @@ Viele Zugangsgeräte, **ein** zentraler Prüfer → Benutzer nur einmal im AD pf
 ### PowerShell Zertifikat ohne CA
 ServerSeite
 $certname = "exa-srv01.example.com"
-New-SelfSignedCertificate -Subject "CN=$certname" -DnsName "exa-srv01.example.com" -FriendlyName "myVPNServer" -CertStoreLocation "Cert:\CurrentUser\My" -KeyExportPolicy Exportable -KeySpec Signature -KeyLength 2048 -KeyAlgorithm RSA -HashAlgorithm SHA256
+New-SelfSignedCertificate -Subject "CN=$certname" -DnsName "exa-srv01.example.com" -FriendlyName "myVPNServer" -CertStoreLocation "Cert:\CurrentUser\My" -KeyExportPolicy Exportable -KeySpec Signature -KeyLength 2048 -KeyAlgorithm [[RSA]] -HashAlgorithm SHA256
 
 Version von Tillmann
 $cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new("\\exa-srv01\certs\exa-srv01-vpn.cer")  
@@ -57,7 +57,7 @@ erstellt: 2026-09-30
 # 🌐 DNS vs. mDNS
 
 > [!abstract] Kurz gesagt
-> **DNS** übersetzt weltweit Hostnamen in IP-Adressen über zentrale Server.
+> **[[DNS]]** übersetzt weltweit Hostnamen in [[IP]]-Adressen über zentrale Server.
 > **mDNS** löst Namen im lokalen Netz auf – ganz ohne DNS-Server.
 
 ## 📖 DNS – Domain Name System
@@ -84,7 +84,7 @@ erstellt: 2026-09-30
 - **Software:** Bonjour, Avahi, Windows 10+
 
 > [!info] Ablauf
-> Client ruft per Multicast ins LAN: *„Wer ist `xyz.local`?"*
+> Client ruft per Multicast ins [[LAN]]: *„Wer ist `xyz.local`?"*
 > → Das gemeinte Gerät antwortet selbst mit seiner IP.
 
 ## 🧠 Merksatz
