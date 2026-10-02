@@ -128,7 +128,7 @@ gpupdate /force
 
 Was ist [[UPN]]?
 
-User Principal Name
+
 
 PowerShell Format
 
