@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/RSAT.md",
+                "file": "50_Wissen/Netzwerk/DirectAccess_vs_VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RSAT"
+              "title": "DirectAccess_vs_VPN"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gpupdate",
+                "query": "vpn ports",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -218,6 +218,7 @@
   },
   "active": "4c3a6df170726e6f",
   "lastOpenFiles": [
+    "Glossar/RSAT.md",
     "40_Befehle/PowerShell AD und GPO.md",
     "Glossar/UPN.md",
     "Glossar/NRPT.md",
@@ -244,7 +245,6 @@
     "Glossar/WMI.md",
     "Glossar/WLAN.md",
     "Glossar/WinRM.md",
-    "Glossar/WDS.md",
     "50_Wissen/Unbenannt.base",
     "Unbenannt.canvas",
     "Unbenannt 4.canvas",
