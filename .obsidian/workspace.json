@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "00_Glossar-Index"
             }
+          },
+          {
+            "id": "0ecc3a00094dbadd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossar/IQN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IQN"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,8 +108,7 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,8 +229,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b76197976c31a960",
+  "active": "0ecc3a00094dbadd",
   "lastOpenFiles": [
+    "Glossar/iSCSI.md",
+    "Glossar/IQN.md",
+    "202610061208.md",
+    "Excalidraw/Drawing 2026-10-06 12.08.53.excalidraw.md",
+    "Glossar/00_Glossar-Index.md",
+    "Excalidraw",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",
     "Unbenannt 1.canvas",
@@ -226,7 +245,6 @@
     "50_Wissen/Unbenannt.base",
     "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
     "Glossar/Forward Lookup Zone.md",
-    "Glossar/00_Glossar-Index.md",
     "Glossar/AD.md",
     "Glossar/X.509.md",
     "Glossar/WinRM.md",
@@ -247,9 +265,6 @@
     "20_Labs/Windows Server/_MOC_Wochenplan.md",
     "Glossar/RADIUS.md",
     "50_Wissen/Netzwerk/DirectAccess_vs_VPN.md",
-    "Glossar/RSAT.md",
-    "40_Befehle/PowerShell AD und GPO.md",
-    "Glossar/UPN.md",
     "Unbenannt 4.canvas",
     "Vorlagen",
     "Glossar",
@@ -258,7 +273,6 @@
     "fortschritt.json",
     "50_Wissen/Windows Server/Theorieklausuren",
     "50_Wissen/Windows Server/Praxisklausuren",
-    "50_Wissen/Windows Server/Übungsklausuren/Theorieklausuren",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",

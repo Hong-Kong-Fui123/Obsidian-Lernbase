@@ -10,3 +10,4 @@ bereich: Hardware-Storage
 **Deutsch:** SCSI über IP
 
 - Blockspeicher über Ethernet, typisch im [[SAN]]
+[[IQN]]
