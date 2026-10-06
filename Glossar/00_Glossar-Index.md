@@ -8,55 +8,55 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 
 ## Netzwerk
 
-| Kürzel | Deutsch |
-|---|---|
-| [[802.1Q]] | VLAN-Tagging-Standard |
-| [[ACL]] | Zugriffssteuerungsliste |
-| [[APIPA]] | Automatische private IP-Adressierung |
-| [[ARP]] | Adressauflösungsprotokoll |
-| [[BGP]] | Grenz-Gateway-Protokoll |
-| [[CCNA]] | Cisco-Netzwerk-Zertifizierung |
-| [[CIDR]] | Klassenloses Routing |
-| [[DHCP]] | Protokoll zur dynamischen Hostkonfiguration |
-| [[DNS]] | Domänennamensystem |
-| [[FQDN]] | Vollqualifizierter Domänenname |
-| [[FTP]] | Dateiübertragungsprotokoll |
-| [[HTTP]] | Hypertext-Übertragungsprotokoll |
-| [[HTTPS]] | Sicheres HTTP |
-| [[ICMP]] | Internet-Steuernachrichtenprotokoll |
-| [[IMAP]] | Internet-Nachrichtenzugriffsprotokoll |
-| [[IOS]] | Cisco-Betriebssystem |
-| [[IP]] | Internetprotokoll |
-| [[IPv4]] | Internetprotokoll Version 4 |
-| [[IPv6]] | Internetprotokoll Version 6 |
-| [[LACP]] | Protokoll zur Link-Bündelung |
-| [[LAN]] | Lokales Netzwerk |
-| [[LDAP]] | Leichtgewichtiges Verzeichniszugriffsprotokoll |
-| [[MAC]] | Medienzugriffssteuerung / Hardwareadresse |
-| [[MTU]] | Maximale Übertragungseinheit |
-| [[NAT]] | Netzwerkadressübersetzung |
-| [[NTP]] | Netzwerkzeitprotokoll |
-| [[OSI]] | OSI-Referenzmodell |
-| [[OSPF]] | Offenes Kürzester-Pfad-Protokoll |
-| [[PAT]] | Portadressübersetzung (NAT Overload) |
-| [[PoE]] | Stromversorgung über Ethernet |
-| [[POP3]] | Postamt-Protokoll Version 3 |
-| [[QoS]] | Dienstgüte |
-| [[RDP]] | Remotedesktopprotokoll |
-| [[SMB]] | Server-Nachrichtenblock |
-| [[SMTP]] | Einfaches E-Mail-Übertragungsprotokoll |
-| [[SNMP]] | Einfaches Netzwerkverwaltungsprotokoll |
-| [[SSH]] | Sichere Shell |
-| [[SSID]] | Netzwerkname (WLAN) |
-| [[STP]] | Spannbaumprotokoll |
-| [[TCP]] | Übertragungssteuerungsprotokoll |
-| [[TTL]] | Lebensdauer |
-| [[UDP]] | Benutzer-Datagramm-Protokoll |
-| [[URL]] | Einheitlicher Ressourcenzeiger |
-| [[VLAN]] | Virtuelles lokales Netz |
-| [[WAN]] | Weitverkehrsnetz |
-| [[WLAN]] | Drahtloses lokales Netz |
-| [[WPA3]] | WLAN-Verschlüsselung Version 3 |
+| Kürzel     | Deutsch                                        |
+| ---------- | ---------------------------------------------- |
+| [[802.1Q]] | VLAN-Tagging-Standard                          |
+| [[ACL]]    | Zugriffssteuerungsliste                        |
+| [[APIPA]]  | Automatische private IP-Adressierung           |
+| [[ARP]]    | Adressauflösungsprotokoll                      |
+| [[BGP]]    | Grenz-Gateway-Protokoll                        |
+| [[CCNA]]   | Cisco-Netzwerk-Zertifizierung                  |
+| [[CIDR]]   | Klassenloses Routing                           |
+| [[DHCP]]   | Protokoll zur dynamischen Hostkonfiguration    |
+| [[DNS]]    | Domänennamensystem                             |
+| [[FQDN]]   | Vollqualifizierter Domänenname                 |
+| [[FTP]]    | Dateiübertragungsprotokoll                     |
+| [[HTTP]]   | Hypertext-Übertragungsprotokoll                |
+| [[HTTPS]]  | Sicheres HTTP                                  |
+| [[ICMP]]   | Internet-Steuernachrichtenprotokoll            |
+| [[IMAP]]   | Internet-Nachrichtenzugriffsprotokoll          |
+| [[IOS]]    | Cisco-Betriebssystem                           |
+| [[IP]]     | Internetprotokoll                              |
+| [[IPv4]]   | Internetprotokoll Version 4                    |
+| [[IPv6]]   | Internetprotokoll Version 6                    |
+| [[LACP]]   | Protokoll zur Link-Bündelung                   |
+| [[LAN]]    | Lokales Netzwerk                               |
+| [[LDAP]]   | Leichtgewichtiges Verzeichniszugriffsprotokoll |
+| [[MAC]]    | Medienzugriffssteuerung / Hardwareadresse      |
+| [[MTU]]    | Maximale Übertragungseinheit                   |
+| [[NAT]]    | Netzwerkadressübersetzung                      |
+| [[NTP]]    | Netzwerkzeitprotokoll                          |
+| [[OSI]]    | OSI-Referenzmodell                             |
+| [[OSPF]]   | Offenes Kürzester-Pfad-Protokoll               |
+| [[PAT]]    | Portadressübersetzung (NAT Overload)           |
+| [[PoE]]    | Stromversorgung über Ethernet                  |
+| [[POP3]]   | Postamt-Protokoll Version 3                    |
+| [[QoS]]    | Dienstgüte                                     |
+| [[RDP]]    | Remotedesktopprotokoll                         |
+| [[SMB]]    | Server-Nachrichtenblock                        |
+| [[SMTP]]   | Einfaches E-Mail-Übertragungsprotokoll         |
+| [[SNMP]]   | Einfaches Netzwerkverwaltungsprotokoll         |
+| [[SSH]]    | Sichere Shell                                  |
+| [[SSID]]   | Netzwerkname (WLAN)                            |
+| [[STP]]    | Spannbaumprotokoll                             |
+| [[TCP]]    | Übertragungssteuerungsprotokoll                |
+| [[TTL]]    | Lebensdauer                                    |
+| [[UDP]]    | Benutzer-Datagramm-Protokoll                   |
+| [[URL]]    | Einheitlicher Ressourcenzeiger                 |
+| [[VLAN]]   | Virtuelles lokales Netz                        |
+| [[WAN]]    | Weitverkehrsnetz                               |
+| [[WLAN]]   | Drahtloses lokales Netz                        |
+| [[WPA3]]   | WLAN-Verschlüsselung Version 3                 |
 
 ## Windows-Server
 

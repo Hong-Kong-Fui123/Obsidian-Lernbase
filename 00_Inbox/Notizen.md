@@ -96,4 +96,5 @@ erstellt: 2026-09-30
 ## 🔗 Verwandt
 - [[DNS-Records]]
 - [[DHCP]]
-- [[OSI-Modell]]
+- [[OSI]]
+
