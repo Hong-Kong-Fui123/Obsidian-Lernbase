@@ -112,49 +112,49 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 
 ## Sicherheit-PKI
 
-| Kürzel | Deutsch |
-|---|---|
-| [[AES]] | Erweiterter Verschlüsselungsstandard |
-| [[AIA]] | Zugriff auf Ausstellerinformationen |
-| [[BitLocker]] | BitLocker-Laufwerksverschlüsselung |
-| [[BSI]] | Bundesamt für Sicherheit in der Informationstechnik |
-| [[CA]] | Zertifizierungsstelle |
-| [[CDP]] | Sperrlisten-Verteilungspunkt |
-| [[CIA]] | Vertraulichkeit, Integrität, Verfügbarkeit |
-| [[CRL]] | Zertifikatsperrliste |
-| [[CSR]] | Zertifikatsignieranforderung |
-| [[DDoS]] | Verteilte Dienstblockade |
-| [[DMZ]] | Demilitarisierte Zone |
-| [[DSGVO]] | Datenschutz-Grundverordnung |
-| [[EDR]] | Endpunkt-Erkennung und -Reaktion |
-| [[HSM]] | Hardware-Sicherheitsmodul |
-| [[IAM]] | Identitäts- und Zugriffsverwaltung |
-| [[IDS]] | Angriffserkennungssystem |
-| [[IKEv2]] | Internet-Schlüsselaustausch v2 |
-| [[IPS]] | Angriffsverhinderungssystem |
-| [[IPsec]] | IP-Sicherheit |
-| [[ISMS]] | Managementsystem für Informationssicherheit |
-| [[ISO 27001]] | Norm für Informationssicherheit |
-| [[L2TP]] | Schicht-2-Tunnelprotokoll |
-| [[MFA]] | Mehrfaktor-Authentifizierung |
-| [[MPPE]] | Microsoft-Punkt-zu-Punkt-Verschlüsselung |
-| [[MS-CHAPv2]] | Microsoft-Challenge-Handshake-Authentifizierung v2 |
-| [[OCSP]] | Online-Zertifikatstatusprotokoll |
-| [[PKI]] | Infrastruktur öffentlicher Schlüssel |
-| [[PPTP]] | Punkt-zu-Punkt-Tunnelprotokoll |
-| [[RADIUS]] | Fernauthentifizierungsdienst |
-| [[RBAC]] | Rollenbasierte Zugriffssteuerung |
-| [[RSA]] | RSA-Verfahren |
-| [[SAN]] | Alternativer Antragstellername / Speichernetzwerk |
-| [[SHA]] | Sicherer Hash-Algorithmus |
-| [[SIEM]] | Sicherheitsinformations- und Ereignisverwaltung |
-| [[SSL]] | Sichere Sockelschicht |
-| [[SSO]] | Einmalanmeldung |
-| [[SSTP]] | Sicheres Socket-Tunnelprotokoll |
-| [[TLS]] | Transportschichtsicherheit |
-| [[TPM]] | Vertrauenswürdiges Plattformmodul |
-| [[VPN]] | Virtuelles privates Netzwerk |
-| [[X.509]] | Zertifikatsstandard |
+| Kürzel        | Deutsch                                             |
+| ------------- | --------------------------------------------------- |
+| [[AES]]       | Erweiterter Verschlüsselungsstandard                |
+| [[AIA]]       | Zugriff auf Ausstellerinformationen                 |
+| [[BitLocker]] | BitLocker-Laufwerksverschlüsselung                  |
+| [[BSI]]       | Bundesamt für Sicherheit in der Informationstechnik |
+| [[CA]]        | Zertifizierungsstelle                               |
+| [[CDP]]       | Sperrlisten-Verteilungspunkt                        |
+| [[CIA]]       | Vertraulichkeit, Integrität, Verfügbarkeit          |
+| [[CRL]]       | Zertifikatsperrliste                                |
+| [[CSR]]       | Zertifikatsignieranforderung                        |
+| [[DDoS]]      | Verteilte Dienstblockade                            |
+| [[DMZ]]       | Demilitarisierte Zone                               |
+| [[DSGVO]]     | Datenschutz-Grundverordnung                         |
+| [[EDR]]       | Endpunkt-Erkennung und -Reaktion                    |
+| [[HSM]]       | Hardware-Sicherheitsmodul                           |
+| [[IAM]]       | Identitäts- und Zugriffsverwaltung                  |
+| [[IDS]]       | Angriffserkennungssystem                            |
+| [[IKEv2]]     | Internet-Schlüsselaustausch v2                      |
+| [[IPS]]       | Angriffsverhinderungssystem                         |
+| [[IPsec]]     | IP-Sicherheit                                       |
+| [[ISMS]]      | Managementsystem für Informationssicherheit         |
+| [[ISO 27001]] | Norm für Informationssicherheit                     |
+| [[L2TP]]      | Schicht-2-Tunnelprotokoll                           |
+| [[MFA]]       | Mehrfaktor-Authentifizierung                        |
+| [[MPPE]]      | Microsoft-Punkt-zu-Punkt-Verschlüsselung            |
+| [[MS-CHAPv2]] | Microsoft-Challenge-Handshake-Authentifizierung v2  |
+| [[OCSP]]      | Online-Zertifikatstatusprotokoll                    |
+| [[PKI]]       | Infrastruktur öffentlicher Schlüssel                |
+| [[PPTP]]      | Punkt-zu-Punkt-Tunnelprotokoll                      |
+| [[RADIUS]]    | Fernauthentifizierungsdienst                        |
+| [[RBAC]]      | Rollenbasierte Zugriffssteuerung                    |
+| [[RSA]]       | RSA-Verfahren                                       |
+| [[SAN]]       | Alternativer Antragstellername / Speichernetzwerk   |
+| [[SHA]]       | Sicherer Hash-Algorithmus                           |
+| [[SIEM]]      | Sicherheitsinformations- und Ereignisverwaltung     |
+| [[SSL]]       | Sichere Sockelschicht                               |
+| [[SSO]]       | Einmalanmeldung                                     |
+| [[SSTP]]      | Sicheres Socket-Tunnelprotokoll                     |
+| [[TLS]]       | Transportschichtsicherheit                          |
+| [[TPM]]       | Vertrauenswürdiges Plattformmodul                   |
+| [[VPN]]       | Virtuelles privates Netzwerk                        |
+| [[X.509]]     | Zertifikatsstandard                                 |
 
 ## Linux
 
