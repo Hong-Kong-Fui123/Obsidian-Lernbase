@@ -84,3 +84,6 @@ Diffie-Hillmann Verfahren
 net use z: \\exa-srv01\c$
 dann auf den Ordner zugreifen
 z: 
+
+PowerShell 
+ New-VirtualDisk -StoragePoolFriendlyName "myPool1" -FriendlyName vDisk4 -ResiliencySettingName parity -ProvisioningType Thin -Size 50GB
