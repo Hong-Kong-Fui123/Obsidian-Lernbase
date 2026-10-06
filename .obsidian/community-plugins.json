@@ -5,5 +5,7 @@
   "templater-obsidian",
   "dataview",
   "tldraw",
-  "folder-notes"
+  "folder-notes",
+  "obsidian-hover-editor",
+  "pdf-plus"
 ]
