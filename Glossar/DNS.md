@@ -11,3 +11,4 @@ bereich: Netzwerk
 
 - Übersetzt Namen in IP-Adressen, Port 53
 - Pflicht für [[AD]]; Einträge: A, AAAA, CNAME, MX, PTR, SRV
+

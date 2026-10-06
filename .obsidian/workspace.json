@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/DNS/# Forward-Lookup-Zone.md",
+                "file": "Glossar/Forward Lookup Zone.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# Forward-Lookup-Zone"
+              "title": "Forward Lookup Zone"
             }
           }
         ]
@@ -217,17 +217,23 @@
   },
   "active": "b76197976c31a960",
   "lastOpenFiles": [
-    "50_Wissen/DNS/Dns-Records.md",
+    "Glossar/00_Glossar-Index.md",
+    "Glossar/AD.md",
+    "Glossar/Forward Lookup Zone.md",
+    "Glossar/X.509.md",
+    "Glossar/WinRM.md",
+    "README.md",
+    "Forward-Lookup-Zone.md",
+    "DNS-Records.md",
+    "Glossar/DNS.md",
     "50_Wissen/DNS/# Forward-Lookup-Zone.md",
+    "50_Wissen/DNS/Dns-Records.md",
     "50_Wissen/Office/Office und Textverarbeitung.md",
     "50_Wissen/DNS",
     "50_Wissen/Windows Server/AD und DNS Grundlagen.md",
     "50_Wissen/Unbenannt.base",
-    "Forward-Lookup-Zone.md",
-    "DNS-Records.md",
     "00_Inbox/Notizen.md",
     "Glossar/OSI.md",
-    "Glossar/00_Glossar-Index.md",
     "OSI-Modell.md",
     "Glossar/DHCP.md",
     "Unbenannt.canvas",
@@ -240,13 +246,7 @@
     "Glossar/NRPT.md",
     "Glossar/AOVPN.md",
     "40_Befehle/Netzwerk und DNS Befehle.md",
-    "10_Themen/Windows Server.md",
     "40_Befehle/WS PowerShell Befehle.canvas",
-    "50_Wissen/Datenbanken/SQL - Isolation, Dateien, Partitionen, Rechte.md",
-    "50_Wissen/Datenbanken/SQL - Grundlagen und ER-Modell.md",
-    "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
-    "Glossar/RAM.md",
-    "30_Geräte/VM-Infrastruktur.md",
     "Unbenannt 4.canvas",
     "Unbenannt 2.canvas",
     "Unbenannt 1.canvas",
