@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/IQN.md",
+                "file": "Glossar/6to4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IQN"
+              "title": "6to4"
             }
           }
         ],
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 478.5
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -231,8 +231,11 @@
   },
   "active": "0ecc3a00094dbadd",
   "lastOpenFiles": [
-    "Glossar/iSCSI.md",
+    "Glossar/CI-CD.md",
+    "30_Geräte/VM-Infrastruktur.md",
+    "10_Themen/Windows Server.md",
     "Glossar/IQN.md",
+    "Glossar/iSCSI.md",
     "202610061208.md",
     "Excalidraw/Drawing 2026-10-06 12.08.53.excalidraw.md",
     "Glossar/00_Glossar-Index.md",
@@ -262,9 +265,6 @@
     "OSI-Modell.md",
     "Glossar/DHCP.md",
     "Unbenannt.canvas",
-    "20_Labs/Windows Server/_MOC_Wochenplan.md",
-    "Glossar/RADIUS.md",
-    "50_Wissen/Netzwerk/DirectAccess_vs_VPN.md",
     "Unbenannt 4.canvas",
     "Vorlagen",
     "Glossar",
