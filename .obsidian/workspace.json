@@ -11,12 +11,14 @@
             "id": "ab34f131767edf1c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-06 13.19.01.excalidraw.md"
+                "file": "Glossar/MTU.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-06 13.19.01.excalidraw"
+              "icon": "lucide-file",
+              "title": "MTU"
             }
           }
         ]
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "isns",
+                "query": "MTU",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +93,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,10 +221,11 @@
   },
   "active": "ab34f131767edf1c",
   "lastOpenFiles": [
+    "Glossar/00_Glossar-Index.md",
+    "Excalidraw/Drawing 2026-10-06 13.19.01.excalidraw.md",
     "Excalidraw/Drawing 2026-10-06 12.08.53.excalidraw.md",
     "Fibre - Channel.md",
     "Glossar/iSNS - Server.md",
-    "Glossar/00_Glossar-Index.md",
     "Glossar/IQN.md",
     "Glossar/iSCSI.md",
     "Glossar/Unbenannt.md",
@@ -230,7 +234,6 @@
     "Glossar/SaaS.md",
     "Glossar/SAN.md",
     "50_Wissen/DNS/# Forward-Lookup-Zone.md",
-    "Excalidraw/Drawing 2026-10-06 13.19.01.excalidraw.md",
     "50_Wissen/Netzwerk/OSI-Modell und NamensauflÃ¶sung.md",
     "50_Wissen/50_Wissen.md",
     "50_Wissen/Unbenannt.base",
