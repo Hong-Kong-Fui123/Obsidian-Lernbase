@@ -13,7 +13,7 @@ aliases: [Forward Lookup Zone, Vorwärtssuchzone]
 **Definition:** DNS-Zone, die Namen in IP-Adressen auflöst (Name → IP).
 
 ## Inhalt
-Enthält [[DNS-Records|DNS-Records]]: SOA, NS, A, AAAA, CNAME, MX, SRV, TXT
+Enthält [[Glossar/DNS-Records|DNS-Records]]: SOA, NS, A, AAAA, CNAME, MX, SRV, TXT
 
 ## Zonentypen
 | Typ | Beschreibung |
@@ -41,7 +41,7 @@ Get-DnsServerResourceRecord -ZoneName "example.com"
 - Gegenstück: [[Reverse-Lookup-Zone]]
 
 ## Verwandt
-[[DNS]] · [[DNS-Records]] · [[Reverse-Lookup-Zone]] · [[DNS vs mDNS]] · [[AD DS Überblick|Active Directory]] · [[Vertrauensstellungen]] (Stub-Zone)
+[[DNS]] · [[Glossar/DNS-Records]] · [[Reverse-Lookup-Zone]] · [[DNS vs mDNS]] · [[AD DS Überblick|Active Directory]] · [[Vertrauensstellungen]] (Stub-Zone)
 
 ## 📄 Unterlagen
 - Folien: [[DNS_WindowsServer2025.pdf#page=7|Zonentypen]] · [[DNS_WindowsServer2025.pdf#page=9|Zonen & Weiterleitungen]] · [[DNS_Einfuehrung_Folien.pdf#page=2|Rekursive Abfrage]] · [[DNS_Einfuehrung_Folien.pdf#page=4|Weiterleitung]]

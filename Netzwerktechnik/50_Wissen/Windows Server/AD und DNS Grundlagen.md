@@ -7,7 +7,7 @@ status: importiert
 ---
 # AD und DNS Grundlagen
 
-Thema: [[Windows Server]] · Vertiefung: [[AD DS Überblick]] · [[Forward-Lookup-Zone]] · [[DNS-Records]]
+Thema: [[Windows Server]] · Vertiefung: [[AD DS Überblick]] · [[Glossar/Forward-Lookup-Zone]] · [[Glossar/DNS-Records]]
 
 ## Was ist eine Stub-Zone?
 

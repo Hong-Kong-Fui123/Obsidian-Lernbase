@@ -58,7 +58,7 @@ SORT file.name ASC
 > Die Tabelle braucht das Community-Plugin Dataview. Sonst in jeder Klausur die Eigenschaften status, ergebnis und datum pflegen.
 
 ## 📄 Passende Unterlagen
-- Praxisklausur 1 (AD DS, DNS, DHCP): [[AD DS Überblick]] · [[DHCP-Server]] · [[Forward-Lookup-Zone]] · [[DHCP_WindowsServer2025.pdf#page=11|Folien DHCP-Installation]]
+- Praxisklausur 1 (AD DS, DNS, DHCP): [[AD DS Überblick]] · [[DHCP-Server]] · [[Glossar/Forward-Lookup-Zone]] · [[DHCP_WindowsServer2025.pdf#page=11|Folien DHCP-Installation]]
 - Praxisklausur 2 (PKI): [[PKI und Zertifikatdienste]] · [[Uebung_Zertifizierungsstellen_installieren.pdf|Schulübung CA]]
 - Praxisklausur 3 (Betrieb/Fehler): [[AD-Gruppenrichtlinien.pdf#page=30|GPO-Problembehandlung]] · [[DHCP_WindowsServer2025.pdf#page=23|DHCP-Troubleshooting]]
 - Theorie: [[00 Uebersicht Theorieklausuren]]

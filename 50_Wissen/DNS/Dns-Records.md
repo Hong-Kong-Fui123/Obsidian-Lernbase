@@ -44,4 +44,4 @@ Add-DnsServerResourceRecordA -ZoneName "example.com" -Name "www" -IPv4Address "1
 - CNAME darf nicht auf Zonen-Apex (`example.com`) liegen
 
 ## Verwandt
-[[DNS]] · [[Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[Active Directory]] · [[TTL]]
+[[DNS]] · [[Glossar/Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[Active Directory]] · [[TTL]]

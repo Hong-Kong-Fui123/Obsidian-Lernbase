@@ -30,7 +30,7 @@ Unterlagen gesamt: [[PDF-Index]] · Abkürzungen: [[00_Glossar-Index]]
 ## DNS und DHCP
 | Notiz | Typ | PDF |
 |---|---|---|
-| [[Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[DNS-Records]] | Wissen | [[DNS_WindowsServer2025.pdf\|Folien DNS 2025]] · Übungen [[DNS_Uebung_1.pdf\|1]] [[DNS_Uebung_2.pdf\|2]] |
+| [[Glossar/Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[Glossar/DNS-Records]] | Wissen | [[DNS_WindowsServer2025.pdf\|Folien DNS 2025]] · Übungen [[DNS_Uebung_1.pdf\|1]] [[DNS_Uebung_2.pdf\|2]] |
 | [[DNS vs mDNS]] | Wissen | [[Namensaufloesung_WindowsServer2025.pdf\|Folien Namensauflösung]] |
 | [[DHCP-Server]] | Wissen | [[DHCP_WindowsServer2025.pdf\|Folien DHCP 2025]] |
 | [[Netzwerk und DNS Befehle]] | Befehle | – |

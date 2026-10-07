@@ -9,7 +9,7 @@ status: lernen
 # Vertrauensstellungen
 
 Thema: [[Windows Server]] · Glossar: [[Kerberos]] · [[KDC]] · [[SID]] · [[UPN]]
-Siehe auch: [[AD DS Überblick]] · [[AD-Gruppen und AGDLP]] · [[Forward-Lookup-Zone]] (Stub-Zone / bedingte Weiterleitung)
+Siehe auch: [[AD DS Überblick]] · [[AD-Gruppen und AGDLP]] · [[Glossar/Forward-Lookup-Zone]] (Stub-Zone / bedingte Weiterleitung)
 
 > [!abstract] Kern
 > **Vertrauende** Domäne (trusting) lässt Benutzer der **vertrauten** Domäne (trusted) auf ihre Ressourcen. Zugriff fließt **entgegen** der Vertrauensrichtung.

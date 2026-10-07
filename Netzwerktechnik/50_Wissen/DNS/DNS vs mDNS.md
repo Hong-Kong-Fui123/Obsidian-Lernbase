@@ -61,7 +61,7 @@ Thema: [[Netzwerk]] · [[Windows Server]]
 > - **mDNS** = in den Raum rufen und warten, wer antwortet
 
 ## 🔗 Verwandt
-- [[DNS-Records]] · [[Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]]
+- [[Glossar/DNS-Records]] · [[Glossar/Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]]
 - [[OSI-Modell und Namensauflösung]]
 - [[DHCP]] · [[OSI]]
 

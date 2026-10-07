@@ -11,7 +11,7 @@ tags: [moc]
 - [[Verkabelung und Displays]]
 
 ## Namensauflösung
-- [[DNS vs mDNS]] · [[DNS-Records]] · [[Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]]
+- [[DNS vs mDNS]] · [[Glossar/DNS-Records]] · [[Glossar/Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]]
 
 ## Dienste und Remotezugriff
 - [[DHCP-Server]]

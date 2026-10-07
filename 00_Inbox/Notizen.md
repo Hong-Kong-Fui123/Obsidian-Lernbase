@@ -94,7 +94,7 @@ erstellt: 2026-09-30
 > - **mDNS** = in den Raum rufen und warten, wer antwortet
 
 ## 🔗 Verwandt
-- [[DNS-Records]]
+- [[Glossar/DNS-Records]]
 - [[DHCP]]
 - [[OSI]]
 

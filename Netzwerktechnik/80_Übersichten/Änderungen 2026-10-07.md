@@ -25,7 +25,7 @@ Zurück: [[Start]]
 
 ## Aufgeräumt
 - Kaputte Dateinamen (`LÃ¶sung…`, `├£bungsklausuren…`) repariert
-- `# Forward-Lookup-Zone.md` → [[Forward-Lookup-Zone]] (`#` im Namen bricht Links)
+- `# Forward-Lookup-Zone.md` → [[Glossar/Forward-Lookup-Zone]] (`#` im Namen bricht Links)
 - `C# Grundlagen` → [[CSharp Grundlagen]] (Alias „C# Grundlagen“ bleibt)
 - Ordner **Übungsklausuren** gelöscht = 1:1-Kopie der Theorieklausuren (dein Häkchen in Klausur 2 übernommen)
 - Leere Dateien gelöscht: `202610061208`, `Fibre - Channel`, `OSI-Modell`, `Glossar/Unbenannt`, 4× `Unbenannt*.canvas`, `Unbenannt.base`, 3 leere Excalidraw-Zeichnungen

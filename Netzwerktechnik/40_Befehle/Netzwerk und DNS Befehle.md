@@ -7,7 +7,7 @@ status: importiert
 ---
 # Netzwerk und DNS Befehle
 
-Thema: [[Windows Server]] · [[Netzwerk]] · Theorie: [[DNS-Records]] · [[Forward-Lookup-Zone]] · [[PowerShell Grundlagen]]
+Thema: [[Windows Server]] · [[Netzwerk]] · Theorie: [[Glossar/DNS-Records]] · [[Glossar/Forward-Lookup-Zone]] · [[PowerShell Grundlagen]]
 
 ### Löschen Cache Namensauflösung
 

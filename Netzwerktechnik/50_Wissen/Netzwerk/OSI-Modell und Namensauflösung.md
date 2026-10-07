@@ -7,7 +7,7 @@ status: importiert
 ---
 # OSI-Modell und Namensauflösung
 
-Thema: [[Netzwerk]] · Vertiefung: [[DNS vs mDNS]] · [[DNS-Records]]
+Thema: [[Netzwerk]] · Vertiefung: [[DNS vs mDNS]] · [[Glossar/DNS-Records]]
 
 # IP-Paket Header
 

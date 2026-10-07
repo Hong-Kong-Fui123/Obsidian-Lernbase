@@ -10,10 +10,10 @@ erstellt: 2026-10-07
 
 # Reverse-Lookup-Zone
 
-**Definition:** DNS-Zone, die IP-Adressen in Namen auflöst (IP → Name). Gegenstück zur [[Forward-Lookup-Zone]].
+**Definition:** DNS-Zone, die IP-Adressen in Namen auflöst (IP → Name). Gegenstück zur [[Glossar/Forward-Lookup-Zone]].
 
 ## Inhalt
-- **PTR**-Einträge (siehe [[DNS-Records]])
+- **PTR**-Einträge (siehe [[Glossar/DNS-Records]])
 - Zonenname = Netz-ID **rückwärts** + `in-addr.arpa`
   - Netz `192.168.10.0/24` → Zone `10.168.192.in-addr.arpa`
   - IPv6: `ip6.arpa`
@@ -41,4 +41,4 @@ nslookup 192.168.10.30
 - Buch 70-741: [[70-741_Server2016_Netzwerk.pdf#page=43|Primäre Zonen (inkl. Reverse)]]
 
 ## Verwandt
-[[DNS]] · [[DNS-Records]] · [[Forward-Lookup-Zone]] · [[DNS vs mDNS]]
+[[DNS]] · [[Glossar/DNS-Records]] · [[Glossar/Forward-Lookup-Zone]] · [[DNS vs mDNS]]

@@ -11,4 +11,4 @@ bereich: Netzwerk
 
 - DNS-Zone, die Namen in IP-Adressen auflöst (Name → IP)
 - Gegenstück: [[Reverse-Lookup-Zone]]
-- Mehr: [[Forward-Lookup-Zone]]
+- Mehr: [[Glossar/Forward-Lookup-Zone]]

@@ -45,7 +45,7 @@ Add-DnsServerResourceRecordA -ZoneName "example.com" -Name "www" -IPv4Address "1
 - CNAME darf nicht auf Zonen-Apex (`example.com`) liegen
 
 ## Verwandt
-[[DNS]] · [[DNS vs mDNS]] · [[Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[AD DS Überblick|Active Directory]] · [[TTL]]
+[[DNS]] · [[DNS vs mDNS]] · [[Glossar/Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[AD DS Überblick|Active Directory]] · [[TTL]]
 
 ## 📄 Unterlagen
 - Folien: [[DNS_WindowsServer2025.pdf#page=5|Ressourceneinträge]] · [[DNS_Einfuehrung_Folien.pdf#page=5|DNS-Roundrobin]] · [[AD-DS_Ueberblick_Folien.pdf#page=13|SRV-Records: DC finden]]

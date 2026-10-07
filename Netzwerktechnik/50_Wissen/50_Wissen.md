@@ -8,8 +8,8 @@ Alle Wissensnotizen nach Fachgebiet. Themen-Übersichten: [[Start]] · Unterlage
 
 ## DNS
 - [[DNS vs mDNS]]
-- [[DNS-Records]]
-- [[Forward-Lookup-Zone]]
+- [[Glossar/DNS-Records]]
+- [[Glossar/Forward-Lookup-Zone]]
 - [[Reverse-Lookup-Zone]]
 
 ## Datenbanken
