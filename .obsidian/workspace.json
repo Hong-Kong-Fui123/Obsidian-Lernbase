@@ -11,16 +11,14 @@
             "id": "16fd36955147b05c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
-                "page": 1,
-                "left": -12,
-                "top": 599,
-                "zoom": 1.2685290161284202
+                "file": "00_Inbox/Unbenannt.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Speicherpool"
+              "icon": "lucide-file",
+              "title": "Unbenannt"
             }
           }
         ]
@@ -57,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MTU",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +93,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,14 +219,18 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "16fd36955147b05c",
+  "active": "fafd79c47b1a89c4",
   "lastOpenFiles": [
+    "10_Themen/Windows Server.md",
+    "00_Inbox/Unbenannt.md",
+    "20_Labs/Windows Server/_MOC_Wochenplan.md",
+    "10_Themen/Hardware.md",
+    "10_Themen/Datenbanken SQL.md",
+    "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
     "Glossar/RAID.md",
     "10_Themen/SQL_Dateien_und_Logs.md",
-    "10_Themen/Windows Server.md",
     "10_Themen/Programmierung.md",
     "50_Wissen/Windows Server/AD und DNS Grundlagen.md",
-    "10_Themen/Datenbanken SQL.md",
     "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
     "50_Wissen/Datenbanken/SQL - Grundlagen und ER-Modell.md",
     "40_Befehle/WS PowerShell Befehle.canvas",
@@ -253,16 +256,12 @@
     "50_Wissen/DNS/# Forward-Lookup-Zone.md",
     "50_Wissen/DNS/Dns-Records.md",
     "50_Wissen/Office/Office und Textverarbeitung.md",
-    "Glossar/Forward-Lookup-Zone.md",
     "Unbenannt.canvas",
-    "OSI-Modell.md",
-    "202610061208.md",
     "50_Wissen/Unbenannt.base",
     "Excalidraw",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",
     "Unbenannt 1.canvas",
-    "50_Wissen/DNS",
     "Unbenannt 4.canvas",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
