@@ -1,0 +1,3 @@
+DN,objectClass,sn,givenName,sAMAccountName,userPrincipalName
+"CN=David Jones,OU=Schulung,DC=example,DC=com",user,Jones,David,david.jones,david.jones@example.com
+"CN=Lisa Andrews,OU=Schulung,DC=example,DC=com",user,Andrews,Lisa,lisa.andrews,lisa.andrews@example.com

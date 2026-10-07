@@ -1,0 +1,27 @@
+dn: CN=Bonnie Kearney,OU=Schulung,DC=example,DC=com
+changetype: add
+objectClass: user
+cn: Bonnie Kearney
+sn: Kearney
+title: Vertrieb
+description: Vertrieb (London)
+givenName: Bonnie
+displayName: Kearney, Bonnie
+company: example, AG
+sAMAccountName: bonnie.kearney
+userPrincipalName: bonnie.kearney@example.com
+mail: bonnie.kearney@example.com
+
+dn: CN=Bobby Moore,OU=Schulung,DC=example,DC=com
+changetype: add
+objectClass: user
+cn: Bobby Moore
+sn: Moore
+title: Rechtsabteilung
+description: Rechtsabteilung (New York)
+givenName: Bobby
+displayName: Moore, Bobby
+company: example, AG
+sAMAccountName: bobby.moore
+userPrincipalName: bobby.moore@example.com
+mail: bobby.moore@example.com
