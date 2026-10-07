@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** AD-Domänendienste
 
 - Serverrolle, die einen Server zum [[DC]] macht
+- Mehr: [[AD DS Überblick]] · [[AD-DS_Ueberblick_Folien.pdf|Folien]]

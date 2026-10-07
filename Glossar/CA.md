@@ -11,3 +11,4 @@ bereich: Sicherheit-PKI
 
 - Stellt Zertifikate aus und widerruft sie
 - Hierarchie: Root-CA (offline) → Sub-/Issuing-CA
+- Mehr: [[PKI und Zertifikatdienste]] · [[Aufgabe_02_CA-Serverrolle]]

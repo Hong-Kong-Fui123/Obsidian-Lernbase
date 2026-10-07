@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Schnittstelle zum Abfragen/Steuern von Windows
 - PowerShell: Get-CimInstance
+- Mehr: [[Gruppenrichtlinien]] (WMI-Filter)

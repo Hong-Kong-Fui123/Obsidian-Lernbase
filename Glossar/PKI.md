@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Infrastruktur öffentlicher Schlüssel
 
 - System aus [[CA]]s, Zertifikaten, Sperrlisten und Richtlinien
+- Mehr: [[PKI und Zertifikatdienste]] · [[AD-Zertifikatdienste.pdf#page=13|Folie PKI]]

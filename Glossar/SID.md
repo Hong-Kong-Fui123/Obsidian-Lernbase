@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Eindeutige Kennung jedes Sicherheitsprinzipals
 - Berechtigungen hängen an der SID, nicht am Namen
+- Mehr: [[AD-Gruppen und AGDLP]] · [[Vertrauensstellungen]] (SID-Filterung)

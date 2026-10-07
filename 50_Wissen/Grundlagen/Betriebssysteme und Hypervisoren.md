@@ -66,3 +66,7 @@ Dieser Hypervisor funktioniert als Applikation und läuft entsprechend
 auf einem bereits vorhandenen Betriebssystem.
 
 ---
+
+## 📄 Unterlagen
+- Buch 70-740: [[70-740_Server2016_Installation_Speicher.pdf#page=201|Hyper-V installieren]] · [[70-740_Server2016_Installation_Speicher.pdf#page=311|Windows-Container]]
+- Praxis: [[VM-Infrastruktur]]

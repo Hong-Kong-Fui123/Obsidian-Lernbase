@@ -28,7 +28,7 @@ Nach dieser Aufgabe kannst du:
 - [ ] Abschnitt 4: Trust-Chain nachvollzogen
 - [ ] Abschnitt 5: CA-Typen differenziert
 - [ ] Theorie-Fragen beantwortet (unten)
-- [ ] Mit Schulbuch abgeglichen (Andrew Warren: Zertifikate)
+- [ ] Mit Schulbuch abgeglichen ([[70-742_Server2016_Identitaet.pdf#page=291|Andrew Warren: Zertifikate]])
 - [ ] Notizen in Obsidian angelegt
 
 ---
@@ -250,15 +250,16 @@ Was bedeutet das?
 
 ## 📖 Schulbuch-Zuordnung
 
-**Andrew Warren: "Zertifikate & PKI"**  
-(Falls vorhanden, lies diese Kapitel parallel)
+**Andrew Warren: „Identitätsmanagement mit Windows Server 2016“ (70-742), Kap. 4** + Schulfolien „Zertifikate“
 
-| Schulbuch-Kapitel | Unser Theorie-Abschnitt | Mapping |
-|-------------------|--------------------------|---------|
-| 1: PKI Grundlagen | Abschnitt 1-2 | Asymmetrie + CA-Konzept |
-| 2: Zertifikate | Abschnitt 4 | Was in einem Zertifikat steht |
-| 3: Vertrauensmodelle | Abschnitt 3, 5 | Hierarchie + Validierung |
-| 4: CRL & Revocation | (Woche 07) | Certificate Revocation |
+| Unterlage | Unser Theorie-Abschnitt | Inhalt |
+|---|---|---|
+| [[AD-Zertifikatdienste.pdf#page=3\|Folien S. 3–9]] | Abschnitt 1 | Symmetrisch/asymmetrisch |
+| [[AD-Zertifikatdienste.pdf#page=10\|Folien S. 10–12]] | Abschnitt 1, 5 | Digitale Signatur |
+| [[AD-Zertifikatdienste.pdf#page=13\|Folien S. 13–15]] | Abschnitt 2, 4 | PKI, Zertifikatinhalt, Aufgaben der CA |
+| [[70-742_Server2016_Identitaet.pdf#page=293\|70-742 S. 293]] | Abschnitt 2, 3 | Eigenständige vs. Unternehmens-CA |
+| [[70-742_Server2016_Identitaet.pdf#page=307\|70-742 S. 307]] | Abschnitt 3 | Offline-Root-CA |
+| [[70-742_Server2016_Identitaet.pdf#page=342\|70-742 S. 342]] | (Woche 07) | Validieren, Sperren (CRL) |
 
 ---
 
@@ -299,6 +300,7 @@ Beantworte ohne in deine Notizen zu schauen:
 ## 🔗 Verwandte Inhalte
 
 - [[Lösung_01_PKI-Grundlagen]] (nach Aufgabe)
+- [[PKI und Zertifikatdienste]] (Theorie kompakt + PDF-Links)
 - [[VM-Infrastruktur]] (dein Lab setup)
 - [[_MOC_Wochenplan]] (zurück zum Plan)
 - [[Woche_05/Aufgabe_02_CA-Serverrolle]] (nächste Aufgabe)

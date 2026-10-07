@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Sicheres Socket-Tunnelprotokoll
 
 - VPN über [[TLS]], TCP 443
+- Mehr: [[DirectAccess_vs_VPN]] · [[Lab VPN SSTP mit MS-CHAPv2]]

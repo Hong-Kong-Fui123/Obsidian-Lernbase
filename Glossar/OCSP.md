@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Online-Zertifikatstatusprotokoll
 
 - Echtzeit-Abfrage, ob ein Zertifikat gesperrt ist
+- Mehr: [[PKI und Zertifikatdienste]]

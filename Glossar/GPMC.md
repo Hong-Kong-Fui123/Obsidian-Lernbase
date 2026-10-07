@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** Gruppenrichtlinienverwaltungskonsole
 
 - gpmc.msc – Verwaltung von [[GPO]]s
+- Mehr: [[Gruppenrichtlinien]]

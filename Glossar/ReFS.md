@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** Robustes Dateisystem
 
 - Für große Datenmengen/Hyper-V, Selbstheilung mit Storage Spaces
+- Mehr: [[Speicherpools]]

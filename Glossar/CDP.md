@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Sperrlisten-Verteilungspunkt
 
 - URL/Pfad im Zertifikat, wo die [[CRL]] liegt
+- Mehr: [[PKI und Zertifikatdienste]]

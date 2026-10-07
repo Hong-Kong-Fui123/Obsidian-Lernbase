@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Letzter Teil der [[SID]], eindeutig je Domäne
 - Vergabe durch RID-Master
+- Mehr: [[AD DS Überblick]]

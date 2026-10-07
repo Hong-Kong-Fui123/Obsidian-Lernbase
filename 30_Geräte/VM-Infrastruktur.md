@@ -286,10 +286,16 @@ shutdown /s /t 30
 
 ## 🔗 Verwandte Seiten
 - [[_MOC_Wochenplan]] – Aufgaben-Übersicht
-- [[Snapshot-States]] – Startzustände
-- [[Firewall-Regeln]] – Detailed Firewall Config
+- [[VM-Infrastruktur#📸 Snapshot-Strategie|Snapshot-Strategie]] – Startzustände (Abschnitt oben)
+- [[VM-Infrastruktur#🔧 Firewall-Einstellungen (alle VMs)|Firewall-Einstellungen]] – Firewall-Regeln (Abschnitt oben)
+- [[Lab AD-Grundlagen (Schule)]] · [[Fehlerlog Home-Lab]]
+- Theorie Hyper-V: [[Betriebssysteme und Hypervisoren]]
 
 ---
 
 **Deine Lab-Umgebung ist bereit.** 🚀  
 Starte mit: [[_MOC_Wochenplan]]
+
+## 📄 Unterlagen
+- Buch 70-740: [[70-740_Server2016_Installation_Speicher.pdf#page=201|Kap. 3 Hyper-V]] · [[70-740_Server2016_Installation_Speicher.pdf#page=219|VM-Einstellungen (Checkpoints)]] · [[70-740_Server2016_Installation_Speicher.pdf#page=256|Hyper-V-Speicher]] · [[70-740_Server2016_Installation_Speicher.pdf#page=282|Hyper-V-Netzwerk]] · [[70-740_Server2016_Installation_Speicher.pdf#page=62|Nano Server]]
+- Buch 70-642: [[70-642_Server2008R2_Netzwerk.pdf#page=473|Windows-Firewall]]

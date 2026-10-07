@@ -9,8 +9,8 @@ status: importiert
 
 Thema: [[Datenbanken SQL]]
 
-> [!warning] Korrekturen
-> - „Right-Ahead Protokoll“ heißt **Write-Ahead Logging** (WAL)
+> [!note] Korrigiert 07.10.2026
+> „Right-Ahead“ → **Write-Ahead Logging** (WAL).
 
 # SQL-Isolationslevel (von schwach nach stark)
 
@@ -134,7 +134,7 @@ Bulk-Backup speichert nur einen zusammengefassten Timestamp.
 
 Full-Backup speichern die  einzelnen Timestamps, so ist eine Recovery-Zeit möglich.
 
-## Was ist das Right-Ahead Protokoll?
+## Was ist das Write-Ahead-Protokoll (WAL)?
 
 Das Protokoll für die Änderungen werden erst geschrieben, dann erst wird die Manipulation durchgeführt. Falls Systemfehler bei der Manipulation den Vorgang unterbricht, wird dadurch klar was und ob etwas verändert wurde.
 

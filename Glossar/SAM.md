@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** Sicherheitskontenverwaltung
 
 - Lokale Benutzerdatenbank; in AD: sAMAccountName (EXAMPLE\user)
+- Mehr: [[AD-Gruppen und AGDLP]]

@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** Routing- und RAS-Dienst
 
 - Serverrolle für [[VPN]] und Routing
+- Mehr: [[DirectAccess_vs_VPN]] · [[Lab VPN SSTP mit MS-CHAPv2]]

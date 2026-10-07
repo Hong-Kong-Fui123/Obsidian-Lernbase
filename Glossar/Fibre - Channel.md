@@ -1,1 +1,0 @@
-**Fibre Channel (FC)** ist eine ==serielle Hochgeschwindigkeits-Netzwerktechnologie==, die primär für den blockorientierten und verlustfreien Datentransfer in **Storage Area Networks (SANs)** zwischen Servern und Speichersystemen eingesetzt

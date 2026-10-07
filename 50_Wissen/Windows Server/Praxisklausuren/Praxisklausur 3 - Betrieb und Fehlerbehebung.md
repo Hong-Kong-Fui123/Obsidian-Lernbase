@@ -484,3 +484,6 @@ Bewertungshinweis Praxis: volle Punkte nur, wenn alle Kästchen erfüllt und per
 **Themen zum Wiederholen:**
 
 - 
+
+## 📄 Unterlagen zur Vorbereitung
+[[Gruppenrichtlinien]] · [[AD DS Überblick]] · [[Fehlerlog Home-Lab]] · [[AD-DS_20_Pruefungsfragen.pdf#page=1|AD-DS-Szenarien]] · [[Netzwerk_30_Pruefungsfragen.pdf#page=6|Netzwerk-Szenarien]]

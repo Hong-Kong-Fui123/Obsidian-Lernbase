@@ -9,8 +9,8 @@ status: importiert
 
 Thema: [[Datenbanken SQL]]
 
-> [!warning] Korrekturen
-> - `SEC()` gibt es in T-SQL nicht → `DATEPART(second, <Spalte>)`
+> [!note] Korrigiert 07.10.2026
+> `SEC()`/`MINUTE()` gibt es in T-SQL nicht → `DATEPART(...)`; Datums-SELECT berichtigt.
 
 ## ALTER TABLE Befehle
 
@@ -248,14 +248,14 @@ WHERE <Spalte> =  <Bedingung>;
 ## Select Anzeigedatum/- zeit
 
 ```sql
-SELECT * FROM [Tabelle] <Datumsspalte>,
-YEAR(<Datumsspalte>) AS Jahr,
-MONTH(<Datumsspalte>) AS Monat,
-DAY(<Datumsspalte>) AS Tag,
-MINUTE(<Datumsspalte>) AS Minute,
-SEC(<Datumsspalte>) AS Sekunde,
-DATEPART(<AusgabeZeit>, <Datumsspalte>) AS AusgabeZeit,
+SELECT <Datumsspalte>,
+  YEAR(<Datumsspalte>)  AS Jahr,
+  MONTH(<Datumsspalte>) AS Monat,
+  DAY(<Datumsspalte>)   AS Tag,
+  DATEPART(minute, <Datumsspalte>) AS Minute,
+  DATEPART(second, <Datumsspalte>) AS Sekunde
 FROM [Tabelle];
+-- allgemein: DATEPART(<Teil>, <Datumsspalte>), Teil = year, month, day, hour, minute, second
 ```
 ## SELECT COUNT zum zählen der Reihen mit den Argumenten.
 

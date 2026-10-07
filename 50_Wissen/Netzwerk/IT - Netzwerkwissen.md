@@ -7,12 +7,10 @@ status: importiert
 ---
 # IT - Netzwerkwissen (Rollen/Features, IPv4-Klassen, ARP)
 
-Thema: [[Netzwerk]]
+Thema: [[Netzwerk]] · Siehe auch: [[Netzwerkbefehle und DHCP]] · [[OSI-Modell und Namensauflösung]]
 
-> [!warning] Korrekturen
-> - Klasse E: 240–255 (nicht 240–247), Binär `1111xxxx`
-> - Klasse D/E standen doppelt – bitte doppelte Zeilen löschen
-> - 127.x.x.x (Loopback) gehört zu keiner nutzbaren Klasse
+> [!note] Korrigiert 07.10.2026
+> Klasse E auf 240–255 korrigiert, Loopback ergänzt, `slmgr -dli` = **Lizenz** (nicht DHCP-Lease).
 
 ### Was ist der Unterschied zwischen Features und Rollen?
 
@@ -20,9 +18,16 @@ Features sind Anwendungen/Dienste für den eigenen Bedarf
 
 Rollen sind Anwendungen/Dienste, die für Andere bereitgestellt werden.
 
-### Wie lautet der PowerShell Befehl für die Leasedauer in Windows
+### Lizenz (Aktivierung) und Ablaufdatum anzeigen
 
-slmgr -dli
+**Maschine: beliebiger Windows-PC** (CMD)
+
+```cmd
+slmgr -dli   :: Lizenzinfos
+slmgr -xpr   :: Ablaufdatum der Aktivierung
+```
+
+DHCP-**Lease** dagegen: `ipconfig /all` (Client) bzw. `Get-DhcpServerv4Lease` (DHCP-Server) → [[DHCP-Server]]
 
 ## IPv4-Adressen, Klassenbezug
 
@@ -42,9 +47,11 @@ D:                    224 - 239 (Multicast-Adressen)
 
 1110.xxxx.xxxx.xxxx
 
-E:                    240 - 247
+E:  240 - 255 (experimentell)
 
-1111.10111. xxxx.xxxx
+1111.xxxx.xxxx.xxxx
+
+Loopback 127.0.0.0/8 gehört zu keiner nutzbaren Klasse (127.0.0.1 = localhost).
 
 ### Aufrufen der Adapter
 
@@ -80,4 +87,8 @@ netsh interface ipv6 isatap set state enabled
 
 Transport Layer Security. Weiterentwicklung von [[SSL]].
 
-
+## 📄 Unterlagen
+- Buch 70-741: [[70-741_Server2016_Netzwerk.pdf#page=267|IPv4-Adressen]] · [[70-741_Server2016_Netzwerk.pdf#page=184|Private IPv4-Bereiche, NAT]] · [[70-741_Server2016_Netzwerk.pdf#page=283|ISATAP]]
+- Buch 70-642: [[70-642_Server2008R2_Netzwerk.pdf#page=61|IPv4-Adressierung]]
+- PKI/TLS: [[PKI und Zertifikatdienste]] · [[AD-Zertifikatdienste.pdf#page=9|Kombination symmetrisch/asymmetrisch]]
+- Prüfungsfragen: [[Netzwerk_30_Pruefungsfragen.pdf#page=1|F1–6 IPv4]]

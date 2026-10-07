@@ -10,3 +10,4 @@ bereich: Hardware-Storage
 **Deutsch:** Netzwerkspeicher
 
 - Dateibasierter Speicher im Netz ([[SMB]], NFS)
+- Achtung: Bei [[RADIUS]] bedeutet NAS **Network Access Server** → [[RADIUS und NPS]]

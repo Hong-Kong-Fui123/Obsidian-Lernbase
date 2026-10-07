@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Microsoft-Challenge-Handshake-Authentifizierung v2
 
 - Passwortbasierte Anmeldung, nur in TLS geschützt nutzen (PEAP)
+- Mehr: [[DirectAccess_vs_VPN#Authentifizierungs-Protokolle – Übersicht|Auth-Protokolle]] · [[Lab VPN SSTP mit MS-CHAPv2]]

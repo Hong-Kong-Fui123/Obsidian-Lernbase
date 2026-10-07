@@ -523,3 +523,6 @@ Bewertungshinweis Praxis: volle Punkte nur, wenn alle Kästchen erfüllt und per
 **Themen zum Wiederholen:**
 
 - 
+
+## 📄 Unterlagen zur Vorbereitung
+[[AD DS Überblick]] · [[DHCP-Server]] · [[Forward-Lookup-Zone]] · [[DNS-Records]] · [[AD-DS_50_Pruefungsfragen.pdf#page=2|Fragen Installation/Heraufstufung]] · [[Netzwerk_30_Pruefungsfragen.pdf#page=3|Fragen DNS/DHCP]]

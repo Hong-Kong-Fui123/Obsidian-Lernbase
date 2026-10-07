@@ -10,4 +10,5 @@ bereich: Hardware-Storage
 **Deutsch:** SCSI über IP
 
 - Blockspeicher über Ethernet, typisch im [[SAN]]
-[[IQN]]
+- Eindeutige Namen: [[IQN]] · Verzeichnisdienst: [[iSNS - Server|iSNS]]
+- Mehr: [[Speicherpools]]

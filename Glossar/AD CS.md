@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Serverrolle für eine [[CA]] / [[PKI]]
 - Enterprise-CA (AD-integriert) oder Standalone-CA
+- Mehr: [[PKI und Zertifikatdienste]]

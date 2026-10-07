@@ -609,7 +609,8 @@ Get-VMSnapshot -VMName "EXA-SUB-CA01"
 
 ## 🔗 Verwandte Inhalte
 
-- [[Lösung_02_CA-Serverrolle]] (nach Aufgabe)
+- Lösung_02_CA-Serverrolle *(⏳ noch nicht erstellt)*
+- [[PKI und Zertifikatdienste]] (Theorie kompakt)
 - [[VM-Infrastruktur]] (Lab Referenz)
 - [[_MOC_Wochenplan]] (Wochenübersicht)
 - [[Woche_05/Klausur_Zertifikate_120Min]] (Wochenende)
@@ -618,3 +619,8 @@ Get-VMSnapshot -VMName "EXA-SUB-CA01"
 
 **Viel Erfolg beim Aufbau deiner PKI!** 🚀  
 Das ist der Knackpunkt – ab hier geht's vorwärts!
+
+## 📄 Unterlagen
+- Schulübung: [[Uebung_Zertifizierungsstellen_installieren.pdf#page=1|CA installieren (Stamm + Sub-CA)]] · [[Uebung_Zertifizierungsstellen_installieren.pdf#page=2|Eigenständige CA + Webregistrierung]] · [[Uebung_Zertifizierungsstellen_installieren.pdf#page=3|CDP/AIA]]
+- Folien: [[AD-Zertifikatdienste.pdf#page=16|CA installieren]] · [[AD-Zertifikatdienste.pdf#page=18|Zertifikatvorlagen]] · [[AD-Zertifikatdienste.pdf#page=21|Autoenrollment]]
+- Buch 70-742: [[70-742_Server2016_Identitaet.pdf#page=297|Eigenständige CA]] · [[70-742_Server2016_Identitaet.pdf#page=306|Unternehmens-CA]] · [[70-742_Server2016_Identitaet.pdf#page=307|Offline-CA]] · [[70-742_Server2016_Identitaet.pdf#page=331|CA sichern]]

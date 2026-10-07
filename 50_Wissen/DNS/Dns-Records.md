@@ -5,6 +5,7 @@ synonyme: [Resource Record, RR, DNS-Eintrag]
 thema: "[[DNS]]"
 tags: [glossar, dns, netzwerk, windows-server]
 erstellt: 2026-10-06
+aliases: [DNS-Record, Resource Record, DNS-Eintrag]
 ---
 
 # DNS-Record
@@ -44,4 +45,10 @@ Add-DnsServerResourceRecordA -ZoneName "example.com" -Name "www" -IPv4Address "1
 - CNAME darf nicht auf Zonen-Apex (`example.com`) liegen
 
 ## Verwandt
-[[DNS]] · [[Glossar/Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[Active Directory]] · [[TTL]]
+[[DNS]] · [[DNS vs mDNS]] · [[Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[AD DS Überblick|Active Directory]] · [[TTL]]
+
+## 📄 Unterlagen
+- Folien: [[DNS_WindowsServer2025.pdf#page=5|Ressourceneinträge]] · [[DNS_Einfuehrung_Folien.pdf#page=5|DNS-Roundrobin]] · [[AD-DS_Ueberblick_Folien.pdf#page=13|SRV-Records: DC finden]]
+- Übung: [[DNS_Uebung_1.pdf#page=2|Übung 3: A, CNAME, MX anlegen]] · [[DNS_Uebung_1_Loesung.pdf#page=1|Lösung]]
+- Buch 70-741: [[70-741_Server2016_Netzwerk.pdf#page=59|Ressourceneinträge]] · [[70-741_Server2016_Netzwerk.pdf#page=62|Alterung/Aufräumen]]
+- Prüfungsfragen: [[Netzwerk_30_Pruefungsfragen.pdf#page=3|F14–27 DNS]]

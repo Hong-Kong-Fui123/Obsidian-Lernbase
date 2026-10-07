@@ -11,3 +11,4 @@ bereich: Sicherheit-PKI
 
 - Liste gesperrter Zertifikate, von der [[CA]] veröffentlicht
 - Abrufort: [[CDP]]; Alternative: [[OCSP]]
+- Mehr: [[PKI und Zertifikatdienste]] · [[AD-Zertifikatdienste.pdf#page=15|Folie Sperrlisten]]

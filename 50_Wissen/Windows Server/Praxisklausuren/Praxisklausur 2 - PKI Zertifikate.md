@@ -533,3 +533,6 @@ Bewertungshinweis Praxis: volle Punkte nur, wenn alle Kästchen erfüllt und per
 **Themen zum Wiederholen:**
 
 - 
+
+## 📄 Unterlagen zur Vorbereitung
+[[PKI und Zertifikatdienste]] · [[Aufgabe_02_CA-Serverrolle]] · [[Uebung_Zertifizierungsstellen_installieren.pdf|Schulübung CA]] · [[AD-CS_20_Pruefungsfragen.pdf#page=1|Fragen AD CS]]

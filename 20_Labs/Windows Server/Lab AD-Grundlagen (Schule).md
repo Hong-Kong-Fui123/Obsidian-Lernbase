@@ -7,7 +7,7 @@ status: importiert
 ---
 # Lab AD-Grundlagen (Schule)
 
-Thema: [[Windows Server]]
+Thema: [[Windows Server]] · Theorie: [[AD DS Überblick]] · [[Gruppenrichtlinien]] · Befehle: [[PowerShell AD und GPO]]
 
 > [!warning] Korrekturen
 > - [[IP]]-Adressen weichen von [[VM-Infrastruktur]] ab (z. B. .201 = EXA-SRV01 hier, EXA-DC02 dort) – eine Quelle festlegen
@@ -120,3 +120,9 @@ Test.de und Linux.org hinzufügen
 6.         [[GPO]] Remote-Desktop
 
 GPO Remote-Desktop erstellen, dann **Gpedit.msc** → Computer-Konfiguration → Richtlinien → Windows-Einstellungen → Sicherheitseinstellungen → Eingeschränkte Gruppen. >> Domänen-User hinzufügen
+
+## 📄 Unterlagen
+- Folien: [[AD-DS_Ueberblick_Folien.pdf#page=5|OUs und Container]] · [[AD-Gruppenrichtlinien.pdf#page=19|GPO-Verknüpfungen]]
+- Übungen GPO: [[Uebung_Gruppenrichtlinien_1.pdf|Übung 1]] · [[Uebung_Gruppenrichtlinien_2.pdf|Übung 2]]
+- Importdateien: [[user.csv]] · [[user.ldf]]
+- Buch 70-742: [[70-742_Server2016_Identitaet.pdf#page=158|Alternative UPN-Suffixe]] · [[70-742_Server2016_Identitaet.pdf#page=95|OUs]]

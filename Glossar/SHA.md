@@ -11,3 +11,4 @@ bereich: Sicherheit-PKI
 
 - Einweg-Prüfsumme zur Integritätsprüfung, heute SHA-256+
 - SHA-1 veraltet
+- Mehr: [[PKI und Zertifikatdienste]]

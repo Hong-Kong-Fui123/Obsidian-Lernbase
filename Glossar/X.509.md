@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Zertifikatsstandard
 
 - Standardformat für digitale Zertifikate
+- Mehr: [[AD-Zertifikatdienste.pdf#page=14|Folie Inhalt eines Zertifikats]]

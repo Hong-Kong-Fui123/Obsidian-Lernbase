@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** Ticket-Gewährungs-Ticket
 
 - Erstes [[Kerberos]]-Ticket nach Anmeldung, damit weitere Diensttickets holen
+- Mehr: [[AD DS Überblick]]

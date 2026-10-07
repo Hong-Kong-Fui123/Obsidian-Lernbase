@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** Schlüsselverteilungszentrum
 
 - [[Kerberos]]-Dienst auf jedem [[DC]]
+- Mehr: [[Vertrauensstellungen]]

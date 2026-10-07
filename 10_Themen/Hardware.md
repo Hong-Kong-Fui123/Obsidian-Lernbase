@@ -9,3 +9,4 @@ tags: [moc]
 - [[Netzteile und Schnittstellen]]
 - [[Mainboard und Prozessor]]
 - [[Arbeitsspeicher und Grafik]]
+- [[Speicherpools]] (Windows Server, RAID-ähnlich)

@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Zugriff auf Ausstellerinformationen
 
 - URL im Zertifikat zum CA-Zertifikat und ggf. [[OCSP]]
+- Mehr: [[PKI und Zertifikatdienste]]

@@ -326,7 +326,7 @@ Clients im Firmennetz haben als DNS-Server 8.8.8.8 eingetragen. Interne Serverna
 Welche vier Schritte umfasst die dynamische IP-Vergabe per DHCP (DORA)?
 
 - [ ] A) Discover, Offer, Reply, Ack
-- [ ] B) Discover, Offer, Request, Acknowledge
+- [x] B) Discover, Offer, Request, Acknowledge ✅ 2026-09-25
 - [ ] C) Detect, Offer, Renew, Accept
 - [ ] D) Discover, Order, Request, Accept
 

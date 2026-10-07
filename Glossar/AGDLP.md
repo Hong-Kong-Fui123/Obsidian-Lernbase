@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Microsoft-Prinzip zur Berechtigungsvergabe
 - Benutzer in globale Gruppe, diese in domänenlokale Gruppe, diese bekommt Berechtigung
+- Mehr: [[AD-Gruppen und AGDLP]] · [[AD-Gruppen.pdf#page=10|Folie Gruppenbereiche]]

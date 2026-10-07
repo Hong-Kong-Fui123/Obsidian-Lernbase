@@ -9,23 +9,20 @@ status: importiert
 
 Thema: [[Hardware]]
 
-> [!warning] Korrekturen
-> - [[TPM]] = **Trusted** Platform Module
-> - 01.01.1970 = Unix-Zeit (Betriebssystem), nicht [[BIOS]]
-> - Pin-Anzahl steht im Sockelnamen (z. B. LGA 1700), nicht in der [[CPU]]-Nummer
-> - CPUs drosseln bei ca. 100 °C (Tjmax), sie „verlieren“ nicht ihre Wirkung
+> [!note] Korrigiert 07.10.2026
+> Unix-Zeit, Sockel/Pins, TPM-Name und Temperaturgrenze berichtigt.
 
-## Unix Startzeit bei BIOS
+## Unix-Zeit
 
-01.01.1970 – der Startpunkt der BIOS-Zeitrechnung. Von dort werden die Sekunden gerechnet und danach geteilt. So entstehen Datum und die Uhrzeit.
+01.01.1970 00:00 UTC – Startpunkt der **Unix-Zeit** (Betriebssystem, nicht [[BIOS]]). Gezählt werden die Sekunden seitdem; daraus entstehen Datum und Uhrzeit.
 
 ## Prozessor-Sockel
 
-Die Zahlen bei den Bezeichnungen bei Intel, z.B. Intel 4710, gibt die Anzahl die der Pinne wieder.
+Die Pin-Anzahl steht im **Sockelnamen** (z. B. LGA 1700 = 1700 Kontakte), nicht in der [[CPU]]-Nummer (Intel 4710 = Modellnummer).
 
-## TPM (Tasted Plattform Modul)
+## TPM (Trusted Platform Module)
 
-Verschlüsselungsmodul
+Sicherheitschip: speichert Schlüssel (z. B. für [[BitLocker]]), Pflicht für Windows 11.
 
 ## AAFP (AnalogAudioFrontalPanel)
 
@@ -35,7 +32,7 @@ Mikro- und Kopfhörerbuchse.
 
 Setzt Bios-Einstellungen auf Werkseinstellungen zurück.
 
-Prozessoren (Silizium) verlieren ab 120 Grad ihre Wirkung.
+Prozessoren drosseln ab ca. **100 °C (Tjmax)** den Takt und schalten bei Überhitzung ab.
 
 ## Aufbau eines Prozessors
 

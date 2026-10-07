@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Internet-Schlüsselaustausch v2
 
 - VPN-Protokoll mit [[IPsec]], UDP 500/4500
+- Mehr: [[DirectAccess_vs_VPN]]

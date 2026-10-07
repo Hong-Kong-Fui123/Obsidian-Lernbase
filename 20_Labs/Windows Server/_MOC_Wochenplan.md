@@ -49,7 +49,7 @@
 ---
 
 #### **Mittwoch: Optional-Aufgabe** (60 Min) ⭐⭐
-📖 **[[Woche_05/Aufgabe_03_CA-Troubleshooting]]** (optional, wenn Zeit)
+📖 **Aufgabe_03_CA-Troubleshooting** *(⏳ noch nicht erstellt)* (optional, wenn Zeit)
 
 - Häufige CA-Fehler beheben
 - Event Viewer analysieren
@@ -59,15 +59,15 @@
 
 #### **Donnerstag: Wiederholung & Fehlersuche** (60 Min)
 - Aufgabe 1 & 2 erneut durcharbeiten (ohne Notizen)
-- Eigene Fehler dokumentieren → `Fehlerlog.md`
+- Eigene Fehler dokumentieren → [[Fehlerlog Home-Lab]]
 - Mit Lösungen abgleichen
 
 ---
 
 #### **Freitag: Theorie-Recap** (45 Min) 🧠
-📖 **[[Woche_05/Theorie-Zusammenfassung]]**
+📖 **Theorie-Zusammenfassung** *(⏳ noch nicht erstellt)* → bis dahin: [[PKI und Zertifikatdienste]]
 
-- Schulbuch-Kapitel lesen (Andrew Warren: Zertifikate)
+- Schulbuch-Kapitel lesen: [[70-742_Server2016_Identitaet.pdf#page=291|Andrew Warren, 70-742 Kap. 4 AD CS]] · Folien [[AD-Zertifikatdienste.pdf|Zertifikate]]
 - Eigene Notizen erstellen
 - Konzepte mit deinem Lab verbinden
 
@@ -157,12 +157,14 @@ Woche 08 (Projekt-Phase)
 
 ### **Lösungen dieser Woche**
 - [[Woche_05/Lösung_01_PKI-Grundlagen]]
-- [[Woche_05/Lösung_02_CA-Serverrolle]]
+- Lösung_02_CA-Serverrolle *(⏳ noch nicht erstellt)*
 - [[Woche_05/Klausur_Lösung]]
 
 ### **Referenzen**
 - [[VM-Infrastruktur]] (dein Lab)
-- [[Snapshot-States]] (Startzustände)
+- [[VM-Infrastruktur#📸 Snapshot-Strategie|Snapshot-Strategie]] (Startzustände)
+- [[PDF-Index]] (Schulunterlagen)
+- [[PKI und Zertifikatdienste]] (Theorie kompakt)
 - [[Fehlerlog Home-Lab]] (deine Probleme)
 
 ---

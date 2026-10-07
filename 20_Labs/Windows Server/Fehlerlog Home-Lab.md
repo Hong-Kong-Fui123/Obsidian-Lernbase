@@ -1,5 +1,7 @@
 # 📋 Fehlerlog & Fragen-Tracker
 
+Thema: [[Windows Server]] · Lab: [[VM-Infrastruktur]] · [[_MOC_Wochenplan]]
+
 **Nutze diese Datei um:**
 - Fehler die du machst zu dokumentieren
 - Probleme während Aufgaben zu protokollieren

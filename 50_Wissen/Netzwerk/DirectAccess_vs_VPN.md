@@ -4,25 +4,8 @@ modul: 2 – Zertifikate/PKI (Querbezug Remote Access)
 tags: [fisi, windows-server, remote-access, directaccess, vpn, pki, gpo]
 erstellt: 2026-09-30
 status: lernen
+aliases: [VPN-Tunnel, VPN-Protokolle, DirectAccess]
 ---
-
-### [[### **VPN-Tunnel – Uebersicht**]]
-
-| Protokoll             | Vollstaendiger Name                                                     | Port/Basis                                         | Verschluesselung                    | Bewertung                                    | Computer<br>Authentif. |
-| --------------------- | ----------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------- | -------------------------------------------- | ---------------------- |
-| [[PPTP]] / [[MPPE]]   | Point-to-Point Tunneling Protocol / Microsoft Point-to-Point Encryption | [[TCP]] 1723 + GRE (Generic Routing Encapsulation) | MPPE (RC4, bis 128 Bit)             | veraltet, unsicher – nicht mehr nutzen       | Nein                   |
-| [[L2TP]] (/[[IPsec]]) | Layer 2 Tunneling Protocol (/ Internet Protocol Security)               | [[UDP]] 1701, 500, 4500                            | keine eigene → mit IPsec kombiniert | ok, aber [[NAT]]-/Firewall-Probleme          | Ja                     |
-| [[SSTP]]              | Secure Socket Tunneling Protocol                                        | TCP 443 ([[SSL]]/[[TLS]])                          | SSL/TLS                             | firewallfreundlich, Windows-lastig           | Ja                     |
-| [[IKEv2]] (/IPsec)    | Internet Key Exchange version 2 (/ IPsec)                               | UDP 500, 4500                                      | IPsec ([[AES]])                     | modern, stabil, schneller Reconnect (MOBIKE) | Ja                     |
-### **[[User-Authentifizierungs-Protokolle – Uebersicht]]**
-
-| Protokoll    | Vollstaendiger Name                                   | Prinzip                                                       | Sicherheit                              | Bewertung                         |
-| ------------ | ----------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------- | --------------------------------- |
-| PAP          | Password Authentication Protocol                      | Passwort im Klartext uebertragen                              | keine (Klartext)                        | unsicher – nie nutzen             |
-| SPAP         | Shiva Password Authentication Protocol                | Passwort verschluesselt (Shiva)                               | schwach, reversibel                     | veraltet, unsicher                |
-| CHAP         | Challenge Handshake Authentication Protocol           | Challenge-Response (MD5-Hash)                                 | mittel, Klartext-PW noetig auf Server   | besser als PAP, aber MD5 schwach  |
-| MS-CHAP (v2) | Microsoft Challenge Handshake Authentication Protocol | Challenge-Response, gegenseitige Auth (v2)                    | mittel, gegen moderne Angriffe knackbar | nur mit Tunnel (z. B. PEAP/IPsec) |
-| EAP          | Extensible Authentication Protocol                    | Rahmenwerk fuer viele Verfahren (TLS, Zertifikate, Smartcard) | hoch (je nach Methode, z. B. EAP-TLS)   | modern, Standard bei 802.1X/[[WLAN]]  |
 # DirectAccess vs. VPN
 
 > [!abstract] Kernaussage
@@ -30,7 +13,31 @@ status: lernen
 > - **DirectAccess**: Tunnel wird für den **Computer** aufgebaut – automatisch, **vor** der Anmeldung.
 > - DirectAccess ist **veraltet**; Nachfolger von Microsoft: **Always On VPN**.
 
-Verwandt: [[PKI Grundlagen]] · [[GPO Autoenrollment]] · [[Active Directory Grundlagen]]
+Thema: [[Netzwerk]] · [[Windows Server]]
+Verwandt: [[PKI und Zertifikatdienste]] · [[PKI und Zertifikatdienste#Autoenrollment (GPO)|GPO-Autoenrollment]] · [[AD DS Überblick]] · [[RADIUS und NPS]] · Übung: [[Lab VPN SSTP mit MS-CHAPv2]]
+
+
+## VPN-Protokolle – Übersicht
+
+| Protokoll             | Vollständiger Name                                                     | Port/Basis                                         | Verschlüsselung                    | Bewertung                                    | Computer<br>Authentif. |
+| --------------------- | ----------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------- | -------------------------------------------- | ---------------------- |
+| [[PPTP]] / [[MPPE]]   | Point-to-Point Tunneling Protocol / Microsoft Point-to-Point Encryption | [[TCP]] 1723 + GRE (Generic Routing Encapsulation) | MPPE (RC4, bis 128 Bit)             | veraltet, unsicher – nicht mehr nutzen       | Nein                   |
+| [[L2TP]] (/[[IPsec]]) | Layer 2 Tunneling Protocol (/ Internet Protocol Security)               | [[UDP]] 1701, 500, 4500                            | keine eigene → mit IPsec kombiniert | ok, aber [[NAT]]-/Firewall-Probleme          | Ja                     |
+| [[SSTP]]              | Secure Socket Tunneling Protocol                                        | TCP 443 ([[SSL]]/[[TLS]])                          | SSL/TLS                             | firewallfreundlich, Windows-lastig           | Ja                     |
+| [[IKEv2]] (/IPsec)    | Internet Key Exchange version 2 (/ IPsec)                               | UDP 500, 4500                                      | IPsec ([[AES]])                     | modern, stabil, schneller Reconnect (MOBIKE) | Ja                     |
+
+## Authentifizierungs-Protokolle – Übersicht
+
+| Protokoll    | Vollständiger Name                                   | Prinzip                                                       | Sicherheit                              | Bewertung                         |
+| ------------ | ----------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------- | --------------------------------- |
+| PAP          | Password Authentication Protocol                      | Passwort im Klartext übertragen                              | keine (Klartext)                        | unsicher – nie nutzen             |
+| SPAP         | Shiva Password Authentication Protocol                | Passwort verschlüsselt (Shiva)                               | schwach, reversibel                     | veraltet, unsicher                |
+| CHAP         | Challenge Handshake Authentication Protocol           | Challenge-Response (MD5-Hash)                                 | mittel, Klartext-PW nötig auf Server   | besser als PAP, aber MD5 schwach  |
+| MS-CHAP (v2) | Microsoft Challenge Handshake Authentication Protocol | Challenge-Response, gegenseitige Auth (v2)                    | mittel, gegen moderne Angriffe knackbar | nur mit Tunnel (z. B. PEAP/IPsec) → [[MS-CHAPv2]] |
+| EAP          | Extensible Authentication Protocol                    | Rahmenwerk für viele Verfahren (TLS, Zertifikate, Smartcard) | hoch (je nach Methode, z. B. EAP-TLS)   | modern, Standard bei 802.1X/[[WLAN]]  |
+
+> [!tip] Merke
+> PEAP baut erst einen [[TLS]]-Tunnel (Serverzertifikat!) auf, **darin** läuft MS-CHAPv2 → Passwort-Hash nicht abgreifbar. Zentrale Prüfung: [[RADIUS und NPS]].
 
 ---
 
@@ -223,3 +230,8 @@ Prüfe per PowerShell, ob der Client ein Computerzertifikat von EXA-CA01 besitzt
 - DirectAccess = **Computer** verbindet, **vor** Logon, **IPv6/IPsec**, **PKI + GPO**.
 - VPN = **Benutzer** verbindet, **nach** Logon, plattformunabhängig.
 - Heute: **Always On VPN** statt DirectAccess.
+
+## 📄 Unterlagen
+- Buch 70-741: [[70-741_Server2016_Netzwerk.pdf#page=194|VPN im Überblick]] · [[70-741_Server2016_Netzwerk.pdf#page=196|Protokolle + Authentifizierung]] · [[70-741_Server2016_Netzwerk.pdf#page=199|Remotezugriff-VPN]] · [[70-741_Server2016_Netzwerk.pdf#page=213|Site-to-Site-VPN]] · [[70-741_Server2016_Netzwerk.pdf#page=222|DirectAccess]] · [[70-741_Server2016_Netzwerk.pdf#page=282|IPv6-Übergänge (ISATAP, Teredo)]]
+- Buch 70-642: [[70-642_Server2008R2_Netzwerk.pdf#page=422|Remotenetzwerke/VPN]] · [[70-642_Server2008R2_Netzwerk.pdf#page=447|DirectAccess]]
+- Prüfungsfragen: [[VPN-RADIUS_15_Pruefungsfragen.pdf#page=1|VPN/RADIUS 15]] · [[VPN-RADIUS_15_Pruefungsfragen_Loesung.pdf#page=7|Lösungen]] · [[AD-CS_20_Pruefungsfragen.pdf#page=6|Szenario gestohlenes VPN-Notebook]]

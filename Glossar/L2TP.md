@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Schicht-2-Tunnelprotokoll
 
 - Nur mit [[IPsec]] sicher, UDP 500/4500/1701
+- Mehr: [[DirectAccess_vs_VPN]]

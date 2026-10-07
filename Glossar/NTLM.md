@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Älteres Challenge-Response-Protokoll
 - Fallback, wenn [[Kerberos]] nicht geht (z. B. Zugriff per IP)
+- Mehr: [[AD DS Überblick]]

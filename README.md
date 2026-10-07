@@ -10,34 +10,23 @@
 ## 📁 Vault-Struktur
 
 ```
-FiSi-Lernplan-Windows-Server/
-├── README.md                    ← Du bist hier
-├── _MOC_Wochenplan.md          ← Start: Wöchentliche Übersicht
-├── 
-├── Woche_05-08/                ← MODUL 2: Zertifikate (PKI)
-│   ├── Woche_05/
-│   │   ├── Aufgabe_01_PKI-Grundlagen.md
-│   │   ├── Lösung_01_PKI-Grundlagen.md
-│   │   ├── Aufgabe_02_CA-Serverrolle.md
-│   │   ├── Lösung_02_CA-Serverrolle.md
-│   │   ├── Klausur_Zertifikate_120Min.md
-│   │   └── Klausur_Lösung.md
-│   ├── Woche_06/
-│   ├── Woche_07/
-│   └── Woche_08/
-│
-├── Netzwerk-Infos/
-│   ├── VM-Infrastruktur.md      ← Deine erweiterte Lab-Umgebung
-│   ├── IP-Management.md
-│   └── Firewall-Regeln.md
-│
-├── Snapshots/
-│   ├── Snapshot-States.md       ← Startzustände für jede Übung
-│   └── Restore-Guide.md
-│
-└── Archiv/                      ← Abgeschlossene Module (später)
-    └── Woche_01-04/             (MODUL 1: AD Grundlagen – bereits gemacht)
+Netzwerktechnik/
+├── 00_Inbox/          ← Neue Notizen landen hier, 1×/Woche einsortieren
+├── 10_Themen/         ← Themen-Übersichten (MOCs): Netzwerk, Windows Server, …
+├── 20_Labs/           ← Übungen/Labs (Woche_05 PKI, Lab VPN, Lab AD-Grundlagen)
+├── 30_Geräte/         ← VM-Infrastruktur
+├── 40_Befehle/        ← Befehlssammlungen zum Nachschlagen
+├── 50_Wissen/         ← Erklärungen je Fachgebiet (+ Klausuren)
+├── 80_Übersichten/    ← Start, PDF-Index
+├── 90_Vorlagen/       ← Vorlagen (Glossar)
+├── 99_Anhänge/        ← PDF/<Thema>/…, Dateien (user.csv/ldf), Skripte
+└── Glossar/           ← Abkürzungen (Hover-Erklärung)
 ```
+
+**Einstieg:** [[Start]] · **Unterlagen:** [[PDF-Index]] · **Abkürzungen:** [[00_Glossar-Index]]
+
+> [!info] Inbox-Regel
+> Erklärt es *was etwas ist*? → `50_Wissen` · Aufbau/Übung? → `20_Labs` · Befehl? → `40_Befehle`
 
 ---
 
@@ -46,7 +35,7 @@ FiSi-Lernplan-Windows-Server/
 ### **Für Anfänger in Obsidian:**
 
 1. **Diese Datei öffnen** (du bist hier) ✅
-2. **Gehe zu:** `_MOC_Wochenplan.md`
+2. **Gehe zu:** [[_MOC_Wochenplan]]
 3. **Wähle deine Woche** (z.B. Woche 05)
 4. **Lies Aufgabe 1** (60 Min)
 5. **Mache sie in deinem Homelab** → notiere Fehler
@@ -113,7 +102,7 @@ FiSi-Lernplan-Windows-Server/
 
 - **Snapshots machen:** Nach jeder erfolgreichen Übung [[VM]]-Snapshot erstellen
 - **Backup der Notizen:** GitHub sync ist aktiv → alles ist gesichert
-- **Fehler protokollieren:** Im Ordner `Fehlerlog.md` dokumentieren
+- **Fehler protokollieren:** in [[Fehlerlog Home-Lab]] dokumentieren
 - **Links nutzen:** Mit `[[Link]]` innerhalb Obsidian navigieren
 
 ---
@@ -122,7 +111,7 @@ FiSi-Lernplan-Windows-Server/
 
 - Start der Woche → **[[_MOC_Wochenplan]]**
 - Lab-Übersicht → **[[VM-Infrastruktur]]**
-- Snapshot-Recovery → **[[Snapshot-States]]**
+- Snapshot-Recovery → **[[VM-Infrastruktur#📸 Snapshot-Strategie|Snapshot-Strategie]]**
 
 ---
 

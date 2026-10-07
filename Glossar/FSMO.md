@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - 5 Rollen: Schema, Domänennamen (Forest); [[RID]], [[PDC]]-Emulator, Infrastruktur (Domäne)
 - Anzeige: netdom query fsmo
+- Mehr: [[AD DS Überblick#Betriebsmaster (FSMO) – 5 Rollen|FSMO-Tabelle]] · [[AD-DS_Ueberblick_Folien.pdf#page=14|Folie]]

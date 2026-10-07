@@ -7,7 +7,7 @@ status: importiert
 ---
 # PowerShell AD und GPO
 
-Thema: [[Windows Server]]
+Thema: [[Windows Server]] · Theorie: [[AD DS Überblick]] · [[AD-Gruppen und AGDLP]] · [[Gruppenrichtlinien]] · [[Vertrauensstellungen]] · [[PowerShell Grundlagen]]
 
 ### Schema in mmc einfügen (AD)?
 
@@ -481,4 +481,17 @@ setspn -S http/exa-srv01.example.com example\mysvc1 (eindeutiger Erkkenungsname 
 ### AD-PowerShell auf System installieren
 Install-WindowsFeature RSAT-AD-PowerShell -IncludeAllSubFeature; 
 
+### Benutzer per Datei importieren (csvde / ldifde)
+Dateien: [[user.csv]] · [[user.ldf]] (in `99_Anhänge/Dateien/AD/`, OU `Schulung` muss existieren)
 
+**Maschine: EXA-DC01** (CMD als Admin)
+```cmd
+csvde -i -f C:\Import\user.csv
+ldifde -i -f C:\Import\user.ldf
+```
+> [!note] csvde legt Konten **ohne Kennwort/deaktiviert** an. Für aktive Konten: `Import-Csv` + `New-ADUser -AccountPassword … -Enabled $true`.
+
+## 📄 Unterlagen
+- Buch 70-742: [[70-742_Server2016_Identitaet.pdf#page=84|AD-Massenoperationen]] · [[70-742_Server2016_Identitaet.pdf#page=57|FSMO übertragen]] · [[70-742_Server2016_Identitaet.pdf#page=133|AD sichern/wiederherstellen (ntdsutil)]] · [[70-742_Server2016_Identitaet.pdf#page=246|gpupdate erzwingen]]
+- Buch 70-640: [[70-640_Server2008R2_AD.pdf#page=123|Benutzerkontoerstellung automatisieren]] · [[70-640_Server2008R2_AD.pdf#page=137|Administration mit PowerShell]]
+- GPO-Übung: [[Uebung_Gruppenrichtlinien_4.pdf#page=2|gpresult]]

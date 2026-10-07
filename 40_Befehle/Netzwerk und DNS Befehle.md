@@ -7,7 +7,7 @@ status: importiert
 ---
 # Netzwerk und DNS Befehle
 
-Thema: [[Windows Server]] · [[Netzwerk]]
+Thema: [[Windows Server]] · [[Netzwerk]] · Theorie: [[DNS-Records]] · [[Forward-Lookup-Zone]] · [[PowerShell Grundlagen]]
 
 ### Löschen Cache Namensauflösung
 
@@ -78,7 +78,7 @@ New-NetIPAddress -InterfaceAlias Privat2 -IPAddress 192.168.1.220 -PrefixLength 
 
 dnsmgmt.msc
 
-Diffie-Hillmann Verfahren
+**Diffie-Hellman-Verfahren**: Schlüsselaustausch über unsicheren Kanal (z. B. bei [[IPsec]]) → [[PKI und Zertifikatdienste]] · [[AD-Zertifikatdienste.pdf#page=7|Folie]]
 
 ### PowerShell für das verbinden Ordner
 net use z: \\exa-srv01\c$
@@ -86,4 +86,17 @@ dann auf den Ordner zugreifen
 z: 
 
 ### PowerShell Pool Festplatte hinzufügen
+Theorie: [[Speicherpools]]
+
 New-VirtualDisk -StoragePoolFriendlyName "myPool1" -FriendlyName vDisk4 -ResiliencySettingName parity -ProvisioningType Thin -Size 50GB
+
+### Primäres DNS-Suffix setzen
+**Maschine: Client/Server ohne Domäne** (PowerShell als Admin) – aus Schulunterlagen
+```powershell
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters" -Name "NV Domain" -Value "example.com"
+```
+
+## 📄 Unterlagen
+- Folien DNS 2025: [[DNS_WindowsServer2025.pdf#page=8|DNS-Rolle installieren]] · [[DNS_WindowsServer2025.pdf#page=9|Zonen verwalten]] · [[DNS_WindowsServer2025.pdf#page=13|Best Practices]]
+- Lösung DNS-Übung 1 (viele PowerShell-Befehle): [[DNS_Uebung_1_Loesung.pdf#page=1|Lösung 1–4]] · [[DNS_Uebung_1_Loesung.pdf#page=4|Troubleshooting]]
+- Speicher: [[Speicherpool.pdf#page=10|Speicherpool-Cmdlets]]

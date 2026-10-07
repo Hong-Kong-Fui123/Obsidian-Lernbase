@@ -11,3 +11,4 @@ bereich: Netzwerk
 
 - 169.254.x.x, wenn kein [[DHCP]]-Server antwortet
 - Hinweis auf DHCP-Problem
+- Mehr: [[Netzwerkbefehle und DHCP]]

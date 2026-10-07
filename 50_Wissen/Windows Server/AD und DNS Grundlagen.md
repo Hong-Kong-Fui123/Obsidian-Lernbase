@@ -7,7 +7,7 @@ status: importiert
 ---
 # AD und DNS Grundlagen
 
-Thema: [[Windows Server]]
+Thema: [[Windows Server]] · Vertiefung: [[AD DS Überblick]] · [[Forward-Lookup-Zone]] · [[DNS-Records]]
 
 ## Was ist eine Stub-Zone?
 
@@ -21,11 +21,11 @@ Nicht autorisierend.
 
 2. First-Level-Domain ( de )
 
-3. Second-Level Domain ( example )l
+3. Second-Level-Domain ( example )
 
 ## Was ist ein SAM?
 
-Security Accounts Manager
+[[SAM|Security Accounts Manager]] – lokale Kontendatenbank (Arbeitsgruppe/Mitgliedsserver)
 
 ## Was macht das AD?
 
@@ -49,7 +49,7 @@ Benutzer, Computer, Gruppen
 
 2. **[[AD CS]]**       (Active Directory Certificate Services) – Zertifikatverwaltung und [[PKI]]
 
-3. **[[AD]] FS**       (Active Directory Federation Services) – Sichere Identitätsverbund
+3. **[[ADFS|AD FS]]**       (Active Directory Federation Services) – Sichere Identitätsverbund
 
 Authentifizierung über Grenzen
 
@@ -66,3 +66,9 @@ Verzeichnisdatenbank ohne AD DS
 User Principal Name
 
 Aktueller Name für das einloggen. Z.B. [Administrator@example.com](mailto:Administrator@example.com)
+
+## 📄 Unterlagen
+- Folien: [[AD-DS_Ueberblick_Folien.pdf#page=3|AD DS Komponenten]] · [[DNS_WindowsServer2025.pdf#page=4|DNS-Namensraum]] · [[DNS_WindowsServer2025.pdf#page=7|Zonentypen (Stub-Zone)]]
+- Buch 70-640: [[70-640_Server2008R2_AD.pdf#page=487|Kap. 9 DNS in AD DS]]
+- Buch 70-742: [[70-742_Server2016_Identitaet.pdf#page=158|UPN-Suffixe]] · [[70-742_Server2016_Identitaet.pdf#page=355|AD FS]]
+- Prüfungsfragen: [[AD-DS_50_Pruefungsfragen.pdf#page=1|AD DS 50]] · [[AD-FS_10_Pruefungsfragen.pdf#page=1|AD FS 10]]

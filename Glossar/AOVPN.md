@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Nachfolger von [[DA]]: Device Tunnel + User Tunnel
 - Protokolle: [[IKEv2]], [[SSTP]]
+- Mehr: [[DirectAccess_vs_VPN]]

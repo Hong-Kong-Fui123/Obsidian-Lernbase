@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Fernzugriff, Tunnel automatisch vor Logon durch den Computer
 - IPsec über IPv6, benötigt [[PKI]] + [[GPO]]; veraltet → [[AOVPN]]
+- Mehr: [[DirectAccess_vs_VPN]]

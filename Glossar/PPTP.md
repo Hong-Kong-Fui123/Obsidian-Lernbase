@@ -10,3 +10,4 @@ bereich: Sicherheit-PKI
 **Deutsch:** Punkt-zu-Punkt-Tunnelprotokoll
 
 - Veraltet und geknackt, TCP 1723 + GRE
+- Mehr: [[DirectAccess_vs_VPN]]

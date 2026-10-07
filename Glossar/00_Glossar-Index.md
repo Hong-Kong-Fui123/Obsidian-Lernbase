@@ -19,6 +19,7 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 | [[CIDR]]   | Klassenloses Routing                           |
 | [[DHCP]]   | Protokoll zur dynamischen Hostkonfiguration    |
 | [[DNS]]    | Domänennamensystem                             |
+| [[Forward Lookup Zone]] | Vorwärtssuchzone (Name → IP) |
 | [[FQDN]]   | Vollqualifizierter Domänenname                 |
 | [[FTP]]    | Dateiübertragungsprotokoll                     |
 | [[HTTP]]   | Hypertext-Übertragungsprotokoll                |
@@ -192,6 +193,9 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 | [[CPU]] | Hauptprozessor |
 | [[HDD]] | Festplattenlaufwerk |
 | [[iSCSI]] | SCSI über IP |
+| [[Fibre Channel]] | Speichernetz-Protokoll (SAN) |
+| [[IQN]] | iSCSI-Qualifizierter Name |
+| [[iSNS - Server\|iSNS]] | Internet-Speichernamensdienst |
 | [[NAS]] | Netzwerkspeicher |
 | [[NVMe]] | NVMe-Protokoll |
 | [[PCIe]] | PCI Express |

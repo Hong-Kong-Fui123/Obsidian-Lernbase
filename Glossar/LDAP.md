@@ -11,3 +11,4 @@ bereich: Netzwerk
 
 - Abfrage von Verzeichnisdiensten wie [[AD]], TCP 389
 - Verschlüsselt: LDAPS, TCP 636
+- Mehr: [[AD DS Überblick]]

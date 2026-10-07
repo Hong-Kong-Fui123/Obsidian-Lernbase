@@ -11,3 +11,4 @@ bereich: Windows-Server
 
 - Container in [[AD]] zur Strukturierung
 - Ziel für [[GPO]]-Verknüpfung und Delegation
+- Mehr: [[AD DS Überblick]] · [[AD-DS_Ueberblick_Folien.pdf#page=5|Folie]]

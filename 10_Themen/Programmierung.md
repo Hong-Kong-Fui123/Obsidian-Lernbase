@@ -5,4 +5,4 @@ tags: [moc]
 # Programmierung
 
 - [[Git Versionsverwaltung]]
-- [[C# Grundlagen]]
+- [[CSharp Grundlagen|C# Grundlagen]]

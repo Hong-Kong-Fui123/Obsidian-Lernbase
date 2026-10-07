@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** Netzwerkrichtlinienserver
 
 - Microsofts [[RADIUS]]-Server
+- Mehr: [[RADIUS und NPS]] · [[70-741_Server2016_Netzwerk.pdf#page=249|NPS-Richtlinien]]

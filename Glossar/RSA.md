@@ -11,3 +11,4 @@ bereich: Sicherheit-PKI
 
 - Asymmetrisch: öffentlicher + privater Schlüssel
 - Für Signaturen und Schlüsselaustausch
+- Mehr: [[PKI und Zertifikatdienste]]
