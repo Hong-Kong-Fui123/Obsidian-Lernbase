@@ -11,14 +11,16 @@
             "id": "16fd36955147b05c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "10_Themen/SQL_Dateien_und_Logs.md",
-                "mode": "source",
-                "source": false
+                "file": "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
+                "page": 1,
+                "left": -12,
+                "top": 599,
+                "zoom": 1.2685290161284202
               },
-              "icon": "lucide-file",
-              "title": "SQL_Dateien_und_Logs"
+              "icon": "lucide-file-text",
+              "title": "Speicherpool"
             }
           }
         ]
@@ -220,7 +222,10 @@
   },
   "active": "16fd36955147b05c",
   "lastOpenFiles": [
+    "Glossar/RAID.md",
+    "10_Themen/SQL_Dateien_und_Logs.md",
     "10_Themen/Windows Server.md",
+    "10_Themen/Programmierung.md",
     "50_Wissen/Windows Server/AD und DNS Grundlagen.md",
     "10_Themen/Datenbanken SQL.md",
     "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
@@ -232,7 +237,6 @@
     "80_Übersichten/PDF-Index.md",
     "40_Befehle/Netzwerk und DNS Befehle.md",
     "40_Befehle/PowerShell AD und GPO.md",
-    "10_Themen/Programmierung.md",
     "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
     "Glossar/RAM.md",
@@ -253,8 +257,6 @@
     "Unbenannt.canvas",
     "OSI-Modell.md",
     "202610061208.md",
-    "Glossar/DNS-Records.md",
-    "Glossar/MTU.md",
     "50_Wissen/Unbenannt.base",
     "Excalidraw",
     "Unbenannt 3.canvas",
