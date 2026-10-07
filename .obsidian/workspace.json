@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/00_Glossar-Index.md",
+                "file": "50_Wissen/DNS/# Forward-Lookup-Zone.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Glossar-Index"
+              "title": "# Forward-Lookup-Zone"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "san",
+                "query": "powershell dns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,8 +219,9 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "b76197976c31a960",
   "lastOpenFiles": [
+    "Glossar/00_Glossar-Index.md",
     "Excalidraw/Drawing 2026-10-06 13.19.01.excalidraw.md",
     "50_Wissen/Netzwerk/OSI-Modell und NamensauflÃ¶sung.md",
     "50_Wissen/50_Wissen.md",
@@ -235,7 +237,6 @@
     "Glossar/iSCSI.md",
     "202610061208.md",
     "Excalidraw/Drawing 2026-10-06 12.08.53.excalidraw.md",
-    "Glossar/00_Glossar-Index.md",
     "Excalidraw",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",
