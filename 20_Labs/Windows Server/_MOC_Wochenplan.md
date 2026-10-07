@@ -33,7 +33,7 @@
 ---
 
 #### **Dienstag: Aufgabe 02** (60 Min) ⭐⭐ Fortgeschrittene
-📖 **[[Woche_05/Aufgabe_02_CA-Serverrolle]]**
+📖 **[[Aufgabe_02_CA-Serverrolle]]**
 
 - Serverrolle "Certification Authority" installieren
 - Root [[CA]] (Offline) vs. Enterprise CA (Online)
@@ -74,7 +74,7 @@
 ---
 
 #### **Samstag-Sonntag: Klausur** (120 Min) ⭐⭐⭐
-📖 **[[Woche_05/Klausur_Zertifikate_120Min]]**
+📖 **[[Klausur_Zertifikate_120Min]]**
 
 - **Szenario:** Du bist neuer Server Admin in der Firma "TechCorp"
 - **Aufgaben:** 
@@ -152,13 +152,13 @@ Woche 08 (Projekt-Phase)
 
 ### **Aufgaben dieser Woche**
 - [[Aufgabe_01_PKI-Grundlagen]]
-- [[Woche_05/Aufgabe_02_CA-Serverrolle]]
-- [[Woche_05/Klausur_Zertifikate_120Min]]
+- [[Aufgabe_02_CA-Serverrolle]]
+- [[Klausur_Zertifikate_120Min]]
 
 ### **Lösungen dieser Woche**
-- [[Woche_05/Lösung_01_PKI-Grundlagen]]
+- [[Lösung_01_PKI-Grundlagen]]
 - Lösung_02_CA-Serverrolle *(⏳ noch nicht erstellt)*
-- [[Woche_05/Klausur_Lösung]]
+- [[Klausur_Lösung]]
 
 ### **Referenzen**
 - [[VM-Infrastruktur]] (dein Lab)

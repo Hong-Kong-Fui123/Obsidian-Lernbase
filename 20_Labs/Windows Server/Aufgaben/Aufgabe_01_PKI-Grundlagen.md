@@ -303,7 +303,7 @@ Beantworte ohne in deine Notizen zu schauen:
 - [[PKI und Zertifikatdienste]] (Theorie kompakt + PDF-Links)
 - [[VM-Infrastruktur]] (dein Lab setup)
 - [[_MOC_Wochenplan]] (zurück zum Plan)
-- [[Woche_05/Aufgabe_02_CA-Serverrolle]] (nächste Aufgabe)
+- [[Aufgabe_02_CA-Serverrolle]] (nächste Aufgabe)
 
 ---
 

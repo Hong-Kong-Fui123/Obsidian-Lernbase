@@ -613,7 +613,7 @@ Get-VMSnapshot -VMName "EXA-SUB-CA01"
 - [[PKI und Zertifikatdienste]] (Theorie kompakt)
 - [[VM-Infrastruktur]] (Lab Referenz)
 - [[_MOC_Wochenplan]] (Wochenübersicht)
-- [[Woche_05/Klausur_Zertifikate_120Min]] (Wochenende)
+- [[Klausur_Zertifikate_120Min]] (Wochenende)
 
 ---
 
