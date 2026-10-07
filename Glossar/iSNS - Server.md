@@ -1,3 +1,3 @@
 Internet Storage Name Service 
 
-**iSNS** steht in der Informatik für den ==**Internet Storage Name Service**==, ein Netzwerkprotokoll zur automatisierten Erkennung, Verwaltung und Konfiguration von iSCSI- und Fibre-Channel-Geräten in TCP/IP-Netzwerken. [[1](https://www.google.com/goto?url=CAESWgHrOzAVuOAoBKudYxAmywF3sOP1AjCF6_3zplmrM0r5hCHVc-YIPO0zSR95Vf3mvnGgia_-BgPuohRBZd3798U0rW6EGwB9TE9suYa_HMaQZU2Oa034Oi_gUA), [2](https://www.google.com/goto?url=CAEScwHrOzAVKmL1GNxwtUeHUJ5l6jQ4aOKj0y3zPrQhHfkykkdNjk4e4Ku2tdFNl6JH8KIJUt05oMbEGz5VuAEXLQSPAIzDcS1sn7JrOcr9fV-SQcfy-LutCKyrkUjDY9TnokZrT8T0KJ0sBEFqt7DkMr76yLg)]
+**iSNS** steht in der Informatik für den ==**Internet Storage Name Service**==, ein Netzwerkprotokoll zur automatisierten Erkennung, Verwaltung und Konfiguration von [[iSCSI]]- und [[Fibre - Channel]]-Channel-Geräten in TCP/IP-Netzwerken. 
