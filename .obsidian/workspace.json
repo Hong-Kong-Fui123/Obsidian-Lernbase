@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/SRT - (Speicherverwaltung).md",
+                "file": "50_Wissen/Windows Server/Storage Replica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SRT - (Speicherverwaltung)"
+              "title": "Storage Replica"
             }
           }
         ]
@@ -220,7 +220,12 @@
   },
   "active": "b7f0546df235386f",
   "lastOpenFiles": [
+    "50_Wissen/50_Wissen.md",
     "Glossar/SRT - (Speicherverwaltung).md",
+    "Glossar/SR.md",
+    "90_Vorlagen/Vorlage Speicher-Lab.md",
+    "50_Wissen/Windows Server/Storage Replica.md",
+    "20_Labs/Windows Server/Lab Storage Replica Test-SRTopology.md",
     "00_Inbox/Unbenannt.md",
     "10_Themen/Windows Server.md",
     "20_Labs/Windows Server/_MOC_Wochenplan.md",
@@ -250,11 +255,6 @@
     "99_Anhänge/PDF/DNS/DNS_Uebung_1_Loesung.pdf",
     "99_Anhänge/PDF/DHCP/DHCP_WindowsServer2025.pdf",
     "00_Inbox/Notizen.md",
-    "Glossar/OSI.md",
-    "README.md",
-    "50_Wissen/50_Wissen.md",
-    "50_Wissen/DNS/# Forward-Lookup-Zone.md",
-    "50_Wissen/DNS/Dns-Records.md",
     "Unbenannt.canvas",
     "50_Wissen/Unbenannt.base",
     "Excalidraw",

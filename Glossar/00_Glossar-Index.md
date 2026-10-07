@@ -201,6 +201,7 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 | [[PCIe]] | PCI Express |
 | [[RAID]] | Redundanter Verbund unabhängiger Festplatten |
 | [[RAM]] | Arbeitsspeicher |
+| [[SR]] | Speicherreplikat (Storage Replica) |
 | [[SSD]] | Halbleiterlaufwerk |
 | [[UEFI]] | Vereinheitlichte erweiterbare Firmware-Schnittstelle |
 | [[USB]] | Universeller serieller Bus |

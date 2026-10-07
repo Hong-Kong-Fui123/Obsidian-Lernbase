@@ -47,6 +47,8 @@ Unterlagen gesamt: [[PDF-Index]] · Abkürzungen: [[00_Glossar-Index]]
 |---|---|---|
 | [[PowerShell Grundlagen]] | Wissen | [[PowerShell_Einfuehrung.pdf\|Folien]] · [[Uebung_PowerShell_1.pdf\|Übung]] |
 | [[Speicherpools]] | Wissen | [[Speicherpool.pdf\|Folien]] |
+| [[Storage Replica]] | Wissen | [[70-740_Server2016_Installation_Speicher.pdf#page=182\|70-740 Speicherreplikat]] |
+| [[Lab Storage Replica Test-SRTopology]] | Lab | Vorlage: [[Vorlage Speicher-Lab]] |
 
 ## Lab-Umgebung
 - [[VM-Infrastruktur]] · [[Fehlerlog Home-Lab]]

@@ -7,9 +7,6 @@ aliases: [PDF-Übersicht, Unterlagen]
 
 Alle PDFs liegen in `99_Anhänge/PDF/<Thema>/`. Links springen direkt auf die Seite (`[[Datei.pdf#page=N]]`). Hover zeigt Vorschau (PDF++).
 
-> [!note] Seitenzahlen
-> `S. N` = **PDF-Seite** (Zähler im PDF-Viewer), nicht die gedruckte Buchseite.
-
 > [!tip] Eigene Links setzen
 > Im PDF Text markieren → PDF++ kopiert Link auf Stelle. Oder von Hand: `[[AD-Gruppen.pdf#page=8|Globale Gruppen]]`
 
@@ -523,6 +520,8 @@ Alle PDFs liegen in `99_Anhänge/PDF/<Thema>/`. Links springen direkt auf die Se
   - [[70-740_Server2016_Installation_Speicher.pdf#page=154|Speicherpools]] – S. 154
   - [[70-740_Server2016_Installation_Speicher.pdf#page=157|Layout: einfach, Spiegel, Parität]] – S. 157
   - [[70-740_Server2016_Installation_Speicher.pdf#page=164|Mehrstufiger Speicher]] – S. 164
+  - [[70-740_Server2016_Installation_Speicher.pdf#page=182|Speicherreplikat (Storage Replica)]] – S. 182
+  - [[70-740_Server2016_Installation_Speicher.pdf#page=186|Test-SRTopology]] – S. 186
   - [[70-740_Server2016_Installation_Speicher.pdf#page=166|iSCSI]] – S. 166
   - [[70-740_Server2016_Installation_Speicher.pdf#page=173|iSNS]] – S. 173
   - [[70-740_Server2016_Installation_Speicher.pdf#page=190|Deduplizierung]] – S. 190

@@ -8,7 +8,7 @@ status: lernen
 ---
 # Speicherpools
 
-Thema: [[Windows Server]] · Hardware: [[Netzteile und Schnittstellen]] · Glossar: [[RAID]] · [[SAN]] · [[NAS]] · [[iSCSI]] · [[ReFS]]
+Thema: [[Windows Server]] · Replikation: [[Storage Replica]] · Hardware: [[Netzteile und Schnittstellen]] · Glossar: [[RAID]] · [[SAN]] · [[NAS]] · [[iSCSI]] · [[ReFS]]
 
 ## Prinzip
 Physische Datenträger → **Speicherpool** → **virtueller Datenträger** → Volume/Laufwerk

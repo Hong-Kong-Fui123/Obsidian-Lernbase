@@ -56,6 +56,7 @@ Alle Wissensnotizen nach Fachgebiet. Themen-Übersichten: [[Start]] · Unterlage
 - [[PKI und Zertifikatdienste]]
 - [[PowerShell Grundlagen]]
 - [[Speicherpools]]
+- [[Storage Replica]]
 - [[Vertrauensstellungen]]
 
 **Praxisklausuren:** [[00 Uebersicht Praxisklausuren]] · [[Praxisklausur 1 - AD DS DNS DHCP]] · [[Praxisklausur 2 - PKI Zertifikate]] · [[Praxisklausur 3 - Betrieb und Fehlerbehebung]] · [[Vorbereitung - Fehler einbauen]]
