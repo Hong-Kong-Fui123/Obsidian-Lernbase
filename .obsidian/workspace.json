@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "63e19c5b9651dc97",
+        "id": "53e7aee6e6f86fbd",
         "type": "tabs",
         "children": [
           {
-            "id": "269af79bec647f42",
+            "id": "16fd36955147b05c",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -214,8 +214,9 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "269af79bec647f42",
+  "active": "16fd36955147b05c",
   "lastOpenFiles": [
+    "40_Befehle/WS PowerShell Befehle.canvas",
     "Glossar/00_Glossar-Index.md",
     "90_Vorlagen/Glossar-Vorlage.md",
     "80_Übersichten/Start.md",
@@ -226,7 +227,6 @@
     "10_Themen/Windows Server.md",
     "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
-    "40_Befehle/WS PowerShell Befehle.canvas",
     "Glossar/RAM.md",
     "30_Geräte/VM-Infrastruktur.md",
     "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1.pdf",
@@ -250,7 +250,6 @@
     "Excalidraw/Drawing 2026-10-06 13.19.01.excalidraw.md",
     "Excalidraw/Drawing 2026-10-06 12.08.53.excalidraw.md",
     "Glossar/Fibre - Channel.md",
-    "Glossar/iSNS - Server.md",
     "50_Wissen/Unbenannt.base",
     "Excalidraw",
     "Unbenannt 3.canvas",
