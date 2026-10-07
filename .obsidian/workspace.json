@@ -4,6 +4,26 @@
     "type": "split",
     "children": [
       {
+        "id": "5774af5411a8a981",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04827c0216960e67",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
+                "page": 1,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "AD-DS_Ueberblick_Folien"
+            }
+          }
+        ]
+      },
+      {
         "id": "880f0f0f05ed341c",
         "type": "tabs",
         "children": [
@@ -218,14 +238,25 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "9fec3e6f4e8caae6",
+  "active": "04827c0216960e67",
   "lastOpenFiles": [
+    "10_Themen/Windows Server.md",
+    "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
+    "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
+    "40_Befehle/WS PowerShell Befehle.canvas",
+    "90_Vorlagen/Glossar-Vorlage.md",
+    "40_Befehle/Netzwerk und DNS Befehle.md",
+    "Glossar/RAM.md",
+    "30_Geräte/VM-Infrastruktur.md",
+    "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1.pdf",
+    "99_Anhänge/PDF/PowerShell/PowerShell_Einfuehrung.pdf",
+    "99_Anhänge/PDF/DNS/DNS_Uebung_2.pdf",
+    "99_Anhänge/PDF/DNS/DNS_Uebung_1_Loesung.pdf",
+    "99_Anhänge/PDF/DHCP/DHCP_WindowsServer2025.pdf",
     "00_Inbox/Notizen.md",
     "Glossar/OSI.md",
     "README.md",
-    "40_Befehle/Netzwerk und DNS Befehle.md",
     "40_Befehle/PowerShell AD und GPO.md",
-    "40_Befehle/WS PowerShell Befehle.canvas",
     "50_Wissen/50_Wissen.md",
     "50_Wissen/DNS/# Forward-Lookup-Zone.md",
     "50_Wissen/DNS/Dns-Records.md",
@@ -243,11 +274,6 @@
     "Glossar/Fibre - Channel.md",
     "Glossar/iSNS - Server.md",
     "Glossar/IQN.md",
-    "Glossar/iSCSI.md",
-    "Glossar/Unbenannt.md",
-    "Glossar/RADIUS.md",
-    "Glossar/SaaS.md",
-    "Glossar/SAN.md",
     "50_Wissen/Unbenannt.base",
     "Excalidraw",
     "Unbenannt 3.canvas",
@@ -255,13 +281,6 @@
     "Unbenannt 1.canvas",
     "50_Wissen/DNS",
     "Unbenannt 4.canvas",
-    "Vorlagen",
-    "Glossar",
-    "Netzilon.exe",
-    "GELLERnt.exe",
-    "fortschritt.json",
-    "50_Wissen/Windows Server/Theorieklausuren",
-    "50_Wissen/Windows Server/Praxisklausuren",
     "Ausbildung/Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Windows Server/Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
     "Home-Lab Übungen Windows Server/WS PowerShell Befehle.canvas",
