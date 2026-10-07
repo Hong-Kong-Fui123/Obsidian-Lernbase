@@ -11,10 +11,14 @@
             "id": "16fd36955147b05c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "10_Themen/SQL_Dateien_und_Logs.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Neuer Tab"
+              "title": "SQL_Dateien_und_Logs"
             }
           }
         ]
@@ -216,6 +220,11 @@
   },
   "active": "16fd36955147b05c",
   "lastOpenFiles": [
+    "10_Themen/Windows Server.md",
+    "50_Wissen/Windows Server/AD und DNS Grundlagen.md",
+    "10_Themen/Datenbanken SQL.md",
+    "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
+    "50_Wissen/Datenbanken/SQL - Grundlagen und ER-Modell.md",
     "40_Befehle/WS PowerShell Befehle.canvas",
     "Glossar/00_Glossar-Index.md",
     "90_Vorlagen/Glossar-Vorlage.md",
@@ -224,7 +233,6 @@
     "40_Befehle/Netzwerk und DNS Befehle.md",
     "40_Befehle/PowerShell AD und GPO.md",
     "10_Themen/Programmierung.md",
-    "10_Themen/Windows Server.md",
     "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
     "Glossar/RAM.md",
@@ -247,9 +255,6 @@
     "202610061208.md",
     "Glossar/DNS-Records.md",
     "Glossar/MTU.md",
-    "Excalidraw/Drawing 2026-10-06 13.19.01.excalidraw.md",
-    "Excalidraw/Drawing 2026-10-06 12.08.53.excalidraw.md",
-    "Glossar/Fibre - Channel.md",
     "50_Wissen/Unbenannt.base",
     "Excalidraw",
     "Unbenannt 3.canvas",

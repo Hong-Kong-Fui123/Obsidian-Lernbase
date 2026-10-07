@@ -11,3 +11,5 @@ tags:
 - [[SQL - Transaktionen und Locks]]
 - [[SQL - Administration, Backup und Restore]]
 - [[SQL - Isolation, Dateien, Partitionen, Rechte]]
+
+[[Datensicherung]], [[Windows Server]], [[RAID]]
