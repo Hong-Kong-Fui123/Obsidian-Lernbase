@@ -10,3 +10,4 @@ tags: [moc]
 - [[Mainboard und Prozessor]]
 - [[Arbeitsspeicher und Grafik]]
 - [[Speicherpools]] (Windows Server, RAID-ähnlich)
+- [[Storage Replica]] (Volume-Replikation zwischen Servern)

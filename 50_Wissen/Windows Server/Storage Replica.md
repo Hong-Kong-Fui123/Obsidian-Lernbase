@@ -72,6 +72,17 @@ Set-SRPartnership -NewSourceComputerName exa-srv01 -SourceRGName rg02 `
   -DestinationComputerName exa-srv05 -DestinationRGName rg01
 ```
 
+> [!warning] Echter Ausfall
+> Quelle nicht erreichbar → auf dem Ziel `-Force` anhängen.
+
+**Maschine: ursprüngliche Quelle** – Zurückschalten: gleicher Befehl mit vertauschten Namen
+```powershell
+Set-SRPartnership -NewSourceComputerName exa-srv05 -SourceRGName rg01 `
+  -DestinationComputerName exa-srv01 -DestinationRGName rg02
+```
+
+**Optionen bei New-SRPartnership:** `-ReplicationMode Asynchronous` (entfernter Standort) · `-LogSizeInBytes 1GB` (Lab mit kleinem E:)
+
 **Maschine: Quellserver** – 5. Entfernen
 ```powershell
 Get-SRPartnership | Remove-SRPartnership

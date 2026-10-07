@@ -11,4 +11,4 @@ bereich: Hardware-Storage
 
 - RAID 0 Striping (keine Redundanz), 1 Spiegelung, 5 Parität (min. 3), 10 = 1+0
 - RAID ersetzt kein Backup
-- Mehr: [[Speicherpools]]
+- Mehr: [[Storage Replica]] (Replikation über Server hinweg) · [[Speicherpools]]

@@ -51,3 +51,8 @@ Zurück: [[Start]]
 ## Nicht angefasst
 - `GELLERnt.exe`, `Netzilon.exe` (139 MB) im Vault-Root – gehören eher nicht ins Git-Repo
 - Aus `Windows.7z` nicht übernommen: `nanoserver.vhdx`, `7z2409-x64.msi`, `admintemplates_x64_*.exe`
+
+## Nachtrag 15:10 – Storage Replica
+- Neu: [[Storage Replica]] (Wissen) · [[Lab Storage Replica Test-SRTopology]] (Lab, Schritte 0–7) · [[Vorlage Speicher-Lab]] · Glossar [[SR]]
+- Buchlinks 70-740 S. 182–188 in Notizen und [[PDF-Index]]
+- Verlinkt in: [[Windows Server]] · [[Hardware]] · [[Speicherpools]] · [[50_Wissen]] · [[00_Glossar-Index]] · Glossar [[DFSR]], [[SMB]], [[RAID]]

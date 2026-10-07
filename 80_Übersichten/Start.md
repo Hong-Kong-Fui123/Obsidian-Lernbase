@@ -21,6 +21,7 @@ tags: [moc]
 ## Labs und Klausuren
 - [[_MOC_Wochenplan]] (aktuell: PKI Woche 05)
 - [[VM-Infrastruktur]] · [[Fehlerlog Home-Lab]]
+- Aktuelles Lab: [[Lab Storage Replica Test-SRTopology]]
 - [[00 Uebersicht Theorieklausuren]] · [[00 Uebersicht Praxisklausuren]]
 
 ## Workflow Inbox

@@ -10,3 +10,4 @@ bereich: Windows-Server
 **Deutsch:** DFS-Replikation
 
 - Repliziert Ordner zwischen Servern, auch [[SYSVOL]]
+- Mehr: [[Storage Replica]] (blockbasiert statt dateibasiert)
