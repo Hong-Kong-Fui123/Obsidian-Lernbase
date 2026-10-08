@@ -11,14 +11,16 @@
             "id": "d4ef4deaeb96a7d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "50_Wissen/Netzwerk/RADIUS und NPS.md",
-                "mode": "source",
-                "source": false
+                "file": "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
+                "page": 1,
+                "left": -4,
+                "top": -15,
+                "zoom": 1.0216745843230406
               },
-              "icon": "lucide-file",
-              "title": "RADIUS und NPS"
+              "icon": "lucide-file-text",
+              "title": "AD-Gruppen"
             }
           }
         ]
@@ -97,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 477.5
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -220,8 +222,9 @@
   },
   "active": "d4ef4deaeb96a7d2",
   "lastOpenFiles": [
-    "Glossar/NPS.md",
+    "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "50_Wissen/Netzwerk/RADIUS und NPS.md",
+    "Glossar/NPS.md",
     "50_Wissen/50_Wissen.md",
     "80_Übersichten/PDF-Index.md",
     "80_Übersichten/Start.md",
@@ -247,10 +250,8 @@
     "Glossar/SRT - (Speicherverwaltung).md",
     "00_Inbox/Unbenannt.md",
     "10_Themen/Windows Server.md",
-    "10_Themen/Hardware.md",
     "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
     "40_Befehle/WS PowerShell Befehle.canvas",
-    "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
     "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1.pdf",
     "99_Anhänge/PDF/PowerShell/PowerShell_Einfuehrung.pdf",
