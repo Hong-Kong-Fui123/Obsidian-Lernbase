@@ -197,5 +197,6 @@ Get-Volume -DriveLetter D             # D: auf beiden wieder normal nutzbar
 
 ## 📄 Unterlagen
 - Theorie: [[Storage Replica]]
+- Druckversion: [[Anleitung_Storage_Replica.pdf|Schritt-für-Schritt-Anleitung (PDF)]]
 - Buch 70-740: [[70-740_Server2016_Installation_Speicher.pdf#page=182|Szenarien]] · [[70-740_Server2016_Installation_Speicher.pdf#page=185|Voraussetzungen]] · [[70-740_Server2016_Installation_Speicher.pdf#page=186|Test-SRTopology]] · [[70-740_Server2016_Installation_Speicher.pdf#page=188|New-SRPartnership, Ereignisse]]
 - [Microsoft Learn – Server-zu-Server](https://learn.microsoft.com/de-de/windows-server/storage/storage-replica/server-to-server-storage-replication)

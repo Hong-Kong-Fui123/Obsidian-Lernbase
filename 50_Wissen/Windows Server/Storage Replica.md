@@ -98,5 +98,6 @@ Get-SRGroup | Remove-SRGroup        # auf beiden Servern
 > 3. Synchron oder asynchron für einen Standort 300 km entfernt – und warum?
 
 ## 📄 Unterlagen
+- Anleitung: [[Anleitung_Storage_Replica.pdf|Schritt-für-Schritt (PDF, 4 S.)]]
 - Buch 70-740: [[70-740_Server2016_Installation_Speicher.pdf#page=182|Nutzungsszenarien]] · [[70-740_Server2016_Installation_Speicher.pdf#page=185|Implementierung, Voraussetzungen]] · [[70-740_Server2016_Installation_Speicher.pdf#page=186|Test-SRTopology]] · [[70-740_Server2016_Installation_Speicher.pdf#page=188|New-SRPartnership, Ereignisse]]
 - [Microsoft Learn – Storage Replica Server-zu-Server](https://learn.microsoft.com/de-de/windows-server/storage/storage-replica/server-to-server-storage-replication)
