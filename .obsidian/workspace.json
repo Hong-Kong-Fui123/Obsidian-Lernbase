@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "093d16db1b5dddfe",
+        "id": "26197694de008845",
         "type": "tabs",
         "children": [
           {
-            "id": "d4ef4deaeb96a7d2",
+            "id": "6ec35ef493fea17d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
-                "page": 1,
-                "left": -4,
-                "top": -15,
-                "zoom": 1.0216745843230406
-              },
-              "icon": "lucide-file-text",
-              "title": "AD-Gruppen"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -95,7 +89,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,18 +215,25 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "d4ef4deaeb96a7d2",
+  "active": "fafd79c47b1a89c4",
   "lastOpenFiles": [
-    "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
+    "70-740_Server2016_Installation_Speicher.pdf.md",
+    "80_Übersichten/PDF-Index.md",
+    "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
+    "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
+    "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
+    "99_Anhänge/PDF/Speicher/Anleitung_Storage_Replica.pdf",
+    "99_Anhänge/PDF/Pruefungsfragen/VPN-RADIUS_15_Pruefungsfragen_Loesung.pdf",
+    "99_Anhänge/PDF/Pruefungsfragen/Netzwerk_30_Pruefungsfragen.pdf",
+    "99_Anhänge/PDF/Pruefungsfragen/AD-DS_50_Pruefungsfragen.pdf",
+    "99_Anhänge/PDF/Pruefungsfragen/AD-DS_10_Pruefungsfragen.pdf",
+    "99_Anhänge/PDF/Pruefungsfragen/AD-CS_20_Pruefungsfragen.pdf",
+    "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1_Loesung.pdf",
     "50_Wissen/Netzwerk/RADIUS und NPS.md",
     "Glossar/NPS.md",
     "50_Wissen/50_Wissen.md",
-    "80_Übersichten/PDF-Index.md",
     "80_Übersichten/Start.md",
-    "70-740_Server2016_Installation_Speicher.pdf.md",
     "30_Geräte/VM-Infrastruktur.md",
-    "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_1.pdf",
-    "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
     "90_Vorlagen/Vorlage Speicher-Lab.md",
     "90_Vorlagen/Glossar-Vorlage.md",
     "10_Themen/Datenbanken SQL.md",
@@ -250,14 +252,7 @@
     "Glossar/SRT - (Speicherverwaltung).md",
     "00_Inbox/Unbenannt.md",
     "10_Themen/Windows Server.md",
-    "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
     "40_Befehle/WS PowerShell Befehle.canvas",
-    "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
-    "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1.pdf",
-    "99_Anhänge/PDF/PowerShell/PowerShell_Einfuehrung.pdf",
-    "99_Anhänge/PDF/DNS/DNS_Uebung_2.pdf",
-    "99_Anhänge/PDF/DNS/DNS_Uebung_1_Loesung.pdf",
-    "99_Anhänge/PDF/DHCP/DHCP_WindowsServer2025.pdf",
     "Unbenannt.canvas",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",
