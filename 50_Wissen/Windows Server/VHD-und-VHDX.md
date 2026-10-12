@@ -1,10 +1,20 @@
 ---
 title: VHD und VHDX
-aliases: [VHD, VHDX, virtuelle Festplatte, Virtual Hard Disk]
-tags: [hyper-v, storage, windows-server, az-802, fisi]
+aliases:
+  - VHD
+  - VHDX
+  - virtuelle Festplatte
+  - Virtual Hard Disk
+tags:
+  - hyper-v
+  - storage
+  - windows-server
+  - az-802
+  - fisi
 modul: Windows Server Selbstlernmodul
 status: lernen
 erstellt: 2026-10-09
+Übersicht Powershell: "[[#Übersicht PowerShell-VHD Befehle|Übersicht PowerShell Befehle]]"
 ---
 
 # VHD und VHDX
