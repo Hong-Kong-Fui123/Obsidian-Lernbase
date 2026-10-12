@@ -158,22 +158,23 @@ $v = Get-VHD -Path $p
 
 ### Übersicht PowerShell-VHD Befehle
 
-| Cmdlet                                | Zweck                             | VM aus?            | Gilt für              |     |
-| ------------------------------------- | --------------------------------- | ------------------ | --------------------- | --- |
-| [[#New-VHD\|New-VHD]]                 | Disk erstellen                    | –                  | VHD, VHDX, VHDS       |     |
-| [[#Get-VHD\|Get-VHD]]                 | Eigenschaften anzeigen            | nein               | VHD, VHDX             |     |
-| [[#Test-VHD\|Test-VHD]]               | Integrität/Kette prüfen           | nein               | VHD, VHDX             |     |
-| [[#Mount-VHD\|Mount-VHD]]             | Auf dem Host einhängen            | ja*                | VHD, VHDX, VHDS       |     |
-| [[#Dismount-VHD\|Dismount-VHD]]       | Vom Host trennen                  | –                  | VHD, VHDX, VHDS       |     |
-| [[#Resize-VHD\|Rezise-VHD]]           | Vergrößern/verkleinern            | VHDX an SCSI: nein | VHD, VHDX             |     |
-| [[#Optimize-VHD\|Optimize-VHD]]       | Dynamische Disk kompaktieren      | ja*                | Dynamic, Differencing |     |
-| [[#Convert-VHD\|Convert-VHD]]         | Format/Typ ändern                 | ja                 | VHD ↔ VHDX            |     |
-| [[#Merge-VHD\|Merge-VHD]]             | Differencing-Kette zusammenführen | ja                 | Differencing          |     |
-| [[#Set-VHD\|Set-VHD]]                 | Parent-Pfad/Eigenschaften ändern  | ja                 | VHD, VHDX             |     |
-| [[#Get-VHD\|Get-VHD]]                 | VHD Set anzeigen                  | nein               | VHDS                  |     |
-| [[#Get-VHDSnapshot\|Get-VHDSnapshot]] | Snapshots eines VHD Sets anzeigen | nein               | VHDS                  |     |
-| [Remove-VHDSnapshot`                  | Snapshot aus VHD Set entfernen    | –                  | VHDS                  |     |
-| `Optimize-VHDSet`                     | VHD-Set-Datei optimieren          | –                  | VHDS                  |     |
+| Cmdlet                                      | Zweck                             | VM aus?            | Gilt für              |     |     |
+| ------------------------------------------- | --------------------------------- | ------------------ | --------------------- | --- | --- |
+| [[#New-VHD\|New-VHD]]                       | Disk erstellen                    | –                  | VHD, VHDX, VHDS       |     |     |
+| [[#Get-VHD\|Get-VHD]]                       | Eigenschaften anzeigen            | nein               | VHD, VHDX             |     |     |
+| [[#Test-VHD\|Test-VHD]]                     | Integrität/Kette prüfen           | nein               | VHD, VHDX             |     |     |
+| [[#Mount-VHD\|Mount-VHD]]                   | Auf dem Host einhängen            | ja*                | VHD, VHDX, VHDS       |     |     |
+| [[#Dismount-VHD\|Dismount-VHD]]             | Vom Host trennen                  | –                  | VHD, VHDX, VHDS       |     |     |
+| [[#Resize-VHD\|Rezise-VHD]]                 | Vergrößern/verkleinern            | VHDX an SCSI: nein | VHD, VHDX             |     |     |
+| [[#Optimize-VHD\|Optimize-VHD]]             | Dynamische Disk kompaktieren      | ja*                | Dynamic, Differencing |     |     |
+| [[#Convert-VHD\|Convert-VHD]]               | Format/Typ ändern                 | ja                 | VHD ↔ VHDX            |     |     |
+| [[#Merge-VHD\|Merge-VHD]]                   | Differencing-Kette zusammenführen | ja                 | Differencing          |     |     |
+| [[#Set-VHD\|Set-VHD]]                       | Parent-Pfad/Eigenschaften ändern  | ja                 | VHD, VHDX             |     |     |
+| [[#Get-VHD\|Get-VHD]]                       | VHD Set anzeigen                  | nein               | VHDS                  |     |     |
+| [[#Get-VHDSnapshot\|Get-VHDSnapshot]]       | Snapshots eines VHD Sets anzeigen | nein               | VHDS                  |     |     |
+| [[#Remove-VHDSnapshot\|Remove-VHDSnapshot]] | Snapshot aus VHD Set entfernen    | –                  | VHDS                  |     |     |
+| [[#Optimize-VHDSet\|Optimize-VHDSet]]       | VHD-Set-Datei optimieren          | –                  | VHDS                  |     |     |
+|                                             |                                   |                    |                       |     |     |
 
 \* Disk darf nicht an eine laufende VM angehängt sein.
 
