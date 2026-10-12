@@ -235,3 +235,36 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 | [[RTO]] | Wiederherstellungszeitziel |
 | [[SLA]] | Dienstgütevereinbarung |
 
+
+
+## Docker (Ergänzung 2026-10-12)
+- [[Bind-Mount]]
+- [[Bridge-Netzwerk]]
+- [[Build-Kontext]]
+- [[cgroups]]
+- [[CMD-ENTRYPOINT]]
+- [[Container]]
+- [[Containerd]]
+- [[Docker-Compose]]
+- [[Docker-Daemon]]
+- [[Docker-Desktop]]
+- [[Docker-Engine]]
+- [[Dockerfile]]
+- [[Docker-Hub]]
+- [[Healthcheck]]
+- [[Hyper-V-Isolation]]
+- [[Image]]
+- [[Image-Layer]]
+- [[Image-Tag]]
+- [[Kubernetes]]
+- [[Multi-Stage-Build]]
+- [[Namespace]]
+- [[OCI]]
+- [[Orchestrierung]]
+- [[Port-Mapping]]
+- [[Prozess-Isolation]]
+- [[Registry]]
+- [[Restart-Policy]]
+- [[Volume]]
+- [[Windows-Container]]
+- [[WSL2]]

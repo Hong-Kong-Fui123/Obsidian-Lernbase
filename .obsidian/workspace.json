@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/00_Glossar-Index.md",
+                "file": "50_Wissen/50_Wissen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Glossar-Index"
+              "title": "50_Wissen"
             }
           }
         ]
@@ -93,8 +93,7 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,11 +218,36 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "aa0b8a837ac56cd4",
+  "active": "361577b97157954c",
   "lastOpenFiles": [
-    "80_Übersichten/Änderungen 2026-10-07.md",
-    "50_Wissen/Windows Server/HyperV-VM-Export-Import.md",
-    "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
+    "Glossar/00_Glossar-Index.md",
+    "Docker/00_Docker-Uebersicht.md",
+    "Glossar/00_Glossar-Index.md.bak",
+    "Glossar/WSL2.md",
+    "Glossar/Windows-Container.md",
+    "Glossar/Volume.md",
+    "Glossar/Restart-Policy.md",
+    "Glossar/Registry.md",
+    "Glossar/Prozess-Isolation.md",
+    "Glossar/Port-Mapping.md",
+    "Glossar/Orchestrierung.md",
+    "Glossar/OCI.md",
+    "Glossar/Namespace.md",
+    "Glossar/Multi-Stage-Build.md",
+    "Glossar/Kubernetes.md",
+    "Glossar/Image.md",
+    "Glossar/Image-Tag.md",
+    "Glossar/Image-Layer.md",
+    "Glossar/Hyper-V-Isolation.md",
+    "Glossar/Healthcheck.md",
+    "Glossar/Dockerfile.md",
+    "Glossar/Docker-Hub.md",
+    "Glossar/Docker-Engine.md",
+    "Glossar/Docker-Desktop.md",
+    "Glossar/Docker-Daemon.md",
+    "Glossar/Docker-Compose.md",
+    "Glossar/Containerd.md",
+    "Docker",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
     "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
@@ -231,34 +255,9 @@
     "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
     "99_Anhänge/PDF/DNS/DNS_Uebung_1_Loesung.pdf",
     "99_Anhänge/PDF/DNS/DNS_Uebung_2.pdf",
-    "80_Übersichten/PDF-Index.md",
     "99_Anhänge/PDF/DNS/DNS_WindowsServer2025.pdf",
-    "99_Anhänge/PDF/PKI/AD-Zertifikatdienste.pdf",
-    "50_Wissen/50_Wissen.md",
-    "50_Wissen/Windows Server/VHD-und-VHDX.md",
-    "50_Wissen/Windows Server/Vertrauensstellungen.md",
-    "Glossar/00_Glossar-Index.md",
-    "Glossar/CIDR.md",
-    "50_Wissen/Windows Server/PowerShell Grundlagen.md",
-    "Glossar/VHD-und-VHDX.md",
-    "50_Wissen/Windows Server/Storage Replica.md",
-    "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
-    "Glossar/GPMC.md",
-    "Glossar/CLI.md",
-    "90_Vorlagen/Glossar-Vorlage.md",
-    "Glossar/6to4 1.md",
-    "Checkpoints (Hyper-V).md",
-    "20_Labs/Windows Server/Lab VPN SSTP mit MS-CHAPv2.md",
-    "50_Wissen/Hardware/Arbeitsspeicher und Grafik.md",
-    "50_Wissen/Hardware/Netzteile und Schnittstellen.md",
-    "00_Inbox/virtuelle Speichermedien.md",
-    "50_Wissen/Windows Server/Praxisklausuren/00 Uebersicht Praxisklausuren.md",
-    "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 1 - AD DS DNS DHCP.md",
-    "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 2 - PKI Zertifikate.md",
-    "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 3 - Betrieb und Fehlerbehebung.md",
     "Unbenannt.canvas",
     "Unbenannt 1.canvas",
-    "99_Anhänge/PDF/Speicher/Anleitung_Storage_Replica.pdf",
     "40_Befehle/WS PowerShell Befehle.canvas",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",
