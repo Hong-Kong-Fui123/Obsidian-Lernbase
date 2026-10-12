@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Windows Server/Speicherpools.md",
+                "file": "50_Wissen/Windows Server/VHD-und-VHDX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Speicherpools"
+              "title": "VHD-und-VHDX"
             }
           }
         ]
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 477.5,
-    "collapsed": true
+    "width": 477.5
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -221,6 +220,10 @@
   },
   "active": "0532ffc1960bf182",
   "lastOpenFiles": [
+    "Glossar/VHDX.md",
+    "50_Wissen/Windows Server/VHD-und-VHDX.md",
+    "Glossar/00_Glossar-Index.md",
+    "50_Wissen/Windows Server/Speicherpools.md",
     "50_Wissen/Grundlagen/Betriebssysteme und Hypervisoren.md",
     "Unbenannt 1.canvas",
     "Unbenannt.canvas",
@@ -238,7 +241,6 @@
     "50_Wissen/Netzwerk/RADIUS und NPS.md",
     "Glossar/DNS.md",
     "50_Wissen/DNS/Forward-Lookup-Zone.md",
-    "Glossar/00_Glossar-Index.md",
     "Glossar/IPv4.md",
     "Glossar/RADIUS.md",
     "30_Geräte/VM-Infrastruktur.md",
@@ -256,9 +258,6 @@
     "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1_Loesung.pdf",
     "Glossar/NPS.md",
     "80_Übersichten/Start.md",
-    "90_Vorlagen/Vorlage Speicher-Lab.md",
-    "90_Vorlagen/Glossar-Vorlage.md",
-    "10_Themen/Datenbanken SQL.md",
     "40_Befehle/WS PowerShell Befehle.canvas",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",

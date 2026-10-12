@@ -170,20 +170,20 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 
 ## Virtualisierung-Cloud
 
-| Kürzel | Deutsch |
-|---|---|
-| [[Docker]] | Docker (Container-Plattform) |
-| [[Entra ID]] | Microsoft Entra ID (früher Azure AD) |
-| [[HA]] | Hochverfügbarkeit |
-| [[Hypervisor]] | Virtualisierungsschicht |
-| [[IaaS]] | Infrastruktur als Dienst |
-| [[KVM]] | Kernelbasierte VM / Tastatur-Bildschirm-Maus-Umschalter |
-| [[LXC]] | Linux-Container |
-| [[NIC]] | Netzwerkkarte |
-| [[PaaS]] | Plattform als Dienst |
-| [[SaaS]] | Software als Dienst |
-| [[VHDX]] | Virtuelle Festplatte v2 |
-| [[VM]] | Virtuelle Maschine |
+| Kürzel         | Deutsch                                                 |
+| -------------- | ------------------------------------------------------- |
+| [[Docker]]     | Docker (Container-Plattform)                            |
+| [[Entra ID]]   | Microsoft Entra ID (früher Azure AD)                    |
+| [[HA]]         | Hochverfügbarkeit                                       |
+| [[Hypervisor]] | Virtualisierungsschicht                                 |
+| [[IaaS]]       | Infrastruktur als Dienst                                |
+| [[KVM]]        | Kernelbasierte VM / Tastatur-Bildschirm-Maus-Umschalter |
+| [[LXC]]        | Linux-Container                                         |
+| [[NIC]]        | Netzwerkkarte                                           |
+| [[PaaS]]       | Plattform als Dienst                                    |
+| [[SaaS]]       | Software als Dienst                                     |
+| [[VHDX]]       | Virtuelle Festplatte v2                                 |
+| [[VM]]         | Virtuelle Maschine                                      |
 
 ## Hardware-Storage
 
