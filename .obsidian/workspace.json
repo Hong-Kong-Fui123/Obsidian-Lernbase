@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "68565ce25eec67f4",
+        "id": "36f7be3c7e151493",
         "type": "tabs",
         "children": [
           {
-            "id": "aa0b8a837ac56cd4",
+            "id": "62ab7d3eae93873c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/50_Wissen.md",
+                "file": "50_Wissen/Windows Server/Docker/01_Docker-Grundlagen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "50_Wissen"
+              "title": "01_Docker-Grundlagen"
+            }
+          },
+          {
+            "id": "d58488b7f354398e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossar/CI-CD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CI-CD"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 420.5
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -218,10 +233,15 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "d58488b7f354398e",
   "lastOpenFiles": [
+    "50_Wissen/Windows Server/Docker/01_Docker-Grundlagen.md",
+    "Glossar/CI-CD.md",
+    "Glossar/CLI.md",
+    "50_Wissen/Windows Server/Docker/00_Docker-Uebersicht.md",
+    "50_Wissen/Windows Server/Docker/06_Docker-Volumes-Verzeichnisse.md",
+    "50_Wissen/50_Wissen.md",
     "Glossar/00_Glossar-Index.md",
-    "Docker/00_Docker-Uebersicht.md",
     "Glossar/00_Glossar-Index.md.bak",
     "Glossar/WSL2.md",
     "Glossar/Windows-Container.md",
@@ -242,12 +262,7 @@
     "Glossar/Healthcheck.md",
     "Glossar/Dockerfile.md",
     "Glossar/Docker-Hub.md",
-    "Glossar/Docker-Engine.md",
-    "Glossar/Docker-Desktop.md",
-    "Glossar/Docker-Daemon.md",
-    "Glossar/Docker-Compose.md",
-    "Glossar/Containerd.md",
-    "Docker",
+    "50_Wissen/Windows Server/Docker",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
     "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
