@@ -218,10 +218,13 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "2ed4200789772394",
   "lastOpenFiles": [
-    "Unbenannt.canvas",
+    "50_Wissen/Windows Server/Vertrauensstellungen.md",
+    "70-740_Server2016_Installation_Speicher.pdf.md",
+    "70-742_Server2016_Identitaet.pdf.md",
     "50_Wissen/Windows Server/VHD-und-VHDX.md",
+    "Unbenannt.canvas",
     "Unbenannt 1.canvas",
     "VHD und VHDX.md",
     "50_Wissen/Datenbanken/SQL - Transaktionen und Locks.md",
@@ -229,7 +232,6 @@
     "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
     "Glossar/VHDX.md",
     "Glossar/00_Glossar-Index.md",
-    "70-740_Server2016_Installation_Speicher.pdf.md",
     "50_Wissen/Grundlagen/Betriebssysteme und Hypervisoren.md",
     "50_Wissen/Windows Server/Praxisklausuren/00 Uebersicht Praxisklausuren.md",
     "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
@@ -244,7 +246,6 @@
     "99_Anhänge/PDF/Speicher/Anleitung_Storage_Replica.pdf",
     "80_Übersichten/Änderungen 2026-10-07.md",
     "80_Übersichten/PDF-Index.md",
-    "70-742_Server2016_Identitaet.pdf.md",
     "50_Wissen/Windows Server/Storage Replica.md",
     "50_Wissen/Netzwerk/RADIUS und NPS.md",
     "Glossar/DNS.md",
