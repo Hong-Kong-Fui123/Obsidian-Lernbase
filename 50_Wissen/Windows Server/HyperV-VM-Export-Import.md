@@ -62,11 +62,11 @@ Dateitypen: [[#^vmcx|VMCX]] · [[#^vmrs|VMRS]] · [[#^vmgs|VMGS]] · [[#^vhdx|VH
 
 ## 3 Import-Modi
 
-| Modus (GUI, engl.) | PowerShell | VM-ID | Dateien | Einsatz |
-|---|---|---|---|---|
-| Register the virtual machine in-place | `Import-VM -Path` | bleibt | bleiben am Ort | Dateien liegen schon final |
-| Restore the virtual machine | `Import-VM -Path -Copy` | bleibt | werden kopiert | **Umzug** (Original wird gelöscht) |
-| Copy the virtual machine | `Import-VM -Path -Copy -GenerateNewId` | **neu** | werden kopiert | **Klon** (Original läuft weiter) |
+| Modus (GUI, engl.)                    | PowerShell                             | VM-ID   | Dateien        | Einsatz                            |
+| ------------------------------------- | -------------------------------------- | ------- | -------------- | ---------------------------------- |
+| Register the virtual machine in-place | `Import-VM -Path`                      | bleibt  | bleiben am Ort | Dateien liegen schon final         |
+| Restore the virtual machine           | `Import-VM -Path -Copy`                | bleibt  | werden kopiert | **Umzug** (Original wird gelöscht) |
+| Copy the virtual machine              | `Import-VM -Path -Copy -GenerateNewId` | **neu** | werden kopiert | **Klon** (Original läuft weiter)   |
 
 > [!warning] Neue VM-ID ≠ neue Identität im Netz
 > `-GenerateNewId` ändert nur die Hyper-V-ID. Computername, [[#^sid|SID]], IP und Domänenkonto bleiben gleich → Klon nie parallel zum Original im selben Netz starten ohne [[#^sysprep|Sysprep]] bzw. Umbenennen/Neu-Joinen.
