@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Windows Server/Docker/01_Docker-Grundlagen.md",
+                "file": "Glossar/CI-CD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Docker-Grundlagen"
+              "title": "CI-CD"
             }
           },
           {
@@ -235,11 +235,11 @@
   },
   "active": "62ab7d3eae93873c",
   "lastOpenFiles": [
-    "50_Wissen/Windows Server/Docker/00_Docker-Uebersicht.md",
-    "Glossar/CI-CD.md",
     "50_Wissen/Windows Server/Docker/01_Docker-Grundlagen.md",
-    "50_Wissen/Windows Server/Docker/02_Docker-Installation.md",
+    "Glossar/CI-CD.md",
     "Glossar/CLI.md",
+    "50_Wissen/Windows Server/Docker/00_Docker-Uebersicht.md",
+    "50_Wissen/Windows Server/Docker/02_Docker-Installation.md",
     "50_Wissen/Windows Server/Docker/03_Docker-Desktop-GUI.md",
     "50_Wissen/Windows Server/Docker/04_Docker-CLI-Befehle.md",
     "50_Wissen/Windows Server/Docker/05_Docker-Images-Dockerfile.md",
