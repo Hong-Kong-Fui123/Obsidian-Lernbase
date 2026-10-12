@@ -13,11 +13,11 @@ kapitel: "[[00_Docker-Uebersicht]]"
 
 ## 1 Welche Variante
 
-| Variante | Maschine | Container-Typ | GUI | Lizenz |
-|---|---|---|---|---|
-| A [[Docker-Desktop]] | Windows-11-PC | Linux (über [[WSL2]]) + Windows | ja | kostenlos privat/Lernen; Firmen ab 250 Mitarbeitenden oder 10 Mio. USD Umsatz kostenpflichtig |
-| B Docker CE | EXA-DOCKER02 (Server 2025) | nur [[Windows-Container]] | nein | kostenlos |
-| C Docker Engine | EXA-DOCKER01 (Ubuntu) | Linux | nein | kostenlos |
+| Variante             | Maschine                   | Container-Typ                   | GUI  | Lizenz                                                                                        |
+| -------------------- | -------------------------- | ------------------------------- | ---- | --------------------------------------------------------------------------------------------- |
+| A [[Docker-Desktop]] | Windows-11-PC              | Linux (über [[WSL2]]) + Windows | ja   | kostenlos privat/Lernen; Firmen ab 250 Mitarbeitenden oder 10 Mio. USD Umsatz kostenpflichtig |
+| B Docker CE          | EXA-DOCKER02 (Server 2025) | nur [[Windows-Container]]       | nein | kostenlos                                                                                     |
+| C Docker Engine      | EXA-DOCKER01 (Ubuntu)      | Linux                           | nein | kostenlos                                                                                     |
 
 > [!tip] Empfehlung
 > Hauptübung auf **C** (so läuft Docker in Firmen und in der Cloud). **A** für die GUI, **B** für Windows-Container mit IIS.

@@ -1,12 +1,38 @@
 ---
-tags: [glossar, hyper-v]
-aliases: [Virtueller Switch, Hyper-V Switch]
+aliases:
+  - vSwitch
+  - Virtueller Switch
+  - Hyper-V Switch
+tags:
+  - glossar
+  - glossar/virtualisierung
+en: Virtual Switch
+de: Virtueller Switch
+bereich: Virtualisierung
 ---
-# vSwitch
 
-**Kurz:** Virtueller Switch im Hyper-V. Typen: External · Internal · Private.
+**vSwitch** = *Virtual Switch*
+**Deutsch:** Virtueller Switch
 
+## Kurz
+Virtueller Switch in Hyper-V, der VMs untereinander und mit dem Netzwerk verbindet.
+
+## Details
+- External: mit physischer Netzwerkkarte · Internal: VMs + Host · Private: nur VMs
 - Fehlt beim Import der gleiche Name → Inkompatibilität 33012
-- `Get-VMSwitch` / `New-VMSwitch` (Hyper-V-Host)
 
-**Siehe auch:** [[Compare-VM]] · [[VM-Import]] · [[HyperV-VM-Export-Import]]
+## Beispiel
+Maschine: **Hyper-V-Host**
+```powershell
+Get-VMSwitch | Select Name, SwitchType
+New-VMSwitch -Name 'LabSwitch' -SwitchType Internal
+```
+
+## Prüfungsfrage
+Welcher Switch-Typ verbindet VMs untereinander, aber nicht mit dem Host?
+
+> [!success]- Lösung
+> Private.
+
+## Siehe auch
+[[Compare-VM]] · [[VM-Import]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]

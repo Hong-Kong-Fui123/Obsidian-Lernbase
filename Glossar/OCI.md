@@ -1,12 +1,30 @@
 ---
-tags: [glossar, docker]
-aliases: [Open Container Initiative]
+aliases:
+  - OCI
+  - Open Container Initiative
+tags:
+  - glossar
+  - glossar/virtualisierung
+en: Open Container Initiative
+de: Offener Container-Standard
+bereich: Virtualisierung
 ---
-# OCI
 
-**Kurz:** Offener Standard für Image-Format und Container-Laufzeit.
+**OCI** = *Open Container Initiative*
+**Deutsch:** Offener Container-Standard
 
+## Kurz
+Herstellerneutraler Standard für Image-Format und Container-Laufzeit, gegründet 2015 unter der Linux Foundation.
+
+## Details
 - Docker-Images laufen dadurch auch mit Podman, containerd, Kubernetes
-- Gegründet 2015 unter der Linux Foundation
+- Verhindert Abhängigkeit von einem Hersteller (Vendor Lock-in)
 
-**Siehe auch:** [[Containerd]] · [[Image]] · [[00_Docker-Uebersicht]]
+## Prüfungsfrage
+Warum ist ein offener Standard wie OCI für Unternehmen wichtig?
+
+> [!success]- Lösung
+> Images und Werkzeuge sind austauschbar, keine Bindung an einen Hersteller.
+
+## Siehe auch
+[[Containerd]] · [[Image]] · [[00_Docker-Uebersicht]] · [[00_Glossar-Index]]

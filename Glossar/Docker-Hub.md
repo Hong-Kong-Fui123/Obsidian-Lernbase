@@ -1,13 +1,32 @@
 ---
-tags: [glossar, docker]
-aliases: [Docker Hub, hub.docker.com]
+aliases:
+  - Docker-Hub
+  - Docker Hub
+  - hub.docker.com
+tags:
+  - glossar
+  - glossar/virtualisierung
+en: Docker Hub
+de: Öffentliche Docker-Registry
+bereich: Virtualisierung
 ---
-# Docker-Hub
 
-**Kurz:** Öffentliche Standard-Registry von Docker.
+**Docker-Hub** = *Docker Hub*
+**Deutsch:** Öffentliche Docker-Registry
 
-- Standard, wenn kein Registry-Name angegeben ist
-- „Docker Official Images“ sind geprüft
-- Anonyme Pulls sind begrenzt (Rate Limit)
+## Kurz
+Öffentliche Standard-[[Registry]] von Docker mit Millionen Images.
 
-**Siehe auch:** [[Registry]] · [[00_Docker-Uebersicht]]
+## Details
+- „Docker Official Images“ sind geprüft und gepflegt
+- Anonyme Downloads sind begrenzt (Rate Limit)
+- Vorsicht bei unbekannten Images: Schadsoftware möglich
+
+## Prüfungsfrage
+Woran erkennst du ein vertrauenswürdiges Image auf Docker Hub?
+
+> [!success]- Lösung
+> Kennzeichnung „Docker Official Image“ oder „Verified Publisher“, viele Downloads, aktuelle Pflege.
+
+## Siehe auch
+[[Registry]] · [[00_Docker-Uebersicht]] · [[00_Glossar-Index]]

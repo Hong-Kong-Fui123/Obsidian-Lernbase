@@ -1,12 +1,32 @@
 ---
-tags: [glossar, hyper-v]
-aliases: [GenerationID, VM-Generation-ID]
+aliases:
+  - VM-GenerationID
+  - GenerationID
+  - VM-Generation-ID
+tags:
+  - glossar
+  - glossar/virtualisierung
+en: VM-Generation ID
+de: VM-Generationskennung
+bereich: Virtualisierung
 ---
-# VM-GenerationID
 
-**Kurz:** Von Hyper-V gesetzter Wert, der sich bei Wiederherstellung/Klon ändert.
+**VM-GenerationID** = *VM-Generation ID*
+**Deutsch:** VM-Generationskennung
 
-- Ein DC erkennt die Änderung und setzt seine InvocationID zurück
-- Schützt nur teilweise vor USN-Rollback
+## Kurz
+Von Hyper-V bereitgestellter Wert, der sich bei Wiederherstellung oder Klon einer VM ändert.
 
-**Siehe auch:** [[USN-Rollback]] · [[DC]] · [[HyperV-VM-Export-Import]]
+## Details
+- Ein virtueller DC erkennt die Änderung und setzt seine InvocationID zurück
+- Schützt **teilweise** vor [[USN-Rollback]]
+- Seit Server 2012
+
+## Prüfungsfrage
+Macht die VM-GenerationID das Zurückspielen eines DC-Snapshots sicher?
+
+> [!success]- Lösung
+> Nur teilweise; empfohlen bleibt System-State-Backup und DC nie parallel klonen.
+
+## Siehe auch
+[[USN-Rollback]] · [[DC]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]

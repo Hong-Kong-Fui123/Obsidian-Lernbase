@@ -268,3 +268,20 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 - [[Volume]]
 - [[Windows-Container]]
 - [[WSL2]]
+
+
+## Virtualisierung (Ergänzung 2026-10-12)
+- [[AVHDX]]
+- [[Checkpoint]]
+- [[Compare-VM]]
+- [[Konfigurationsversion]]
+- [[Sysprep]]
+- [[USN-Rollback]]
+- [[VMCX]]
+- [[VM-Export]]
+- [[VM-GenerationID]]
+- [[VMGS]]
+- [[VM-Import]]
+- [[VMRS]]
+- [[vSwitch]]
+- [[vTPM]]

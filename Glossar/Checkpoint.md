@@ -1,13 +1,40 @@
 ---
-tags: [glossar, hyper-v]
-aliases: [Snapshot, Prüfpunkt]
+aliases:
+  - Checkpoint
+  - Snapshot
+  - Prüfpunkt
+tags:
+  - glossar
+  - glossar/virtualisierung
+en: Checkpoint
+de: Prüfpunkt (Momentaufnahme)
+bereich: Virtualisierung
 ---
-# Checkpoint
 
-**Kurz:** Zeitpunkt-Zustand einer VM (früher Snapshot genannt).
+**Checkpoint** = *Checkpoint*
+**Deutsch:** Prüfpunkt (Momentaufnahme)
 
-- Standard-Checkpoint: inkl. RAM · Produktions-Checkpoint: VSS-konsistent, ohne RAM
-- Kein Backup-Ersatz
-- `Checkpoint-VM -Name <VM>` / `Export-VMSnapshot` (Hyper-V-Host)
+## Kurz
+Zeitpunkt-Zustand einer VM, früher „Snapshot“ genannt.
 
-**Siehe auch:** [[AVHDX]] · [[VM-Export]] · [[HyperV-VM-Export-Import]]
+## Details
+- Standard-Checkpoint: inkl. RAM-Zustand
+- Produktions-Checkpoint: VSS-konsistent, ohne RAM (Standard)
+- Kein Backup-Ersatz; bei DCs nur Produktions-Checkpoints
+
+## Beispiel
+Maschine: **Hyper-V-Host**
+```powershell
+Checkpoint-VM -Name EXA-SRV02 -SnapshotName 'vor-Update'
+Get-VMSnapshot -VMName EXA-SRV02
+Restore-VMSnapshot -VMName EXA-SRV02 -Name 'vor-Update' -Confirm:$false
+```
+
+## Prüfungsfrage
+Warum ist ein Checkpoint kein Backup?
+
+> [!success]- Lösung
+> Er liegt auf demselben Speicher wie die VM und hängt von der Eltern-VHDX ab.
+
+## Siehe auch
+[[AVHDX]] · [[VM-Export]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]

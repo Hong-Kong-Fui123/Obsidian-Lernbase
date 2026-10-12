@@ -37,7 +37,7 @@ Maschine: **Windows-11-PC** mit [[Docker-Desktop]]. Oberfläche englisch.
    - *Host port*: `8080` (Container-Port 80) → [[Port-Mapping]]
 5. **Run** → Browser: `http://localhost:8080` → „Welcome to nginx!“
 
-Entspricht in der CLI (Maschine: Windows-11-PC):
+Entspricht in der [[CLI (Maschine: Windows-11-PC):
 ```powershell
 docker run -d --name web01 -p 8080:80 nginx
 ```

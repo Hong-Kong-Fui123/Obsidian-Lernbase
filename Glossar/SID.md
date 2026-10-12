@@ -1,12 +1,38 @@
 ---
-tags: [glossar, hyper-v]
-aliases: [Security Identifier]
+aliases:
+  - SID
+  - Security Identifier
+tags:
+  - glossar
+  - glossar/virtualisierung
+en: Security Identifier
+de: Sicherheitskennung
+bereich: Virtualisierung
 ---
-# SID
 
-**Kurz:** Eindeutige Kennung für Computer, Benutzer und Gruppen in Windows.
+**SID** = *Security Identifier*
+**Deutsch:** Sicherheitskennung
 
-- Beim VM-Klon bleibt die SID gleich
-- Neue Maschinen-SID nur per Sysprep
+## Kurz
+Eindeutige Kennung für Computer, Benutzer und Gruppen in Windows und Active Directory.
 
-**Siehe auch:** [[Sysprep]] · [[AD]] · [[HyperV-VM-Export-Import]]
+## Details
+- Rechte werden an SIDs vergeben, nicht an Namen
+- Beim VM-Klon bleibt die Maschinen-SID gleich
+- RID = letzter Teil der SID (500 = Administrator)
+
+## Beispiel
+Maschine: **EXA-DC01**
+```powershell
+Get-ADUser Administrator | Select SID
+whoami /user
+```
+
+## Prüfungsfrage
+Was passiert mit Berechtigungen, wenn ein Benutzer umbenannt wird?
+
+> [!success]- Lösung
+> Bleiben erhalten, weil sie an der SID hängen.
+
+## Siehe auch
+[[Sysprep]] · [[AD]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]

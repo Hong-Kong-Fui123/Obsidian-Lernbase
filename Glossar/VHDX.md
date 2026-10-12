@@ -1,12 +1,37 @@
 ---
-tags: [glossar, hyper-v]
-aliases: [vhdx]
+aliases:
+  - VHDX
+  - vhdx
+tags:
+  - glossar
+  - glossar/virtualisierung
+en: Virtual Hard Disk v2
+de: Virtuelle Festplatte (Version 2)
+bereich: Virtualisierung
 ---
-# VHDX
 
-**Kurz:** Virtuelles Festplattenformat von Hyper-V, max. 64 TB, ausfallsicherer als VHD.
+**VHDX** = *Virtual Hard Disk v2*
+**Deutsch:** Virtuelle Festplatte (Version 2)
 
-- Typen: feste Größe · dynamisch · differenzierend
-- Größe prüfen: `Get-VHD -Path <datei>` → `FileSize` (Hyper-V-Host)
+## Kurz
+Format für virtuelle Festplatten in Hyper-V, bis 64 TB, ausfallsicherer als das alte VHD.
 
-**Siehe auch:** [[AVHDX]] · [[VM-Export]] · [[HyperV-VM-Export-Import]]
+## Details
+- Typen: feste Größe · dynamisch erweiterbar · differenzierend
+- Größe prüfen: `Get-VHD`
+- Verkleinern: `Optimize-VHD` (VM aus)
+
+## Beispiel
+Maschine: **Hyper-V-Host**
+```powershell
+Get-VHD -Path 'D:\Hyper-V\EXA-SRV02\EXA-SRV02.vhdx' | Select VhdType, Size, FileSize
+```
+
+## Prüfungsfrage
+Unterschied `Size` und `FileSize` bei `Get-VHD`?
+
+> [!success]- Lösung
+> `Size` = maximale Größe, `FileSize` = tatsächlich belegter Platz auf dem Host.
+
+## Siehe auch
+[[AVHDX]] · [[VM-Export]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]
