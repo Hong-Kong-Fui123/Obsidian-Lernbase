@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ccbc1b86b9c72598",
+        "id": "a3a2bbaa7e0e8153",
         "type": "tabs",
         "children": [
           {
-            "id": "0cdb320bfa45462a",
+            "id": "20e682882aca84a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -218,8 +218,10 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "0cdb320bfa45462a",
+  "active": "20e682882aca84a8",
   "lastOpenFiles": [
+    "Checkpoints (Hyper-V).md",
+    "50_Wissen/Windows Server/VHD-und-VHDX.md",
     "20_Labs/Windows Server/Lab VPN SSTP mit MS-CHAPv2.md",
     "50_Wissen/50_Wissen.md",
     "50_Wissen/Hardware/Arbeitsspeicher und Grafik.md",
@@ -231,7 +233,6 @@
     "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 3 - Betrieb und Fehlerbehebung.md",
     "50_Wissen/Windows Server/Praxisklausuren/Vorbereitung - Fehler einbauen.md",
     "Generation 1 vs Generation 2 VM.md",
-    "50_Wissen/Windows Server/VHD-und-VHDX.md",
     "Unbenannt.canvas",
     "50_Wissen/Netzwerk/Verkabelung und Displays.md",
     "50_Wissen/Netzwerk/RADIUS und NPS.md",
@@ -247,7 +248,6 @@
     "Glossar/00_Glossar-Index.md",
     "50_Wissen/Grundlagen/Betriebssysteme und Hypervisoren.md",
     "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
-    "50_Wissen/Windows Server/PowerShell Grundlagen.md",
     "99_Anhänge/PDF/Speicher/Anleitung_Storage_Replica.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",

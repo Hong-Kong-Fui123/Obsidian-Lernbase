@@ -330,7 +330,8 @@ Merge-VHD -Path 'D:\Hyper-V\Disks\EXA-DC02.vhdx' -DestinationPath 'D:\Hyper-V\Ba
 ```
 
 > [!danger] Golden Image
-> Merge in eine Parent, die **weitere** Childs hat, macht diese unbrauchbar. Für Checkpoints `Remove-VMSnapshot` nutzen, nicht `Merge-VHD` → [[Checkpoints (Hyper-V)]]
+> Merge in eine Parent, die **weitere** Childs hat, macht diese unbrauchbar. Für Checkpoints `Remove-VMSnapshot` nutzen, nicht `Merge-VHD` → [[#Checkpoints (Hyper-V)|Checkpoints Hyper-V]]
+> 
 
 ### Set-VHD
 Ändert Eigenschaften, v. a. Parent-Pfad reparieren.
