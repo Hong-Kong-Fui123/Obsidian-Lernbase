@@ -1,8 +1,11 @@
 ---
-aliases: [GPMC]
-tags: [glossar, glossar/windows-server]
-en: "Group Policy Management Console"
-de: "Gruppenrichtlinienverwaltungskonsole"
+aliases:
+  - GPMC
+tags:
+  - glossar
+  - glossar/windows-server
+en: Group Policy Management Console
+de: Gruppenrichtlinienverwaltungskonsole
 bereich: Windows-Server
 ---
 
