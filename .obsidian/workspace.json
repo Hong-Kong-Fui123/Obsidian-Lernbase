@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Windows Server/VHD-und-VHDX.md",
+                "file": "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VHD-und-VHDX"
+              "title": "PowerShell für Hyper - V aktivieren"
             }
           }
         ]
@@ -220,8 +220,12 @@
   },
   "active": "0532ffc1960bf182",
   "lastOpenFiles": [
-    "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
+    "50_Wissen/Windows Server/PowerShell Grundlagen.md",
+    "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
+    "50_Wissen/Windows Server/Praxisklausuren/00 Uebersicht Praxisklausuren.md",
+    "50_Wissen/50_Wissen.md",
     "50_Wissen/Windows Server/VHD-und-VHDX.md",
+    "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
     "Glossar/VHDX.md",
     "Glossar/00_Glossar-Index.md",
     "50_Wissen/Windows Server/Speicherpools.md",
@@ -232,7 +236,6 @@
     "50_Wissen/Datenbanken/SQL - Grundlagen und ER-Modell.md",
     "50_Wissen/Datenbanken/SQL - Beispiel Stored Procedure set_mgr.md",
     "50_Wissen/Datenbanken/SQL - Befehle und Abfragen.md",
-    "50_Wissen/50_Wissen.md",
     "00_Inbox/virtuelle Speichermedien.md",
     "99_Anhänge/PDF/Speicher/Anleitung_Storage_Replica.pdf",
     "80_Übersichten/Änderungen 2026-10-07.md",
@@ -246,8 +249,6 @@
     "Glossar/RADIUS.md",
     "30_Geräte/VM-Infrastruktur.md",
     "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
-    "Glossar/RAM.md",
-    "70-740_Server2016_Installation_Speicher.pdf.md",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
     "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
@@ -257,7 +258,6 @@
     "99_Anhänge/PDF/Pruefungsfragen/AD-DS_10_Pruefungsfragen.pdf",
     "99_Anhänge/PDF/Pruefungsfragen/AD-CS_20_Pruefungsfragen.pdf",
     "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1_Loesung.pdf",
-    "Glossar/NPS.md",
     "40_Befehle/WS PowerShell Befehle.canvas",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",
