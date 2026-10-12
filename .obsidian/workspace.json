@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "36f7be3c7e151493",
+        "id": "c12f86b36989e5c1",
         "type": "tabs",
         "children": [
           {
-            "id": "62ab7d3eae93873c",
+            "id": "6b50c37353149c87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/CI-CD.md",
+                "file": "50_Wissen/Docker/06_Docker-Volumes-Verzeichnisse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CI-CD"
-            }
-          },
-          {
-            "id": "d58488b7f354398e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glossar/CLI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CLI"
+              "title": "06_Docker-Volumes-Verzeichnisse"
             }
           }
         ]
@@ -69,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ci-cd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,8 +93,7 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -233,20 +218,24 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "62ab7d3eae93873c",
+  "active": "a7d828f20ca145bb",
   "lastOpenFiles": [
-    "50_Wissen/Windows Server/Docker/01_Docker-Grundlagen.md",
-    "Glossar/CI-CD.md",
+    "Glossar/Bind-Mount.md",
+    "50_Wissen/Docker/06_Docker-Volumes-Verzeichnisse.md",
+    "Glossar/Orchestrierung.md",
+    "202610121301.md",
+    "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
     "Glossar/CLI.md",
-    "50_Wissen/Windows Server/Docker/00_Docker-Uebersicht.md",
-    "50_Wissen/Windows Server/Docker/02_Docker-Installation.md",
-    "50_Wissen/Windows Server/Docker/03_Docker-Desktop-GUI.md",
-    "50_Wissen/Windows Server/Docker/04_Docker-CLI-Befehle.md",
-    "50_Wissen/Windows Server/Docker/05_Docker-Images-Dockerfile.md",
-    "50_Wissen/Windows Server/Docker/10_Docker-Troubleshooting.md",
+    "Glossar/CI-CD.md",
+    "50_Wissen/Docker/01_Docker-Grundlagen.md",
+    "50_Wissen/Docker/00_Docker-Uebersicht.md",
+    "50_Wissen/Docker/02_Docker-Installation.md",
+    "50_Wissen/Docker/03_Docker-Desktop-GUI.md",
+    "50_Wissen/Docker/04_Docker-CLI-Befehle.md",
+    "50_Wissen/Docker/05_Docker-Images-Dockerfile.md",
+    "50_Wissen/Docker/10_Docker-Troubleshooting.md",
     "50_Wissen/Windows Server/PKI und Zertifikatdienste.md",
     "Glossar/Docker-Desktop.md",
-    "50_Wissen/Windows Server/Docker/06_Docker-Volumes-Verzeichnisse.md",
     "50_Wissen/50_Wissen.md",
     "Glossar/00_Glossar-Index.md",
     "Glossar/00_Glossar-Index.md.bak",
@@ -257,12 +246,8 @@
     "Glossar/Registry.md",
     "Glossar/Prozess-Isolation.md",
     "Glossar/Port-Mapping.md",
-    "Glossar/Orchestrierung.md",
     "Glossar/OCI.md",
-    "Glossar/Namespace.md",
-    "Glossar/Multi-Stage-Build.md",
-    "Glossar/Kubernetes.md",
-    "50_Wissen/Windows Server/Docker",
+    "50_Wissen/Docker",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
     "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
