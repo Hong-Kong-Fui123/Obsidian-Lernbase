@@ -11,14 +11,16 @@
             "id": "20e682882aca84a8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "50_Wissen/Windows Server/HyperV-VM-Export-Import.md",
-                "mode": "source",
-                "source": false
+                "file": "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
+                "page": 1,
+                "left": -4,
+                "top": -12,
+                "zoom": 1.2684085510688838
               },
-              "icon": "lucide-file",
-              "title": "HyperV-VM-Export-Import"
+              "icon": "lucide-file-text",
+              "title": "AD-Gruppen"
             }
           }
         ]
@@ -93,7 +95,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,16 +221,29 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "20e682882aca84a8",
+  "active": "fafd79c47b1a89c4",
   "lastOpenFiles": [
+    "99_Anhänge/PDF/AD-DS/AD-DS_Ueberblick_Folien.pdf",
+    "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
+    "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_1.pdf",
+    "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
+    "99_Anhänge/PDF/DNS/DNS_Uebung_1_Loesung.pdf",
+    "99_Anhänge/PDF/DNS/DNS_Uebung_2.pdf",
+    "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
+    "80_Übersichten/PDF-Index.md",
+    "99_Anhänge/PDF/DNS/DNS_WindowsServer2025.pdf",
+    "99_Anhänge/PDF/PKI/AD-Zertifikatdienste.pdf",
+    "50_Wissen/50_Wissen.md",
+    "50_Wissen/Windows Server/VHD-und-VHDX.md",
+    "50_Wissen/Windows Server/Vertrauensstellungen.md",
+    "Glossar/00_Glossar-Index.md",
+    "Glossar/CIDR.md",
+    "50_Wissen/Windows Server/HyperV-VM-Export-Import.md",
     "50_Wissen/Windows Server/PowerShell Grundlagen.md",
     "Glossar/VHD-und-VHDX.md",
-    "50_Wissen/Windows Server/HyperV-VM-Export-Import.md",
     "50_Wissen/Windows Server/Storage Replica.md",
     "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
-    "50_Wissen/Windows Server/VHD-und-VHDX.md",
     "Glossar/GPMC.md",
-    "50_Wissen/50_Wissen.md",
     "Glossar/CLI.md",
     "90_Vorlagen/Glossar-Vorlage.md",
     "Glossar/6to4 1.md",
@@ -241,23 +257,10 @@
     "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 2 - PKI Zertifikate.md",
     "50_Wissen/Windows Server/Praxisklausuren/Praxisklausur 3 - Betrieb und Fehlerbehebung.md",
     "50_Wissen/Windows Server/Praxisklausuren/Vorbereitung - Fehler einbauen.md",
-    "Generation 1 vs Generation 2 VM.md",
     "Unbenannt.canvas",
-    "50_Wissen/Netzwerk/Verkabelung und Displays.md",
-    "50_Wissen/Netzwerk/RADIUS und NPS.md",
-    "70-740_Server2016_Installation_Speicher.pdf.md",
-    "New-VHD.md",
     "Unbenannt 1.canvas",
     "99_Anhänge/PDF/Speicher/Anleitung_Storage_Replica.pdf",
-    "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
-    "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
     "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
-    "99_Anhänge/PDF/Pruefungsfragen/VPN-RADIUS_15_Pruefungsfragen_Loesung.pdf",
-    "99_Anhänge/PDF/Pruefungsfragen/Netzwerk_30_Pruefungsfragen.pdf",
-    "99_Anhänge/PDF/Pruefungsfragen/AD-DS_50_Pruefungsfragen.pdf",
-    "99_Anhänge/PDF/Pruefungsfragen/AD-DS_10_Pruefungsfragen.pdf",
-    "99_Anhänge/PDF/Pruefungsfragen/AD-CS_20_Pruefungsfragen.pdf",
-    "99_Anhänge/PDF/PowerShell/Uebung_PowerShell_1_Loesung.pdf",
     "40_Befehle/WS PowerShell Befehle.canvas",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",
