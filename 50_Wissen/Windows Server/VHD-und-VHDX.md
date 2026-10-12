@@ -26,20 +26,21 @@ erstellt: 2026-10-09
 | Sektorgröße               | 512 Byte                   | 512 Byte / 4 KB (logisch)                 |
 | Schutz bei Stromausfall   | nein                       | ja (internes **Log**)                     |
 | Online-Resize             | nein                       | ja (an SCSI-Controller)                   |
-| [TRIM]/[UNMAP]            | nein                       | ja                                        |
+| [[TRIM-und-UNMAP]]        | nein                       | ja                                        |
 | Boot in Gen-2-VM          | nein                       | ja                                        |
 | Kompatibilität            | Azure (Upload), Altsysteme | ab Server 2012 / Win 8                    |
 | Shared Disk (Gastcluster) | –                          | Shared VHDX → **VHD Set (.vhds)** ab 2016 |
+|                           |                            |                                           |
 
 > [!warning] Azure-Fallstrick
 > Uploads nach Azure verlangen **VHD, feste Größe**. Lokal VHDX → vor Upload `Convert-VHD`. Siehe [[Azure Migrate]].
 
 ## 3. Disk-Typen
 
-| Typ | Verhalten | Einsatz |
-|---|---|---|
-| **Fixed** (fest) | Volle Größe sofort belegt | Produktion, Performance, Azure |
-| **Dynamic** (dynamisch) | Wächst bei Bedarf | Lab, Platz sparen |
+| Typ                                | Verhalten                                | Einsatz                                            |
+| ---------------------------------- | ---------------------------------------- | -------------------------------------------------- |
+| **Fixed** (fest)                   | Volle Größe sofort belegt                | Produktion, Performance, Azure                     |
+| **Dynamic** (dynamisch)            | Wächst bei Bedarf                        | Lab, Platz sparen                                  |
 | **Differencing** (differenzierend) | Speichert nur Änderungen ggü. **Parent** | Golden Image, [[Checkpoints (Hyper-V)]] (`.avhdx`) |
 
 Alternative ohne Datei: **Pass-through-Disk** (physische Disk direkt an VM) → kaum noch genutzt, keine Checkpoints.
