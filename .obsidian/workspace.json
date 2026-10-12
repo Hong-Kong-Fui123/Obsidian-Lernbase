@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "da8c82d4d8213527",
+        "id": "8cba3f6fb2fd9ff6",
         "type": "tabs",
         "children": [
           {
-            "id": "0532ffc1960bf182",
+            "id": "0f700c4d92ffba7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PowerShell für Hyper - V aktivieren"
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -55,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Virtualisierung Hyper-V",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +89,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,18 +215,19 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "0532ffc1960bf182",
+  "active": "0f700c4d92ffba7f",
   "lastOpenFiles": [
-    "50_Wissen/Windows Server/PowerShell Grundlagen.md",
-    "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
+    "70-740_Server2016_Installation_Speicher.pdf.md",
+    "50_Wissen/Grundlagen/Betriebssysteme und Hypervisoren.md",
+    "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
     "50_Wissen/Windows Server/Praxisklausuren/00 Uebersicht Praxisklausuren.md",
+    "50_Wissen/Windows Server/PowerShell für Hyper - V aktivieren.md",
+    "50_Wissen/Windows Server/PowerShell Grundlagen.md",
     "50_Wissen/50_Wissen.md",
     "50_Wissen/Windows Server/VHD-und-VHDX.md",
-    "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
     "Glossar/VHDX.md",
     "Glossar/00_Glossar-Index.md",
     "50_Wissen/Windows Server/Speicherpools.md",
-    "50_Wissen/Grundlagen/Betriebssysteme und Hypervisoren.md",
     "Unbenannt 1.canvas",
     "Unbenannt.canvas",
     "50_Wissen/Datenbanken/SQL - Isolation, Dateien, Partitionen, Rechte.md",
@@ -248,7 +246,6 @@
     "Glossar/IPv4.md",
     "Glossar/RADIUS.md",
     "30_Geräte/VM-Infrastruktur.md",
-    "50_Wissen/Netzwerk/IT - Netzwerkwissen.md",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
     "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
