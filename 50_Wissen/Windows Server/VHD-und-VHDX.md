@@ -161,7 +161,7 @@ $v = Get-VHD -Path $p
 | Cmdlet                  | Zweck                             | VM aus?            | Gilt für              |
 | ----------------------- | --------------------------------- | ------------------ | --------------------- |
 | [[#Test-VHD\|Test-VHD]] | Disk erstellen                    | –                  | VHD, VHDX, VHDS       |
-| [#Get-VHD\|Get-`        | Eigenschaften anzeigen            | nein               | VHD, VHDX             |
+| [#Get-VHD\|Get-VHD]     | Eigenschaften anzeigen            | nein               | VHD, VHDX             |
 | `Test-VHD`              | Integrität/Kette prüfen           | nein               | VHD, VHDX             |
 | `Mount-VHD`             | Auf dem Host einhängen            | ja*                | VHD, VHDX, VHDS       |
 | `Dismount-VHD`          | Vom Host trennen                  | –                  | VHD, VHDX, VHDS       |
