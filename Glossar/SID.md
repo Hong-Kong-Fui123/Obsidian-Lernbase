@@ -1,14 +1,12 @@
 ---
-aliases: [SID]
-tags: [glossar, glossar/windows-server]
-en: "Security Identifier"
-de: "Sicherheitskennung"
-bereich: Windows-Server
+tags: [glossar, hyper-v]
+aliases: [Security Identifier]
 ---
+# SID
 
-**SID** = *Security Identifier*
-**Deutsch:** Sicherheitskennung
+**Kurz:** Eindeutige Kennung für Computer, Benutzer und Gruppen in Windows.
 
-- Eindeutige Kennung jedes Sicherheitsprinzipals
-- Berechtigungen hängen an der SID, nicht am Namen
-- Mehr: [[AD-Gruppen und AGDLP]] · [[Vertrauensstellungen]] (SID-Filterung)
+- Beim VM-Klon bleibt die SID gleich
+- Neue Maschinen-SID nur per Sysprep
+
+**Siehe auch:** [[Sysprep]] · [[AD]] · [[HyperV-VM-Export-Import]]
