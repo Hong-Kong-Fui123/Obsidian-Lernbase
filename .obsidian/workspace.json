@@ -257,11 +257,13 @@
       }
     ]
   },
-  "active": "20e682882aca84a8",
+  "active": "6003231783ed30e8",
   "lastOpenFiles": [
+    "Glossar/VHD-und-VHDX.md",
+    "50_Wissen/Windows Server/PowerShell Grundlagen.md",
+    "50_Wissen/Windows Server/HyperV-VM-Export-Import.md",
     "50_Wissen/Windows Server/Storage Replica.md",
     "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
-    "Glossar/VHD-und-VHDX.md",
     "50_Wissen/Windows Server/VHD-und-VHDX.md",
     "Glossar/GPMC.md",
     "50_Wissen/50_Wissen.md",
@@ -284,8 +286,6 @@
     "50_Wissen/Netzwerk/RADIUS und NPS.md",
     "70-740_Server2016_Installation_Speicher.pdf.md",
     "New-VHD.md",
-    "50_Wissen/Windows Server/Vertrauensstellungen.md",
-    "70-742_Server2016_Identitaet.pdf.md",
     "Unbenannt 1.canvas",
     "99_Anhänge/PDF/Speicher/Anleitung_Storage_Replica.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
