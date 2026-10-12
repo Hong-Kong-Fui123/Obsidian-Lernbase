@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6b1d6cf2c0083734",
+        "id": "f11b7b108c102e1f",
         "type": "tabs",
         "children": [
           {
-            "id": "ec4fe0c690e41a64",
+            "id": "2ed4200789772394",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -218,11 +218,13 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "ec4fe0c690e41a64",
+  "active": "2ed4200789772394",
   "lastOpenFiles": [
+    "50_Wissen/Datenbanken/SQL - Transaktionen und Locks.md",
+    "New-VHD.md",
+    "50_Wissen/Windows Server/VHD-und-VHDX.md",
     "VHD und VHDX.md",
     "50_Wissen/Windows Server/TRIM-und-UNMAP.md",
-    "50_Wissen/Windows Server/VHD-und-VHDX.md",
     "Glossar/VHDX.md",
     "Glossar/00_Glossar-Index.md",
     "70-740_Server2016_Installation_Speicher.pdf.md",
@@ -247,8 +249,6 @@
     "50_Wissen/Netzwerk/RADIUS und NPS.md",
     "Glossar/DNS.md",
     "50_Wissen/DNS/Forward-Lookup-Zone.md",
-    "Glossar/IPv4.md",
-    "Glossar/RADIUS.md",
     "99_Anhänge/PDF/Vertrauensstellungen/Uebung_AD-Vertrauensstellungen_2.pdf",
     "99_Anhänge/PDF/Vertrauensstellungen/AD-Vertrauensstellungen.pdf",
     "99_Anhänge/PDF/Speicher/Speicherpool.pdf",
