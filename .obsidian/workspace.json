@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Docker/01_Docker-Grundlagen.md",
+                "file": "50_Wissen/Docker/08_Docker-Compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Docker-Grundlagen"
+              "title": "08_Docker-Compose"
             }
           }
         ]
@@ -222,16 +222,16 @@
   "active": "6b50c37353149c87",
   "lastOpenFiles": [
     "50_Wissen/Docker/07_Docker-Netzwerk.md",
+    "50_Wissen/Docker/01_Docker-Grundlagen.md",
+    "50_Wissen/Docker/00_Docker-Uebersicht.md",
+    "50_Wissen/Docker/02_Docker-Installation.md",
     "50_Wissen/Docker/04_Docker-CLI-Befehle.md",
     "50_Wissen/Docker/05_Docker-Images-Dockerfile.md",
-    "50_Wissen/Docker/00_Docker-Uebersicht.md",
     "50_Wissen/Docker/06_Docker-Volumes-Verzeichnisse.md",
     "00_Inbox/virtuelle Speichermedien.md",
     "Glossar/00_Glossar-Index.md",
     "50_Wissen/PowerShell-Scripting/01_PS-Grundlagen.md",
     "50_Wissen/PowerShell-Scripting/00_PS-Uebersicht.md",
-    "50_Wissen/Docker/02_Docker-Installation.md",
-    "50_Wissen/Docker/01_Docker-Grundlagen.md",
     "50_Wissen/Docker/03_Docker-Desktop-GUI.md",
     "50_Wissen/Docker/11_Docker-Aufgaben.md",
     "50_Wissen/Docker/12_Docker-Klausur.md",
