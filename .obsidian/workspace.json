@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker isolation",
+                "query": "\"Netzwerk erstellen\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -219,7 +220,7 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "6b50c37353149c87",
+  "active": "fafd79c47b1a89c4",
   "lastOpenFiles": [
     "Glossar/00_Glossar-Index.md",
     "50_Wissen/Docker/04_Docker-CLI-Befehle.md",
