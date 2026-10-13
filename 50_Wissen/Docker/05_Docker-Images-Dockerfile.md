@@ -36,21 +36,21 @@ flowchart BT
 
 ## 3 Dockerfile-Anweisungen
 
-| Anweisung | Zweck | Beispiel |
-|---|---|---|
-| `FROM` | Basis-Image | `FROM nginx:1.27-alpine` |
-| `LABEL` | Metadaten | `LABEL maintainer="SveBeh"` |
-| `WORKDIR` | Arbeitsverzeichnis | `WORKDIR /app` |
-| `COPY` | Dateien aus [[Build-Kontext]] | `COPY site/ /usr/share/nginx/html/` |
-| `ADD` | wie COPY + URL/Entpacken | selten nutzen |
-| `RUN` | Befehl beim **Bauen** | `RUN apk add --no-cache curl` |
-| `ENV` | Umgebungsvariable | `ENV TZ=Europe/Berlin` |
-| `ARG` | Variable nur beim Bauen | `ARG VERSION=1.0` |
-| `EXPOSE` | dokumentiert Port (öffnet nichts!) | `EXPOSE 80` |
-| `USER` | ausführender Benutzer | `USER nginx` |
-| `VOLUME` | Mountpunkt markieren | `VOLUME /data` |
-| `HEALTHCHECK` | [[Healthcheck]] | siehe unten |
-| `CMD` / `ENTRYPOINT` | Befehl beim **Start** | → [[CMD-ENTRYPOINT]] |
+| Anweisung            | Zweck                              | Beispiel                            |
+| -------------------- | ---------------------------------- | ----------------------------------- |
+| `FROM`               | Basis-Image                        | `FROM nginx:1.27-alpine`            |
+| `LABEL`              | Metadaten                          | `LABEL maintainer="SveBeh"`         |
+| `WORKDIR`            | Arbeitsverzeichnis                 | `WORKDIR /app`                      |
+| `COPY`               | Dateien aus [[Build-Kontext]]      | `COPY site/ /usr/share/nginx/html/` |
+| `ADD`                | wie COPY + URL/Entpacken           | selten nutzen                       |
+| `RUN`                | Befehl beim **Bauen**              | `RUN apk add --no-cache curl`       |
+| `ENV`                | Umgebungsvariable                  | `ENV TZ=Europe/Berlin`              |
+| `ARG`                | Variable nur beim Bauen            | `ARG VERSION=1.0`                   |
+| `EXPOSE`             | dokumentiert Port (öffnet nichts!) | `EXPOSE 80`                         |
+| `USER`               | ausführender Benutzer              | `USER nginx`                        |
+| `VOLUME`             | Mountpunkt markieren               | `VOLUME /data`                      |
+| `HEALTHCHECK`        | [[Healthcheck]]                    | siehe unten                         |
+| `CMD` / `ENTRYPOINT` | Befehl beim **Start**              | → [[CMD-ENTRYPOINT]]                |
 
 ---
 
