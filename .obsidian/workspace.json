@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/Cluster-MAC.md",
+                "file": "10_Themen/Cluster und Failover.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cluster-MAC"
+              "title": "Cluster und Failover"
             }
           }
         ]
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -222,7 +221,9 @@
   },
   "active": "6b50c37353149c87",
   "lastOpenFiles": [
+    "Glossar/Failover-Cluster.md",
     "10_Themen/Cluster und Failover.md",
+    "Glossar/Cluster-MAC.md",
     "10_Themen/Datenbanken SQL.md",
     "10_Themen/Hardware.md",
     "10_Themen/IT-Begriffe und Abkürzungen.md",
@@ -246,8 +247,6 @@
     "50_Wissen/PowerShell-Scripting/01_PS-Grundlagen.md",
     "50_Wissen/PowerShell-Scripting/00_PS-Uebersicht.md",
     "50_Wissen/Docker/03_Docker-Desktop-GUI.md",
-    "50_Wissen/Docker/11_Docker-Aufgaben.md",
-    "50_Wissen/Docker/12_Docker-Klausur.md",
     "Glossar/00_Glossar-Index.md.bak",
     "50_Wissen/Docker",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
