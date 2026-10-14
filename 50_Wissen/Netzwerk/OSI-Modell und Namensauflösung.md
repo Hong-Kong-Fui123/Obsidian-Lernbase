@@ -54,7 +54,6 @@ WINS und DNS – alte und aktuelle Namensauflösung. Windows Server 2025 ist die
 [[IPv6]]
 Unicast          z.B. Rechner zu Rechner
 Multicast        ersetzt den Broadcast vom v4
-
 Anycast         der erste der sich meldet ist Ansprechpartner, z.B. Netze mit mehreren DNS
 
 ## Lab-Schnipsel (nur Übungsumgebung!)

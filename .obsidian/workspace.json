@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Wissen/Docker/08_Docker-Compose.md",
+                "file": "50_Wissen/Netzwerk/OSI-Modell und Namensauflösung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08_Docker-Compose"
+              "title": "OSI-Modell und Namensauflösung"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Netzwerk erstellen\"",
+                "query": "unicast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,6 +222,7 @@
   },
   "active": "6b50c37353149c87",
   "lastOpenFiles": [
+    "50_Wissen/Docker/08_Docker-Compose.md",
     "50_Wissen/Docker/07_Docker-Netzwerk.md",
     "50_Wissen/Docker/01_Docker-Grundlagen.md",
     "50_Wissen/Docker/00_Docker-Uebersicht.md",
@@ -236,7 +238,6 @@
     "50_Wissen/Docker/11_Docker-Aufgaben.md",
     "50_Wissen/Docker/12_Docker-Klausur.md",
     "50_Wissen/Docker/09_Docker-Praxis-Lab.md",
-    "50_Wissen/Docker/08_Docker-Compose.md",
     "Glossar/Bind-Mount.md",
     "Glossar/Orchestrierung.md",
     "202610121301.md",
