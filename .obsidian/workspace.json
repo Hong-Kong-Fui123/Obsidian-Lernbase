@@ -221,8 +221,9 @@
   },
   "active": "6b50c37353149c87",
   "lastOpenFiles": [
-    "Glossar/Failover-Cluster.md",
+    "Glossar/Split-Brain.md",
     "10_Themen/Cluster und Failover.md",
+    "Glossar/Failover-Cluster.md",
     "Glossar/Cluster-MAC.md",
     "10_Themen/Datenbanken SQL.md",
     "10_Themen/Hardware.md",
@@ -246,7 +247,6 @@
     "Glossar/00_Glossar-Index.md",
     "50_Wissen/PowerShell-Scripting/01_PS-Grundlagen.md",
     "50_Wissen/PowerShell-Scripting/00_PS-Uebersicht.md",
-    "50_Wissen/Docker/03_Docker-Desktop-GUI.md",
     "Glossar/00_Glossar-Index.md.bak",
     "50_Wissen/Docker",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
