@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c12f86b36989e5c1",
+        "id": "df36a5e07d46cb73",
         "type": "tabs",
         "children": [
           {
-            "id": "6b50c37353149c87",
+            "id": "89116a8ef25d2f65",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -93,8 +93,7 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -220,11 +219,14 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "6b50c37353149c87",
+  "active": "89116a8ef25d2f65",
   "lastOpenFiles": [
     "10_Themen/Cluster und Failover.md",
-    "Glossar/Witness.md",
+    "10_Themen/IT-Begriffe und Abkürzungen.md",
+    "50_Wissen/50_Wissen.md",
+    "Glossar/Heartbeat.md",
     "Glossar/Quorum.md",
+    "Glossar/Witness.md",
     "Glossar/Split-Brain.md",
     "Glossar/00_Glossar-Index.md",
     "Glossar/00_Glossar-Index_Ergaenzung.md",
@@ -236,7 +238,6 @@
     "Glossar/Cluster-MAC.md",
     "10_Themen/Datenbanken SQL.md",
     "10_Themen/Hardware.md",
-    "10_Themen/IT-Begriffe und Abkürzungen.md",
     "10_Themen/Linux.md",
     "10_Themen/Netzwerk.md",
     "10_Themen/Office.md",
@@ -246,8 +247,6 @@
     "50_Wissen/Netzwerk/OSI-Modell und Namensauflösung.md",
     "50_Wissen/Docker/08_Docker-Compose.md",
     "50_Wissen/Docker/07_Docker-Netzwerk.md",
-    "50_Wissen/Docker/01_Docker-Grundlagen.md",
-    "50_Wissen/Docker/00_Docker-Uebersicht.md",
     "Glossar/00_Glossar-Index.md.bak",
     "50_Wissen/Docker",
     "99_Anhänge/PDF/AD-DS/AD-Gruppen.pdf",
