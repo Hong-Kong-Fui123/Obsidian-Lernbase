@@ -11,4 +11,4 @@ bereich: windows-server
 Zwei Clusterhälften laufen getrennt weiter und schreiben gleichzeitig → Datenkorruption. Quorum verhindert das.
 
 **Siehe auch:** [[Quorum]]
-**Thema:** [[Cluster und Failover]]
+**Thema:** [[Cluster und Failover]] · Mehr: [[Failovercluster#2. Quorum und Zeugen|Quorum und Zeugen]]

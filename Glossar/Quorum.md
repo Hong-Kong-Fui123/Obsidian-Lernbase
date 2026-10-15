@@ -10,5 +10,5 @@ bereich: windows-server
 
 Stimmenmehrheit (>50 %), die ein Failover-Cluster zum Laufen braucht. Verhindert Split-Brain.
 
-**Siehe auch:** [[Witness]] · [[Split-Brain]] · [[Failover-Cluster]]
-**Thema:** [[Cluster und Failover]]
+**Siehe auch:** [[Witness]] · [[Dynamisches Quorum]] · [[Split-Brain]] · [[Failover-Cluster]]
+**Thema:** [[Cluster und Failover]] · Mehr: [[Failovercluster#2. Quorum und Zeugen|Quorum und Zeugen]]

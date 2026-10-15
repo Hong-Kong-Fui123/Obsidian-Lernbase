@@ -8,7 +8,7 @@ bereich: windows-server
 
 # Witness
 
-Zusätzliche Quorum-Stimme: Datenträger, Dateifreigabe oder Azure-Speicherkonto (Cloud Witness).
+Zusätzliche Quorum-Stimme: Datenträger (> 512 MB), Dateifreigabe (SMB, außerhalb des Clusters) oder Azure-Speicherkonto (Cloud Witness). Nicht verwechseln mit dem [[SMB-Zeuge]]n.
 
-**Siehe auch:** [[Quorum]]
-**Thema:** [[Cluster und Failover]]
+**Siehe auch:** [[Quorum]] · [[Dynamisches Quorum]]
+**Thema:** [[Cluster und Failover]] · Mehr: [[Failovercluster#Zeugentypen|Zeugentypen]]

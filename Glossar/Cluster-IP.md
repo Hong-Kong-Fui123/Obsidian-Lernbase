@@ -10,5 +10,5 @@ bereich: windows-server
 
 Virtuelle IP, auf die alle Clusterknoten antworten. Statisch, im Subnetz der Knoten. DNS-A-Record manuell anlegen.
 
-**Siehe auch:** [[NLB]] · [[Cluster-MAC]] · [[DNS]]
+**Siehe auch:** [[NLB]] · [[Cluster-MAC]] · [[DNS]] · [[Clientzugriffspunkt]]
 **Thema:** [[Cluster und Failover]]

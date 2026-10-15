@@ -20,7 +20,7 @@ tags: [moc]
 
 ## Labs und Klausuren
 - [[VM-Infrastruktur]] · [[Fehlerlog Home-Lab]]
-- Aktuelles Lab: [[Lab Storage Replica Test-SRTopology]]
+- Aktuelle Labs: [[Lab Failovercluster Dateiserver]] · [[Lab Storage Replica Test-SRTopology]]
 - [[00 Uebersicht Theorieklausuren]] · [[00 Uebersicht Praxisklausuren]]
 
 ## Workflow Inbox
@@ -30,6 +30,7 @@ tags: [moc]
 4. Commit + Push
 
 ## Offene Punkte
+- Was am 15.10.2026 neu ist: [[Änderungen 2026-10-15]]
 - Was am 07.10.2026 geändert wurde: [[Änderungen 2026-10-07]]
 - Notizen mit `status: importiert` prüfen und auf `status: geprüft` setzen
 - Hinweise „Korrigiert 07.10.2026“ lesen und nachvollziehen

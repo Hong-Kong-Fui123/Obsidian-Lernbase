@@ -12,3 +12,4 @@ bereich: Netzwerk
 - Windows-Dateifreigaben, TCP 445
 - SMBv1 unsicher → deaktivieren
 - Mehr: [[Storage Replica]] (Transport über SMB 3)
+- Cluster: [[Fortlaufende Verfügbarkeit]] · [[SMB-Zeuge]] · [[Hochverfügbarer Dateiserver]]

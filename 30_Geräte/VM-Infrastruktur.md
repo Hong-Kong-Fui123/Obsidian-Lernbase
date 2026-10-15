@@ -156,6 +156,9 @@ DHCP:           Gateway (HyperV)
 192.168.1.250-254   Weitere Maschinen (Zukunft)
 ```
 
+> [!warning] Cluster-Übung (Schule)
+> Die Schulübung nutzt 192.168.1.100 (myCluster) und .101 (FS-Cluster) – hier sind das CL01/CL02. Zu Hause z. B. **.230 / .231** verwenden. → [[Lab Failovercluster Dateiserver]]
+
 ---
 
 ## 🔧 Firewall-Einstellungen (alle VMs)
@@ -288,7 +291,7 @@ shutdown /s /t 30
 - [[_MOC_Wochenplan]] – Aufgaben-Übersicht
 - [[VM-Infrastruktur#📸 Snapshot-Strategie|Snapshot-Strategie]] – Startzustände (Abschnitt oben)
 - [[VM-Infrastruktur#🔧 Firewall-Einstellungen (alle VMs)|Firewall-Einstellungen]] – Firewall-Regeln (Abschnitt oben)
-- [[Lab AD-Grundlagen (Schule)]] · [[Fehlerlog Home-Lab]]
+- [[Lab AD-Grundlagen (Schule)]] · [[Lab Failovercluster Dateiserver]] · [[Fehlerlog Home-Lab]]
 - Theorie Hyper-V: [[Betriebssysteme und Hypervisoren]]
 
 ---

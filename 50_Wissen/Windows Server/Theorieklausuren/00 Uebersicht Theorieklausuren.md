@@ -15,6 +15,8 @@ Drei Theorieklausuren zu Windows Server 2022 ([[AD DS]], [[AD CS]], [[AD]] FS/WA
 | [[Theorieklausur 2 - Windows Server 2022]] | 40 | 90 min |
 | [[Theorieklausur 3 - Windows Server 2022]] | 40 | 90 min |
 
+Schul-Fragensammlung Failovercluster: [[Failovercluster_12_Fragen.pdf|12 Wissensfragen]] · [[Failovercluster_12_Fragen_Loesung.pdf|Lösungen]] → Theorie: [[Failovercluster]]
+
 ## Themenverteilung je Klausur
 
 | Thema | Aufgaben |

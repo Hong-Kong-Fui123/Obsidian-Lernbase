@@ -10,7 +10,7 @@ Alle PDFs liegen in `99_Anhänge/PDF/<Thema>/`. Links springen direkt auf die Se
 > [!tip] Eigene Links setzen
 > Im PDF Text markieren → PDF++ kopiert Link auf Stelle. Oder von Hand: `[[AD-Gruppen.pdf#page=8|Globale Gruppen]]`
 
-**Themen:** [[#Active Directory Domänendienste]] · [[#Gruppenrichtlinien]] · [[#AD-Vertrauensstellungen]] · [[#Zertifikate und PKI]] · [[#DNS und Namensauflösung]] · [[#DHCP]] · [[#PowerShell]] · [[#Speicherpools]] · [[#Prüfungsfragen]] · [[#Bücher]]
+**Themen:** [[#Active Directory Domänendienste]] · [[#Gruppenrichtlinien]] · [[#AD-Vertrauensstellungen]] · [[#Zertifikate und PKI]] · [[#DNS und Namensauflösung]] · [[#DHCP]] · [[#PowerShell]] · [[#Speicherpools]] · [[#Failovercluster]] · [[#Prüfungsfragen]] · [[#Bücher]]
 
 ## Active Directory Domänendienste
 
@@ -317,6 +317,44 @@ Alle PDFs liegen in `99_Anhänge/PDF/<Thema>/`. Links springen direkt auf die Se
 - [[Speicherpool.pdf#page=8|S. 8]] – Bereitstellungsschemas
 - [[Speicherpool.pdf#page=9|S. 9]] – Erweiterte Verwaltungsoptionen
 - [[Speicherpool.pdf#page=10|S. 10]] – PowerShell
+
+## Failovercluster
+
+Notizen: [[Failovercluster]] · [[Hochverfügbarer Dateiserver]] · [[Lab Failovercluster Dateiserver]]
+
+### Failovercluster 12 Fragen
+[[Failovercluster_12_Fragen.pdf|Failovercluster_12_Fragen.pdf]] · 3 S. · Teil A – Wissensfragen
+
+- [[Failovercluster_12_Fragen.pdf#page=1|S. 1]] – A1 Failover-Cluster/Ziel · A2 Rollentypen Dateiserver · A3 Features + PowerShell · A4 Quorum, Zeuge bei 2 Knoten
+- [[Failovercluster_12_Fragen.pdf#page=2|S. 2]] – A5 Zeugentypen · A6 Fortlaufende Verfügbarkeit · A7 CSV · A8 CNO/VCO
+- [[Failovercluster_12_Fragen.pdf#page=3|S. 3]] – A9 Dynamisches Quorum/Zeuge · A10 CAU · A11 Neu in Server 2025 · A12 Netzwerk
+
+### Failovercluster 12 Fragen Loesung
+[[Failovercluster_12_Fragen_Loesung.pdf|Failovercluster_12_Fragen_Loesung.pdf]] · 4 S.
+
+- [[Failovercluster_12_Fragen_Loesung.pdf#page=1|S. 1]] – Lösungen A1–A4
+- [[Failovercluster_12_Fragen_Loesung.pdf#page=2|S. 2]] – Lösungen A5–A8 (A9 beginnt)
+- [[Failovercluster_12_Fragen_Loesung.pdf#page=3|S. 3]] – Lösungen A9–A12
+- [[Failovercluster_12_Fragen_Loesung.pdf#page=4|S. 4]] – Ergänzungen, Einschränkungen und Quellen (geprüft 15.10.2026)
+
+### Uebung Failovercluster
+[[Uebung_Failovercluster.pdf|Uebung_Failovercluster.pdf]] · 3 S.
+
+- [[Uebung_Failovercluster.pdf#page=1|S. 1]] – Domänenbeitritt · Schritt 1 iSCSI-Ziel · 2 Initiatoren · 3 Features · 4 Validierung · 5 Cluster (Beginn)
+- [[Uebung_Failovercluster.pdf#page=2|S. 2]] – Schritt 5 Name/IP · 6 Knoten hinzufügen · 7 Quorum · 8 Dateiserver-Rolle
+- [[Uebung_Failovercluster.pdf#page=3|S. 3]] – Schritt 9 Freigabe · 10 Failover/Failback · 11 Ausfall simulieren
+
+### Uebung Failovercluster Loesung
+[[Uebung_Failovercluster_Loesung.pdf|Uebung_Failovercluster_Loesung.pdf]] · 8 S. · Originaltext + Lösung (GUI und PowerShell)
+
+- [[Uebung_Failovercluster_Loesung.pdf#page=1|S. 1]] – Aufbau · Schritt 0 Domäne · Schritt 1 iSCSI-Ziel
+- [[Uebung_Failovercluster_Loesung.pdf#page=2|S. 2]] – Schritt 2 Initiatoren, Gateway, Volumes
+- [[Uebung_Failovercluster_Loesung.pdf#page=3|S. 3]] – Schritt 3 Features · Schritt 4 Validierung
+- [[Uebung_Failovercluster_Loesung.pdf#page=4|S. 4]] – Schritt 5 Cluster · Schritt 6 Knoten hinzufügen
+- [[Uebung_Failovercluster_Loesung.pdf#page=5|S. 5]] – Schritt 7 Quorum · Schritt 8 Dateiserver-Rolle
+- [[Uebung_Failovercluster_Loesung.pdf#page=6|S. 6]] – Schritt 9 Freigabe · Schritt 10 Besitzer/Failback
+- [[Uebung_Failovercluster_Loesung.pdf#page=7|S. 7]] – Schritt 11 Ausfall
+- [[Uebung_Failovercluster_Loesung.pdf#page=8|S. 8]] – Anhang: Korrekturen der Vorlage · Schritte ↔ Fragen · Kontrolle · Quellen
 
 ## Prüfungsfragen
 

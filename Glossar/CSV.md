@@ -10,5 +10,5 @@ bereich: windows-server
 
 Volume, auf das alle Clusterknoten gleichzeitig zugreifen. Standard für Hyper-V-VMs im Cluster.
 
-**Siehe auch:** [[Failover-Cluster]] · [[Shared Storage]]
-**Thema:** [[Cluster und Failover]]
+**Siehe auch:** [[Failover-Cluster]] · [[Shared Storage]] · [[SoFS]]
+**Thema:** [[Cluster und Failover]] · Mehr: [[Failovercluster#3. Clusterdatenträger vs. CSV|Clusterdatenträger vs. CSV]]

@@ -78,7 +78,7 @@ Präfix    192 . 168 .  1 . 100   (Hex → Dezimal)
 | [[Quorum]] | Mehrheitsabstimmung: Cluster läuft nur, wenn > 50 % Stimmen online → verhindert [[Split-Brain]]. |
 | [[Witness]] | Zusätzliche Stimme: Disk-, File-Share- oder Cloud-Witness (Azure). |
 | [[CSV]] | Cluster Shared Volume – alle Knoten greifen gleichzeitig auf ein Volume zu (Hyper-V). |
-| Cluster Name Object (CNO) | Computerkonto des Clusters im [[Active Directory]]. |
+| [[CNO]] (Cluster Name Object) | Computerkonto des Clusters im [[AD|Active Directory]]. |
 | Clusterrolle | Hochverfügbarer Dienst (z. B. Dateiserver), wandert bei Ausfall (**Failover**) und zurück (**Failback**). |
 | Cluster-Validierung | `Test-Cluster` prüft Hardware/Netz/Storage vor dem Bau. Pflicht für Support. |
 
@@ -89,6 +89,11 @@ Präfix    192 . 168 .  1 . 100   (Hex → Dezimal)
 | gerade (2, 4) | Knoten + [[Witness]] → ungerade Stimmenzahl |
 | ungerade (3, 5) | Knotenmehrheit (Witness optional, Dynamic Quorum regelt) |
 | Hybrid/Azure (AZ-802) | **Cloud Witness** |
+
+### Vertiefung Schule (15.10.2026)
+- Theorie: [[Failovercluster]] (Quorum, Zeugen, CSV, CNO/VCO, CAU, Netzwerk, Server 2025) · [[Hochverfügbarer Dateiserver]] (Rollentypen, Fortlaufende Verfügbarkeit, Failback)
+- Praxis: [[Lab Failovercluster Dateiserver]] (iSCSI + 3 Knoten + FS-Cluster)
+- PDFs: [[Failovercluster_12_Fragen.pdf|Fragen A1–A12]] · [[Failovercluster_12_Fragen_Loesung.pdf|Lösungen + Ergänzungen]] · [[Uebung_Failovercluster.pdf|Übung]] · [[Uebung_Failovercluster_Loesung.pdf|Übung mit Lösung]]
 
 ## 5. Befehle
 
@@ -175,7 +180,7 @@ Get-ClusterQuorum -Cluster EXA-CL01
 
 ## Verweise
 
-- Voraussetzungen: [[Active Directory]] · [[DNS]] · [[Hyper-V]]
-- Verwandt: [[CA]] (HTTPS-Zertifikat auf **allen** NLB-Knoten identisch, SAN = www.example.com) · [[IIS]] · [[iSCSI]] · [[Storage Spaces Direct]]
-- Glossar: [[NLB]] · [[Failover-Cluster]] · [[Cluster-IP]] · [[Cluster-MAC]] · [[Unicast]] · [[Multicast]] · [[IGMP-Multicast]] · [[IGMP-Snooping]] · [[Affinity]] · [[Port Rule]] · [[Heartbeat]] · [[Konvergenz]] · [[Quorum]] · [[Witness]] · [[CSV]] · [[Split-Brain]]
+- Voraussetzungen: [[AD|Active Directory]] · [[DNS]] · [[Hypervisor|Hyper-V]]
+- Verwandt: [[CA]] (HTTPS-Zertifikat auf **allen** NLB-Knoten identisch, SAN = www.example.com) · [[IIS]] · [[iSCSI]] · [[Speicherpools|Storage Spaces / S2D]] · [[Failovercluster]] · [[Hochverfügbarer Dateiserver]] · [[Lab Failovercluster Dateiserver]]
+- Glossar: [[NLB]] · [[Failover-Cluster]] · [[Cluster-IP]] · [[Cluster-MAC]] · [[Unicast]] · [[Multicast]] · [[IGMP-Multicast]] · [[IGMP-Snooping]] · [[Affinity]] · [[Port Rule]] · [[Heartbeat]] · [[Konvergenz]] · [[Quorum]] · [[Witness]] · [[Dynamisches Quorum]] · [[CSV]] · [[Split-Brain]] · [[CNO]] · [[VCO]] · [[Clientzugriffspunkt]] · [[Failback]] · [[Bevorzugter Besitzer]] · [[CAU]] · [[SoFS]] · [[Fortlaufende Verfügbarkeit]] · [[SMB-Zeuge]] · [[MPIO]] · [[iSCSI-Target]] · [[iSCSI-Initiator]] · [[ABE]]
 - Übersicht: [[00_Glossar-Index]]

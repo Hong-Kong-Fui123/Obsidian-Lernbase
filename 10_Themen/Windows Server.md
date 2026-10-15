@@ -50,6 +50,14 @@ Unterlagen gesamt: [[PDF-Index]] · Abkürzungen: [[00_Glossar-Index]]
 | [[Storage Replica]] | Wissen | [[70-740_Server2016_Installation_Speicher.pdf#page=182\|70-740 Speicherreplikat]] |
 | [[Lab Storage Replica Test-SRTopology]] | Lab | Vorlage: [[Vorlage Speicher-Lab]] |
 
+## Hochverfügbarkeit / Cluster
+| Notiz | Typ | PDF |
+|---|---|---|
+| [[Cluster und Failover]] | Thema (NLB + Failovercluster) | – |
+| [[Failovercluster]] | Wissen | [[Failovercluster_12_Fragen.pdf\|Fragen A1–A12]] · [[Failovercluster_12_Fragen_Loesung.pdf\|Lösungen]] |
+| [[Hochverfügbarer Dateiserver]] | Wissen | [[Failovercluster_12_Fragen_Loesung.pdf#page=4\|Ergänzungen + Quellen]] |
+| [[Lab Failovercluster Dateiserver]] | Lab | [[Uebung_Failovercluster.pdf\|Übung]] · [[Uebung_Failovercluster_Loesung.pdf\|Übung mit Lösung]] |
+
 ## Lab-Umgebung
 - [[VM-Infrastruktur]] · [[Fehlerlog Home-Lab]]
 

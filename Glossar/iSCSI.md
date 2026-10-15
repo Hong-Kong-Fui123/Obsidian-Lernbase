@@ -11,4 +11,5 @@ bereich: Hardware-Storage
 
 - Blockspeicher über Ethernet, typisch im [[SAN]]
 - Eindeutige Namen: [[IQN]] · Verzeichnisdienst: [[iSNS - Server|iSNS]]
-- Mehr: [[Speicherpools]]
+- Ziel/Client: [[iSCSI-Target]] · [[iSCSI-Initiator]] · Redundanz: [[MPIO]]
+- Mehr: [[Speicherpools]] · [[Lab Failovercluster Dateiserver]]
