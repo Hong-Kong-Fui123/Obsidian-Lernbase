@@ -289,26 +289,26 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 
 ## Failovercluster (Ergänzung 2026-10-15)
 
-| Begriff | Deutsch |
-|---|---|
-| [[ABE]] | Zugriffsbasierte Aufzählung |
-| [[Bevorzugter Besitzer]] | Bevorzugte Knoten einer Clusterrolle |
-| [[CAU]] | Clusterfähiges Aktualisieren |
-| [[Clientzugriffspunkt]] | Name + IP einer Clusterrolle |
-| [[Cluster-IP]] | Virtuelle IP des Clusters |
-| [[CNO]] | Clusternameobjekt |
-| [[CSV]] | Freigegebenes Clustervolume |
-| [[Dynamisches Quorum]] | Dynamisches Quorum / dynamischer Zeuge |
-| [[Failback]] | Failover / Rückübernahme |
-| [[Failover-Cluster]] | Failovercluster |
-| [[Fortlaufende Verfügbarkeit]] | Continuous Availability (SMB 3) |
-| [[Heartbeat]] | Lebenszeichen der Knoten |
-| [[iSCSI-Initiator]] | iSCSI-Client |
-| [[iSCSI-Target]] | iSCSI-Ziel |
-| [[MPIO]] | Multipfad-E/A |
-| [[Quorum]] | Beschlussfähigkeit |
-| [[SMB-Zeuge]] | SMB Witness |
-| [[SoFS]] | Dateiserver mit horizontaler Skalierung |
-| [[Split-Brain]] | Gespaltener Cluster |
-| [[VCO]] | Virtuelles Computerobjekt |
-| [[Witness]] | Quorumzeuge |
+| Begriff                        | Deutsch                                 |
+| ------------------------------ | --------------------------------------- |
+| [[ABE]]                        | Zugriffsbasierte Aufzählung             |
+| [[Bevorzugter Besitzer]]       | Bevorzugte Knoten einer Clusterrolle    |
+| [[CAU]]                        | Clusterfähiges Aktualisieren            |
+| [[Clientzugriffspunkt]]        | Name + IP einer Clusterrolle            |
+| [[Cluster-IP]]                 | Virtuelle IP des Clusters               |
+| [[CNO]]                        | Clusternameobjekt                       |
+| [[CSV]]                        | Freigegebenes Clustervolume             |
+| [[Dynamisches Quorum]]         | Dynamisches Quorum / dynamischer Zeuge  |
+| [[Failback]]                   | Failover / Rückübernahme                |
+| [[Failover-Cluster]]           | Failovercluster                         |
+| [[Fortlaufende Verfügbarkeit]] | Continuous Availability (SMB 3)         |
+| [[Heartbeat]]                  | Lebenszeichen der Knoten                |
+| [[iSCSI-Initiator]]            | iSCSI-Client                            |
+| [[iSCSI-Target]]               | iSCSI-Ziel                              |
+| [[MPIO]]                       | Multipfad-E/A                           |
+| [[Quorum]]                     | Beschlussfähigkeit                      |
+| [[SMB-Zeuge]]                  | SMB Witness                             |
+| [[SoFS]]                       | Dateiserver mit horizontaler Skalierung |
+| [[Split-Brain]]                | Gespaltener Cluster                     |
+| [[VCO]]                        | Virtuelles Computerobjekt               |
+| [[Witness]]                    | Quorumzeuge                             |
