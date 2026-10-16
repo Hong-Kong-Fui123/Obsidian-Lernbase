@@ -292,7 +292,7 @@ shutdown /s /t 30
 - [[VM-Infrastruktur#📸 Snapshot-Strategie|Snapshot-Strategie]] – Startzustände (Abschnitt oben)
 - [[VM-Infrastruktur#🔧 Firewall-Einstellungen (alle VMs)|Firewall-Einstellungen]] – Firewall-Regeln (Abschnitt oben)
 - [[Lab AD-Grundlagen (Schule)]] · [[Lab Failovercluster Dateiserver]] · [[Fehlerlog Home-Lab]]
-- Theorie Hyper-V: [[Betriebssysteme und Hypervisoren]]
+- Theorie Hyper-V: [[Betriebssysteme und Hypervisoren]] · [[Hyper-V]] · [[Hyper-V Livemigration]] · [[HyperV-VM-Export-Import]]
 
 ---
 

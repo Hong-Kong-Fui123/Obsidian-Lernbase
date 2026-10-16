@@ -12,3 +12,4 @@ bereich: Windows-Server
 - Standard-Authentifizierung in [[AD]], TCP/UDP 88
 - Tickets: [[TGT]] vom [[KDC]]; Zeit synchron halten ([[NTP]])
 - Mehr: [[AD DS Überblick#Anmeldung (Kerberos)|Anmeldung]] · [[Vertrauensstellungen]]
+- Hyper-V: Livemigration mit [[Eingeschränkte Delegierung|eingeschränkter Delegierung]] statt [[CredSSP]] (Pflicht ab Server 2025) → [[Hyper-V Livemigration]]

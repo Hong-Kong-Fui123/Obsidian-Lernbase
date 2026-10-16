@@ -20,6 +20,7 @@ Virtueller Switch in Hyper-V, der VMs untereinander und mit dem Netzwerk verbind
 ## Details
 - External: mit physischer Netzwerkkarte · Internal: VMs + Host · Private: nur VMs
 - Fehlt beim Import der gleiche Name → Inkompatibilität 33012
+- [[Livemigration]]: gleicher vSwitch-Name auf beiden Hosts, sonst fragt der Assistent nach
 
 ## Beispiel
 Maschine: **Hyper-V-Host**
@@ -35,4 +36,4 @@ Welcher Switch-Typ verbindet VMs untereinander, aber nicht mit dem Host?
 > Private.
 
 ## Siehe auch
-[[Compare-VM]] · [[VM-Import]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]
+[[Compare-VM]] · [[VM-Import]] · [[HyperV-VM-Export-Import]] · [[Livemigration]] · [[00_Glossar-Index]]

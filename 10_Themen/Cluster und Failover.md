@@ -43,19 +43,19 @@ Screenshot: *New Cluster : Cluster Parameters*
 Präfix    192 . 168 .  1 . 100   (Hex → Dezimal)
 ```
 
-| Modus              | MAC-Präfix    | Beispiel für 192.168.1.100                 |
-| ------------------ | ------------- | ------------------------------------------ |
-| [[Unicast]]        | `02-BF`       | `02-bf-c0-a8-01-64`                        |
-| [[Multicast]]      | `03-BF`       | `03-bf-c0-a8-01-64`                        |
+| Modus | MAC-Präfix | Beispiel für 192.168.1.100 |
+|---|---|---|
+| [[Unicast]] | `02-BF` | `02-bf-c0-a8-01-64` |
+| [[Multicast]] | `03-BF` | `03-bf-c0-a8-01-64` |
 | [[IGMP-Multicast]] | `01-00-5E-7F` | `01-00-5e-7f-01-64` (nur letzte 2 Oktette) |
 
 ### Cluster operation mode
 
-| Modus              | Funktionsweise                                          | Vorteil                                                                  | Nachteil                                                                                            | Einsatz                              |
-| ------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| [[Unicast]]        | Cluster-MAC **ersetzt** die echte MAC der NIC           | Funktioniert mit jedem Router/Switch                                     | Knoten können über diese NIC nicht miteinander reden → **2. NIC nötig**; [[Switch-Flooding]]        | Altnetze, Standardmodus              |
-| [[Multicast]]      | Cluster-MAC wird **zusätzlich** zur echten MAC gebunden | 1 NIC reicht, Knoten erreichbar                                          | Router muss Unicast-IP → Multicast-MAC akzeptieren (oft **statischer ARP-Eintrag** nötig); Flooding | Gängig, auch im Lab                  |
-| [[IGMP-Multicast]] | Wie Multicast + Knoten senden [[IGMP]]-Join             | Switch mit [[IGMP-Snooping]] leitet nur an NLB-Ports → **kein Flooding** | Switch muss IGMP-Snooping können                                                                    | Produktiv-Netze mit Managed Switches |
+| Modus | Funktionsweise | Vorteil | Nachteil | Einsatz |
+|---|---|---|---|---|
+| **Unicast** | Cluster-MAC **ersetzt** die echte MAC der NIC | Funktioniert mit jedem Router/Switch | Knoten können über diese NIC nicht miteinander reden → **2. NIC nötig**; [[Switch-Flooding]] | Altnetze, Standardmodus |
+| **Multicast** *(gewählt)* | Cluster-MAC wird **zusätzlich** zur echten MAC gebunden | 1 NIC reicht, Knoten erreichbar | Router muss Unicast-IP → Multicast-MAC akzeptieren (oft **statischer ARP-Eintrag** nötig); Flooding | Gängig, auch im Lab |
+| **IGMP multicast** | Wie Multicast + Knoten senden [[IGMP]]-Join | Switch mit [[IGMP-Snooping]] leitet nur an NLB-Ports → **kein Flooding** | Switch muss IGMP-Snooping können | Produktiv-Netze mit Managed Switches |
 
 > [!warning] Hyper-V-Lab
 > - Unicast-NLB in VMs: **MAC-Spoofing** an der VM-NIC aktivieren, sonst kommt kein Verkehr an.
@@ -73,26 +73,27 @@ Präfix    192 . 168 .  1 . 100   (Hex → Dezimal)
 
 ## 4. Failover-Cluster – Kernbegriffe
 
-| Begriff                       | Kurz                                                                                                      |                     |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------- |
-| [[Quorum]]                    | Mehrheitsabstimmung: Cluster läuft nur, wenn > 50 % Stimmen online → verhindert [[Split-Brain]].          |                     |
-| [[Witness]]                   | Zusätzliche Stimme: Disk-, File-Share- oder Cloud-Witness (Azure).                                        |                     |
-| [[CSV]]                       | Cluster Shared Volume – alle Knoten greifen gleichzeitig auf ein Volume zu (Hyper-V).                     |                     |
-| [[CNO]] (Cluster Name Object) | Computerkonto des Clusters im [[AD                                                                        | Active Directory]]. |
-| Clusterrolle                  | Hochverfügbarer Dienst (z. B. Dateiserver), wandert bei Ausfall (**Failover**) und zurück (**Failback**). |                     |
-| Cluster-Validierung           | `Test-Cluster` prüft Hardware/Netz/Storage vor dem Bau. Pflicht für Support.                              |                     |
+| Begriff | Kurz |
+|---|---|
+| [[Quorum]] | Mehrheitsabstimmung: Cluster läuft nur, wenn > 50 % Stimmen online → verhindert [[Split-Brain]]. |
+| [[Witness]] | Zusätzliche Stimme: Disk-, File-Share- oder Cloud-Witness (Azure). |
+| [[CSV]] | Cluster Shared Volume – alle Knoten greifen gleichzeitig auf ein Volume zu (Hyper-V). |
+| [[CNO]] (Cluster Name Object) | Computerkonto des Clusters im [[AD|Active Directory]]. |
+| Clusterrolle | Hochverfügbarer Dienst (z. B. Dateiserver), wandert bei Ausfall (**Failover**) und zurück (**Failback**). |
+| Cluster-Validierung | `Test-Cluster` prüft Hardware/Netz/Storage vor dem Bau. Pflicht für Support. |
 
-### [[Quorum]]-Faustregel
+### Quorum-Faustregel
 
-| Knotenanzahl          | Empfehlung                                               |
-| --------------------- | -------------------------------------------------------- |
-| gerade (2, 4)         | Knoten + [[Witness]] → ungerade Stimmenzahl              |
-| ungerade (3, 5)       | Knotenmehrheit (Witness optional, Dynamic Quorum regelt) |
-| Hybrid/Azure (AZ-802) | **Cloud Witness**                                        |
+| Knotenanzahl | Empfehlung |
+|---|---|
+| gerade (2, 4) | Knoten + [[Witness]] → ungerade Stimmenzahl |
+| ungerade (3, 5) | Knotenmehrheit (Witness optional, Dynamic Quorum regelt) |
+| Hybrid/Azure (AZ-802) | **Cloud Witness** |
 
 ### Vertiefung Schule (15.10.2026)
 - Theorie: [[Failovercluster]] (Quorum, Zeugen, CSV, CNO/VCO, CAU, Netzwerk, Server 2025) · [[Hochverfügbarer Dateiserver]] (Rollentypen, Fortlaufende Verfügbarkeit, Failback)
 - Praxis: [[Lab Failovercluster Dateiserver]] (iSCSI + 3 Knoten + FS-Cluster)
+- VMs im Cluster verschieben: [[Hyper-V Livemigration]] (Live-, Shared-Nothing-, Speicher-, Schnellmigration)
 - PDFs: [[Failovercluster_12_Fragen.pdf|Fragen A1–A12]] · [[Failovercluster_12_Fragen_Loesung.pdf|Lösungen + Ergänzungen]] · [[Uebung_Failovercluster.pdf|Übung]] · [[Uebung_Failovercluster_Loesung.pdf|Übung mit Lösung]]
 
 ## 5. Befehle
@@ -180,7 +181,7 @@ Get-ClusterQuorum -Cluster EXA-CL01
 
 ## Verweise
 
-- Voraussetzungen: [[AD|Active Directory]] · [[DNS]] · [[Hypervisor|Hyper-V]]
+- Voraussetzungen: [[AD|Active Directory]] · [[DNS]] · [[Hyper-V]]
 - Verwandt: [[CA]] (HTTPS-Zertifikat auf **allen** NLB-Knoten identisch, SAN = www.example.com) · [[IIS]] · [[iSCSI]] · [[Speicherpools|Storage Spaces / S2D]] · [[Failovercluster]] · [[Hochverfügbarer Dateiserver]] · [[Lab Failovercluster Dateiserver]]
 - Glossar: [[NLB]] · [[Failover-Cluster]] · [[Cluster-IP]] · [[Cluster-MAC]] · [[Unicast]] · [[Multicast]] · [[IGMP-Multicast]] · [[IGMP-Snooping]] · [[Affinity]] · [[Port Rule]] · [[Heartbeat]] · [[Konvergenz]] · [[Quorum]] · [[Witness]] · [[Dynamisches Quorum]] · [[CSV]] · [[Split-Brain]] · [[CNO]] · [[VCO]] · [[Clientzugriffspunkt]] · [[Failback]] · [[Bevorzugter Besitzer]] · [[CAU]] · [[SoFS]] · [[Fortlaufende Verfügbarkeit]] · [[SMB-Zeuge]] · [[MPIO]] · [[iSCSI-Target]] · [[iSCSI-Initiator]] · [[ABE]]
 - Übersicht: [[00_Glossar-Index]]

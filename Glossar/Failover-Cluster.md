@@ -10,5 +10,5 @@ bereich: windows-server
 
 Gruppe von bis zu 64 Servern; fällt ein Knoten aus, übernimmt ein anderer die Rolle. Für zustandsbehaftete Dienste (SQL, Dateiserver, Hyper-V).
 
-**Siehe auch:** [[Quorum]] · [[Witness]] · [[CSV]] · [[NLB]] · [[CNO]] · [[Failback]] · [[Bevorzugter Besitzer]] · [[CAU]]
+**Siehe auch:** [[Quorum]] · [[Witness]] · [[CSV]] · [[NLB]] · [[CNO]] · [[Failback]] · [[Bevorzugter Besitzer]] · [[CAU]] · [[Livemigration]]
 **Thema:** [[Cluster und Failover]] · Mehr: [[Failovercluster]] · [[Lab Failovercluster Dateiserver]]

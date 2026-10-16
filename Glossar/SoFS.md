@@ -10,5 +10,5 @@ bereich: windows-server
 
 Aktiv/Aktiv-Dateiserverrolle: Freigaben auf allen Knoten gleichzeitig online, setzt [[CSV]] voraus. Für Anwendungsdaten (Hyper-V-[[VHDX]], SQL), nicht für Benutzerdaten.
 
-**Siehe auch:** [[CSV]] · [[Fortlaufende Verfügbarkeit]]
+**Siehe auch:** [[CSV]] · [[Fortlaufende Verfügbarkeit]] · [[Livemigration]] (VM-Dateien auf SoFS) · [[SMB Direct]]
 **Thema:** [[Cluster und Failover]] · Mehr: [[Hochverfügbarer Dateiserver#1. Zwei Rollentypen|Rollentypen]]

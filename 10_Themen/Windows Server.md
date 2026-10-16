@@ -55,6 +55,7 @@ Unterlagen gesamt: [[PDF-Index]] · Abkürzungen: [[00_Glossar-Index]]
 |---|---|---|
 | [[Cluster und Failover]] | Thema (NLB + Failovercluster) | – |
 | [[Failovercluster]] | Wissen | [[Failovercluster_12_Fragen.pdf\|Fragen A1–A12]] · [[Failovercluster_12_Fragen_Loesung.pdf\|Lösungen]] |
+| [[Hyper-V Livemigration]] | Wissen | [[70-740_Server2016_Installation_Speicher.pdf#page=358\|70-740 Kap. 5.1]] · [[70-740_Server2016_Installation_Speicher.pdf#page=434\|Kap. 5.5]] |
 | [[Hochverfügbarer Dateiserver]] | Wissen | [[Failovercluster_12_Fragen_Loesung.pdf#page=4\|Ergänzungen + Quellen]] |
 | [[Lab Failovercluster Dateiserver]] | Lab | [[Uebung_Failovercluster.pdf\|Übung]] · [[Uebung_Failovercluster_Loesung.pdf\|Übung mit Lösung]] |
 

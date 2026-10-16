@@ -55,6 +55,8 @@ Alle Wissensnotizen nach Fachgebiet. Themen-Übersichten: [[Start]] · Unterlage
 - [[Failovercluster]]
 - [[Gruppenrichtlinien]]
 - [[Hochverfügbarer Dateiserver]]
+- [[Hyper-V Livemigration]]
+- [[HyperV-VM-Export-Import]]
 - [[PKI und Zertifikatdienste]]
 - [[PowerShell Grundlagen]]
 - [[Speicherpools]]

@@ -21,6 +21,7 @@ Version des VM-Formats. Der Zielhost muss sie unterstützen, sonst ist kein Impo
 - Server 2025 nutzt eine höhere Version als Server 2022
 - Prüfen: `Get-VMHostSupportedVersion`
 - Anheben mit `Update-VMVersion` – danach kein Import auf ältere Hosts
+- Gilt auch für [[Livemigration]]: nur auf Hosts mit gleicher oder neuerer Version; ab 10.0 dynamische [[Prozessorkompatibilität]] (Server 2025)
 
 ## Beispiel
 Maschine: **Hyper-V-Host**
@@ -36,4 +37,4 @@ Warum Vorsicht bei `Update-VMVersion`?
 > Nicht umkehrbar; die VM läuft danach nicht mehr auf älteren Hosts.
 
 ## Siehe auch
-[[VM-Import]] · [[Compare-VM]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]
+[[VM-Import]] · [[Compare-VM]] · [[HyperV-VM-Export-Import]] · [[Livemigration]] · [[00_Glossar-Index]]

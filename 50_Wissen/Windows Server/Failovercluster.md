@@ -9,7 +9,7 @@ quelle: "Schule: Failover Clustering Dateiserver – Fragen A1–A12 + Übung"
 ---
 # Failovercluster – Grundlagen, Quorum, Verwaltung
 
-Thema: [[Cluster und Failover]] · [[Windows Server]] · Dateiserver im Cluster: [[Hochverfügbarer Dateiserver]] · Praxis: [[Lab Failovercluster Dateiserver]]
+Thema: [[Cluster und Failover]] · [[Windows Server]] · Dateiserver im Cluster: [[Hochverfügbarer Dateiserver]] · VMs im Cluster: [[Hyper-V Livemigration]] · Praxis: [[Lab Failovercluster Dateiserver]]
 Unterlagen: [[Failovercluster_12_Fragen.pdf|Fragen A1–A12]] · [[Failovercluster_12_Fragen_Loesung.pdf|Lösungen]] · [[Failovercluster_12_Fragen_Loesung.pdf#page=4|Ergänzungen + Quellen]] · [[Uebung_Failovercluster.pdf|Übung]] · [[Uebung_Failovercluster_Loesung.pdf|Übung mit Lösung]]
 
 > [!summary] Kernidee
@@ -78,7 +78,7 @@ Fragen: [[Failovercluster_12_Fragen.pdf#page=2|A7]] · Lösung: [[Failovercluste
 Fragen: [[Failovercluster_12_Fragen.pdf#page=2|A8]] · Lösung: [[Failovercluster_12_Fragen_Loesung.pdf#page=2|A8]]
 
 ## 5. Cluster-Aware Updating (CAU)
-[[CAU]] patcht Knoten nacheinander: Wartungsmodus (Rollen verschieben) → Updates → Neustart → wieder aufnehmen. Die Rollen bleiben online.
+[[CAU]] patcht Knoten nacheinander: Wartungsmodus (Rollen verschieben – VMs per [[Livemigration]]) → Updates → Neustart → wieder aufnehmen. Die Rollen bleiben online.
 
 | Modus | Wer startet den Updatelauf? | Befehl |
 |---|---|---|

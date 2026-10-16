@@ -211,11 +211,11 @@ Warum ist ein alter DC-Export als „Backup“ gefährlich?
 > 3. Quellhost: `Export-VM -Name EXA-WEB01 -Path 'F:\Export'`
 > 4. CPU-abhängig → Start auf anderem Host kann scheitern.
 > 5. `Get-VMHostSupportedVersion` → `Compare-VM` → Inkompatibilitäten beheben → `Import-VM -CompatibilityReport`
-> 6. Export/Import: offline, Downtime, kein Cluster nötig. Live-Migration: ohne Downtime, Hosts verbunden, Delegierung/Authentifizierung nötig.
+> 6. Export/Import: offline, Downtime, kein Cluster nötig. Live-Migration: ohne Downtime, Hosts verbunden, Delegierung/Authentifizierung nötig → [[Hyper-V Livemigration]]
 
 ---
 
 ## 9 Glossar
-[[VM-Export]] · [[VM-Import]] · [[VMCX]] · [[VMRS]] · [[VMGS]] · [[VHDX]] · [[AVHDX]] · [[Checkpoint]] · [[Konfigurationsversion]] · [[vSwitch]] · [[Compare-VM]] · [[vTPM]] · [[VM-GenerationID]] · [[USN-Rollback]] · [[SID]] · [[Sysprep]] · [[DC]]
+[[VM-Export]] · [[VM-Import]] · [[VMCX]] · [[VMRS]] · [[VMGS]] · [[VHDX]] · [[AVHDX]] · [[Checkpoint]] · [[Konfigurationsversion]] · [[vSwitch]] · [[Compare-VM]] · [[vTPM]] · [[VM-GenerationID]] · [[USN-Rollback]] · [[SID]] · [[Sysprep]] · [[DC]] · [[Livemigration]] · [[Speichermigration]]
 
 Übersicht: [[00_Glossar-Index]]

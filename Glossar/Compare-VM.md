@@ -20,6 +20,7 @@ Cmdlet, das vor dem Import einen Kompatibilitätsbericht erstellt und Probleme a
 - `$r.Incompatibilities` zeigt MessageId und Meldung
 - Probleme im Bericht beheben, dann `Import-VM -CompatibilityReport $r`
 - 33012 = vSwitch nicht gefunden
+- Vor einer [[Livemigration]]: `Compare-VM -Name <VM> -DestinationHost <Ziel>`
 
 ## Beispiel
 Maschine: **Ziel-Hyper-V-Host**
