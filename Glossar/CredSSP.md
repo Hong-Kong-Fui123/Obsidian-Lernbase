@@ -9,6 +9,8 @@ de: Anbieter für die Unterstützung der Sicherheit von Anmeldedaten
 ---
 
 Ausgeschrieben = Credential Security Support Provider
-**Deutsch:** 
+**Deutsch:** Anbieter für die Unterstützung der Sicherheit von Anmeldedaten
+
+S
 
 - 
