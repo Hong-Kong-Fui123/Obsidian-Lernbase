@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glossar/CredSSP.md",
+                "file": "00_Inbox/virtuelle Speichermedien.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CredSSP"
+              "title": "virtuelle Speichermedien"
             }
           }
         ]
@@ -221,8 +221,8 @@
   },
   "active": "f9fc027b0ed24c53",
   "lastOpenFiles": [
-    "Glossar/CSR.md",
     "Glossar/CredSSP.md",
+    "Glossar/CSR.md",
     "Glossar/00_Glossar-Index.md",
     "Glossar/00_Glossar-Index_Ergaenzung.md",
     "00_Inbox/Neue Informationen.md",
