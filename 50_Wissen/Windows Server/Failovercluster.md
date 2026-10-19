@@ -45,7 +45,7 @@ Jeder Knoten hat eine Stimme, der Zeuge ([[Witness]]) ggf. eine weitere. Der Clu
 |---|---|---|---|
 | **Datenträgerzeuge** | kleiner Clusterdatenträger | > 512 MB, Basisdatenträger, NTFS/ReFS, kein Laufwerksbuchstabe, keine anderen Daten | SAN/iSCSI am selben Standort |
 | **Dateifreigabezeuge** | SMB-Freigabe außerhalb des Clusters | SMB 2+, ≥ 5 MB frei, eine Freigabe pro Cluster, kein DFS/replizierter Speicher; ohne Domäne (NAS, Router mit USB) ab Server 2019 | kein gemeinsamer Speicher, mehrere Standorte |
-| **Cloudzeuge** | Blob im Azure-Speicherkonto | GPv2-Konto, ausgehend HTTPS 443 | kein dritter Standort, Hybrid/AZ-802 |
+| **Cloudzeuge** | Blob im Azure-Speicherkonto | GPv2-Konto, ausgehend HTTPS 443 | kein dritter Standort, Hybrid/[[AZ-802 Übersicht\|AZ-802]] |
 
 ### Dynamisches Quorum vs. dynamischer Zeuge
 | | [[Dynamisches Quorum]] | Dynamischer Zeuge |

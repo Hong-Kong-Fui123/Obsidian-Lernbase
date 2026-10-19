@@ -12,3 +12,5 @@ bereich: Netzwerk
 - Vergibt IP, Maske, Gateway, DNS automatisch
 - Ablauf DORA: Discover, Offer, Request, Acknowledge; UDP 67/68
 - Mehr: [[DHCP-Server]] · [[Netzwerkbefehle und DHCP]] · [[DHCP_WindowsServer2025.pdf#page=6|Folie DORA]]
+
+**AZ-802:** [[AZ-802 4 Netzwerk DNS DHCP]] · [[AZ-802 Übersicht]]

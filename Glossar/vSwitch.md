@@ -37,3 +37,5 @@ Welcher Switch-Typ verbindet VMs untereinander, aber nicht mit dem Host?
 
 ## Siehe auch
 [[Compare-VM]] · [[VM-Import]] · [[HyperV-VM-Export-Import]] · [[Livemigration]] · [[00_Glossar-Index]]
+
+**AZ-802:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]

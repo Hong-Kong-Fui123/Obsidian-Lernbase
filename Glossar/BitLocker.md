@@ -10,3 +10,5 @@ bereich: Sicherheit-PKI
 **Deutsch:** BitLocker-Laufwerksverschlüsselung
 
 - Windows-Festplattenverschlüsselung, Schlüssel im [[TPM]]
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

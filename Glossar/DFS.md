@@ -10,3 +10,5 @@ bereich: Windows-Server
 **Deutsch:** Verteiltes Dateisystem
 
 - Einheitlicher Namespace über mehrere Dateiserver
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

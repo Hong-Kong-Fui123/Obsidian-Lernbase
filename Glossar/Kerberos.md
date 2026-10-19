@@ -13,3 +13,5 @@ bereich: Windows-Server
 - Tickets: [[TGT]] vom [[KDC]]; Zeit synchron halten ([[NTP]])
 - Mehr: [[AD DS Überblick#Anmeldung (Kerberos)|Anmeldung]] · [[Vertrauensstellungen]]
 - Hyper-V: Livemigration mit [[Eingeschränkte Delegierung|eingeschränkter Delegierung]] statt [[CredSSP]] (Pflicht ab Server 2025) → [[Hyper-V Livemigration]]
+
+**AZ-802:** [[AZ-802 6 Sicherheit]] · [[AZ-802 Übersicht]]

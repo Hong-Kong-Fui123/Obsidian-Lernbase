@@ -10,3 +10,5 @@ bereich: Windows-Server
 **Deutsch:** Windows-Dateisystem
 
 - Rechte, Verschlüsselung (EFS), Kontingente, Journal
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

@@ -39,3 +39,5 @@ Unterschied `Enter-PSSession` und `Invoke-Command`?
 
 ## Siehe auch
 [[WinRM]] · [[PSSession]] · [[Scriptblock]] · [[11_PS-Remoting]] · [[00_PS-Uebersicht]] · [[00_Glossar-Index]]
+
+**AZ-802:** [[AZ-802 2 Hybride Verwaltung]] · [[AZ-802 Übersicht]]

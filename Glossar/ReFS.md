@@ -11,3 +11,5 @@ bereich: Windows-Server
 
 - Für große Datenmengen/Hyper-V, Selbstheilung mit Storage Spaces
 - Mehr: [[Speicherpools]]
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

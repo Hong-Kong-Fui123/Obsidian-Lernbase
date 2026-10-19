@@ -9,7 +9,7 @@ quelle: "70-740 Kap. 5.1 + 5.5 · Microsoft Learn (Server 2025)"
 ---
 # Livemigration (Hyper-V)
 
-Thema: [[Cluster und Failover]] · [[Windows Server]] · Verwandt: [[Failovercluster]] · [[HyperV-VM-Export-Import]] · [[Hochverfügbarer Dateiserver]] (SoFS für VM-Speicher)
+Thema: [[Cluster und Failover]] · [[Windows Server]] · Prüfung: [[AZ-802 3 Virtuelle Maschinen]] · Verwandt: [[Failovercluster]] · [[HyperV-VM-Export-Import]] · [[Hochverfügbarer Dateiserver]] (SoFS für VM-Speicher)
 Glossar: [[Livemigration]] · [[Shared-Nothing-Livemigration]] · [[Speichermigration]] · [[Schnellmigration]] · [[CredSSP]] · [[Eingeschränkte Delegierung]] · [[Credential Guard]] · [[Migrationsnetzwerk]] · [[SMB Direct]] · [[RDMA]] · [[SMB Multichannel]] · [[Prozessorkompatibilität]] · [[VMMS]] · [[Hyper-V]]
 Buch 70-740: [[70-740_Server2016_Installation_Speicher.pdf#page=358|Livemigration]] · [[70-740_Server2016_Installation_Speicher.pdf#page=361|Einstellungen]] · [[70-740_Server2016_Installation_Speicher.pdf#page=363|Shared Nothing]] · [[70-740_Server2016_Installation_Speicher.pdf#page=364|CredSSP/Kerberos]] · [[70-740_Server2016_Installation_Speicher.pdf#page=365|Delegierung]] · [[70-740_Server2016_Installation_Speicher.pdf#page=366|Speichermigration]] · [[70-740_Server2016_Installation_Speicher.pdf#page=434|im Cluster]] · [[70-740_Server2016_Installation_Speicher.pdf#page=435|Schnellmigration]]
 

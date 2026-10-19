@@ -12,3 +12,5 @@ bereich: Windows-Server
 - Zentrale Konfiguration von Computern/Benutzern
 - Reihenfolge LSDOU: Lokal, Site, Domäne, OU
 - Mehr: [[Gruppenrichtlinien]] · [[AD-Gruppenrichtlinien.pdf|Folien]]
+
+**AZ-802:** [[AZ-802 1 AD DS]] · [[AZ-802 Übersicht]]

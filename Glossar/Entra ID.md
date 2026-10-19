@@ -11,3 +11,5 @@ bereich: Virtualisierung-Cloud
 
 - Cloud-Identitätsdienst von Microsoft
 - Hybrid mit lokalem [[AD]] über Entra Connect
+
+**AZ-802:** [[Azure-Grundlagen für Windows-Admins]] · [[AZ-802 Übersicht]]

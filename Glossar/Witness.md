@@ -12,3 +12,5 @@ Zusätzliche Quorum-Stimme: Datenträger (> 512 MB), Dateifreigabe (SMB, außerh
 
 **Siehe auch:** [[Quorum]] · [[Dynamisches Quorum]]
 **Thema:** [[Cluster und Failover]] · Mehr: [[Failovercluster#Zeugentypen|Zeugentypen]]
+
+**AZ-802:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]

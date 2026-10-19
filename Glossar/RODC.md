@@ -11,3 +11,5 @@ bereich: Windows-Server
 
 - Für Außenstellen mit geringer physischer Sicherheit
 - Mehr: [[AD DS Überblick]]
+
+**AZ-802:** [[AZ-802 1 AD DS]] · [[AZ-802 Übersicht]]

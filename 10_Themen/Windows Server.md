@@ -4,7 +4,7 @@ tags: [moc]
 ---
 # Windows Server
 
-Unterlagen gesamt: [[PDF-Index]] · Abkürzungen: [[00_Glossar-Index]]
+Unterlagen gesamt: [[PDF-Index]] · Abkürzungen: [[00_Glossar-Index]] · Zertifizierung: [[AZ-802 Übersicht]]
 
 ## Active Directory
 | Notiz | Typ | PDF |

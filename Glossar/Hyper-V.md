@@ -38,3 +38,5 @@ Hyper-V ist Typ 1 oder Typ 2?
 
 ## Siehe auch
 [[Hypervisor]] · [[vSwitch]] · [[HyperV-VM-Export-Import]] · [[Hyper-V Livemigration]] · [[00_Glossar-Index]]
+
+**AZ-802:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]

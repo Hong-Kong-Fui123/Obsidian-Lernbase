@@ -13,3 +13,5 @@ bereich: Hardware-Storage
 - Eindeutige Namen: [[IQN]] · Verzeichnisdienst: [[iSNS - Server|iSNS]]
 - Ziel/Client: [[iSCSI-Target]] · [[iSCSI-Initiator]] · Redundanz: [[MPIO]]
 - Mehr: [[Speicherpools]] · [[Lab Failovercluster Dateiserver]]
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

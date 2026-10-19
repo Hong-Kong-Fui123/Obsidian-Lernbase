@@ -332,3 +332,65 @@ Hover über einen Link (Bearbeiten: Strg + Hover) zeigt die Erklärung.
 | [[SMB Multichannel]] | SMB-Mehrkanal |
 | [[Speichermigration]] | VM-Dateien im Betrieb verschieben |
 | [[VMMS]] | Hyper-V-Verwaltungsdienst |
+
+## AZ-802 (Ergänzung 2026-10-19)
+
+Kapitel: [[AZ-802 Übersicht]]
+
+| Begriff | Deutsch | Bereich |
+|---|---|---|
+| [[VNet]] | Virtuelles Netzwerk in Azure | Azure-Grundlagen |
+| [[AD-Standort]] | Active-Directory-Standort | AD DS |
+| [[gMSA]] | Gruppenverwaltetes Dienstkonto | AD DS |
+| [[Azure Arc]] | Azure Arc-fähige Server | Hybride Verwaltung |
+| [[Azure Update Manager]] | Azure-Updateverwaltung | Hybride Verwaltung |
+| [[Hotpatch]] | Updates ohne Neustart | Hybride Verwaltung |
+| [[JEA]] | Gerade genug Administration | Hybride Verwaltung |
+| [[Runbook]] | Automatisierungsskript in Azure | Hybride Verwaltung |
+| [[Windows Admin Center]] | Windows Admin Center | Hybride Verwaltung |
+| [[Azure Bastion]] | Azure Bastion | Virtuelle Maschinen |
+| [[Azure Migrate]] | Azure Migrate | Virtuelle Maschinen |
+| [[DDA]] | Diskrete Gerätezuweisung | Virtuelle Maschinen |
+| [[Erweiterter Sitzungsmodus]] | Erweiterter Sitzungsmodus | Virtuelle Maschinen |
+| [[Geschachtelte Virtualisierung]] | Geschachtelte Virtualisierung | Virtuelle Maschinen |
+| [[GPU-P]] | GPU-Partitionierung | Virtuelle Maschinen |
+| [[Hyper-V-Replikat]] | Hyper-V-Replikat | Virtuelle Maschinen |
+| [[JIT-VM-Zugriff]] | Just-in-Time-VM-Zugriff | Virtuelle Maschinen |
+| [[NSG]] | Netzwerksicherheitsgruppe | Virtuelle Maschinen |
+| [[PowerShell Direct]] | PowerShell direkt in die VM | Virtuelle Maschinen |
+| [[SET]] | In den vSwitch integriertes Teaming | Virtuelle Maschinen |
+| [[Verfügbarkeitsgruppe]] | Verfügbarkeitsgruppe | Virtuelle Maschinen |
+| [[Verfügbarkeitszone]] | Verfügbarkeitszone | Virtuelle Maschinen |
+| [[Verwalteter Datenträger]] | Verwalteter Datenträger | Virtuelle Maschinen |
+| [[VMSS]] | VM-Skalierungsgruppe | Virtuelle Maschinen |
+| [[Azure DNS Private Resolver]] | Privater DNS-Resolver in Azure | Netzwerk |
+| [[Bedingte Weiterleitung]] | Bedingte Weiterleitung | Netzwerk |
+| [[DHCP-Failover]] | DHCP-Failover | Netzwerk |
+| [[DNS-Richtlinien]] | DNS-Richtlinien | Netzwerk |
+| [[DNSSEC]] | DNS-Sicherheitserweiterungen | Netzwerk |
+| [[Azure File Sync]] | Azure-Dateisynchronisierung | Speicher |
+| [[Azure Files]] | Azure-Dateifreigaben | Speicher |
+| [[Cloud-Tiering]] | Cloud-Tiering | Speicher |
+| [[Deduplizierung]] | Datendeduplizierung | Speicher |
+| [[SMB over QUIC]] | SMB über QUIC | Speicher |
+| [[Storage Migration Service]] | Speichermigrationsdienst | Speicher |
+| [[Storage QoS]] | Speicher-Dienstgüte | Speicher |
+| [[App Control for Business]] | Anwendungssteuerung | Sicherheit |
+| [[Defender for Servers]] | Microsoft Defender für Server | Sicherheit |
+| [[Entra-Kennwortschutz]] | Entra-Kennwortschutz | Sicherheit |
+| [[OSConfig]] | Sicherheitskonfiguration (Server 2025) | Sicherheit |
+| [[Protected Users]] | Geschützte Benutzer | Sicherheit |
+| [[AD-Papierkorb]] | Active-Directory-Papierkorb | Überwachung |
+| [[AMA]] | Azure-Monitor-Agent | Überwachung |
+| [[Azure Monitor]] | Azure Monitor | Überwachung |
+| [[Datensammlersatz]] | Datensammlersatz | Überwachung |
+| [[dcdiag]] | DC-Diagnose | Überwachung |
+| [[DCR]] | Datensammlungsregel | Überwachung |
+| [[DSRM]] | Verzeichnisdienst-Wiederherstellungsmodus | Überwachung |
+| [[KQL]] | Kusto-Abfragesprache | Überwachung |
+| [[Log Analytics]] | Log-Analytics-Arbeitsbereich | Überwachung |
+| [[repadmin]] | AD-Replikationswerkzeug | Überwachung |
+| [[Sicherer Kanal]] | Sicherer Kanal | Überwachung |
+| [[System Insights]] | Systemeinblicke | Überwachung |
+| [[VM Insights]] | VM-Einblicke | Überwachung |
+| [[W32Time]] | Windows-Zeitdienst | Überwachung |

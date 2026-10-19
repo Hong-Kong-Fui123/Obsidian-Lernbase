@@ -12,3 +12,5 @@ bereich: Netzwerk
 - Übersetzt Namen in IP-Adressen, Port 53
 - Pflicht für [[AD]]; Einträge: A, AAAA, CNAME, MX, PTR, SRV
 - Mehr: [[DNS vs mDNS]] · [[DNS-Records]] · [[Forward-Lookup-Zone]] · [[PDF-Index#DNS und Namensauflösung|PDFs]]
+
+**AZ-802:** [[AZ-802 4 Netzwerk DNS DHCP]] · [[AZ-802 Übersicht]]

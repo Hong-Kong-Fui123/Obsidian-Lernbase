@@ -35,3 +35,5 @@ Unterschied `Size` und `FileSize` bei `Get-VHD`?
 
 ## Siehe auch
 [[AVHDX]] · [[VM-Export]] · [[HyperV-VM-Export-Import]] · [[00_Glossar-Index]]
+
+**AZ-802:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]

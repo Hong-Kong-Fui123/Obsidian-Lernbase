@@ -88,7 +88,7 @@ Präfix    192 . 168 .  1 . 100   (Hex → Dezimal)
 |---|---|
 | gerade (2, 4) | Knoten + [[Witness]] → ungerade Stimmenzahl |
 | ungerade (3, 5) | Knotenmehrheit (Witness optional, Dynamic Quorum regelt) |
-| Hybrid/Azure (AZ-802) | **Cloud Witness** |
+| Hybrid/Azure ([[AZ-802 Übersicht|AZ-802]]) | **Cloud Witness** |
 
 ### Vertiefung Schule (15.10.2026)
 - Theorie: [[Failovercluster]] (Quorum, Zeugen, CSV, CNO/VCO, CAU, Netzwerk, Server 2025) · [[Hochverfügbarer Dateiserver]] (Rollentypen, Fortlaufende Verfügbarkeit, Failback)

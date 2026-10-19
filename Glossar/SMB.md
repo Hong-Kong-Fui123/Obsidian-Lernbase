@@ -14,3 +14,5 @@ bereich: Netzwerk
 - Mehr: [[Storage Replica]] (Transport über SMB 3)
 - Cluster: [[Fortlaufende Verfügbarkeit]] · [[SMB-Zeuge]] · [[Hochverfügbarer Dateiserver]]
 - Schnell: [[SMB Direct]] (RDMA) · [[SMB Multichannel]] – z. B. für [[Livemigration]]
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

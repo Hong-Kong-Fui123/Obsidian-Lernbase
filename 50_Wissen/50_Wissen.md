@@ -47,6 +47,17 @@ Alle Wissensnotizen nach Fachgebiet. Themen-Übersichten: [[Start]] · Unterlage
 - [[CSharp Grundlagen]]
 - [[Git Versionsverwaltung]]
 
+## AZ-802 (Windows Server Administrator)
+- [[AZ-802 Übersicht]]
+- [[Azure-Grundlagen für Windows-Admins]]
+- [[AZ-802 1 AD DS]]
+- [[AZ-802 2 Hybride Verwaltung]]
+- [[AZ-802 3 Virtuelle Maschinen]]
+- [[AZ-802 4 Netzwerk DNS DHCP]]
+- [[AZ-802 5 Speicher und Dateidienste]]
+- [[AZ-802 6 Sicherheit]]
+- [[AZ-802 7 Überwachung und Problembehandlung]]
+
 ## Windows Server
 - [[AD DS Überblick]]
 - [[AD und DNS Grundlagen]]

@@ -36,3 +36,5 @@ Warum funktioniert nach dem Upgrade auf Server 2025 die Livemigration nicht mehr
 
 ## Siehe auch
 [[CredSSP]] · [[Kerberos]] · [[Hyper-V Livemigration]] · [[00_Glossar-Index]]
+
+**AZ-802:** [[AZ-802 6 Sicherheit]] · [[AZ-802 Übersicht]]

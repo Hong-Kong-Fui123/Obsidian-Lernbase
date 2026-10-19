@@ -17,6 +17,7 @@ tags: [moc]
 - 📄 [[PDF-Index]] – alle Schul-PDFs mit Seitenlinks
 - 🔤 [[00_Glossar-Index]] – Abkürzungen ([[IT-Begriffe und Abkürzungen|Hinweise zum Glossar]])
 - 📚 [[50_Wissen]] – alle Wissensnotizen
+- 🎓 [[AZ-802 Übersicht]] – Zertifizierung Windows Server Administrator (AZ-802)
 
 ## Labs und Klausuren
 - [[VM-Infrastruktur]] · [[Fehlerlog Home-Lab]]
@@ -30,7 +31,7 @@ tags: [moc]
 4. Commit + Push
 
 ## Offene Punkte
-- Was am 16.10.2026 neu ist: [[Änderungen 2026-10-16]] · 15.10.: [[Änderungen 2026-10-15]]
+- Was am 19.10.2026 neu ist: [[Änderungen 2026-10-19]] · 16.10.: [[Änderungen 2026-10-16]] · 15.10.: [[Änderungen 2026-10-15]]
 - Was am 07.10.2026 geändert wurde: [[Änderungen 2026-10-07]]
 - Notizen mit `status: importiert` prüfen und auf `status: geprüft` setzen
 - Hinweise „Korrigiert 07.10.2026“ lesen und nachvollziehen

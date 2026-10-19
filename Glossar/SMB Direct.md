@@ -37,3 +37,5 @@ Welche Leistungsoption der Livemigration nutzt SMB Direct?
 
 ## Siehe auch
 [[SMB]] · [[RDMA]] · [[SMB Multichannel]] · [[Hyper-V Livemigration]] · [[00_Glossar-Index]]
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

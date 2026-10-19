@@ -11,3 +11,5 @@ bereich: Windows-Server
 
 - Repliziert Ordner zwischen Servern, auch [[SYSVOL]]
 - Mehr: [[Storage Replica]] (blockbasiert statt dateibasiert)
+
+**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]

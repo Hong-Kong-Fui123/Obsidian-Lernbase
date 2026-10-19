@@ -31,7 +31,7 @@ Lab: [[Lab Storage Replica Test-SRTopology]] · Vorlage: [[Vorlage Speicher-Lab]
 | Punkt | Anforderung |
 |---|---|
 | Edition | Datacenter (Standard ab 2019: 1 Partnerschaft, 1 Volume, max. 2 TB) |
-| Domäne | alle Server in einer [[AD|AD-Domäne]] |
+| Domäne | alle Server in einer [[AD\|AD-Domäne]] |
 | Volumes je Server | **2**: Daten + **Log** (Log mind. 9 GB, möglichst SSD) |
 | Größe | Daten-Volumes beider Server **gleich groß**, Log-Volumes ebenfalls |
 | Partitionsstil | GPT, nicht auf dem Systemdatenträger |
