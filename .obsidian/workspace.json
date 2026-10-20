@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Labs/Windows Server/Aufgaben/Lösung_01_PKI-Grundlagen.md",
+                "file": "00_Inbox/virtuelle Speichermedien.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lösung_01_PKI-Grundlagen"
+              "title": "virtuelle Speichermedien"
             }
           }
         ]
@@ -231,6 +231,7 @@
   },
   "active": "6bc9c43757dfa74e",
   "lastOpenFiles": [
+    "20_Labs/Windows Server/Aufgaben/Lösung_01_PKI-Grundlagen.md",
     "30_Geräte/VM-Infrastruktur.md",
     "Glossar/RAM.md",
     "Glossar/ABE.md",
@@ -256,7 +257,6 @@
     "Glossar/SMB over QUIC.md",
     "Glossar/SET.md",
     "Glossar/Runbook.md",
-    "Glossar/Protected Users.md",
     "50_Wissen/AZ-802",
     "Glossar/00_Glossar-Index.md.bak",
     "50_Wissen/Docker",
