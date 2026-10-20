@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9fc027b0ed24c53",
+            "id": "d274fed8727e0686",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Inbox/virtuelle Speichermedien.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "virtuelle Speichermedien"
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -191,14 +187,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "0b5017d928b3187a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,8 +225,9 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "f9fc027b0ed24c53",
+  "active": "d274fed8727e0686",
   "lastOpenFiles": [
+    "00_Inbox/virtuelle Speichermedien.md",
     "Glossar/repadmin.md",
     "Glossar/gMSA.md",
     "Glossar/dcdiag.md",
@@ -247,7 +253,6 @@
     "Glossar/Log Analytics.md",
     "Glossar/KQL.md",
     "Glossar/JIT-VM-Zugriff.md",
-    "Glossar/JEA.md",
     "50_Wissen/AZ-802",
     "Glossar/00_Glossar-Index.md.bak",
     "50_Wissen/Docker",
