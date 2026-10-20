@@ -202,6 +202,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
@@ -219,7 +220,7 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "f9fc027b0ed24c53",
   "lastOpenFiles": [
     "Glossar/repadmin.md",
     "Glossar/gMSA.md",
