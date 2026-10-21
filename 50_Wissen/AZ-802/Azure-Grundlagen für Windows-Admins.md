@@ -8,7 +8,7 @@ status: lernen
 ---
 # Azure-Grundlagen für Windows-Admins
 
-Kapitel: [[AZ-802 Übersicht]] · Glossar: [[Entra ID]] · [[VNet]] · [[NSG]] · [[Azure Arc]]
+Kapitel: [[AZ-802 Übersicht]] · Vergleich Servicemodelle: [[Cloud-Modelle IaaS PaaS SaaS]] · Glossar: [[Entra ID]] · [[VNet]] · [[NSG]] · [[Azure Arc]]
 
 > [!summary] Kernidee
 > - Azure = Rechenzentren von Microsoft, die du per Portal, PowerShell oder CLI **mietest**.

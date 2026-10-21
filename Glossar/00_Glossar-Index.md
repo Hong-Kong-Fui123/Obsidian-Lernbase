@@ -394,3 +394,18 @@ Kapitel: [[AZ-802 Übersicht]]
 | [[System Insights]] | Systemeinblicke | Überwachung |
 | [[VM Insights]] | VM-Einblicke | Überwachung |
 | [[W32Time]] | Windows-Zeitdienst | Überwachung |
+
+## Cloud-Modelle (Ergänzung 2026-10-21)
+
+Vergleich: [[Cloud-Modelle IaaS PaaS SaaS]]
+
+| Begriff | Deutsch |
+|---|---|
+| [[IaaS]] | Infrastruktur als Dienst |
+| [[PaaS]] | Plattform als Dienst |
+| [[SaaS]] | Software als Dienst |
+| [[FaaS]] | Funktion als Dienst (serverlos) |
+| [[Modell der geteilten Verantwortung]] | Shared Responsibility |
+| [[Public Cloud]] | Öffentliche Cloud |
+| [[Private Cloud]] | Private Cloud |
+| [[Hybrid Cloud]] | Hybride Cloud |

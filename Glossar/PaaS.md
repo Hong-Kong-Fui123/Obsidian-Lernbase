@@ -10,3 +10,6 @@ bereich: Virtualisierung-Cloud
 **Deutsch:** Plattform als Dienst
 
 - Cloud liefert Laufzeitumgebung; du lieferst nur die Anwendung
+- Kein OS-Patchen, Skalierung meist automatisch; weniger Kontrolle als [[IaaS]]
+- Azure: [[Azure Files]], Azure SQL Database, App Service, Entra Domain Services
+- Vergleich: [[Cloud-Modelle IaaS PaaS SaaS]] · [[IaaS]] · [[SaaS]] · [[FaaS]]

@@ -50,6 +50,7 @@ Alle Wissensnotizen nach Fachgebiet. Themen-Übersichten: [[Start]] · Unterlage
 ## AZ-802 (Windows Server Administrator)
 - [[AZ-802 Übersicht]]
 - [[Azure-Grundlagen für Windows-Admins]]
+- [[Cloud-Modelle IaaS PaaS SaaS]]
 - [[AZ-802 1 AD DS]]
 - [[AZ-802 2 Hybride Verwaltung]]
 - [[AZ-802 3 Virtuelle Maschinen]]

@@ -8,7 +8,7 @@ status: lernen
 ---
 # AZ-802 – Administering Windows Server (Übersicht)
 
-Start: [[Start]] · Thema: [[Windows Server]] · Grundlagen Cloud: [[Azure-Grundlagen für Windows-Admins]]
+Start: [[Start]] · Thema: [[Windows Server]] · Grundlagen Cloud: [[Azure-Grundlagen für Windows-Admins]] · [[Cloud-Modelle IaaS PaaS SaaS]]
 
 > [!info] Prüfung auf einen Blick (Stand Oktober 2026)
 > | Punkt | Wert |
@@ -53,7 +53,7 @@ Start: [[Start]] · Thema: [[Windows Server]] · Grundlagen Cloud: [[Azure-Grund
 ## Lernpfad (Vorschlag, 12 Wochen neben der Schule)
 | Woche | Bereich | Lab (Home-Lab) |
 |---|---|---|
-| 1 | [[Azure-Grundlagen für Windows-Admins]] | kostenloses Azure-Konto, Ressourcengruppe, Budgetwarnung |
+| 1 | [[Azure-Grundlagen für Windows-Admins]] · [[Cloud-Modelle IaaS PaaS SaaS]] | kostenloses Azure-Konto, Ressourcengruppe, Budgetwarnung |
 | 2–3 | [[AZ-802 1 AD DS]] | RODC, FSMO verschieben, 2. Standort, gMSA |
 | 4 | [[AZ-802 2 Hybride Verwaltung]] | WAC auf EXA-DC01, EXA-SRV01 per Azure Arc anbinden |
 | 5 | [[AZ-802 3 Virtuelle Maschinen]] | Nested Hyper-V, PowerShell Direct, Replikat; 1 Azure-VM mit Bastion |
