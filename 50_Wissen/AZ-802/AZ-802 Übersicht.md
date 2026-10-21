@@ -57,7 +57,7 @@ Start: [[Start]] · Thema: [[Windows Server]] · Grundlagen Cloud: [[Azure-Grund
 | 2–3 | [[AZ-802 1 AD DS]] | RODC, FSMO verschieben, 2. Standort, gMSA |
 | 4 | [[AZ-802 2 Hybride Verwaltung]] | WAC auf EXA-DC01, EXA-SRV01 per Azure Arc anbinden |
 | 5 | [[AZ-802 3 Virtuelle Maschinen]] | Nested Hyper-V, PowerShell Direct, Replikat; 1 Azure-VM mit Bastion |
-| 6 | [[AZ-802 4 Netzwerk DNS DHCP]] | bedingte Weiterleitung, DNS-Richtlinie, DNSSEC, DHCP-Failover |
+| 6 | [[AZ-802 4 Netzwerk DNS DHCP]] · [[Azure DNS und DHCP hybrid]] | bedingte Weiterleitung, DNS-Richtlinie, DNSSEC, DHCP-Failover |
 | 7–8 | [[AZ-802 5 Speicher und Dateidienste]] | Azure-Dateifreigabe + File Sync mit EXA-SRV01, FSRM, Dedup |
 | 9 | [[AZ-802 6 Sicherheit]] | LAPS, Protected Users, OSConfig-Baseline, Firewall-Regeln |
 | 10–11 | [[AZ-802 7 Überwachung und Problembehandlung]] | Datensammlersatz, Azure Monitor (DCR), AD-Papierkorb, DSRM |

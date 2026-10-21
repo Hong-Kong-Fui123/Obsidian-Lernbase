@@ -409,3 +409,14 @@ Vergleich: [[Cloud-Modelle IaaS PaaS SaaS]]
 | [[Public Cloud]] | Öffentliche Cloud |
 | [[Private Cloud]] | Private Cloud |
 | [[Hybrid Cloud]] | Hybride Cloud |
+
+## Azure-Netzwerk (Ergänzung 2026-10-21)
+
+Übersicht: [[Azure DNS und DHCP hybrid]]
+
+| Begriff | Deutsch |
+|---|---|
+| [[Azure DNS]] | DNS-Dienst von Azure (inkl. 168.63.129.16) |
+| [[Private DNS-Zone]] | private DNS-Zone für VNets |
+| [[UDR]] | benutzerdefinierte Route |
+| [[IPAM]] | IP-Adressverwaltung |

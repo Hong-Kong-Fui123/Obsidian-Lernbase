@@ -56,3 +56,5 @@ Get-DhcpServerv4Lease -ScopeId 192.168.1.0
 - Buch 70-741: [[70-741_Server2016_Netzwerk.pdf#page=75|Kap. 2 DHCP]] · [[70-741_Server2016_Netzwerk.pdf#page=80|Bereiche]] · [[70-741_Server2016_Netzwerk.pdf#page=88|Optionen]] · [[70-741_Server2016_Netzwerk.pdf#page=97|Relay-Agent]] · [[70-741_Server2016_Netzwerk.pdf#page=101|Failover]] · [[70-741_Server2016_Netzwerk.pdf#page=112|Fehlerbehebung]]
 - Buch 70-642: [[70-642_Server2008R2_Netzwerk.pdf#page=281|Kap. 4 DHCP]]
 - Prüfungsfragen: [[Netzwerk_30_Pruefungsfragen.pdf#page=4|F21–30 DNS/DHCP]] · [[Netzwerk_30_Pruefungsfragen.pdf#page=10|Szenario Reservierung]] · [[Netzwerk_10_Pruefungsfragen.pdf#page=3|Szenario Bereich erschöpft]]
+
+**In Azure / hybrid:** [[Azure DNS und DHCP hybrid]] · [[AZ-802 4 Netzwerk DNS DHCP]]

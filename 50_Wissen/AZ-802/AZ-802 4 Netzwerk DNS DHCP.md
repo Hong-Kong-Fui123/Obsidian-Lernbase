@@ -9,7 +9,7 @@ status: lernen
 ---
 # AZ-802 Bereich 4 – Netzwerk lokal und hybrid (10–15 %)
 
-Kapitel: [[AZ-802 Übersicht]] · Zurück: [[AZ-802 3 Virtuelle Maschinen]] · Weiter: [[AZ-802 5 Speicher und Dateidienste]]
+Kapitel: [[AZ-802 Übersicht]] · Azure-Übersicht: [[Azure DNS und DHCP hybrid]] · Zurück: [[AZ-802 3 Virtuelle Maschinen]] · Weiter: [[AZ-802 5 Speicher und Dateidienste]]
 Vorwissen: [[AD und DNS Grundlagen]] · [[Forward-Lookup-Zone]] · [[Reverse-Lookup-Zone]] · [[DNS-Records]] · [[DHCP-Server]] · [[Netzwerk und DNS Befehle]]
 
 ## Prüfungsziele (Checkliste)
@@ -48,7 +48,8 @@ Replikationsbereich AD-integriert: alle DNS-Server der **Domäne** (DomainDnsZon
 | Lokale Clients lösen private Azure-Namen (Private Endpoints, `privatelink.file.core.windows.net`) auf | **bedingte Weiterleitung** auf lokalem DNS → [[Azure DNS Private Resolver]] (eingehender Endpunkt) oder DNS-Server-VM in Azure |
 | Azure löst lokale Namen auf | Private Resolver: **ausgehender Endpunkt + Weiterleitungsregelsatz** → lokale DCs |
 | DNS-Server-VM in Azure fragt Azure | Weiterleitung an **168.63.129.16** (Azure-DNS, nur aus Azure erreichbar) |
-- **Private DNS-Zonen** in Azure: Namensauflösung innerhalb verknüpfter VNets (z. B. für Private Endpoints).
+- [[Private DNS-Zone|Private DNS-Zonen]] in Azure: Namensauflösung innerhalb verknüpfter VNets (z. B. für Private Endpoints).
+- Ausführlich mit Lernpfad, IP-Vergabe, Routing und IPAM: [[Azure DNS und DHCP hybrid]]
 
 ## 4. DNS-Richtlinien
 Antworten abhängig von **Client-Subnetz, Uhrzeit, Schnittstelle, Abfragetyp** – z. B. Split-Brain (intern andere IP als extern), Geo-Steuerung, Blockieren von Domänen.

@@ -55,6 +55,7 @@ Alle Wissensnotizen nach Fachgebiet. Themen-Übersichten: [[Start]] · Unterlage
 - [[AZ-802 2 Hybride Verwaltung]]
 - [[AZ-802 3 Virtuelle Maschinen]]
 - [[AZ-802 4 Netzwerk DNS DHCP]]
+- [[Azure DNS und DHCP hybrid]]
 - [[AZ-802 5 Speicher und Dateidienste]]
 - [[AZ-802 6 Sicherheit]]
 - [[AZ-802 7 Überwachung und Problembehandlung]]

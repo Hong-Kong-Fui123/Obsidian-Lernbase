@@ -49,3 +49,5 @@ Get-DnsServerResourceRecord -ZoneName "example.com"
 - Übung 2: [[DNS_Uebung_2.pdf#page=2|Delegierung + Stub-Zone]] · [[DNS_Uebung_2.pdf#page=4|Lösungen]]
 - Buch 70-741: [[70-741_Server2016_Netzwerk.pdf#page=43|Primäre Zonen]] · [[70-741_Server2016_Netzwerk.pdf#page=48|Sekundäre Zonen]] · [[70-741_Server2016_Netzwerk.pdf#page=51|Delegierung]] · [[70-741_Server2016_Netzwerk.pdf#page=53|AD-integriert]] · [[70-741_Server2016_Netzwerk.pdf#page=56|Stubzonen]]
 - Prüfungsfragen: [[AD-DS_50_Pruefungsfragen.pdf#page=7|F43 DNS-Zonenart für AD]] · [[Netzwerk_10_Pruefungsfragen.pdf#page=2|Szenario bedingte Weiterleitung]]
+
+**In Azure / hybrid:** [[Azure DNS und DHCP hybrid]] · [[AZ-802 4 Netzwerk DNS DHCP]]
