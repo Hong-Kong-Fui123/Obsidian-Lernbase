@@ -16,3 +16,4 @@ docker run -it --network=trans --ip=192.168.1.250 --dns=192.168.1.200 mcr.micros
 ### PowerShell Umgebungsvariablen anzeigen lassen
 Get-Item env:
 
+IPAM PowerShell Befehle
