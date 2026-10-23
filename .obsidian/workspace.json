@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/Notizen neu.md",
+                "file": "80_Übersichten/Änderungen 2026-10-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notizen neu"
+              "title": "Änderungen 2026-10-15"
             }
           }
         ]
@@ -93,11 +93,12 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 377.5
   },
   "right": {
     "id": "0f10a9356fbbd424",
@@ -229,8 +230,15 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "361577b97157954c",
+  "active": "fafd79c47b1a89c4",
   "lastOpenFiles": [
+    "80_Übersichten/Änderungen 2026-10-07.md",
+    "80_Übersichten/Änderungen 2026-10-15.md",
+    "50_Wissen/Programmierung/CSharp Grundlagen.md",
+    "50_Wissen/PowerShell-Scripting/00_PS-Uebersicht.md",
+    "50_Wissen/PowerShell-Scripting/12_PS-Praxis-Lab.md",
+    "50_Wissen/Hardware/Arbeitsspeicher und Grafik.md",
+    "00_Inbox/Notizen neu.md",
     "50_Wissen/DNS/DNS vs mDNS.md",
     "50_Wissen/AZ-802/AZ-802 Übersicht.md",
     "80_Übersichten/Änderungen 2026-10-21.md",
@@ -243,7 +251,6 @@
     "10_Themen/Windows Server.md",
     "10_Themen/SQL_Dateien_und_Logs.md",
     "10_Themen/Cluster und Failover.md",
-    "00_Inbox/Notizen neu.md",
     "20_Labs/Windows Server/Aufgaben/Lösung_01_PKI-Grundlagen.md",
     "30_Geräte/VM-Infrastruktur.md",
     "Glossar/RAM.md",
@@ -251,12 +258,6 @@
     "Glossar/Cluster-MAC.md",
     "Glossar/repadmin.md",
     "Glossar/gMSA.md",
-    "Glossar/dcdiag.md",
-    "Glossar/Windows Admin Center.md",
-    "Glossar/W32Time.md",
-    "Glossar/Verwalteter Datenträger.md",
-    "Glossar/Verfügbarkeitszone.md",
-    "Glossar/Verfügbarkeitsgruppe.md",
     "50_Wissen/AZ-802",
     "Glossar/00_Glossar-Index.md.bak",
     "50_Wissen/Docker",
