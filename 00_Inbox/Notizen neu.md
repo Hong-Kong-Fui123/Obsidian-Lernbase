@@ -20,3 +20,6 @@ Get-Item env:
 
 Was ist RFC?
 Request for Comments
+
+Was ist bgp ?
+Border Gateway Protocol
