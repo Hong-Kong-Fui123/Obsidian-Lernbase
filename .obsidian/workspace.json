@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c6223e241ab00446",
+        "id": "5f87729567d7fb14",
         "type": "tabs",
         "children": [
           {
-            "id": "6bc9c43757dfa74e",
+            "id": "451d1d28f47ddf1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "50_Wissen/50_Wissen.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "50_Wissen"
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -55,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rfc",
+                "query": "802",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +89,8 @@
               "title": "Lesezeichen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -229,10 +226,16 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "6bc9c43757dfa74e",
+  "active": "451d1d28f47ddf1a",
   "lastOpenFiles": [
-    "10_Themen/Cluster und Failover.md",
+    "Glossar/00_Glossar-Index.md",
+    "Glossar/FaaS.md",
+    "Glossar/SaaS.md",
+    "Glossar/PaaS.md",
+    "Glossar/Azure DNS.md",
+    "20_Labs/Windows Server/_MOC_Wochenplan.md",
     "50_Wissen/50_Wissen.md",
+    "10_Themen/Cluster und Failover.md",
     "00_Inbox/Notizen neu.md",
     "50_Wissen/Windows Server/Theorieklausuren/Theorieklausur 3 - Windows Server 2022.md",
     "80_Übersichten/Änderungen 2026-10-15.md",
@@ -244,9 +247,6 @@
     "50_Wissen/DNS/DNS vs mDNS.md",
     "50_Wissen/AZ-802/AZ-802 Übersicht.md",
     "80_Übersichten/Änderungen 2026-10-21.md",
-    "Glossar/00_Glossar-Index.md",
-    "Glossar/PaaS.md",
-    "Glossar/SaaS.md",
     "Glossar/IaaS.md",
     "50_Wissen/AZ-802/AZ-802 2 Hybride Verwaltung.md",
     "50_Wissen/AZ-802/AZ-802 1 AD DS.md",
@@ -254,9 +254,6 @@
     "10_Themen/SQL_Dateien_und_Logs.md",
     "20_Labs/Windows Server/Aufgaben/Lösung_01_PKI-Grundlagen.md",
     "30_Geräte/VM-Infrastruktur.md",
-    "Glossar/RAM.md",
-    "Glossar/ABE.md",
-    "Glossar/Cluster-MAC.md",
     "50_Wissen/AZ-802",
     "Glossar/00_Glossar-Index.md.bak",
     "50_Wissen/Docker",
