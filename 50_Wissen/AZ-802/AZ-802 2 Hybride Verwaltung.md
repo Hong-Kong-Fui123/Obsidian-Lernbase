@@ -14,7 +14,7 @@ Vorwissen: [[PowerShell Grundlagen]] · [[PS-Remoting]] · [[WinRM]] · [[SSH]] 
 
 ## Prüfungsziele (Checkliste)
 - [ ] [[Windows Admin Center]] lokal und im Azure-Portal bereitstellen
-- [ ] PowerShell-Remoting inkl. **Doppel-Hop** und [[JEA]]
+- [ ] PowerShell-Remoting inkl. **Doppel-Hop** und [[JEA]] → [[JEA Übersicht]]
 - [ ] Remote-[[SSH]] einrichten und verwalten
 - [ ] Remotedesktopzugriff verwalten
 - [ ] Server mit [[Azure Arc]] anbinden
@@ -53,6 +53,9 @@ klist purge -li 0x3e7
 ```
 
 ## 3. Just Enough Administration (JEA)
+> [!tip] Ausführlich im Unterkapitel [[JEA Übersicht]]
+> [[JEA Grundlagen und Ablauf|Grundlagen]] · [[JEA Rollenfunktionsdatei|.psrc]] · [[JEA Sitzungskonfiguration|.pssc]] · [[JEA RunAs-Konten|RunAs]] · [[JEA Bereitstellen und Verbinden|Bereitstellen]] · [[JEA Sicherheit und Überwachung|Sicherheit]] · [[JEA Lab DNS-Operator|Lab]]
+
 Admins bekommen **nur die Cmdlets**, die sie brauchen, auf einem eigenen Remoting-Endpunkt – oft unter einem virtuellen Konto mit Admin-Rechten.
 | Datei | Inhalt |
 |---|---|

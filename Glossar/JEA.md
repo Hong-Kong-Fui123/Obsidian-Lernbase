@@ -20,5 +20,5 @@ Register-PSSessionConfiguration -Name DnsOperator -Path C:\JEA\DnsOperator.pssc
 Get-PSSessionConfiguration | Select-Object Name
 ```
 
-**Siehe auch:** [[PS-Remoting]] · [[gMSA]] · [[WinRM]]
-**Thema:** [[AZ-802 2 Hybride Verwaltung]] · [[AZ-802 Übersicht]]
+**Siehe auch:** [[PS-Remoting]] · [[gMSA]] · [[WinRM]] · [[Rollenfunktionsdatei]] · [[Sitzungskonfiguration]] · [[Virtuelles Konto]]
+**Thema:** [[JEA Übersicht]] (Unterkapitel) · [[AZ-802 2 Hybride Verwaltung]] · [[AZ-802 Übersicht]]

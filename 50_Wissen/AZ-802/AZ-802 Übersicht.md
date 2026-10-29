@@ -26,7 +26,7 @@ Start: [[Start]] · Thema: [[Windows Server]] · Grundlagen Cloud: [[Azure-Grund
 | Nr. | Bereich | Gewicht | Notiz |
 |---|---|---|---|
 | 1 | AD DS bereitstellen und verwalten | **20–25 %** | [[AZ-802 1 AD DS]] |
-| 2 | Windows Server hybrid verwalten (WAC, Remoting, Azure Arc, Update Manager, Automation) | 10–15 % | [[AZ-802 2 Hybride Verwaltung]] |
+| 2 | Windows Server hybrid verwalten (WAC, Remoting, Azure Arc, Update Manager, Automation) | 10–15 % | [[AZ-802 2 Hybride Verwaltung]] · Unterkapitel [[JEA Übersicht]] |
 | 3 | Virtuelle Maschinen (Hyper-V + Azure-VMs) | 10–15 % | [[AZ-802 3 Virtuelle Maschinen]] |
 | 4 | Netzwerk lokal und hybrid (DNS, DHCP) | 10–15 % | [[AZ-802 4 Netzwerk DNS DHCP]] |
 | 5 | Speicher und Dateidienste (Azure Files, File Sync, S2D, …) | **15–20 %** | [[AZ-802 5 Speicher und Dateidienste]] |

@@ -53,6 +53,7 @@ Alle Wissensnotizen nach Fachgebiet. Themen-Übersichten: [[Start]] · Unterlage
 - [[Cloud-Modelle IaaS PaaS SaaS]]
 - [[AZ-802 1 AD DS]]
 - [[AZ-802 2 Hybride Verwaltung]]
+  - [[JEA Übersicht]] · [[JEA Grundlagen und Ablauf]] · [[JEA Rollenfunktionsdatei]] · [[JEA Sitzungskonfiguration]] · [[JEA RunAs-Konten]] · [[JEA Bereitstellen und Verbinden]] · [[JEA Sicherheit und Überwachung]] · [[JEA Lab DNS-Operator]]
 - [[AZ-802 3 Virtuelle Maschinen]]
 - [[AZ-802 4 Netzwerk DNS DHCP]]
 - [[Azure DNS und DHCP hybrid]]

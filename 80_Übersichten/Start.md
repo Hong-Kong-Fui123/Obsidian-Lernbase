@@ -31,7 +31,7 @@ tags: [moc]
 4. Commit + Push
 
 ## Offene Punkte
-- Was am 21.10.2026 neu ist: [[Änderungen 2026-10-21]] · 19.10.: [[Änderungen 2026-10-19]] · 16.10.: [[Änderungen 2026-10-16]] · 15.10.: [[Änderungen 2026-10-15]]
+- Was am 29.10.2026 neu ist: [[Änderungen 2026-10-29]] · 21.10.: [[Änderungen 2026-10-21]] · 19.10.: [[Änderungen 2026-10-19]] · 16.10.: [[Änderungen 2026-10-16]] · 15.10.: [[Änderungen 2026-10-15]]
 - Was am 07.10.2026 geändert wurde: [[Änderungen 2026-10-07]]
 - Notizen mit `status: importiert` prüfen und auf `status: geprüft` setzen
 - Hinweise „Korrigiert 07.10.2026“ lesen und nachvollziehen

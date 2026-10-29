@@ -420,3 +420,14 @@ Vergleich: [[Cloud-Modelle IaaS PaaS SaaS]]
 | [[Private DNS-Zone]] | private DNS-Zone für VNets |
 | [[UDR]] | benutzerdefinierte Route |
 | [[IPAM]] | IP-Adressverwaltung |
+
+## JEA (Ergänzung 2026-10-29)
+
+Unterkapitel: [[JEA Übersicht]]
+
+| Begriff | Deutsch |
+|---|---|
+| [[JEA]] | Gerade genug Administration |
+| [[Rollenfunktionsdatei]] | .psrc – erlaubte Befehle |
+| [[Sitzungskonfiguration]] | .pssc – Endpunkt |
+| [[Virtuelles Konto]] | temporäres RunAs-Konto |

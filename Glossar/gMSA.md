@@ -20,5 +20,5 @@ New-ADServiceAccount -Name gmsa-web -DNSHostName gmsa-web.example.com -Principal
 Test-ADServiceAccount gmsa-web
 ```
 
-**Siehe auch:** [[AD]] · [[Kerberos]] · [[JEA]]
+**Siehe auch:** [[AD]] · [[Kerberos]] · [[JEA]] · [[Virtuelles Konto]] · [[JEA RunAs-Konten]]
 **Thema:** [[AZ-802 1 AD DS]] · [[AZ-802 Übersicht]]
