@@ -1,23 +1,16 @@
 ---
-aliases: [PS Direct, PowerShell-Direct]
+aliases: [PS Direct]
 tags: [glossar, glossar/virtualisierung, az-802]
-en: "PowerShell Direct"
-de: "PowerShell direkt in die VM"
-bereich: Virtualisierung
+en: PowerShell Direct
+de: PowerShell Direct
+bereich: virtualisierung
 ---
-
 # PowerShell Direct
 
-PowerShell vom Hyper-V-Host in eine VM über den **VMBus** – ohne Netzwerk, Firewall oder Remoting-Konfiguration.
+**Definition:** PowerShell vom Hyper-V-Host in den Gast über VMBus – ohne Netzwerk.
 
-- Nur auf dem Host, auf dem die VM läuft; Anmeldedaten **des Gastes**
-- Gegenstück für Linux: SSH Direct (`hvc ssh`)
+**Prüfungsfalle:** Gast-Anmeldedaten nötig; nur lokaler Host.
 
-Maschine: **Hyper-V-Host**
-```powershell
-Enter-PSSession -VMName EXA-WEB01 -Credential EXAMPLE\Administrator
-Invoke-Command -VMName EXA-WEB01 -ScriptBlock { hostname }
-```
+**Prüfen:** `Enter-PSSession -VMName EXA-SRV01`
 
-**Siehe auch:** [[PS-Remoting]] · [[Hyper-V]]
-**Thema:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 03 Virtuelle Computer]] · [[00_Glossar-AZ-802-Index]]

@@ -1,17 +1,16 @@
 ---
-aliases: [Cloud Tiering, Cloudtiering]
-tags: [glossar, glossar/virtualisierung-cloud, az-802]
-en: "Cloud Tiering"
-de: "Cloud-Tiering"
-bereich: Virtualisierung-Cloud
+aliases: [Cloud Tiering]
+tags: [glossar, glossar/speicher, az-802]
+en: Cloud tiering
+de: Cloud-Tiering
+bereich: speicher
 ---
-
 # Cloud-Tiering
 
-Funktion von [[Azure File Sync]]: selten genutzte Dateien liegen lokal nur noch als Platzhalter und werden bei Zugriff nachgeladen.
+**Definition:** File-Sync-Funktion: selten genutzte Dateien nur als Verweis lokal, Inhalt in Azure.
 
-- Richtlinien: **freier Volumespeicher** (z. B. 20 %) und/oder **Datum** (z. B. älter als 60 Tage)
-- Nicht auf dem Systemvolume
+**Prüfungsfalle:** Richtlinien: Volume-Freiraum-% und Datum; nicht auf Systemvolume.
 
-**Siehe auch:** [[Azure File Sync]] · [[Deduplizierung]]
-**Thema:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Invoke-StorageSyncFileRecall`
+
+↑ [[AZ-802 05 Speicher und Dateidienste]] · [[00_Glossar-AZ-802-Index]]

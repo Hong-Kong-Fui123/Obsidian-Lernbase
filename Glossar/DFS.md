@@ -1,14 +1,16 @@
 ---
-aliases: [DFS]
-tags: [glossar, glossar/windows-server]
-en: "Distributed File System"
-de: "Verteiltes Dateisystem"
-bereich: Windows-Server
+aliases: [DFS-N, DFS-R, DFS Namespace, DFS Replication]
+tags: [glossar, glossar/speicher, az-802]
+en: Distributed File System
+de: Verteiltes Dateisystem
+bereich: speicher
 ---
+# DFS
 
-**DFS** = *Distributed File System*
-**Deutsch:** Verteiltes Dateisystem
+**Definition:** DFS-N: einheitlicher Namespace über mehrere Server; DFS-R: Multi-Master-Replikation mit RDC.
 
-- Einheitlicher Namespace über mehrere Dateiserver
+**Prüfungsfalle:** Migration DFS-R → Azure File Sync möglich.
 
-**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-DfsrBacklog`
+
+↑ [[AZ-802 05 Speicher und Dateidienste]] · [[00_Glossar-AZ-802-Index]]

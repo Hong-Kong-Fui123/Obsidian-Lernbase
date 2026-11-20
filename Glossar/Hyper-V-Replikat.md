@@ -1,23 +1,16 @@
 ---
-aliases: [Hyper-V Replica, Replikat, Replikatbroker]
+aliases: [Hyper-V Replica, Replica]
 tags: [glossar, glossar/virtualisierung, az-802]
-en: "Hyper-V Replica"
-de: "Hyper-V-Replikat"
-bereich: Virtualisierung
+en: Hyper-V Replica
+de: Hyper-V-Replikat
+bereich: virtualisierung
 ---
-
 # Hyper-V-Replikat
 
-Asynchrone Kopie einer VM auf einen zweiten Host – für **Notfallwiederherstellung**, nicht Hochverfügbarkeit.
+**Definition:** Asynchrone VM-Replikation zu zweitem Host (30 s/5 Min/15 Min) für Notfallwiederherstellung.
 
-- Intervall 30 s, 5 Min. oder 15 Min.; Kerberos (HTTP 80) oder Zertifikat (HTTPS 443)
-- Testfailover · geplantes · ungeplantes Failover; im Cluster: Replikatbroker
+**Prüfungsfalle:** Kerberos/HTTP 80 nur in Domäne, sonst Zertifikat/HTTPS 443; Cluster → Replica Broker.
 
-Maschine: **EXA-HV01**
-```powershell
-Enable-VMReplication -VMName EXA-WEB01 -ReplicaServerName EXA-HV02 -ReplicaServerPort 80 -AuthenticationType Kerberos
-Start-VMInitialReplication -VMName EXA-WEB01
-```
+**Prüfen:** `Measure-VMReplication`
 
-**Siehe auch:** [[Hyper-V Livemigration]] · [[Failovercluster]] · [[RPO]]
-**Thema:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 03 Virtuelle Computer]] · [[00_Glossar-AZ-802-Index]]

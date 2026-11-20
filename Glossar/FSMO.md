@@ -1,16 +1,16 @@
 ---
-aliases: [FSMO]
-tags: [glossar, glossar/windows-server]
-en: "Flexible Single Master Operation"
-de: "Betriebsmasterrollen"
-bereich: Windows-Server
+aliases: [Betriebsmaster, FSMO-Rollen]
+tags: [glossar, glossar/ad-ds, az-802]
+en: Flexible Single Master Operations
+de: Betriebsmasterrollen
+bereich: ad-ds
 ---
+# FSMO
 
-**FSMO** = *Flexible Single Master Operation*
-**Deutsch:** Betriebsmasterrollen
+**Definition:** 5 Rollen, die nur ein DC halten darf: Schema, Domain Naming (Forest); RID, PDC, Infrastructure (Domäne).
 
-- 5 Rollen: Schema, Domänennamen (Forest); [[RID]], [[PDC]]-Emulator, Infrastruktur (Domäne)
-- Anzeige: netdom query fsmo
-- Mehr: [[AD DS Überblick#Betriebsmaster (FSMO) – 5 Rollen|FSMO-Tabelle]] · [[AD-DS_Ueberblick_Folien.pdf#page=14|Folie]]
+**Prüfungsfalle:** Transfer = geordnet; Seize (`-Force`) = alter DC nie wieder online.
 
-**AZ-802:** [[AZ-802 1 AD DS]] · [[AZ-802 Übersicht]]
+**Prüfen:** `netdom query fsmo`
+
+↑ [[AZ-802 01 AD DS]] · [[00_Glossar-AZ-802-Index]]

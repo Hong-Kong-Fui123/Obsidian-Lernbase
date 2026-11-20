@@ -1,23 +1,16 @@
 ---
-aliases: [AD Recycle Bin, Active Directory-Papierkorb, Papierkorb]
-tags: [glossar, glossar/windows-server, az-802]
-en: "Active Directory Recycle Bin"
-de: "Active-Directory-Papierkorb"
-bereich: Windows-Server
+aliases: [Recycle Bin]
+tags: [glossar, glossar/monitoring, az-802]
+en: Active Directory Recycle Bin
+de: AD-Papierkorb
+bereich: monitoring
 ---
-
 # AD-Papierkorb
 
-Gelöschte AD-Objekte mit **allen Attributen** (inkl. Gruppenmitgliedschaften) wiederherstellen.
+**Definition:** Gelöschte Objekte samt Attributen wiederherstellen, online ohne Neustart.
 
-- Aktivieren einmal pro Gesamtstruktur, **nicht umkehrbar**, Funktionsebene ≥ 2008 R2
-- Gilt nur für Objekte, die **nach** der Aktivierung gelöscht werden
+**Prüfungsfalle:** Einmal aktiviert nicht deaktivierbar; Container vor Inhalt wiederherstellen.
 
-Maschine: **EXA-DC01**
-```powershell
-Enable-ADOptionalFeature 'Recycle Bin Feature' -Scope ForestOrConfigurationSet -Target example.com
-Get-ADObject -Filter 'samAccountName -eq "hmeier"' -IncludeDeletedObjects | Restore-ADObject
-```
+**Prüfen:** `Get-ADOptionalFeature 'Recycle Bin Feature'`
 
-**Siehe auch:** [[DSRM]] · [[AD]]
-**Thema:** [[AZ-802 7 Überwachung und Problembehandlung]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 07 Ueberwachung und Troubleshooting]] · [[00_Glossar-AZ-802-Index]]

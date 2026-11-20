@@ -1,22 +1,16 @@
 ---
-aliases: [Conditional Forwarder, Bedingte Weiterleitungen]
+aliases: [Conditional Forwarder]
 tags: [glossar, glossar/netzwerk, az-802]
-en: "Conditional Forwarder"
-de: "Bedingte Weiterleitung"
-bereich: Netzwerk
+en: Conditional Forwarder
+de: Bedingte Weiterleitung
+bereich: netzwerk
 ---
-
 # Bedingte Weiterleitung
 
-DNS-Server leitet Anfragen für **eine bestimmte Domäne** an festgelegte Server weiter.
+**Definition:** DNS leitet Anfragen für eine bestimmte Domäne an festgelegte Server.
 
-- Typisch: Partner-Forest (contoso.com), Azure-Private-Zonen über [[Azure DNS Private Resolver]]
-- AD-integriert speichern, damit alle DNS-Server sie kennen
+**Prüfungsfalle:** ≠ Stubzone (Stub lernt NS selbst); im AD replizierbar.
 
-Maschine: **EXA-DC01**
-```powershell
-Add-DnsServerConditionalForwarderZone -Name contoso.com -MasterServers 192.168.2.10 -ReplicationScope Forest
-```
+**Prüfen:** `Get-DnsServerZone | ? ZoneType -eq Forwarder`
 
-**Siehe auch:** [[DNS]] · [[Vertrauensstellungen]]
-**Thema:** [[AZ-802 4 Netzwerk DNS DHCP]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 04 Netzwerk DNS DHCP]] · [[00_Glossar-AZ-802-Index]]

@@ -1,14 +1,16 @@
 ---
-aliases: [AGDLP]
-tags: [glossar, glossar/windows-server]
-en: "Account, Global, Domain Local, Permission"
-de: "Konten → Global → Domänenlokal → Berechtigung"
-bereich: Windows-Server
+aliases: [AGUDLP]
+tags: [glossar, glossar/ad-ds, az-802]
+en: Account-Global-Domain Local-Permission
+de: Gruppenverschachtelung
+bereich: ad-ds
 ---
+# AGDLP
 
-**AGDLP** = *Account, Global, Domain Local, Permission*
-**Deutsch:** Konten → Global → Domänenlokal → Berechtigung
+**Definition:** Best Practice: Konten in globale Gruppen, diese in domänenlokale, Rechte an domänenlokale.
 
-- Microsoft-Prinzip zur Berechtigungsvergabe
-- Benutzer in globale Gruppe, diese in domänenlokale Gruppe, diese bekommt Berechtigung
-- Mehr: [[AD-Gruppen und AGDLP]] · [[AD-Gruppen.pdf#page=10|Folie Gruppenbereiche]]
+**Prüfungsfalle:** Multi-Domäne: Universal-Gruppe dazwischen (AGUDLP).
+
+**Prüfen:** `Get-ADGroupMember DL_Share_IT_RW`
+
+↑ [[AZ-802 01 AD DS]] · [[00_Glossar-AZ-802-Index]]

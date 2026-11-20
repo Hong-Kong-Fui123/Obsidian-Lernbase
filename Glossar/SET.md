@@ -1,22 +1,16 @@
 ---
-aliases: [Switch Embedded Teaming, SET-Team]
+aliases: [Switch Embedded Teaming]
 tags: [glossar, glossar/virtualisierung, az-802]
-en: "Switch Embedded Teaming"
-de: "In den vSwitch integriertes Teaming"
-bereich: Virtualisierung
+en: Switch Embedded Teaming
+de: Im Switch eingebettetes Teaming
+bereich: virtualisierung
 ---
-
 # SET
 
-NIC-Teaming direkt im Hyper-V-[[vSwitch]] – bis zu 8 gleiche Karten, kompatibel mit RDMA.
+**Definition:** NIC-Teaming direkt im Hyper-V-vSwitch, unterstützt RDMA.
 
-- Empfohlen statt klassischem LBFO-Teaming für Hyper-V
-- Teaming **in der VM**: zwei vNICs an verschiedenen externen Switches + `-AllowTeaming On`
+**Prüfungsfalle:** Ersetzt LBFO für Hyper-V; nur Switch Independent.
 
-Maschine: **Hyper-V-Host**
-```powershell
-New-VMSwitch -Name SETswitch -NetAdapterName 'NIC1','NIC2' -EnableEmbeddedTeaming $true
-```
+**Prüfen:** `Get-VMSwitchTeam`
 
-**Siehe auch:** [[vSwitch]] · [[RDMA]] · [[NIC]]
-**Thema:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 03 Virtuelle Computer]] · [[00_Glossar-AZ-802-Index]]

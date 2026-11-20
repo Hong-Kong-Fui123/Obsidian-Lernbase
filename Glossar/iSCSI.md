@@ -1,17 +1,16 @@
 ---
-aliases: [iSCSI]
-tags: [glossar, glossar/hardware-storage]
-en: "Internet Small Computer System Interface"
-de: "SCSI über IP"
-bereich: Hardware-Storage
+aliases: [iSCSI-Target, iSCSI-Initiator]
+tags: [glossar, glossar/speicher, az-802]
+en: Internet Small Computer System Interface
+de: iSCSI
+bereich: speicher
 ---
+# iSCSI
 
-**iSCSI** = *Internet Small Computer System Interface*
-**Deutsch:** SCSI über IP
+**Definition:** Blockspeicher über TCP 3260: Target stellt LUNs bereit, Initiator bindet sie ein.
 
-- Blockspeicher über Ethernet, typisch im [[SAN]]
-- Eindeutige Namen: [[IQN]] · Verzeichnisdienst: [[iSNS - Server|iSNS]]
-- Ziel/Client: [[iSCSI-Target]] · [[iSCSI-Initiator]] · Redundanz: [[MPIO]]
-- Mehr: [[Speicherpools]] · [[Lab Failovercluster Dateiserver]]
+**Prüfungsfalle:** Zugriff per IQN beschränken, CHAP, MPIO für Redundanz.
 
-**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-IscsiSession`
+
+↑ [[AZ-802 05 Speicher und Dateidienste]] · [[00_Glossar-AZ-802-Index]]

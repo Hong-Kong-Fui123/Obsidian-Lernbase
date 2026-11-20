@@ -1,15 +1,16 @@
 ---
-aliases: [ReFS]
-tags: [glossar, glossar/windows-server]
-en: "Resilient File System"
-de: "Robustes Dateisystem"
-bereich: Windows-Server
+aliases: [Resilient File System]
+tags: [glossar, glossar/speicher, az-802]
+en: Resilient File System
+de: Robustes Dateisystem
+bereich: speicher
 ---
+# ReFS
 
-**ReFS** = *Resilient File System*
-**Deutsch:** Robustes Dateisystem
+**Definition:** Dateisystem mit Integritätsstreams und Block-Cloning für S2D, Hyper-V, Backup.
 
-- Für große Datenmengen/Hyper-V, Selbstheilung mit Storage Spaces
-- Mehr: [[Speicherpools]]
+**Prüfungsfalle:** Nicht bootfähig, kein EFS.
 
-**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-Volume | ft DriveLetter,FileSystem`
+
+↑ [[AZ-802 05 Speicher und Dateidienste]] · [[00_Glossar-AZ-802-Index]]

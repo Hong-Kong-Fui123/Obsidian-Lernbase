@@ -1,23 +1,16 @@
 ---
-aliases: [Data Collector Set, Datensammlersätze, logman]
-tags: [glossar, glossar/windows-server, az-802]
-en: "Data Collector Set"
-de: "Datensammlersatz"
-bereich: Windows-Server
+aliases: [DCS, Data Collector Set]
+tags: [glossar, glossar/monitoring, az-802]
+en: Data Collector Set
+de: Datensammlersatz
+bereich: monitoring
 ---
-
 # Datensammlersatz
 
-Sammelt Leistungsindikatoren, Ablaufverfolgungen und Konfigurationsdaten über einen Zeitraum (Leistungsüberwachung).
+**Definition:** Gruppe aus Leistungsindikatoren, Traces, Konfigurationsdaten oder Warnungen, zeitgesteuert.
 
-- Vorlagen z. B. *System Performance*, Berichte unter *Berichte*
-- Leistungswarnungen: Aktion bei Schwellwert
+**Prüfungsfalle:** Basis für Leistungs-Baseline.
 
-Maschine: **EXA-SRV01**
-```powershell
-logman create counter Basis -c '\Processor(_Total)\% Processor Time' -si 00:00:15
-logman start Basis
-```
+**Prüfen:** `logman query`
 
-**Siehe auch:** [[System Insights]] · [[Azure Monitor]]
-**Thema:** [[AZ-802 7 Überwachung und Problembehandlung]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 07 Ueberwachung und Troubleshooting]] · [[00_Glossar-AZ-802-Index]]

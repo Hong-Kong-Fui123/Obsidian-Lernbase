@@ -1,14 +1,16 @@
 ---
-aliases: [BitLocker]
-tags: [glossar, glossar/sicherheit-pki]
-en: "BitLocker Drive Encryption"
-de: "BitLocker-Laufwerksverschlüsselung"
-bereich: Sicherheit-PKI
+aliases: [manage-bde]
+tags: [glossar, glossar/speicher, az-802]
+en: BitLocker Drive Encryption
+de: BitLocker-Laufwerkverschlüsselung
+bereich: speicher
 ---
+# BitLocker
 
-**BitLocker** = *BitLocker Drive Encryption*
-**Deutsch:** BitLocker-Laufwerksverschlüsselung
+**Definition:** Volume-Verschlüsselung (TPM, PIN, Kennwort); Wiederherstellungskennwort in AD DS sichern.
 
-- Windows-Festplattenverschlüsselung, Schlüssel im [[TPM]]
+**Prüfungsfalle:** GPO kann Sicherung in AD vor Aktivierung erzwingen.
 
-**AZ-802:** [[AZ-802 5 Speicher und Dateidienste]] · [[AZ-802 Übersicht]]
+**Prüfen:** `manage-bde -status`
+
+↑ [[AZ-802 05 Speicher und Dateidienste]] · [[00_Glossar-AZ-802-Index]]

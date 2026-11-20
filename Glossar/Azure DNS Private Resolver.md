@@ -1,18 +1,16 @@
 ---
-aliases: [Private Resolver, DNS Private Resolver]
-tags: [glossar, glossar/virtualisierung-cloud, az-802]
-en: "Azure DNS Private Resolver"
-de: "Privater DNS-Resolver in Azure"
-bereich: Virtualisierung-Cloud
+aliases: [Private Resolver]
+tags: [glossar, glossar/netzwerk, az-802]
+en: Azure DNS Private Resolver
+de: Privater Azure-DNS-Resolver
+bereich: netzwerk
 ---
-
 # Azure DNS Private Resolver
 
-Verwalteter Azure-Dienst für hybride Namensauflösung ohne eigene DNS-VMs.
+**Definition:** Verwalteter DNS-Dienst im VNet: eingehende (on-prem→Azure) und ausgehende Endpunkte (Azure→on-prem) mit Regelsätzen.
 
-- **Eingehender Endpunkt:** lokale DNS-Server leiten (bedingt) dorthin weiter → private Azure-Namen
-- **Ausgehender Endpunkt + Weiterleitungsregelsatz:** Azure fragt lokale DNS-Server (z. B. example.com)
-- Alternative: DNS-Server-VM in Azure mit Weiterleitung an 168.63.129.16
+**Prüfungsfalle:** Azure-interner Resolver: 168.63.129.16.
 
-**Siehe auch:** [[Bedingte Weiterleitung]] · [[VNet]] · [[DNS]]
-**Thema:** [[AZ-802 4 Netzwerk DNS DHCP]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-AzDnsResolver`
+
+↑ [[AZ-802 04 Netzwerk DNS DHCP]] · [[00_Glossar-AZ-802-Index]]

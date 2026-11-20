@@ -1,17 +1,16 @@
 ---
-aliases: [Discrete Device Assignment, Diskrete Gerätezuweisung]
+aliases: [Gerätezuweisung, Passthrough]
 tags: [glossar, glossar/virtualisierung, az-802]
-en: "Discrete Device Assignment"
-de: "Diskrete Gerätezuweisung"
-bereich: Virtualisierung
+en: Discrete Device Assignment
+de: Diskrete Gerätezuweisung
+bereich: virtualisierung
 ---
-
 # DDA
 
-Reicht ein **ganzes** PCIe-Gerät (GPU, NVMe) exklusiv an eine VM durch.
+**Definition:** Ganzes PCIe-Gerät (GPU, NVMe) exklusiv an eine VM durchreichen.
 
-- Gerät am Host deaktivieren → `Dismount-VMHostAssignableDevice` → `Add-VMAssignableDevice`
-- VM mit DDA: kein Speichern/Livemigration wie üblich
+**Prüfungsfalle:** Keine Live-Migration, kein dyn. RAM; Alternative für GPUs: GPU-Partitionierung.
 
-**Siehe auch:** [[GPU-P]] · [[Hyper-V]]
-**Thema:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-VMAssignableDevice`
+
+↑ [[AZ-802 03 Virtuelle Computer]] · [[00_Glossar-AZ-802-Index]]

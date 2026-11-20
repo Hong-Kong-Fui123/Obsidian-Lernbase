@@ -1,16 +1,16 @@
 ---
 aliases: [Data Collection Rule, Datensammlungsregel]
-tags: [glossar, glossar/virtualisierung-cloud, az-802]
-en: "Data Collection Rule"
-de: "Datensammlungsregel"
-bereich: Virtualisierung-Cloud
+tags: [glossar, glossar/monitoring, az-802]
+en: Data Collection Rule
+de: Datensammlungsregel
+bereich: monitoring
 ---
-
 # DCR
 
-Legt fest, **welche** Daten (Ereignisse per XPath, Leistungsindikatoren) von welchen Servern **wohin** (Log-Analytics-Arbeitsbereich) gesammelt werden.
+**Definition:** Legt fest, welche Daten der Azure Monitor Agent sammelt und wohin sie gehen.
 
-- Einer DCR werden VMs/Arc-Server zugeordnet; ein Server kann mehrere DCRs haben
+**Prüfungsfalle:** AMA + DCR ersetzen den abgekündigten MMA.
 
-**Siehe auch:** [[AMA]] · [[Log Analytics]]
-**Thema:** [[AZ-802 7 Überwachung und Problembehandlung]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-AzDataCollectionRule`
+
+↑ [[AZ-802 07 Ueberwachung und Troubleshooting]] · [[00_Glossar-AZ-802-Index]]

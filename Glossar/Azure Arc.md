@@ -1,24 +1,16 @@
 ---
-aliases: [Arc, Azure Arc-fähige Server, Arc-enabled Servers, azcmagent]
-tags: [glossar, glossar/virtualisierung-cloud, az-802]
-en: "Azure Arc-enabled servers"
-de: "Azure Arc-fähige Server"
-bereich: Virtualisierung-Cloud
+aliases: [Arc, Connected Machine Agent, azcmagent]
+tags: [glossar, glossar/hybrid, az-802]
+en: Azure Arc-enabled servers
+de: Azure Arc-fähige Server
+bereich: hybrid
 ---
-
 # Azure Arc
 
-Bindet Server **außerhalb** von Azure (lokal, andere Clouds) als Azure-Ressource ein – für Richtlinien, Updates, Überwachung und Sicherheit aus Azure.
+**Definition:** Projiziert Nicht-Azure-Server als Azure-Ressource → Policy, Monitor, Update Manager, Defender.
 
-- Connected Machine Agent (`azcmagent`), nur **ausgehend HTTPS 443**
-- VM-Erweiterungen (z. B. [[AMA]], Defender, Custom Script) und Azure Policy/Computerkonfiguration
-- Dienste: [[Azure Update Manager]], [[Azure Monitor]], [[Defender for Servers]], [[Hotpatch]], ESU
+**Prüfungsfalle:** Nur ausgehend 443, kein eingehender Port.
 
-Maschine: **EXA-SRV01**
-```powershell
-azcmagent connect --resource-group rg-az802-lab --tenant-id <ID> --location germanywestcentral --subscription-id <ID>
-azcmagent show
-```
+**Prüfen:** `azcmagent show`
 
-**Siehe auch:** [[Windows Admin Center]] · [[Azure Update Manager]]
-**Thema:** [[AZ-802 2 Hybride Verwaltung]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 02 Hybrid-Verwaltung]] · [[00_Glossar-AZ-802-Index]]

@@ -1,15 +1,16 @@
 ---
-aliases: [RODC]
-tags: [glossar, glossar/windows-server]
-en: "Read-Only Domain Controller"
-de: "Schreibgeschützter Domänencontroller"
-bereich: Windows-Server
+aliases: [Read-Only DC]
+tags: [glossar, glossar/ad-ds, az-802]
+en: Read-Only Domain Controller
+de: Schreibgeschützter DC
+bereich: ad-ds
 ---
+# RODC
 
-**RODC** = *Read-Only Domain Controller*
-**Deutsch:** Schreibgeschützter Domänencontroller
+**Definition:** DC ohne Schreibzugriff für unsichere Standorte; speichert nur Kennwörter erlaubter Konten (PRP).
 
-- Für Außenstellen mit geringer physischer Sicherheit
-- Mehr: [[AD DS Überblick]]
+**Prüfungsfalle:** Standardmäßig keine Kennwörter zwischengespeichert.
 
-**AZ-802:** [[AZ-802 1 AD DS]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-ADDomainControllerPasswordReplicationPolicy -Identity RODC -Allowed`
+
+↑ [[AZ-802 01 AD DS]] · [[00_Glossar-AZ-802-Index]]

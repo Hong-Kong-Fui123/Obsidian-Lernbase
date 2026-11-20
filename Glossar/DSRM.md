@@ -1,24 +1,16 @@
 ---
-aliases: [Directory Services Restore Mode, Verzeichnisdienst-Wiederherstellungsmodus]
-tags: [glossar, glossar/windows-server, az-802]
-en: "Directory Services Restore Mode"
-de: "Verzeichnisdienst-Wiederherstellungsmodus"
-bereich: Windows-Server
+aliases: [Verzeichnisdienstwiederherstellungsmodus]
+tags: [glossar, glossar/monitoring, az-802]
+en: Directory Services Restore Mode
+de: Verzeichnisdienst-Wiederherstellungsmodus
+bereich: monitoring
 ---
-
 # DSRM
 
-Startmodus eines DC, in dem AD DS **nicht** läuft – zum Zurücksichern und Reparieren der AD-Datenbank.
+**Definition:** Startmodus eines DC mit gestopptem AD für Wiederherstellung/Wartung; lokales DSRM-Konto.
 
-- Anmeldung mit dem lokalen **DSRM-Kennwort** (bei der Heraufstufung vergeben)
-- Autoritative Wiederherstellung mit `ntdsutil`
+**Prüfungsfalle:** DSRM-Kennwort per `ntdsutil set dsrm password` oder Windows LAPS verwalten.
 
-Maschine: **EXA-DC01**
-```powershell
-bcdedit /set safeboot dsrepair
-Restart-Computer
-# zurück: bcdedit /deletevalue safeboot
-```
+**Prüfen:** `bcdedit /set safeboot dsrepair`
 
-**Siehe auch:** [[AD-Papierkorb]] · [[DC]]
-**Thema:** [[AZ-802 7 Überwachung und Problembehandlung]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 07 Ueberwachung und Troubleshooting]] · [[00_Glossar-AZ-802-Index]]

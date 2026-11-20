@@ -1,17 +1,16 @@
 ---
 aliases: [Bastion]
-tags: [glossar, glossar/virtualisierung-cloud, az-802]
-en: "Azure Bastion"
-de: "Azure Bastion"
-bereich: Virtualisierung-Cloud
+tags: [glossar, glossar/virtualisierung, az-802]
+en: Azure Bastion
+de: Azure Bastion
+bereich: virtualisierung
 ---
-
 # Azure Bastion
 
-RDP/SSH zu Azure-VMs **im Browser** über das Portal – die VMs brauchen keine öffentliche IP.
+**Definition:** Verwalteter RDP/SSH-Zugriff per Browser/TLS auf Azure-VMs ohne öffentliche IP.
 
-- Läuft im eigenen Subnetz **AzureBastionSubnet**, Zugang über HTTPS 443
-- Kostet pro Stunde – im Lab nach Gebrauch löschen
+**Prüfungsfalle:** Subnetz heißt exakt `AzureBastionSubnet`.
 
-**Siehe auch:** [[JIT-VM-Zugriff]] · [[NSG]] · [[RDP]]
-**Thema:** [[AZ-802 3 Virtuelle Maschinen]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-AzBastion`
+
+↑ [[AZ-802 03 Virtuelle Computer]] · [[00_Glossar-AZ-802-Index]]

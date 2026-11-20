@@ -1,17 +1,16 @@
 ---
-aliases: [Geschützte Benutzer, Protected-Users-Gruppe]
-tags: [glossar, glossar/sicherheit-pki, az-802]
-en: "Protected Users"
-de: "Geschützte Benutzer"
-bereich: Sicherheit-PKI
+aliases: [Geschützte Benutzer]
+tags: [glossar, glossar/sicherheit, az-802]
+en: Protected Users group
+de: Geschützte Benutzer
+bereich: sicherheit
 ---
-
 # Protected Users
 
-Sicherheitsgruppe: Mitglieder bekommen strengeren Anmeldeschutz.
+**Definition:** Sicherheitsgruppe: kein NTLM, kein RC4/DES, keine Delegierung, TGT 4 h, keine Cache-Anmeldung.
 
-- Kein NTLM, keine Delegierung, kein DES/RC4, keine zwischengespeicherten Anmeldedaten, TGT max. 4 h
-- Für Admin-Konten, **nicht** für Dienst- oder Computerkonten
+**Prüfungsfalle:** Nicht für Dienst- oder Computerkonten.
 
-**Siehe auch:** [[Kerberos]] · [[NTLM]] · [[Eingeschränkte Delegierung]]
-**Thema:** [[AZ-802 6 Sicherheit]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-ADGroupMember 'Protected Users'`
+
+↑ [[AZ-802 06 Sicherheit]] · [[00_Glossar-AZ-802-Index]]

@@ -1,16 +1,16 @@
 ---
-aliases: [GPO]
-tags: [glossar, glossar/windows-server]
-en: "Group Policy Object"
-de: "Gruppenrichtlinienobjekt"
-bereich: Windows-Server
+aliases: [Gruppenrichtlinie, Group Policy]
+tags: [glossar, glossar/ad-ds, az-802]
+en: Group Policy Object
+de: Gruppenrichtlinienobjekt
+bereich: ad-ds
 ---
+# GPO
 
-**GPO** = *Group Policy Object*
-**Deutsch:** Gruppenrichtlinienobjekt
+**Definition:** Zentral verwaltete Einstellungen für Computer/Benutzer; Verarbeitung LSDOU.
 
-- Zentrale Konfiguration von Computern/Benutzern
-- Reihenfolge LSDOU: Lokal, Site, Domäne, OU
-- Mehr: [[Gruppenrichtlinien]] · [[AD-Gruppenrichtlinien.pdf|Folien]]
+**Prüfungsfalle:** Enforced schlägt Block Inheritance; Preferences sind nicht erzwungen.
 
-**AZ-802:** [[AZ-802 1 AD DS]] · [[AZ-802 Übersicht]]
+**Prüfen:** `gpresult /r`
+
+↑ [[AZ-802 01 AD DS]] · [[00_Glossar-AZ-802-Index]]

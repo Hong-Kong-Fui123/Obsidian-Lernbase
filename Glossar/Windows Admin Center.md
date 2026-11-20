@@ -1,18 +1,16 @@
 ---
-aliases: [WAC, Admin Center]
-tags: [glossar, glossar/windows-server, az-802]
-en: "Windows Admin Center"
-de: "Windows Admin Center"
-bereich: Windows-Server
+aliases: [WAC]
+tags: [glossar, glossar/hybrid, az-802]
+en: Windows Admin Center
+de: Windows Admin Center
+bereich: hybrid
 ---
-
 # Windows Admin Center
 
-Browserbasierte Verwaltungsoberfläche für Server, Cluster, Hyper-V und Windows-Clients – lokal oder im Azure-Portal.
+**Definition:** Browserbasierte Serververwaltung, lokal als Gateway oder im Azure-Portal integriert.
 
-- Lokal: Gateway auf Server oder Windows-PC, Zugriff per HTTPS
-- Im Azure-Portal für Azure-VMs und [[Azure Arc]]-Server, Anmeldung über Entra ID + RBAC
-- Nutzt PowerShell-Remoting/[[WinRM]]; Erweiterungen z. B. für [[Storage Migration Service]]
+**Prüfungsfalle:** Im Portal Zugriff per Entra-ID-RBAC-Rolle *Windows Admin Center Administrator Login*.
 
-**Siehe auch:** [[Azure Arc]] · [[RSAT]] · [[PS-Remoting]]
-**Thema:** [[AZ-802 2 Hybride Verwaltung]] · [[AZ-802 Übersicht]]
+**Prüfen:** `Get-Service ServerManagementGateway`
+
+↑ [[AZ-802 02 Hybrid-Verwaltung]] · [[00_Glossar-AZ-802-Index]]

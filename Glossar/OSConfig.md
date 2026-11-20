@@ -1,23 +1,16 @@
 ---
-aliases: [Microsoft.OSConfig, OS-Konfiguration]
-tags: [glossar, glossar/sicherheit-pki, az-802]
-en: "OSConfig"
-de: "Sicherheitskonfiguration (Server 2025)"
-bereich: Sicherheit-PKI
+aliases: [Sicherheitsbaseline]
+tags: [glossar, glossar/sicherheit, az-802]
+en: OSConfig
+de: OSConfig
+bereich: sicherheit
 ---
-
 # OSConfig
 
-Werkzeug in Server 2025, das **Sicherheitsbaselines** anwendet und Abweichungen (Drift) automatisch korrigiert.
+**Definition:** Server-2025-Werkzeug zum Anwenden und Drift-Korrigieren von Sicherheitsbaselines.
 
-- PowerShell-Modul *Microsoft.OSConfig*
-- Szenarien z. B. `SecurityBaseline/WS2025/MemberServer`, `…/DomainController`
+**Prüfungsfalle:** Szenario z. B. `SecurityBaseline/WS2025/MemberServer`.
 
-Maschine: **EXA-SRV01**
-```powershell
-Install-Module Microsoft.OSConfig -Scope AllUsers -Force
-Set-OSConfigDesiredConfiguration -Scenario SecurityBaseline/WS2025/MemberServer -Default
-```
+**Prüfen:** `Get-OSConfigDesiredConfiguration -Scenario SecurityBaseline/WS2025/MemberServer`
 
-**Siehe auch:** [[App Control for Business]] · [[GPO]]
-**Thema:** [[AZ-802 6 Sicherheit]] · [[AZ-802 Übersicht]]
+↑ [[AZ-802 06 Sicherheit]] · [[00_Glossar-AZ-802-Index]]
